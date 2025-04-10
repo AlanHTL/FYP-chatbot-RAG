@@ -71,7 +71,8 @@
           "Fluctuating severity",
           "Additional cognitive disturbance",
           "Evidence of medical cause (post-surgical)"
-        ]
+        ],
+        "disorder_name": "delirium"
       }
     },
     {
@@ -145,7 +146,8 @@
           "Fluctuating severity",
           "Additional cognitive disturbance",
           "Evidence of medical cause (UTI, dehydration)"
-        ]
+        ],
+        "disorder_name": "delirium"
       }
     },
     {
@@ -219,7 +221,8 @@
           "Fluctuating severity",
           "Additional cognitive disturbance",
           "Evidence of medical cause (post-cardiac surgery)"
-        ]
+        ],
+        "disorder_name": "delirium"
       }
     },
     {
@@ -293,7 +296,8 @@
           "Fluctuating severity",
           "Additional cognitive disturbance",
           "Evidence of medical cause (medication change)"
-        ]
+        ],
+        "disorder_name": "delirium"
       }
     },
     {
@@ -367,7 +371,8 @@
           "Fluctuating severity",
           "Additional cognitive disturbance",
           "Evidence of medical cause (post-surgery)"
-        ]
+        ],
+        "disorder_name": "delirium"
       }
     },
     {
@@ -441,7 +446,8 @@
           "Fluctuating severity",
           "Additional cognitive disturbance",
           "Evidence of medical cause (pneumonia, dehydration)"
-        ]
+        ],
+        "disorder_name": "delirium"
       }
     },
     {
@@ -515,7 +521,8 @@
           "Fluctuating severity",
           "Additional cognitive disturbance",
           "Evidence of medical cause (post-surgery)"
-        ]
+        ],
+        "disorder_name": "delirium"
       }
     },
     {
@@ -589,7 +596,8 @@
           "Fluctuating severity",
           "Additional cognitive disturbance",
           "Evidence of medical cause (medication interaction)"
-        ]
+        ],
+        "disorder_name": "delirium"
       }
     },
     {
@@ -663,7 +671,8 @@
           "Fluctuating severity",
           "Additional cognitive disturbance",
           "Evidence of medical cause (post-surgery)"
-        ]
+        ],
+        "disorder_name": "delirium"
       }
     },
     {
@@ -737,7 +746,8 @@
           "Fluctuating severity",
           "Additional cognitive disturbance",
           "Evidence of medical cause (UTI, dehydration)"
-        ]
+        ],
+        "disorder_name": "delirium"
       }
     },
     {
@@ -811,7 +821,8 @@
           "Fluctuating severity",
           "Additional cognitive disturbance",
           "Evidence of medical cause (post-surgery)"
-        ]
+        ],
+        "disorder_name": "delirium"
       }
     },
     {
@@ -885,7 +896,8 @@
           "Fluctuating severity",
           "Additional cognitive disturbance",
           "Evidence of medical cause (medication change)"
-        ]
+        ],
+        "disorder_name": "delirium"
       }
     },
     {
@@ -959,7 +971,8 @@
           "Fluctuating severity",
           "Additional cognitive disturbance",
           "Evidence of medical cause (post-surgery)"
-        ]
+        ],
+        "disorder_name": "delirium"
       }
     },
     {
@@ -1033,7 +1046,8 @@
           "Fluctuating severity",
           "Additional cognitive disturbance",
           "Evidence of medical cause (pneumonia, dehydration)"
-        ]
+        ],
+        "disorder_name": "delirium"
       }
     },
     {
@@ -1111,4 +1125,4 @@
       }
     }
   ]
-} 
+}

@@ -92,7 +92,8 @@
           "Symptoms present before age 12",
           "Symptoms present in multiple settings",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
     {
@@ -177,7 +178,8 @@
           "Symptoms present before age 12",
           "Symptoms present in multiple settings",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
     {
@@ -262,7 +264,8 @@
           "Symptoms present before age 12",
           "Symptoms present in multiple settings",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
     {
@@ -352,7 +355,8 @@
           "Symptoms present before age 12",
           "Symptoms present in multiple settings",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
     {
@@ -448,7 +452,8 @@
           "Symptoms present before age 12",
           "Symptoms present in multiple settings",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
     {
@@ -533,7 +538,8 @@
           "Symptoms present before age 12",
           "Symptoms present in multiple settings",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
     {
@@ -618,7 +624,8 @@
           "Symptoms present before age 12",
           "Symptoms present in multiple settings",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
     {
@@ -708,7 +715,8 @@
           "Symptoms present before age 12",
           "Symptoms present in multiple settings",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
     {
@@ -804,7 +812,8 @@
           "Symptoms present before age 12",
           "Symptoms present in multiple settings",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
     {
@@ -889,7 +898,8 @@
           "Symptoms present before age 12",
           "Symptoms present in multiple settings",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
     {
@@ -974,7 +984,8 @@
           "Symptoms present before age 12",
           "Symptoms present in multiple settings",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
     {
@@ -1064,7 +1075,8 @@
           "Symptoms present before age 12",
           "Symptoms present in multiple settings",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
     {
@@ -1160,7 +1172,8 @@
           "Symptoms present before age 12",
           "Symptoms present in multiple settings",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
     {
@@ -1245,7 +1258,8 @@
           "Symptoms present before age 12",
           "Symptoms present in multiple settings",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
     {
@@ -1332,4 +1346,4 @@
       }
     }
   ]
-} 
+}

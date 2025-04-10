@@ -72,7 +72,8 @@
           "Fatigue or loss of energy",
           "Feelings of worthlessness",
           "Diminished ability to think or concentrate"
-        ]
+        ],
+        "disorder_name": "major depressive disorder"
       }
     },
     {
@@ -144,7 +145,8 @@
           "Significant weight loss",
           "Fatigue",
           "Diminished ability to concentrate"
-        ]
+        ],
+        "disorder_name": "major depressive disorder"
       }
     },
     {
@@ -217,7 +219,8 @@
           "Fatigue",
           "Feelings of worthlessness",
           "Diminished ability to function"
-        ]
+        ],
+        "disorder_name": "major depressive disorder"
       }
     },
     {
@@ -291,7 +294,8 @@
           "Fatigue",
           "Feelings of worthlessness",
           "Psychomotor changes"
-        ]
+        ],
+        "disorder_name": "major depressive disorder"
       }
     },
     {
@@ -364,7 +368,8 @@
           "Fatigue",
           "Diminished ability to concentrate",
           "Social withdrawal"
-        ]
+        ],
+        "disorder_name": "major depressive disorder"
       }
     },
     {
@@ -438,7 +443,8 @@
           "Significant weight loss",
           "Fatigue",
           "Feelings of worthlessness"
-        ]
+        ],
+        "disorder_name": "major depressive disorder"
       }
     },
     {
@@ -512,7 +518,8 @@
           "Fatigue",
           "Feelings of worthlessness",
           "Social withdrawal"
-        ]
+        ],
+        "disorder_name": "major depressive disorder"
       }
     },
     {
@@ -586,7 +593,8 @@
           "Fatigue",
           "Feelings of worthlessness",
           "Social withdrawal"
-        ]
+        ],
+        "disorder_name": "major depressive disorder"
       }
     },
     {
@@ -660,7 +668,8 @@
           "Diminished ability to concentrate",
           "Fatigue",
           "Work impairment"
-        ]
+        ],
+        "disorder_name": "major depressive disorder"
       }
     },
     {
@@ -734,7 +743,8 @@
           "Loss of interest",
           "Irritability",
           "Social withdrawal"
-        ]
+        ],
+        "disorder_name": "major depressive disorder"
       }
     },
     {
@@ -808,7 +818,8 @@
           "Fatigue",
           "Loss of interest",
           "Work impairment"
-        ]
+        ],
+        "disorder_name": "major depressive disorder"
       }
     },
     {
@@ -882,7 +893,8 @@
           "Fatigue",
           "Feelings of worthlessness",
           "Loss of interest"
-        ]
+        ],
+        "disorder_name": "major depressive disorder"
       }
     },
     {
@@ -956,7 +968,8 @@
           "Diminished ability to concentrate",
           "Fatigue",
           "Loss of interest"
-        ]
+        ],
+        "disorder_name": "major depressive disorder"
       }
     },
     {
@@ -1030,7 +1043,8 @@
           "Fatigue",
           "Feelings of worthlessness",
           "Loss of interest"
-        ]
+        ],
+        "disorder_name": "major depressive disorder"
       }
     },
     {
@@ -1108,4 +1122,4 @@
       }
     }
   ]
-} 
+}

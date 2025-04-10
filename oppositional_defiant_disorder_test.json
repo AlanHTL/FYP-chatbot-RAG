@@ -85,7 +85,8 @@
           "Vindictiveness",
           "Duration of at least 6 months",
           "Significant distress in social context"
-        ]
+        ],
+        "disorder_name": "oppositional defiant disorder"
       }
     },
     {
@@ -169,7 +170,8 @@
           "Argumentative/defiant behavior",
           "Duration of at least 6 months",
           "Significant distress in social context"
-        ]
+        ],
+        "disorder_name": "oppositional defiant disorder"
       }
     },
     {
@@ -256,7 +258,8 @@
           "Vindictiveness",
           "Duration of at least 6 months",
           "Significant distress in social context"
-        ]
+        ],
+        "disorder_name": "oppositional defiant disorder"
       }
     },
     {
@@ -340,7 +343,8 @@
           "Argumentative/defiant behavior",
           "Duration of at least 6 months",
           "Significant distress in social context"
-        ]
+        ],
+        "disorder_name": "oppositional defiant disorder"
       }
     },
     {
@@ -428,7 +432,8 @@
           "Vindictiveness",
           "Duration of at least 6 months",
           "Significant distress in social context"
-        ]
+        ],
+        "disorder_name": "oppositional defiant disorder"
       }
     },
     {
@@ -511,7 +516,8 @@
           "Argumentative/defiant behavior",
           "Duration of at least 6 months",
           "Significant distress in social context"
-        ]
+        ],
+        "disorder_name": "oppositional defiant disorder"
       }
     },
     {
@@ -599,7 +605,8 @@
           "Vindictiveness",
           "Duration of at least 6 months",
           "Significant distress in social context"
-        ]
+        ],
+        "disorder_name": "oppositional defiant disorder"
       }
     },
     {
@@ -683,7 +690,8 @@
           "Argumentative/defiant behavior",
           "Duration of at least 6 months",
           "Significant distress in social context"
-        ]
+        ],
+        "disorder_name": "oppositional defiant disorder"
       }
     },
     {
@@ -771,7 +779,8 @@
           "Vindictiveness",
           "Duration of at least 6 months",
           "Significant distress in social context"
-        ]
+        ],
+        "disorder_name": "oppositional defiant disorder"
       }
     },
     {
@@ -855,7 +864,8 @@
           "Argumentative/defiant behavior",
           "Duration of at least 6 months",
           "Significant distress in social context"
-        ]
+        ],
+        "disorder_name": "oppositional defiant disorder"
       }
     },
     {
@@ -943,7 +953,8 @@
           "Vindictiveness",
           "Duration of at least 6 months",
           "Significant distress in social context"
-        ]
+        ],
+        "disorder_name": "oppositional defiant disorder"
       }
     },
     {
@@ -1027,7 +1038,8 @@
           "Argumentative/defiant behavior",
           "Duration of at least 6 months",
           "Significant distress in social context"
-        ]
+        ],
+        "disorder_name": "oppositional defiant disorder"
       }
     },
     {
@@ -1115,7 +1127,8 @@
           "Vindictiveness",
           "Duration of at least 6 months",
           "Significant distress in social context"
-        ]
+        ],
+        "disorder_name": "oppositional defiant disorder"
       }
     },
     {
@@ -1199,7 +1212,8 @@
           "Argumentative/defiant behavior",
           "Duration of at least 6 months",
           "Significant distress in social context"
-        ]
+        ],
+        "disorder_name": "oppositional defiant disorder"
       }
     },
     {
@@ -1285,4 +1299,4 @@
       }
     }
   ]
-} 
+}

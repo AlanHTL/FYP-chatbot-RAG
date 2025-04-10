@@ -73,7 +73,8 @@
           "Flight of ideas",
           "Increase in goal-directed activity",
           "Excessive involvement in risky activities"
-        ]
+        ],
+        "disorder_name": "manic episode"
       }
     },
     {
@@ -149,7 +150,8 @@
           "Flight of ideas",
           "Increase in goal-directed activity",
           "Decreased need for sleep"
-        ]
+        ],
+        "disorder_name": "manic episode"
       }
     },
     {
@@ -225,7 +227,8 @@
           "Flight of ideas",
           "Increase in goal-directed activity",
           "Decreased need for sleep"
-        ]
+        ],
+        "disorder_name": "manic episode"
       }
     },
     {
@@ -301,7 +304,8 @@
           "Flight of ideas",
           "Increase in goal-directed activity",
           "Decreased need for sleep"
-        ]
+        ],
+        "disorder_name": "manic episode"
       }
     },
     {
@@ -377,7 +381,8 @@
           "Flight of ideas",
           "Increase in goal-directed activity",
           "Decreased need for sleep"
-        ]
+        ],
+        "disorder_name": "manic episode"
       }
     },
     {
@@ -453,7 +458,8 @@
           "Flight of ideas",
           "Increase in goal-directed activity",
           "Decreased need for sleep"
-        ]
+        ],
+        "disorder_name": "manic episode"
       }
     },
     {
@@ -529,7 +535,8 @@
           "Flight of ideas",
           "Increase in goal-directed activity",
           "Decreased need for sleep"
-        ]
+        ],
+        "disorder_name": "manic episode"
       }
     },
     {
@@ -605,7 +612,8 @@
           "Flight of ideas",
           "Increase in goal-directed activity",
           "Decreased need for sleep"
-        ]
+        ],
+        "disorder_name": "manic episode"
       }
     },
     {
@@ -681,7 +689,8 @@
           "Flight of ideas",
           "Increase in goal-directed activity",
           "Decreased need for sleep"
-        ]
+        ],
+        "disorder_name": "manic episode"
       }
     },
     {
@@ -757,7 +766,8 @@
           "Flight of ideas",
           "Increase in goal-directed activity",
           "Decreased need for sleep"
-        ]
+        ],
+        "disorder_name": "manic episode"
       }
     },
     {
@@ -833,7 +843,8 @@
           "Flight of ideas",
           "Increase in goal-directed activity",
           "Decreased need for sleep"
-        ]
+        ],
+        "disorder_name": "manic episode"
       }
     },
     {
@@ -909,7 +920,8 @@
           "Flight of ideas",
           "Increase in goal-directed activity",
           "Decreased need for sleep"
-        ]
+        ],
+        "disorder_name": "manic episode"
       }
     },
     {
@@ -985,7 +997,8 @@
           "Flight of ideas",
           "Increase in goal-directed activity",
           "Decreased need for sleep"
-        ]
+        ],
+        "disorder_name": "manic episode"
       }
     },
     {
@@ -1061,7 +1074,8 @@
           "Flight of ideas",
           "Increase in goal-directed activity",
           "Decreased need for sleep"
-        ]
+        ],
+        "disorder_name": "manic episode"
       }
     },
     {
@@ -1141,4 +1155,4 @@
       }
     }
   ]
-} 
+}

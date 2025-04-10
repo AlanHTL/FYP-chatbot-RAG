@@ -73,7 +73,8 @@
           "Time-consuming rituals",
           "Significant distress and impairment",
           "Symptoms not attributable to substances"
-        ]
+        ],
+        "disorder_name": "obsessive compulsive disorder"
       }
     },
     {
@@ -149,7 +150,8 @@
           "Time-consuming rituals",
           "Significant distress and impairment",
           "Symptoms not attributable to substances"
-        ]
+        ],
+        "disorder_name": "obsessive compulsive disorder"
       }
     },
     {
@@ -225,7 +227,8 @@
           "Time-consuming behaviors",
           "Significant distress and impairment",
           "Symptoms not attributable to substances"
-        ]
+        ],
+        "disorder_name": "obsessive compulsive disorder"
       }
     },
     {
@@ -301,7 +304,8 @@
           "Time-consuming rituals",
           "Significant distress and impairment",
           "Symptoms not attributable to substances"
-        ]
+        ],
+        "disorder_name": "obsessive compulsive disorder"
       }
     },
     {
@@ -377,7 +381,8 @@
           "Time-consuming rituals",
           "Significant distress and impairment",
           "Symptoms not attributable to substances"
-        ]
+        ],
+        "disorder_name": "obsessive compulsive disorder"
       }
     },
     {
@@ -453,7 +458,8 @@
           "Time-consuming rituals",
           "Significant distress and impairment",
           "Symptoms not attributable to substances"
-        ]
+        ],
+        "disorder_name": "obsessive compulsive disorder"
       }
     },
     {
@@ -529,7 +535,8 @@
           "Time-consuming rituals",
           "Significant distress and impairment",
           "Symptoms not attributable to substances"
-        ]
+        ],
+        "disorder_name": "obsessive compulsive disorder"
       }
     },
     {
@@ -605,7 +612,8 @@
           "Time-consuming rituals",
           "Significant distress and impairment",
           "Symptoms not attributable to substances"
-        ]
+        ],
+        "disorder_name": "obsessive compulsive disorder"
       }
     },
     {
@@ -681,7 +689,8 @@
           "Time-consuming rituals",
           "Significant distress and impairment",
           "Symptoms not attributable to substances"
-        ]
+        ],
+        "disorder_name": "obsessive compulsive disorder"
       }
     },
     {
@@ -757,7 +766,8 @@
           "Time-consuming rituals",
           "Significant distress and impairment",
           "Symptoms not attributable to substances"
-        ]
+        ],
+        "disorder_name": "obsessive compulsive disorder"
       }
     },
     {
@@ -833,7 +843,8 @@
           "Time-consuming rituals",
           "Significant distress and impairment",
           "Symptoms not attributable to substances"
-        ]
+        ],
+        "disorder_name": "obsessive compulsive disorder"
       }
     },
     {
@@ -909,7 +920,8 @@
           "Time-consuming rituals",
           "Significant distress and impairment",
           "Symptoms not attributable to substances"
-        ]
+        ],
+        "disorder_name": "obsessive compulsive disorder"
       }
     },
     {
@@ -985,7 +997,8 @@
           "Time-consuming rituals",
           "Significant distress and impairment",
           "Symptoms not attributable to substances"
-        ]
+        ],
+        "disorder_name": "obsessive compulsive disorder"
       }
     },
     {
@@ -1061,7 +1074,8 @@
           "Time-consuming rituals",
           "Significant distress and impairment",
           "Symptoms not attributable to substances"
-        ]
+        ],
+        "disorder_name": "obsessive compulsive disorder"
       }
     },
     {
@@ -1141,4 +1155,4 @@
       }
     }
   ]
-} 
+}

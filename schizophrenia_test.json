@@ -73,7 +73,8 @@
           "Negative symptoms",
           "Significant social/occupational dysfunction",
           "Duration > 6 months"
-        ]
+        ],
+        "disorder_name": "schizophrenia"
       }
     },
     {
@@ -147,7 +148,8 @@
           "Duration > 6 months",
           "History of more severe symptoms",
           "On maintenance treatment"
-        ]
+        ],
+        "disorder_name": "schizophrenia"
       }
     },
     {
@@ -222,7 +224,8 @@
           "Significant functional impairment",
           "Family history",
           "Substance use history"
-        ]
+        ],
+        "disorder_name": "schizophrenia"
       }
     },
     {
@@ -297,7 +300,8 @@
           "Severe functional impairment",
           "Multiple medication trials",
           "Family history"
-        ]
+        ],
+        "disorder_name": "schizophrenia"
       }
     },
     {
@@ -371,7 +375,8 @@
           "Duration > 6 months",
           "On maintenance treatment",
           "Partial response to medication"
-        ]
+        ],
+        "disorder_name": "schizophrenia"
       }
     },
     {
@@ -446,7 +451,8 @@
           "Disorganized behavior",
           "Significant functional impairment",
           "Recent stress factors"
-        ]
+        ],
+        "disorder_name": "schizophrenia"
       }
     },
     {
@@ -521,7 +527,8 @@
           "Severe symptoms",
           "Aggressive behavior",
           "Family history"
-        ]
+        ],
+        "disorder_name": "schizophrenia"
       }
     },
     {
@@ -596,7 +603,8 @@
           "Partial functional recovery",
           "Long duration",
           "Good support system"
-        ]
+        ],
+        "disorder_name": "schizophrenia"
       }
     },
     {
@@ -672,7 +680,8 @@
           "Homelessness",
           "Family history",
           "Multiple hospitalizations"
-        ]
+        ],
+        "disorder_name": "schizophrenia"
       }
     },
     {
@@ -747,7 +756,8 @@
           "Significant functional impairment",
           "Recent stress factors",
           "Social withdrawal"
-        ]
+        ],
+        "disorder_name": "schizophrenia"
       }
     },
     {
@@ -822,7 +832,8 @@
           "Partial functional recovery",
           "Long duration",
           "Good support system"
-        ]
+        ],
+        "disorder_name": "schizophrenia"
       }
     },
     {
@@ -896,7 +907,8 @@
           "Duration > 6 months",
           "On maintenance treatment",
           "Partial response to medication"
-        ]
+        ],
+        "disorder_name": "schizophrenia"
       }
     },
     {
@@ -971,7 +983,8 @@
           "Partial functional recovery",
           "Long duration",
           "Good support system"
-        ]
+        ],
+        "disorder_name": "schizophrenia"
       }
     },
     {
@@ -1046,7 +1059,8 @@
           "Disorganized behavior",
           "Significant functional impairment",
           "Recent stress factors"
-        ]
+        ],
+        "disorder_name": "schizophrenia"
       }
     },
     {
@@ -1125,4 +1139,4 @@
       }
     }
   ]
-} 
+}

@@ -73,7 +73,8 @@
           "Poor concentration",
           "Feelings of hopelessness",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "persistent depressive disorder"
       }
     },
     {
@@ -149,7 +150,8 @@
           "Poor appetite",
           "Low self-esteem",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "persistent depressive disorder"
       }
     },
     {
@@ -225,7 +227,8 @@
           "Low energy",
           "Feelings of inadequacy",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "persistent depressive disorder"
       }
     },
     {
@@ -301,7 +304,8 @@
           "Poor decision-making",
           "Feelings of hopelessness",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "persistent depressive disorder"
       }
     },
     {
@@ -377,7 +381,8 @@
           "Low energy",
           "Feelings of inadequacy",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "persistent depressive disorder"
       }
     },
     {
@@ -453,7 +458,8 @@
           "Poor appetite",
           "Feelings of hopelessness",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "persistent depressive disorder"
       }
     },
     {
@@ -529,7 +535,8 @@
           "Low energy",
           "Feelings of inadequacy",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "persistent depressive disorder"
       }
     },
     {
@@ -605,7 +612,8 @@
           "Poor concentration",
           "Feelings of hopelessness",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "persistent depressive disorder"
       }
     },
     {
@@ -681,7 +689,8 @@
           "Loss of creativity",
           "Feelings of inadequacy",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "persistent depressive disorder"
       }
     },
     {
@@ -757,7 +766,8 @@
           "Poor concentration",
           "Feelings of inadequacy",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "persistent depressive disorder"
       }
     },
     {
@@ -833,7 +843,8 @@
           "Poor concentration",
           "Feelings of inadequacy",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "persistent depressive disorder"
       }
     },
     {
@@ -909,7 +920,8 @@
           "Poor concentration",
           "Feelings of inadequacy",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "persistent depressive disorder"
       }
     },
     {
@@ -985,7 +997,8 @@
           "Poor concentration",
           "Feelings of inadequacy",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "persistent depressive disorder"
       }
     },
     {
@@ -1061,7 +1074,8 @@
           "Loss of creativity",
           "Feelings of inadequacy",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "persistent depressive disorder"
       }
     },
     {
@@ -1141,4 +1155,4 @@
       }
     }
   ]
-} 
+}

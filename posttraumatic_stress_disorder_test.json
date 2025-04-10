@@ -84,7 +84,8 @@
           "Changes in arousal and reactivity",
           "Duration more than 1 month",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "posttraumatic stress disorder"
       }
     },
     {
@@ -171,7 +172,8 @@
           "Changes in arousal and reactivity",
           "Duration more than 1 month",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "posttraumatic stress disorder"
       }
     },
     {
@@ -258,7 +260,8 @@
           "Changes in arousal and reactivity",
           "Duration more than 1 month",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "posttraumatic stress disorder"
       }
     },
     {
@@ -345,7 +348,8 @@
           "Changes in arousal and reactivity",
           "Duration more than 1 month",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "posttraumatic stress disorder"
       }
     },
     {
@@ -432,7 +436,8 @@
           "Changes in arousal and reactivity",
           "Duration more than 1 month",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "posttraumatic stress disorder"
       }
     },
     {
@@ -519,7 +524,8 @@
           "Changes in arousal and reactivity",
           "Duration more than 1 month",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "posttraumatic stress disorder"
       }
     },
     {
@@ -606,7 +612,8 @@
           "Changes in arousal and reactivity",
           "Duration more than 1 month",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "posttraumatic stress disorder"
       }
     },
     {
@@ -693,7 +700,8 @@
           "Changes in arousal and reactivity",
           "Duration more than 1 month",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "posttraumatic stress disorder"
       }
     },
     {
@@ -780,7 +788,8 @@
           "Changes in arousal and reactivity",
           "Duration more than 1 month",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "posttraumatic stress disorder"
       }
     },
     {
@@ -867,7 +876,8 @@
           "Changes in arousal and reactivity",
           "Duration more than 1 month",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "posttraumatic stress disorder"
       }
     },
     {
@@ -954,7 +964,8 @@
           "Changes in arousal and reactivity",
           "Duration more than 1 month",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "posttraumatic stress disorder"
       }
     },
     {
@@ -1041,7 +1052,8 @@
           "Changes in arousal and reactivity",
           "Duration more than 1 month",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "posttraumatic stress disorder"
       }
     },
     {
@@ -1128,7 +1140,8 @@
           "Changes in arousal and reactivity",
           "Duration more than 1 month",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "posttraumatic stress disorder"
       }
     },
     {
@@ -1215,7 +1228,8 @@
           "Changes in arousal and reactivity",
           "Duration more than 1 month",
           "Significant functional impairment"
-        ]
+        ],
+        "disorder_name": "posttraumatic stress disorder"
       }
     },
     {
@@ -1306,4 +1320,4 @@
       }
     }
   ]
-} 
+}
