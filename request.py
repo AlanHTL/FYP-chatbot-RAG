@@ -2,32 +2,39 @@ import requests
 import json
 import sys
 import os
+import uuid # Import uuid to generate unique IDs
 
 # Default API URL, can be overridden by environment variable
-DEFAULT_API_URL = os.getenv("CHATBOT_API_URL", "http://127.0.0.1:8080/chat")
+DEFAULT_API_URL = os.getenv("CHATBOT_API_URL", "http://127.0.0.1:8081/chat")
 
-def chat(message: str, api_url: str = DEFAULT_API_URL) -> str | None:
+def chat(message: str, conversation_id: str, api_url: str = DEFAULT_API_URL) -> str | None:
     """
     Sends a message to the chatbot API server and returns the reply.
 
     Args:
         message: The message string to send to the chatbot.
+        conversation_id: The unique ID for the current conversation.
         api_url: The URL of the chatbot API server's /chat endpoint.
 
     Returns:
         The chatbot's reply as a string, or None if an error occurred.
     """
     headers = {'Content-Type': 'application/json'}
-    payload = {'message': message}
+    # Include conversation_id in the payload
+    payload = {
+        'message': message,
+        'conversation_id': conversation_id 
+    }
 
     try:
-        print(f"Sending message to {api_url}...")
+        print(f"Sending message to {api_url} (Conv ID: {conversation_id})...")
         response = requests.post(api_url, headers=headers, data=json.dumps(payload))
         response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
 
         print("Received response.")
         response_data = response.json()
         
+        # The API now returns conversation_id, but we mainly need the reply here
         if "reply" in response_data:
             return response_data['reply']
         else:
@@ -62,9 +69,11 @@ def chat(message: str, api_url: str = DEFAULT_API_URL) -> str | None:
 
 
 if __name__ == "__main__":
-    print("Starting chat client...")
+    # Generate a unique conversation ID for this chat session
+    current_conversation_id = str(uuid.uuid4())
+    print(f"Starting chat client (Conversation ID: {current_conversation_id})...")
     print("Enter your message below (or type 'quit' to exit).")
-
+    print("Bot: Hi, I am Dr. Mind, a mental health screening specialist. May I have your name, please?")
     while True:
         try:
             user_input = input("You: ") 
@@ -74,7 +83,8 @@ if __name__ == "__main__":
             if not user_input:
                 continue
 
-            reply = chat(user_input)
+            # Pass the conversation ID to the chat function
+            reply = chat(user_input, current_conversation_id)
 
             if reply:
                 print(f"Bot: {reply}")

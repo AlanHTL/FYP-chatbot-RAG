@@ -2,99 +2,309 @@ import os
 import asyncio
 import json
 from aiohttp import web
-from langchain_openai import ChatOpenAI
-from langchain.schema import HumanMessage, SystemMessage
+import traceback 
+import uuid # Needed if generating IDs on server side, but client sends it now
+import sys
+from pathlib import Path
 
-def configure_openai():
-    """Configure OpenAI settings, prioritizing standard environment variables."""
-    api_key = os.getenv("OPENAI_API_KEY")
-    if not api_key:
-        # Fallback to user's variable name if standard one isn't set
-        api_key_custom = os.getenv("API_KEY")
-        if not api_key_custom:
-            print("Neither OPENAI_API_KEY nor API_KEY found in environment.")
-            api_key_custom = input("Please enter your OpenAI API key: ")
-        
-        if api_key_custom:
-            os.environ["OPENAI_API_KEY"] = api_key_custom
-            api_key = api_key_custom # Use the key that was set
+# Langchain Core Imports
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain_core.chat_history import BaseChatMessageHistory
+from langchain_core.messages import AIMessage, HumanMessage
+from langchain_core.runnables.history import RunnableWithMessageHistory
 
-    # Use OPENAI_API_BASE if set, otherwise default to the user's provided URL
-    base_url = os.getenv("OPENAI_API_BASE", "https://xiaoai.plus/v1")
-    os.environ["OPENAI_API_BASE"] = base_url
+# Langchain OpenAI Imports
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 
-    # Verify settings
-    print(f"Using OpenAI API Base: {os.environ.get('OPENAI_API_BASE')}")
-    if not os.environ.get("OPENAI_API_KEY"):
-         print("Warning: OPENAI_API_KEY could not be configured.")
-    else:
-        # Optionally mask the key partially if printing
-        # print(f"Using OpenAI API Key: {...}") 
-        print("OpenAI API Key is configured.")
+# Langchain Community & Tool Imports
+from langchain.agents import AgentExecutor, create_openai_tools_agent
+from langchain.tools import Tool # Import Tool for manual creation
 
+# --- Environment Setup & Configuration ---
+os.environ["OPENAI_API_KEY"] = "sk-UnNXXoNG6qqa1RUl24zKrakQaHBeyxqkxEtaVwGbSrGlRQxl"
+os.environ["OPENAI_API_BASE"] = "https://xiaoai.plus/v1"
 
-# Configure OpenAI settings on script start
-configure_openai()
+# Get the absolute path to the FAISS index directory
+current_dir = os.path.dirname(os.path.abspath(__file__))
+FAISS_INDEX_PATH = os.path.join(current_dir, "faiss_index") 
+print(f"FAISS index path: {FAISS_INDEX_PATH}")
+
+# Check if the index files exist
+faiss_file = os.path.join(FAISS_INDEX_PATH, "index.faiss")
+pkl_file = os.path.join(FAISS_INDEX_PATH, "index.pkl")
+if os.path.exists(faiss_file) and os.path.exists(pkl_file):
+    print(f"Found FAISS index files: {faiss_file} and {pkl_file}")
+else:
+    print(f"WARNING: FAISS index files not found at {FAISS_INDEX_PATH}")
+    print(f"Files in directory: {os.listdir(FAISS_INDEX_PATH) if os.path.exists(FAISS_INDEX_PATH) else 'Directory does not exist'}")
 
 # --- Langchain Chat Model Initialization ---
 chat_model = None
 try:
-    # Ensure API key is available before initializing
     if "OPENAI_API_KEY" not in os.environ or not os.environ["OPENAI_API_KEY"]:
-        raise ValueError("OPENAI_API_KEY is missing or empty. Cannot initialize ChatOpenAI.")
-
+        raise ValueError("OPENAI_API_KEY is missing or empty.")
     chat_model = ChatOpenAI(
-        model="gpt-3.5-turbo",
-        # Langchain automatically picks up OPENAI_API_KEY and OPENAI_API_BASE from env vars
-        # openai_api_key=os.environ.get("OPENAI_API_KEY"), # Explicit pass usually not needed
-        # openai_api_base=os.environ.get("OPENAI_API_BASE") # Explicit pass usually not needed
-        temperature=0.7 # Example: Set creativity level
+        model="gpt-3.5-turbo", 
+        temperature=0.7
     )
     print("ChatOpenAI model initialized successfully.")
 except Exception as e:
     print(f"Error initializing ChatOpenAI model: {e}")
-    # Consider exiting if the chat model is essential and failed to load
-    # sys.exit(f"Fatal Error: Could not initialize chat model - {e}")
+    chat_model = None
+
+# --- RAG Setup (FAISS Index Loading and Retriever Tool) ---
+embeddings_model = None
+retriever_tool = None
+vector_store = None # Define vector_store outside try block
+
+try:
+    # Langchain Core Imports
+    from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+    from langchain_core.chat_history import BaseChatMessageHistory
+    from langchain_core.messages import AIMessage, HumanMessage
+    from langchain_core.runnables.history import RunnableWithMessageHistory
+
+    # Langchain Community & Tool Imports  
+    from langchain.agents import AgentExecutor, create_openai_tools_agent
+    from langchain.tools import Tool
+    
+    # Try both imports to handle different versions
+    try:
+        from langchain_community.vectorstores import FAISS
+        print("Using langchain_community.vectorstores.FAISS")
+    except ImportError:
+        from langchain.vectorstores import FAISS
+        print("Using langchain.vectorstores.FAISS")
+        
+    # --- Chat model initialization ---
+    if "OPENAI_API_KEY" not in os.environ or not os.environ["OPENAI_API_KEY"]:
+        raise ValueError("OPENAI_API_KEY is missing or empty.")
+    chat_model = ChatOpenAI(
+        model="gpt-3.5-turbo", 
+        temperature=0.7
+    )
+    print("ChatOpenAI model initialized successfully.")
+    
+    # --- Embeddings model initialization ---
+    embeddings_model = OpenAIEmbeddings(
+        model="text-embedding-ada-002", 
+        openai_api_base=os.environ.get("OPENAI_API_BASE")
+    )
+    print("OpenAIEmbeddings model initialized successfully.")
+    
+    # --- Load FAISS index (with various fallback approaches) ---
+    # Attempt to load the index with detailed error handling
+    try:
+        print(f"Attempting to load FAISS index from: {FAISS_INDEX_PATH}")
+        
+        # First attempt: standard load_local
+        vector_store = FAISS.load_local(FAISS_INDEX_PATH, embeddings_model)
+        print("FAISS index loaded successfully using standard load_local.")
+    except Exception as e1:
+        print(f"First FAISS loading attempt failed: {e1}")
+        
+        try:
+            # Second attempt: load individual files
+            import pickle
+            import faiss
+            
+            # Load the index directly
+            index = faiss.read_index(faiss_file)
+            
+            # Load the docstore and other data
+            with open(pkl_file, "rb") as f:
+                pkl_data = pickle.load(f)
+            
+            # Create a new FAISS instance
+            vector_store = FAISS(embeddings_model, index, pkl_data["docstore"], pkl_data.get("index_to_docstore_id", {}))
+            print("FAISS index loaded successfully using manual file loading.")
+        except Exception as e2:
+            print(f"Second FAISS loading attempt failed: {e2}")
+            
+            # Create a simple dummy vector store with a default document
+            # This allows the server to run even if FAISS loading fails
+            from langchain.docstore.document import Document
+            try:
+                from langchain_community.vectorstores import FAISS as DummyFAISS
+            except ImportError:
+                from langchain.vectorstores import FAISS as DummyFAISS
+                
+            dummy_texts = ["This is a fallback document because the FAISS index could not be loaded."]
+            dummy_docs = [Document(page_content=text) for text in dummy_texts]
+            vector_store = DummyFAISS.from_documents(dummy_docs, embeddings_model)
+            print("Created fallback vector store with dummy document since FAISS loading failed.")
+            print(f"Original errors: {e1}\n{e2}")
+    
+    # --- Create the search tool ---
+    def search_and_print(query: str) -> str:
+        """Search the vector store, print status, and return formatted results."""
+        print("retrieving from database...")
+        try:
+            # Perform similarity search directly on the vector store
+            docs = vector_store.similarity_search(query, k=3)  # Get top 3 results
+            # Format the results as a single string
+            return "\n".join([doc.page_content for doc in docs])
+        except Exception as e:
+            print(f"Error during similarity search: {e}")
+            return f"Error retrieving information: {str(e)}"
+    
+    # Create the tool using the direct search function
+    retriever_tool = Tool(
+        name="search_document_database",
+        description="Searches and returns relevant information from the document database based on the user query.",
+        func=search_and_print,
+    )
+    print("Retriever tool created successfully.")
+
+except Exception as e:
+    print(f"Error during initialization: {e}\n{traceback.format_exc()}")
+    chat_model = None
+    retriever_tool = None
+
+# --- Agent Setup ---
+# Define the prompt template for the agent
+prompt = ChatPromptTemplate.from_messages([
+    ("system", """Your Name is Dr. Mind, a professional mental disorder screening specialist. 
+
+Process:
+1. Begin by asking for the patient's name and age in a friendly, professional manner.
+2. Ask about their feelings, physical symptoms, and the duration of these symptoms.
+3. After collecting initial information, use the search_document_database tool to query the mental disorders database with specific symptoms described.
+4. Analyze if the patient's symptoms fulfill the diagnostic criteria from the retrieved information.
+5. Ask follow-up questions if more information is needed to confirm or rule out a diagnosis.
+6. If the criteria are fulfilled or some main criteria are met, end the chat with a diagnosis in JSON format: {{"result":["disorder name"], "probabilities":[0.X]}} (where X is a number between 0-9 representing how confident you are in the diagnosis).
+7. If symptoms don't match the first retrieval result, create a new query based on updated patient information and search again.
+8. Limit database searches to a maximum of 3 times per conversation.
+9. After 3 searches, provide the most matching diagnosis based on the conversation history, even if not all criteria are met.
+
+Guidelines:
+- Use a chain-of-thought approach: think step by step and explain your reasoning.
+- Be compassionate and professional in your communication.
+- Ask one question at a time to avoid overwhelming the patient.
+- When searching the database, create focused queries based on the most prominent symptoms.
+- Keep track of how many times you've queried the database in this conversation.
+- Before making a diagnosis, verify that the patient meets the required criteria from DSM-5.
 
 
-# --- API Request Handler ---
+Remember, this is a screening tool, not a definitive diagnosis. Patient should seek professional in-person evaluation."""),
+    MessagesPlaceholder(variable_name="chat_history"),
+    ("human", "{input}"),
+    MessagesPlaceholder(variable_name="agent_scratchpad") # For agent intermediate steps
+])
+
+agent = None
+agent_executor = None
+if chat_model and retriever_tool: # Only create agent if model and tool are ready
+    tools = [retriever_tool]
+    agent = create_openai_tools_agent(chat_model, tools, prompt)
+    agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=False) # Set verbose=True for debugging
+    print("Agent Executor created successfully.")
+else:
+    print("Agent Executor could not be created because the chat model or retriever tool failed to initialize.")
+
+# --- Conversation Memory Store ---
+# Create a custom chat message history class that works with RunnableWithMessageHistory
+class InMemoryChatMessageHistory(BaseChatMessageHistory):
+    """Simple in-memory implementation of chat message history that meets requirements."""
+    
+    def __init__(self, session_id: str):
+        self.session_id = session_id
+        self.messages = []
+    
+    def add_message(self, message):
+        """Add a message to the history."""
+        self.messages.append(message)
+        
+    def clear(self):
+        """Clear the message history."""
+        self.messages = []
+
+conversation_memory_store = {}
+
+def get_memory(session_id: str):
+    """Retrieves or creates memory for a session."""
+    if session_id not in conversation_memory_store:
+        # Each session gets its own memory instance
+        conversation_memory_store[session_id] = InMemoryChatMessageHistory(session_id=session_id)
+        print(f"Created new chat history for conversation_id: {session_id}")
+    return conversation_memory_store[session_id]
+
+# --- History-Aware Agent Executor ---
+agent_with_history = None
+if agent_executor:
+    agent_with_history = RunnableWithMessageHistory(
+        agent_executor,
+        get_memory,
+        input_messages_key="input",
+        history_messages_key="chat_history",
+    )
+    print("Agent Executor wrapped with message history.")
+
+# --- API Request Handler --- 
 async def handle_chat(request):
-    """Handles incoming chat requests concurrently."""
-    if chat_model is None:
-        print("Error: Chat model is not available.")
-        return web.json_response({"error": "Chat model not initialized or failed to load"}, status=500)
+    """Handles incoming chat requests using the agent executor with history."""
+    if not agent_with_history:
+        print("Error: Agent with history is not available.")
+        # Provide a more specific error depending on what failed (model, tool, agent init)
+        error_msg = "Chat agent initialization failed. Cannot process requests."
+        if chat_model is None:
+            error_msg = "Chat model failed to initialize."
+        elif retriever_tool is None:
+            error_msg = "Document retriever tool failed to initialize."
+        return web.json_response({"error": error_msg}, status=500)
 
     try:
-        # Ensure request body is valid JSON
         try:
             data = await request.json()
         except json.JSONDecodeError:
             return web.json_response({"error": "Invalid JSON format in request body"}, status=400)
 
         user_message = data.get("message")
+        conversation_id = data.get("conversation_id")
+
         if not user_message or not isinstance(user_message, str):
             return web.json_response({"error": "Missing or invalid 'message' string in request body"}, status=400)
+        if not conversation_id or not isinstance(conversation_id, str):
+            return web.json_response({"error": "Missing or invalid 'conversation_id' string in request body"}, status=400)
 
-        # Prepare messages for Langchain
-        messages = [
-            SystemMessage(content="You are a helpful AI assistant."),
-            HumanMessage(content=user_message),
-        ]
+        print(f"Processing message for conversation_id: {conversation_id}")
+        
+        # Check if this is a new conversation
+        is_new_conversation = conversation_id not in conversation_memory_store
+        
+        # For new conversations, add the greeting to memory but don't return it
+        if is_new_conversation:
+            greeting = "Hi, I am Dr. Mind, a mental health screening specialist. May I have your name, please?"
+            print(f"New conversation started. Adding greeting to memory: {greeting}")
+            
+            # Create the memory for this new conversation
+            memory = get_memory(conversation_id)
+            
+            # Add the greeting as an AI message to the history
+            memory.add_message(AIMessage(content=greeting))
+            
+            # Add the user's first message to history too
+            memory.add_message(HumanMessage(content=user_message))
+            
+            # Continue with normal processing instead of returning the greeting
+        
+        # Configuration for the agent invocation, including the session ID for memory
+        config = {"configurable": {"session_id": conversation_id}}
+        
+        # Use ainvoke for asynchronous execution
+        print(f"Invoking agent for input: '{user_message[:50]}...' (ID: {conversation_id})")
+        # The agent_with_history manages memory and tool calls
+        response = await agent_with_history.ainvoke({"input": user_message}, config=config)
+        print(f"Agent invocation successful for conversation_id: {conversation_id}")
 
-        # Use ainvoke for asynchronous call to the language model
-        print(f"Invoking chat model for input: '{user_message[:50]}...'") # Log reception
-        response = await chat_model.ainvoke(messages)
-        print("Chat model invocation successful.") # Log success
+        # The final reply is usually in the 'output' key of the agent's response dictionary
+        reply = response.get("output")
 
-        # Return the response from the chatbot
-        return web.json_response({"reply": response.content})
+        return web.json_response({"reply": reply, "conversation_id": conversation_id})
 
     except Exception as e:
-        # Log the full error for debugging on the server side
-        import traceback
-        print(f"Error processing chat request: {e}
-{traceback.format_exc()}")
-        return web.json_response({"error": f"An internal server error occurred."}, status=500)
+        print(f"Error processing chat request: {e}\n{traceback.format_exc()}")
+        return web.json_response({"error": "An internal server error occurred."}, status=500)
 
 
 # --- Server Setup ---
@@ -108,7 +318,7 @@ def setup_server():
 # --- Main Execution Block ---
 if __name__ == '__main__':
     host = os.getenv("API_HOST", "127.0.0.1") # Default to localhost
-    port = int(os.getenv("API_PORT", 8080))   # Default to port 8080
+    port = int(os.getenv("API_PORT", 8081))   # Default to port 8081
     
     app = setup_server()
 
