@@ -2,24 +2,27 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from typing import List, Dict, Any
 
 class ResultsVisualizer:
     """Class for generating visualizations from test results."""
     
-    def __init__(self, csv_file: str, output_dir: str = "charts"):
-        """
-        Initialize the visualizer.
-        
-        Args:
-            csv_file: Path to the CSV file containing test results
-            output_dir: Directory to save generated visualizations
-        """
-        self.df = pd.read_csv(csv_file)
+    def __init__(self, results_csv: str, output_dir: str):
+        """Initialize the visualizer with results data and output directory."""
+        self.results_csv = results_csv
         self.output_dir = output_dir
+        self.df = pd.read_csv(results_csv)
+        
+        # Create output directory if it doesn't exist
         os.makedirs(output_dir, exist_ok=True)
         
-        # Set style for all plots
-        plt.style.use('seaborn')
+        # Try to use seaborn style, fall back to default if not available
+        try:
+            plt.style.use('seaborn')
+        except Exception as e:
+            print(f"Warning: Could not use seaborn style: {e}")
+            print("Using default matplotlib style instead.")
+            plt.style.use('default')
         
     def plot_accuracy_by_disorder(self):
         """Create a bar plot of accuracy by disorder."""

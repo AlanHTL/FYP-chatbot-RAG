@@ -1,0 +1,131 @@
+{
+  "test_file": "Test json/intellectual_disabilities_test.json",
+  "timestamp": "2025-04-11 03:39:16",
+  "results": [
+    {
+      "case_id": 1,
+      "patient_name": "Michael Thompson",
+      "expected_diagnosis": "intellectual disabilities",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": false,
+      "confidence": 0.8
+    },
+    {
+      "case_id": 2,
+      "patient_name": "Sophia Martinez",
+      "expected_diagnosis": "intellectual disabilities",
+      "actual_diagnosis": "Major Depressive Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 4,
+      "patient_name": "Ethan Brown",
+      "expected_diagnosis": "intellectual disabilities",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 5,
+      "patient_name": "Grace Johnson",
+      "expected_diagnosis": "intellectual disabilities",
+      "actual_diagnosis": "Normal",
+      "correct": false,
+      "confidence": 0.8
+    },
+    {
+      "case_id": 3,
+      "patient_name": "David Wilson",
+      "expected_diagnosis": "intellectual disabilities",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 6,
+      "patient_name": "James Carter",
+      "expected_diagnosis": "intellectual disabilities",
+      "actual_diagnosis": "Normal",
+      "correct": false,
+      "confidence": 0.8
+    },
+    {
+      "case_id": 7,
+      "patient_name": "Emily Rogers",
+      "expected_diagnosis": "intellectual disabilities",
+      "actual_diagnosis": "Autism Spectrum Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 8,
+      "patient_name": "Liam Parker",
+      "expected_diagnosis": "intellectual disabilities",
+      "actual_diagnosis": "Autism Spectrum Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 10,
+      "patient_name": "Noah Thompson",
+      "expected_diagnosis": "intellectual disabilities",
+      "actual_diagnosis": "Autism Spectrum Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 9,
+      "patient_name": "Sophia Martinez",
+      "expected_diagnosis": "intellectual disabilities",
+      "actual_diagnosis": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 11,
+      "patient_name": "Maya Johnston",
+      "expected_diagnosis": "intellectual disabilities",
+      "actual_diagnosis": "Autism Spectrum Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 13,
+      "patient_name": "Emma Wilson",
+      "expected_diagnosis": "intellectual disabilities",
+      "actual_diagnosis": "Rett Syndrome",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 12,
+      "patient_name": "Jackson Miller",
+      "expected_diagnosis": "intellectual disabilities",
+      "actual_diagnosis": "Intellectual Disabilities",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 14,
+      "patient_name": "Lucas Anderson",
+      "expected_diagnosis": "intellectual disabilities",
+      "actual_diagnosis": "Dermatillomania",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 15,
+      "patient_name": "Ava Thompson",
+      "expected_diagnosis": "intellectual disabilities",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": false,
+      "confidence": 0.9
+    }
+  ],
+  "accuracy_metrics": {
+    "overall_accuracy": 0.06666666666666667,
+    "true_positive_rate": 0.06666666666666667,
+    "true_negative_rate": 0
+  }
+}

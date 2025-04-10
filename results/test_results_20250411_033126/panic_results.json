@@ -1,0 +1,131 @@
+{
+  "test_file": "Test json/panic_disorder_test.json",
+  "timestamp": "2025-04-11 03:34:34",
+  "results": [
+    {
+      "case_id": 4,
+      "patient_name": "David Wilson",
+      "expected_diagnosis": "panic disorder",
+      "actual_diagnosis": "Panic Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 1,
+      "patient_name": "Jessica Martinez",
+      "expected_diagnosis": "panic disorder",
+      "actual_diagnosis": "Panic Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 5,
+      "patient_name": "Emily Rodriguez",
+      "expected_diagnosis": "panic disorder",
+      "actual_diagnosis": "Panic Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 2,
+      "patient_name": "Michael Chang",
+      "expected_diagnosis": "panic disorder",
+      "actual_diagnosis": "Panic Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 3,
+      "patient_name": "Sarah Thompson",
+      "expected_diagnosis": "panic disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 6,
+      "patient_name": "James Anderson",
+      "expected_diagnosis": "panic disorder",
+      "actual_diagnosis": "Panic Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 7,
+      "patient_name": "Rachel Lee",
+      "expected_diagnosis": "panic disorder",
+      "actual_diagnosis": "Panic Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 8,
+      "patient_name": "Thomas Chen",
+      "expected_diagnosis": "panic disorder",
+      "actual_diagnosis": "Panic Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 10,
+      "patient_name": "Daniel Wilson",
+      "expected_diagnosis": "panic disorder",
+      "actual_diagnosis": "Panic Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 9,
+      "patient_name": "Sarah Brown",
+      "expected_diagnosis": "panic disorder",
+      "actual_diagnosis": "Panic Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 11,
+      "patient_name": "Maria Garcia",
+      "expected_diagnosis": "panic disorder",
+      "actual_diagnosis": "Panic Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 13,
+      "patient_name": "Jennifer Lee",
+      "expected_diagnosis": "panic disorder",
+      "actual_diagnosis": "Panic Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 12,
+      "patient_name": "William Taylor",
+      "expected_diagnosis": "panic disorder",
+      "actual_diagnosis": "Panic Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 14,
+      "patient_name": "Robert Chen",
+      "expected_diagnosis": "panic disorder",
+      "actual_diagnosis": "Panic Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 15,
+      "patient_name": "Alex Thompson",
+      "expected_diagnosis": "Normal",
+      "actual_diagnosis": "Normal",
+      "correct": true,
+      "confidence": 0.8
+    }
+  ],
+  "accuracy_metrics": {
+    "overall_accuracy": 0.9333333333333333,
+    "true_positive_rate": 0.9285714285714286,
+    "true_negative_rate": 1.0
+  }
+}

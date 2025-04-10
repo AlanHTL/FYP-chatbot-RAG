@@ -18,26 +18,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "aggression_to_people_and_animals": [
-          "Often bullies, threatens, or intimidates others",
-          "Often initiates physical fights",
-          "Has been physically cruel to people",
-          "Has been physically cruel to animals",
-          "Has stolen while confronting a victim"
-        ],
-        "destruction_of_property": [
-          "Has deliberately destroyed others' property",
-          "Has deliberately engaged in fire setting"
-        ],
-        "deceitfulness_or_theft": [
-          "Has broken into someone else's house",
-          "Often lies to obtain goods or favors",
-          "Has stolen items of nontrivial value"
-        ],
-        "serious_violations_of_rules": [
-          "Often stays out at night despite parental prohibitions",
-          "Has run away from home overnight at least twice",
-          "Is often truant from school"
+        "main_complaints": [
+          "Frequent physical aggression towards others",
+          "History of animal cruelty",
+          "Multiple arrests for assault",
+          "Property destruction",
+          "Fire setting behaviors",
+          "Breaking and entering",
+          "Chronic lying",
+          "Theft with confrontation",
+          "Chronic truancy",
+          "Running away from home",
+          "Substance use",
+          "Gang involvement",
+          "Lack of remorse",
+          "Poor impulse control",
+          "Defiance of authority"
         ],
         "duration": "3 years",
         "severity": "Severe",
@@ -92,6 +88,7 @@
           "Significant functional impairment",
           "Duration of more than 12 months"
         ],
+        "severity": "Severe conduct disorder",
         "disorder_name": "conduct disorder"
       }
     },
@@ -113,20 +110,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "aggression_to_people_and_animals": [
-          "Often bullies, threatens, or intimidates others",
-          "Often initiates physical fights"
-        ],
-        "destruction_of_property": [
-          "Has deliberately destroyed others' property"
-        ],
-        "deceitfulness_or_theft": [
-          "Often lies to obtain goods or favors",
-          "Has stolen items of nontrivial value"
-        ],
-        "serious_violations_of_rules": [
-          "Often stays out at night despite parental prohibitions",
-          "Is often truant from school"
+        "main_complaints": [
+          "Frequent bullying and intimidation",
+          "Physical fights with peers",
+          "Property destruction",
+          "Chronic lying",
+          "Theft of non-trivial items",
+          "Staying out past curfew",
+          "School truancy",
+          "Defiance of authority",
+          "Poor peer relationships",
+          "Lack of empathy",
+          "Impulsive behavior",
+          "Anger outbursts",
+          "Rule violations",
+          "Deceptive behavior",
+          "Academic difficulties"
         ],
         "duration": "1.5 years",
         "severity": "Moderate to severe",
@@ -181,6 +180,7 @@
           "Significant functional impairment",
           "Duration of more than 12 months"
         ],
+        "severity": "Moderate to severe conduct disorder",
         "disorder_name": "conduct disorder"
       }
     },
@@ -202,26 +202,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "aggression_to_people_and_animals": [
-          "Often bullies, threatens, or intimidates others",
-          "Often initiates physical fights",
-          "Has used a weapon that can cause serious physical harm",
-          "Has been physically cruel to people",
-          "Has stolen while confronting a victim"
-        ],
-        "destruction_of_property": [
-          "Has deliberately engaged in fire setting",
-          "Has deliberately destroyed others' property"
-        ],
-        "deceitfulness_or_theft": [
-          "Has broken into someone else's house",
-          "Often lies to obtain goods or favors",
-          "Has stolen items of nontrivial value"
-        ],
-        "serious_violations_of_rules": [
-          "Often stays out at night despite parental prohibitions",
-          "Has run away from home overnight at least twice",
-          "Is often truant from school"
+        "main_complaints": [
+          "Use of weapons in fights",
+          "Severe physical aggression",
+          "Animal cruelty",
+          "Property destruction",
+          "Fire setting",
+          "Breaking and entering",
+          "Chronic lying",
+          "Theft with confrontation",
+          "Chronic truancy",
+          "Running away from home",
+          "Substance use",
+          "Gang involvement",
+          "Lack of remorse",
+          "Poor impulse control",
+          "Defiance of authority"
         ],
         "duration": "4 years",
         "severity": "Severe",
@@ -276,6 +272,7 @@
           "Severe functional impairment",
           "Duration of more than 12 months"
         ],
+        "severity": "Severe conduct disorder",
         "disorder_name": "conduct disorder"
       }
     },
@@ -297,20 +294,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "aggression_to_people_and_animals": [
-          "Often bullies, threatens, or intimidates others",
-          "Often initiates physical fights"
-        ],
-        "destruction_of_property": [
-          "Has deliberately destroyed others' property"
-        ],
-        "deceitfulness_or_theft": [
-          "Often lies to obtain goods or favors",
-          "Has stolen items of nontrivial value"
-        ],
-        "serious_violations_of_rules": [
-          "Often stays out at night despite parental prohibitions",
-          "Is often truant from school"
+        "main_complaints": [
+          "Frequent bullying and intimidation",
+          "Physical fights with peers",
+          "Property destruction",
+          "Chronic lying",
+          "Theft of non-trivial items",
+          "Staying out past curfew",
+          "School truancy",
+          "Defiance of authority",
+          "Poor peer relationships",
+          "Lack of empathy",
+          "Impulsive behavior",
+          "Anger outbursts",
+          "Rule violations",
+          "Deceptive behavior",
+          "Academic difficulties"
         ],
         "duration": "1 year",
         "severity": "Moderate",
@@ -365,6 +364,7 @@
           "Significant functional impairment",
           "Duration of more than 12 months"
         ],
+        "severity": "Moderate conduct disorder",
         "disorder_name": "conduct disorder"
       }
     },
@@ -386,21 +386,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "aggression_to_people_and_animals": [
-          "Often bullies, threatens, or intimidates others",
-          "Often initiates physical fights"
-        ],
-        "destruction_of_property": [
-          "Has deliberately destroyed others' property",
-          "Has deliberately engaged in fire setting"
-        ],
-        "deceitfulness_or_theft": [
-          "Often lies to obtain goods or favors",
-          "Has stolen items of nontrivial value"
-        ],
-        "serious_violations_of_rules": [
-          "Often stays out at night despite parental prohibitions",
-          "Is often truant from school"
+        "main_complaints": [
+          "Frequent bullying and intimidation",
+          "Physical fights with peers",
+          "Property destruction",
+          "Fire setting",
+          "Chronic lying",
+          "Theft of non-trivial items",
+          "Staying out past curfew",
+          "School truancy",
+          "Defiance of authority",
+          "Poor peer relationships",
+          "Lack of empathy",
+          "Impulsive behavior",
+          "Anger outbursts",
+          "Rule violations",
+          "Deceptive behavior"
         ],
         "duration": "2 years",
         "severity": "Moderate to severe",
@@ -455,6 +456,7 @@
           "Significant functional impairment",
           "Duration of more than 12 months"
         ],
+        "severity": "Moderate to severe conduct disorder",
         "disorder_name": "conduct disorder"
       }
     },
@@ -476,20 +478,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "aggression_to_people_and_animals": [
-          "Often bullies, threatens, or intimidates others",
-          "Often initiates physical fights"
-        ],
-        "destruction_of_property": [
-          "Has deliberately destroyed others' property"
-        ],
-        "deceitfulness_or_theft": [
-          "Often lies to obtain goods or favors",
-          "Has stolen items of nontrivial value"
-        ],
-        "serious_violations_of_rules": [
-          "Often stays out at night despite parental prohibitions",
-          "Is often truant from school"
+        "main_complaints": [
+          "Frequent bullying and intimidation",
+          "Physical fights with peers",
+          "Property destruction",
+          "Chronic lying",
+          "Theft of non-trivial items",
+          "Staying out past curfew",
+          "School truancy",
+          "Defiance of authority",
+          "Poor peer relationships",
+          "Lack of empathy",
+          "Impulsive behavior",
+          "Anger outbursts",
+          "Rule violations",
+          "Deceptive behavior",
+          "Academic difficulties"
         ],
         "duration": "1.5 years",
         "severity": "Moderate",
@@ -544,6 +548,7 @@
           "Significant functional impairment",
           "Duration of more than 12 months"
         ],
+        "severity": "Moderate conduct disorder",
         "disorder_name": "conduct disorder"
       }
     },
@@ -565,26 +570,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "aggression_to_people_and_animals": [
-          "Often bullies, threatens, or intimidates others",
-          "Often initiates physical fights",
-          "Has used a weapon that can cause serious physical harm",
-          "Has been physically cruel to people",
-          "Has stolen while confronting a victim"
-        ],
-        "destruction_of_property": [
-          "Has deliberately engaged in fire setting",
-          "Has deliberately destroyed others' property"
-        ],
-        "deceitfulness_or_theft": [
-          "Has broken into someone else's house",
-          "Often lies to obtain goods or favors",
-          "Has stolen items of nontrivial value"
-        ],
-        "serious_violations_of_rules": [
-          "Often stays out at night despite parental prohibitions",
-          "Has run away from home overnight at least twice",
-          "Is often truant from school"
+        "main_complaints": [
+          "Use of weapons in fights",
+          "Severe physical aggression",
+          "Animal cruelty",
+          "Property destruction",
+          "Fire setting",
+          "Breaking and entering",
+          "Chronic lying",
+          "Theft with confrontation",
+          "Chronic truancy",
+          "Running away from home",
+          "Substance use",
+          "Gang involvement",
+          "Lack of remorse",
+          "Poor impulse control",
+          "Defiance of authority"
         ],
         "duration": "3 years",
         "severity": "Severe",
@@ -639,6 +640,7 @@
           "Severe functional impairment",
           "Duration of more than 12 months"
         ],
+        "severity": "Severe conduct disorder",
         "disorder_name": "conduct disorder"
       }
     },
@@ -660,20 +662,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "aggression_to_people_and_animals": [
-          "Often bullies, threatens, or intimidates others",
-          "Often initiates physical fights"
-        ],
-        "destruction_of_property": [
-          "Has deliberately destroyed others' property"
-        ],
-        "deceitfulness_or_theft": [
-          "Often lies to obtain goods or favors",
-          "Has stolen items of nontrivial value"
-        ],
-        "serious_violations_of_rules": [
-          "Often stays out at night despite parental prohibitions",
-          "Is often truant from school"
+        "main_complaints": [
+          "Frequent bullying and intimidation",
+          "Physical fights with peers",
+          "Property destruction",
+          "Chronic lying",
+          "Theft of non-trivial items",
+          "Staying out past curfew",
+          "School truancy",
+          "Defiance of authority",
+          "Poor peer relationships",
+          "Lack of empathy",
+          "Impulsive behavior",
+          "Anger outbursts",
+          "Rule violations",
+          "Deceptive behavior",
+          "Academic difficulties"
         ],
         "duration": "1 year",
         "severity": "Moderate",
@@ -728,6 +732,7 @@
           "Significant functional impairment",
           "Duration of more than 12 months"
         ],
+        "severity": "Moderate conduct disorder",
         "disorder_name": "conduct disorder"
       }
     },
@@ -749,26 +754,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "aggression_to_people_and_animals": [
-          "Often bullies, threatens, or intimidates others",
-          "Often initiates physical fights",
-          "Has been physically cruel to people",
-          "Has been physically cruel to animals",
-          "Has stolen while confronting a victim"
-        ],
-        "destruction_of_property": [
-          "Has deliberately destroyed others' property",
-          "Has deliberately engaged in fire setting"
-        ],
-        "deceitfulness_or_theft": [
-          "Has broken into someone else's house",
-          "Often lies to obtain goods or favors",
-          "Has stolen items of nontrivial value"
-        ],
-        "serious_violations_of_rules": [
-          "Often stays out at night despite parental prohibitions",
-          "Has run away from home overnight at least twice",
-          "Is often truant from school"
+        "main_complaints": [
+          "Frequent physical aggression towards others",
+          "History of animal cruelty",
+          "Multiple arrests for assault",
+          "Property destruction",
+          "Fire setting behaviors",
+          "Breaking and entering",
+          "Chronic lying",
+          "Theft with confrontation",
+          "Chronic truancy",
+          "Running away from home",
+          "Substance use",
+          "Gang involvement",
+          "Lack of remorse",
+          "Poor impulse control",
+          "Defiance of authority"
         ],
         "duration": "3 years",
         "severity": "Severe",
@@ -823,6 +824,7 @@
           "Significant functional impairment",
           "Duration of more than 12 months"
         ],
+        "severity": "Severe conduct disorder",
         "disorder_name": "conduct disorder"
       }
     },
@@ -844,20 +846,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "aggression_to_people_and_animals": [
-          "Often bullies, threatens, or intimidates others",
-          "Often initiates physical fights"
-        ],
-        "destruction_of_property": [
-          "Has deliberately destroyed others' property"
-        ],
-        "deceitfulness_or_theft": [
-          "Often lies to obtain goods or favors",
-          "Has stolen items of nontrivial value"
-        ],
-        "serious_violations_of_rules": [
-          "Often stays out at night despite parental prohibitions",
-          "Is often truant from school"
+        "main_complaints": [
+          "Frequent bullying and intimidation",
+          "Physical fights with peers",
+          "Property destruction",
+          "Chronic lying",
+          "Theft of non-trivial items",
+          "Staying out past curfew",
+          "School truancy",
+          "Defiance of authority",
+          "Poor peer relationships",
+          "Lack of empathy",
+          "Impulsive behavior",
+          "Anger outbursts",
+          "Rule violations",
+          "Deceptive behavior",
+          "Academic difficulties"
         ],
         "duration": "1.5 years",
         "severity": "Moderate to severe",
@@ -912,6 +916,7 @@
           "Significant functional impairment",
           "Duration of more than 12 months"
         ],
+        "severity": "Moderate to severe conduct disorder",
         "disorder_name": "conduct disorder"
       }
     },
@@ -933,26 +938,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "aggression_to_people_and_animals": [
-          "Often bullies, threatens, or intimidates others",
-          "Often initiates physical fights",
-          "Has used a weapon that can cause serious physical harm",
-          "Has been physically cruel to people",
-          "Has stolen while confronting a victim"
-        ],
-        "destruction_of_property": [
-          "Has deliberately engaged in fire setting",
-          "Has deliberately destroyed others' property"
-        ],
-        "deceitfulness_or_theft": [
-          "Has broken into someone else's house",
-          "Often lies to obtain goods or favors",
-          "Has stolen items of nontrivial value"
-        ],
-        "serious_violations_of_rules": [
-          "Often stays out at night despite parental prohibitions",
-          "Has run away from home overnight at least twice",
-          "Is often truant from school"
+        "main_complaints": [
+          "Use of weapons in fights",
+          "Severe physical aggression",
+          "Animal cruelty",
+          "Property destruction",
+          "Fire setting",
+          "Breaking and entering",
+          "Chronic lying",
+          "Theft with confrontation",
+          "Chronic truancy",
+          "Running away from home",
+          "Substance use",
+          "Gang involvement",
+          "Lack of remorse",
+          "Poor impulse control",
+          "Defiance of authority"
         ],
         "duration": "4 years",
         "severity": "Severe",
@@ -1007,6 +1008,7 @@
           "Severe functional impairment",
           "Duration of more than 12 months"
         ],
+        "severity": "Severe conduct disorder",
         "disorder_name": "conduct disorder"
       }
     },
@@ -1028,20 +1030,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "aggression_to_people_and_animals": [
-          "Often bullies, threatens, or intimidates others",
-          "Often initiates physical fights"
-        ],
-        "destruction_of_property": [
-          "Has deliberately destroyed others' property"
-        ],
-        "deceitfulness_or_theft": [
-          "Often lies to obtain goods or favors",
-          "Has stolen items of nontrivial value"
-        ],
-        "serious_violations_of_rules": [
-          "Often stays out at night despite parental prohibitions",
-          "Is often truant from school"
+        "main_complaints": [
+          "Frequent bullying and intimidation",
+          "Physical fights with peers",
+          "Property destruction",
+          "Chronic lying",
+          "Theft of non-trivial items",
+          "Staying out past curfew",
+          "School truancy",
+          "Defiance of authority",
+          "Poor peer relationships",
+          "Lack of empathy",
+          "Impulsive behavior",
+          "Anger outbursts",
+          "Rule violations",
+          "Deceptive behavior",
+          "Academic difficulties"
         ],
         "duration": "1 year",
         "severity": "Moderate",
@@ -1096,6 +1100,7 @@
           "Significant functional impairment",
           "Duration of more than 12 months"
         ],
+        "severity": "Moderate conduct disorder",
         "disorder_name": "conduct disorder"
       }
     },
@@ -1117,21 +1122,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "aggression_to_people_and_animals": [
-          "Often bullies, threatens, or intimidates others",
-          "Often initiates physical fights"
-        ],
-        "destruction_of_property": [
-          "Has deliberately destroyed others' property",
-          "Has deliberately engaged in fire setting"
-        ],
-        "deceitfulness_or_theft": [
-          "Often lies to obtain goods or favors",
-          "Has stolen items of nontrivial value"
-        ],
-        "serious_violations_of_rules": [
-          "Often stays out at night despite parental prohibitions",
-          "Is often truant from school"
+        "main_complaints": [
+          "Frequent bullying and intimidation",
+          "Physical fights with peers",
+          "Property destruction",
+          "Fire setting",
+          "Chronic lying",
+          "Theft of non-trivial items",
+          "Staying out past curfew",
+          "School truancy",
+          "Defiance of authority",
+          "Poor peer relationships",
+          "Lack of empathy",
+          "Impulsive behavior",
+          "Anger outbursts",
+          "Rule violations",
+          "Deceptive behavior"
         ],
         "duration": "2 years",
         "severity": "Moderate to severe",
@@ -1186,6 +1192,7 @@
           "Significant functional impairment",
           "Duration of more than 12 months"
         ],
+        "severity": "Moderate to severe conduct disorder",
         "disorder_name": "conduct disorder"
       }
     },
@@ -1207,20 +1214,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "aggression_to_people_and_animals": [
-          "Often bullies, threatens, or intimidates others",
-          "Often initiates physical fights"
-        ],
-        "destruction_of_property": [
-          "Has deliberately destroyed others' property"
-        ],
-        "deceitfulness_or_theft": [
-          "Often lies to obtain goods or favors",
-          "Has stolen items of nontrivial value"
-        ],
-        "serious_violations_of_rules": [
-          "Often stays out at night despite parental prohibitions",
-          "Is often truant from school"
+        "main_complaints": [
+          "Frequent bullying and intimidation",
+          "Physical fights with peers",
+          "Property destruction",
+          "Chronic lying",
+          "Theft of non-trivial items",
+          "Staying out past curfew",
+          "School truancy",
+          "Defiance of authority",
+          "Poor peer relationships",
+          "Lack of empathy",
+          "Impulsive behavior",
+          "Anger outbursts",
+          "Rule violations",
+          "Deceptive behavior",
+          "Academic difficulties"
         ],
         "duration": "1.5 years",
         "severity": "Moderate",
@@ -1275,6 +1284,7 @@
           "Significant functional impairment",
           "Duration of more than 12 months"
         ],
+        "severity": "Moderate conduct disorder",
         "disorder_name": "conduct disorder"
       }
     },
@@ -1296,20 +1306,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "aggression_to_people_and_animals": [
-          "Sometimes bullies or threatens others",
-          "Occasionally initiates physical fights"
-        ],
-        "destruction_of_property": [
-          "Has occasionally damaged others' property"
-        ],
-        "deceitfulness_or_theft": [
-          "Sometimes lies to avoid trouble",
-          "Has occasionally taken small items"
-        ],
-        "serious_violations_of_rules": [
-          "Sometimes stays out late",
-          "Occasionally skips school"
+        "main_complaints": [
+          "Occasional bullying",
+          "Infrequent physical fights",
+          "Minor property damage",
+          "Occasional lying",
+          "Taking small items",
+          "Sometimes staying out late",
+          "Occasional school skipping",
+          "Mild defiance",
+          "Generally good peer relationships",
+          "Normal empathy",
+          "Occasional impulsivity",
+          "Rare anger outbursts",
+          "Infrequent rule violations",
+          "Occasional deceptive behavior",
+          "Generally good academic performance"
         ],
         "duration": "6 months",
         "severity": "Mild",
