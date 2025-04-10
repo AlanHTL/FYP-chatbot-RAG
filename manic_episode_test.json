@@ -1,0 +1,1144 @@
+{
+  "test_cases": [
+    {
+      "case_id": 1,
+      "patient_profile": {
+        "name": "Michael Chen",
+        "age": 28,
+        "gender": "Male",
+        "occupation": "Software Engineer"
+      },
+      "conversation_context": {
+        "setting": "Emergency Room",
+        "reason_for_visit": "Brought in by family due to extreme agitation and risky behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with parents",
+        "family_history": "Mother has bipolar disorder",
+        "medical_history": "No significant medical conditions, no current medications"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Extremely elevated mood",
+          "Decreased need for sleep",
+          "Racing thoughts",
+          "Increased goal-directed activity"
+        ],
+        "duration": "5 days",
+        "severity": "Severe",
+        "impact_on_life": "Significant impairment in social and occupational functioning",
+        "specific_examples": [
+          "Working 20 hours straight on coding projects",
+          "Spending excessive amounts of money online",
+          "Engaging in risky sexual behavior",
+          "Believing he has special powers to solve world problems"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Extremely elevated and irritable",
+        "thoughts": [
+          "I can solve all the world's problems",
+          "I don't need sleep, I'm superhuman",
+          "I have special powers that others don't understand"
+        ],
+        "feelings": [
+          "Euphoria",
+          "Grandiosity",
+          "Irritability"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working excessive hours",
+          "Engaging in risky behaviors",
+          "Spending money impulsively"
+        ],
+        "changes_in_routine": [
+          "Sleeping only 2-3 hours per night",
+          "Increased social media activity",
+          "Starting multiple projects simultaneously"
+        ],
+        "coping_mechanisms": [
+          "Denial of problems",
+          "Increased substance use",
+          "Risky behaviors"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Distinct period of abnormally elevated mood",
+          "Decreased need for sleep",
+          "Flight of ideas",
+          "Increase in goal-directed activity",
+          "Excessive involvement in risky activities"
+        ]
+      }
+    },
+    {
+      "case_id": 2,
+      "patient_profile": {
+        "name": "Sarah Johnson",
+        "age": 35,
+        "gender": "Female",
+        "occupation": "Marketing Executive"
+      },
+      "conversation_context": {
+        "setting": "Psychiatric Hospital",
+        "reason_for_visit": "Voluntary admission due to recognition of manic symptoms"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Father has bipolar disorder",
+        "medical_history": "History of depression, currently on antidepressants"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Elevated mood",
+          "Pressured speech",
+          "Increased energy",
+          "Decreased sleep"
+        ],
+        "duration": "7 days",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impairment in work and social functioning",
+        "specific_examples": [
+          "Working on multiple marketing campaigns simultaneously",
+          "Making impulsive business decisions",
+          "Increased social media presence",
+          "Starting multiple business ventures"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Elevated and expansive",
+        "thoughts": [
+          "I can revolutionize the marketing industry",
+          "I have unlimited creative energy",
+          "I'm destined for greatness"
+        ],
+        "feelings": [
+          "Euphoria",
+          "Confidence",
+          "Excitement"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working excessive hours",
+          "Starting new projects",
+          "Increased social engagement"
+        ],
+        "changes_in_routine": [
+          "Reduced sleep",
+          "Increased work activity",
+          "More social events"
+        ],
+        "coping_mechanisms": [
+          "Channeling energy into work",
+          "Seeking social interaction",
+          "Starting new projects"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Distinct period of elevated mood",
+          "More talkative than usual",
+          "Flight of ideas",
+          "Increase in goal-directed activity",
+          "Decreased need for sleep"
+        ]
+      }
+    },
+    {
+      "case_id": 3,
+      "patient_profile": {
+        "name": "David Rodriguez",
+        "age": 42,
+        "gender": "Male",
+        "occupation": "Business Owner"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Referred by family due to concerning behavior changes"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse and children",
+        "family_history": "No known psychiatric history",
+        "medical_history": "Hypertension, recently started new medication"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Irritable mood",
+          "Increased energy",
+          "Racing thoughts",
+          "Decreased sleep"
+        ],
+        "duration": "4 days",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on business and family life",
+        "specific_examples": [
+          "Making impulsive business decisions",
+          "Increased conflict with employees",
+          "Starting multiple business ventures",
+          "Engaging in risky investments"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and expansive",
+        "thoughts": [
+          "My business ideas are revolutionary",
+          "Others are holding me back",
+          "I need to expand rapidly"
+        ],
+        "feelings": [
+          "Irritability",
+          "Frustration",
+          "Excitement"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working excessive hours",
+          "Making impulsive decisions",
+          "Increased conflict with others"
+        ],
+        "changes_in_routine": [
+          "Reduced sleep",
+          "Increased work activity",
+          "More business meetings"
+        ],
+        "coping_mechanisms": [
+          "Channeling energy into work",
+          "Starting new projects",
+          "Increased social interaction"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Distinct period of irritable mood",
+          "Increased energy",
+          "Flight of ideas",
+          "Increase in goal-directed activity",
+          "Decreased need for sleep"
+        ]
+      }
+    },
+    {
+      "case_id": 4,
+      "patient_profile": {
+        "name": "Emily Thompson",
+        "age": 25,
+        "gender": "Female",
+        "occupation": "Graduate Student"
+      },
+      "conversation_context": {
+        "setting": "University Health Center",
+        "reason_for_visit": "Brought in by roommate due to concerning behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives in university housing",
+        "family_history": "Mother has bipolar disorder",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Elevated mood",
+          "Pressured speech",
+          "Increased energy",
+          "Decreased sleep"
+        ],
+        "duration": "6 days",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impairment in academic and social functioning",
+        "specific_examples": [
+          "Working on multiple research projects simultaneously",
+          "Starting multiple social media campaigns",
+          "Engaging in risky social behavior",
+          "Believing she can solve world problems"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Elevated and expansive",
+        "thoughts": [
+          "I can revolutionize my field",
+          "I have unlimited creative energy",
+          "I'm destined for greatness"
+        ],
+        "feelings": [
+          "Euphoria",
+          "Confidence",
+          "Excitement"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working excessive hours",
+          "Starting new projects",
+          "Increased social engagement"
+        ],
+        "changes_in_routine": [
+          "Reduced sleep",
+          "Increased academic activity",
+          "More social events"
+        ],
+        "coping_mechanisms": [
+          "Channeling energy into work",
+          "Seeking social interaction",
+          "Starting new projects"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Distinct period of elevated mood",
+          "More talkative than usual",
+          "Flight of ideas",
+          "Increase in goal-directed activity",
+          "Decreased need for sleep"
+        ]
+      }
+    },
+    {
+      "case_id": 5,
+      "patient_profile": {
+        "name": "James Wilson",
+        "age": 31,
+        "gender": "Male",
+        "occupation": "Artist"
+      },
+      "conversation_context": {
+        "setting": "Emergency Room",
+        "reason_for_visit": "Brought in by friends due to extreme behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with roommates",
+        "family_history": "No known psychiatric history",
+        "medical_history": "History of depression, recently stopped medications"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Extremely elevated mood",
+          "Pressured speech",
+          "Increased creativity",
+          "Decreased sleep"
+        ],
+        "duration": "5 days",
+        "severity": "Severe",
+        "impact_on_life": "Significant impairment in daily functioning",
+        "specific_examples": [
+          "Creating multiple art pieces simultaneously",
+          "Starting multiple art projects",
+          "Engaging in risky behavior",
+          "Believing he has special artistic powers"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Extremely elevated and expansive",
+        "thoughts": [
+          "I can create revolutionary art",
+          "I have unlimited creative energy",
+          "I'm destined for artistic greatness"
+        ],
+        "feelings": [
+          "Euphoria",
+          "Grandiosity",
+          "Excitement"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Creating art excessively",
+          "Starting new projects",
+          "Increased social engagement"
+        ],
+        "changes_in_routine": [
+          "Reduced sleep",
+          "Increased creative activity",
+          "More social events"
+        ],
+        "coping_mechanisms": [
+          "Channeling energy into art",
+          "Seeking social interaction",
+          "Starting new projects"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Distinct period of elevated mood",
+          "More talkative than usual",
+          "Flight of ideas",
+          "Increase in goal-directed activity",
+          "Decreased need for sleep"
+        ]
+      }
+    },
+    {
+      "case_id": 6,
+      "patient_profile": {
+        "name": "Lisa Chen",
+        "age": 29,
+        "gender": "Female",
+        "occupation": "Medical Resident"
+      },
+      "conversation_context": {
+        "setting": "Hospital",
+        "reason_for_visit": "Brought in by colleagues due to concerning behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Sister has bipolar disorder",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Elevated mood",
+          "Pressured speech",
+          "Increased energy",
+          "Decreased sleep"
+        ],
+        "duration": "4 days",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impairment in professional functioning",
+        "specific_examples": [
+          "Working excessive hours at hospital",
+          "Starting multiple research projects",
+          "Making impulsive medical decisions",
+          "Believing she has special medical insights"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Elevated and expansive",
+        "thoughts": [
+          "I can revolutionize medical practice",
+          "I have unlimited energy",
+          "I'm destined for medical greatness"
+        ],
+        "feelings": [
+          "Euphoria",
+          "Confidence",
+          "Excitement"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working excessive hours",
+          "Starting new projects",
+          "Increased professional engagement"
+        ],
+        "changes_in_routine": [
+          "Reduced sleep",
+          "Increased work activity",
+          "More professional meetings"
+        ],
+        "coping_mechanisms": [
+          "Channeling energy into work",
+          "Seeking professional interaction",
+          "Starting new projects"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Distinct period of elevated mood",
+          "More talkative than usual",
+          "Flight of ideas",
+          "Increase in goal-directed activity",
+          "Decreased need for sleep"
+        ]
+      }
+    },
+    {
+      "case_id": 7,
+      "patient_profile": {
+        "name": "Robert Martinez",
+        "age": 38,
+        "gender": "Male",
+        "occupation": "Entrepreneur"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred due to recognition of symptoms"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "Father has bipolar disorder",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Elevated mood",
+          "Pressured speech",
+          "Increased energy",
+          "Decreased sleep"
+        ],
+        "duration": "5 days",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on business and personal life",
+        "specific_examples": [
+          "Starting multiple business ventures",
+          "Making impulsive investments",
+          "Increased social media activity",
+          "Believing he has revolutionary business ideas"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Elevated and expansive",
+        "thoughts": [
+          "I can revolutionize the industry",
+          "I have unlimited business acumen",
+          "I'm destined for business greatness"
+        ],
+        "feelings": [
+          "Euphoria",
+          "Confidence",
+          "Excitement"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working excessive hours",
+          "Starting new ventures",
+          "Increased business engagement"
+        ],
+        "changes_in_routine": [
+          "Reduced sleep",
+          "Increased work activity",
+          "More business meetings"
+        ],
+        "coping_mechanisms": [
+          "Channeling energy into work",
+          "Seeking business opportunities",
+          "Starting new projects"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Distinct period of elevated mood",
+          "More talkative than usual",
+          "Flight of ideas",
+          "Increase in goal-directed activity",
+          "Decreased need for sleep"
+        ]
+      }
+    },
+    {
+      "case_id": 8,
+      "patient_profile": {
+        "name": "Jennifer Lee",
+        "age": 33,
+        "gender": "Female",
+        "occupation": "Lawyer"
+      },
+      "conversation_context": {
+        "setting": "Emergency Room",
+        "reason_for_visit": "Brought in by colleagues due to concerning behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Mother has bipolar disorder",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Elevated mood",
+          "Pressured speech",
+          "Increased energy",
+          "Decreased sleep"
+        ],
+        "duration": "6 days",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impairment in professional functioning",
+        "specific_examples": [
+          "Working excessive hours on cases",
+          "Starting multiple legal projects",
+          "Making impulsive legal decisions",
+          "Believing she has special legal insights"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Elevated and expansive",
+        "thoughts": [
+          "I can revolutionize legal practice",
+          "I have unlimited legal acumen",
+          "I'm destined for legal greatness"
+        ],
+        "feelings": [
+          "Euphoria",
+          "Confidence",
+          "Excitement"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working excessive hours",
+          "Starting new cases",
+          "Increased professional engagement"
+        ],
+        "changes_in_routine": [
+          "Reduced sleep",
+          "Increased work activity",
+          "More professional meetings"
+        ],
+        "coping_mechanisms": [
+          "Channeling energy into work",
+          "Seeking professional interaction",
+          "Starting new projects"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Distinct period of elevated mood",
+          "More talkative than usual",
+          "Flight of ideas",
+          "Increase in goal-directed activity",
+          "Decreased need for sleep"
+        ]
+      }
+    },
+    {
+      "case_id": 9,
+      "patient_profile": {
+        "name": "Thomas Anderson",
+        "age": 27,
+        "gender": "Male",
+        "occupation": "Musician"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Referred by band members due to concerning behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with band members",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Elevated mood",
+          "Pressured speech",
+          "Increased creativity",
+          "Decreased sleep"
+        ],
+        "duration": "5 days",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on musical career and personal life",
+        "specific_examples": [
+          "Writing multiple songs simultaneously",
+          "Starting multiple musical projects",
+          "Engaging in risky behavior",
+          "Believing he has special musical powers"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Elevated and expansive",
+        "thoughts": [
+          "I can revolutionize music",
+          "I have unlimited creative energy",
+          "I'm destined for musical greatness"
+        ],
+        "feelings": [
+          "Euphoria",
+          "Confidence",
+          "Excitement"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Creating music excessively",
+          "Starting new projects",
+          "Increased social engagement"
+        ],
+        "changes_in_routine": [
+          "Reduced sleep",
+          "Increased creative activity",
+          "More social events"
+        ],
+        "coping_mechanisms": [
+          "Channeling energy into music",
+          "Seeking social interaction",
+          "Starting new projects"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Distinct period of elevated mood",
+          "More talkative than usual",
+          "Flight of ideas",
+          "Increase in goal-directed activity",
+          "Decreased need for sleep"
+        ]
+      }
+    },
+    {
+      "case_id": 10,
+      "patient_profile": {
+        "name": "Maria Garcia",
+        "age": 36,
+        "gender": "Female",
+        "occupation": "Teacher"
+      },
+      "conversation_context": {
+        "setting": "School Health Center",
+        "reason_for_visit": "Referred by school administration due to concerning behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse and children",
+        "family_history": "Sister has bipolar disorder",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Elevated mood",
+          "Pressured speech",
+          "Increased energy",
+          "Decreased sleep"
+        ],
+        "duration": "4 days",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on teaching and family life",
+        "specific_examples": [
+          "Working excessive hours on lesson plans",
+          "Starting multiple educational projects",
+          "Making impulsive teaching decisions",
+          "Believing she has special teaching insights"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Elevated and expansive",
+        "thoughts": [
+          "I can revolutionize education",
+          "I have unlimited teaching energy",
+          "I'm destined for educational greatness"
+        ],
+        "feelings": [
+          "Euphoria",
+          "Confidence",
+          "Excitement"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working excessive hours",
+          "Starting new projects",
+          "Increased professional engagement"
+        ],
+        "changes_in_routine": [
+          "Reduced sleep",
+          "Increased work activity",
+          "More professional meetings"
+        ],
+        "coping_mechanisms": [
+          "Channeling energy into work",
+          "Seeking professional interaction",
+          "Starting new projects"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Distinct period of elevated mood",
+          "More talkative than usual",
+          "Flight of ideas",
+          "Increase in goal-directed activity",
+          "Decreased need for sleep"
+        ]
+      }
+    },
+    {
+      "case_id": 11,
+      "patient_profile": {
+        "name": "William Taylor",
+        "age": 32,
+        "gender": "Male",
+        "occupation": "Chef"
+      },
+      "conversation_context": {
+        "setting": "Restaurant",
+        "reason_for_visit": "Brought in by restaurant staff due to concerning behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Elevated mood",
+          "Pressured speech",
+          "Increased creativity",
+          "Decreased sleep"
+        ],
+        "duration": "5 days",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on culinary career and personal life",
+        "specific_examples": [
+          "Creating multiple new dishes simultaneously",
+          "Starting multiple culinary projects",
+          "Making impulsive menu decisions",
+          "Believing he has special culinary powers"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Elevated and expansive",
+        "thoughts": [
+          "I can revolutionize cuisine",
+          "I have unlimited creative energy",
+          "I'm destined for culinary greatness"
+        ],
+        "feelings": [
+          "Euphoria",
+          "Confidence",
+          "Excitement"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working excessive hours",
+          "Starting new projects",
+          "Increased professional engagement"
+        ],
+        "changes_in_routine": [
+          "Reduced sleep",
+          "Increased work activity",
+          "More professional meetings"
+        ],
+        "coping_mechanisms": [
+          "Channeling energy into work",
+          "Seeking professional interaction",
+          "Starting new projects"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Distinct period of elevated mood",
+          "More talkative than usual",
+          "Flight of ideas",
+          "Increase in goal-directed activity",
+          "Decreased need for sleep"
+        ]
+      }
+    },
+    {
+      "case_id": 12,
+      "patient_profile": {
+        "name": "Sophie Brown",
+        "age": 29,
+        "gender": "Female",
+        "occupation": "Fashion Designer"
+      },
+      "conversation_context": {
+        "setting": "Design Studio",
+        "reason_for_visit": "Brought in by colleagues due to concerning behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Mother has bipolar disorder",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Elevated mood",
+          "Pressured speech",
+          "Increased creativity",
+          "Decreased sleep"
+        ],
+        "duration": "6 days",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on design career and personal life",
+        "specific_examples": [
+          "Creating multiple design collections simultaneously",
+          "Starting multiple fashion projects",
+          "Making impulsive design decisions",
+          "Believing she has special design powers"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Elevated and expansive",
+        "thoughts": [
+          "I can revolutionize fashion",
+          "I have unlimited creative energy",
+          "I'm destined for design greatness"
+        ],
+        "feelings": [
+          "Euphoria",
+          "Confidence",
+          "Excitement"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working excessive hours",
+          "Starting new projects",
+          "Increased professional engagement"
+        ],
+        "changes_in_routine": [
+          "Reduced sleep",
+          "Increased work activity",
+          "More professional meetings"
+        ],
+        "coping_mechanisms": [
+          "Channeling energy into work",
+          "Seeking professional interaction",
+          "Starting new projects"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Distinct period of elevated mood",
+          "More talkative than usual",
+          "Flight of ideas",
+          "Increase in goal-directed activity",
+          "Decreased need for sleep"
+        ]
+      }
+    },
+    {
+      "case_id": 13,
+      "patient_profile": {
+        "name": "Daniel Kim",
+        "age": 34,
+        "gender": "Male",
+        "occupation": "Architect"
+      },
+      "conversation_context": {
+        "setting": "Architecture Firm",
+        "reason_for_visit": "Brought in by colleagues due to concerning behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Elevated mood",
+          "Pressured speech",
+          "Increased creativity",
+          "Decreased sleep"
+        ],
+        "duration": "5 days",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on architectural career and personal life",
+        "specific_examples": [
+          "Working on multiple building designs simultaneously",
+          "Starting multiple architectural projects",
+          "Making impulsive design decisions",
+          "Believing he has special architectural powers"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Elevated and expansive",
+        "thoughts": [
+          "I can revolutionize architecture",
+          "I have unlimited creative energy",
+          "I'm destined for architectural greatness"
+        ],
+        "feelings": [
+          "Euphoria",
+          "Confidence",
+          "Excitement"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working excessive hours",
+          "Starting new projects",
+          "Increased professional engagement"
+        ],
+        "changes_in_routine": [
+          "Reduced sleep",
+          "Increased work activity",
+          "More professional meetings"
+        ],
+        "coping_mechanisms": [
+          "Channeling energy into work",
+          "Seeking professional interaction",
+          "Starting new projects"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Distinct period of elevated mood",
+          "More talkative than usual",
+          "Flight of ideas",
+          "Increase in goal-directed activity",
+          "Decreased need for sleep"
+        ]
+      }
+    },
+    {
+      "case_id": 14,
+      "patient_profile": {
+        "name": "Rachel Wilson",
+        "age": 31,
+        "gender": "Female",
+        "occupation": "Journalist"
+      },
+      "conversation_context": {
+        "setting": "News Office",
+        "reason_for_visit": "Brought in by colleagues due to concerning behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Father has bipolar disorder",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Elevated mood",
+          "Pressured speech",
+          "Increased energy",
+          "Decreased sleep"
+        ],
+        "duration": "4 days",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on journalism career and personal life",
+        "specific_examples": [
+          "Working on multiple stories simultaneously",
+          "Starting multiple investigative projects",
+          "Making impulsive editorial decisions",
+          "Believing she has special journalistic insights"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Elevated and expansive",
+        "thoughts": [
+          "I can revolutionize journalism",
+          "I have unlimited creative energy",
+          "I'm destined for journalistic greatness"
+        ],
+        "feelings": [
+          "Euphoria",
+          "Confidence",
+          "Excitement"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working excessive hours",
+          "Starting new projects",
+          "Increased professional engagement"
+        ],
+        "changes_in_routine": [
+          "Reduced sleep",
+          "Increased work activity",
+          "More professional meetings"
+        ],
+        "coping_mechanisms": [
+          "Channeling energy into work",
+          "Seeking professional interaction",
+          "Starting new projects"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Distinct period of elevated mood",
+          "More talkative than usual",
+          "Flight of ideas",
+          "Increase in goal-directed activity",
+          "Decreased need for sleep"
+        ]
+      }
+    },
+    {
+      "case_id": 15,
+      "patient_profile": {
+        "name": "Alex Thompson",
+        "age": 28,
+        "gender": "Male",
+        "occupation": "Graduate Student"
+      },
+      "conversation_context": {
+        "setting": "University Health Center",
+        "reason_for_visit": "Self-referred due to recognition of symptoms"
+      },
+      "patient_background": {
+        "living_situation": "Lives with roommates",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mildly elevated mood",
+          "Slightly increased energy",
+          "Normal sleep pattern",
+          "Normal speech pattern"
+        ],
+        "duration": "2 days",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on academic and personal life",
+        "specific_examples": [
+          "Working slightly longer hours on thesis",
+          "Feeling more energetic than usual",
+          "Maintaining normal social interactions",
+          "No significant behavioral changes"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Slightly elevated",
+        "thoughts": [
+          "I'm feeling more energetic than usual",
+          "I'm making good progress on my work",
+          "I'm maintaining normal routines"
+        ],
+        "feelings": [
+          "Mild excitement",
+          "Normal confidence",
+          "Normal energy levels"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Maintaining normal work schedule",
+          "Normal social interactions",
+          "Regular sleep pattern"
+        ],
+        "changes_in_routine": [
+          "Slightly increased work activity",
+          "Normal social engagement",
+          "Regular sleep schedule"
+        ],
+        "coping_mechanisms": [
+          "Maintaining normal routines",
+          "Regular exercise",
+          "Balanced lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": false,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Normal mood fluctuations",
+          "No significant behavioral changes",
+          "Maintained normal functioning",
+          "Regular sleep pattern",
+          "No impairment in daily life"
+        ]
+      }
+    }
+  ]
+} 

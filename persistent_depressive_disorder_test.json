@@ -1,0 +1,1144 @@
+{
+  "test_cases": [
+    {
+      "case_id": 1,
+      "patient_profile": {
+        "name": "Sarah Chen",
+        "age": 35,
+        "gender": "Female",
+        "occupation": "Accountant"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred due to persistent low mood"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Mother has depression",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Persistent depressed mood",
+          "Low energy",
+          "Poor concentration",
+          "Feelings of hopelessness"
+        ],
+        "duration": "3 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work and social functioning",
+        "specific_examples": [
+          "Difficulty completing work tasks",
+          "Avoiding social situations",
+          "Struggling to maintain daily routines",
+          "Feeling overwhelmed by simple tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Persistently depressed",
+        "thoughts": [
+          "I'm not good enough",
+          "Things will never get better",
+          "I'm a burden to others"
+        ],
+        "feelings": [
+          "Hopelessness",
+          "Worthlessness",
+          "Fatigue"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Struggling to get out of bed",
+          "Minimal social interaction",
+          "Reduced work productivity"
+        ],
+        "changes_in_routine": [
+          "Irregular sleep pattern",
+          "Poor eating habits",
+          "Decreased physical activity"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Avoidance",
+          "Overworking to distract"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood for more than 2 years",
+          "Low energy",
+          "Poor concentration",
+          "Feelings of hopelessness",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 2,
+      "patient_profile": {
+        "name": "Michael Rodriguez",
+        "age": 42,
+        "gender": "Male",
+        "occupation": "Construction Worker"
+      },
+      "conversation_context": {
+        "setting": "Primary Care Clinic",
+        "reason_for_visit": "Referred by primary care physician for persistent fatigue and low mood"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse and children",
+        "family_history": "No known psychiatric history",
+        "medical_history": "Chronic back pain"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Persistent low mood",
+          "Chronic fatigue",
+          "Poor appetite",
+          "Low self-esteem"
+        ],
+        "duration": "2.5 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on work and family life",
+        "specific_examples": [
+          "Difficulty maintaining work schedule",
+          "Reduced involvement with family",
+          "Loss of interest in hobbies",
+          "Struggling with daily tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Persistently depressed",
+        "thoughts": [
+          "I can't provide for my family",
+          "I'm a failure",
+          "Life is meaningless"
+        ],
+        "feelings": [
+          "Guilt",
+          "Worthlessness",
+          "Exhaustion"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Reduced work hours",
+          "Minimal family interaction",
+          "Increased time alone"
+        ],
+        "changes_in_routine": [
+          "Irregular sleep pattern",
+          "Poor eating habits",
+          "Decreased physical activity"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Substance use",
+          "Avoidance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood for more than 2 years",
+          "Low energy",
+          "Poor appetite",
+          "Low self-esteem",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 3,
+      "patient_profile": {
+        "name": "Emily Thompson",
+        "age": 28,
+        "gender": "Female",
+        "occupation": "Teacher"
+      },
+      "conversation_context": {
+        "setting": "School Health Center",
+        "reason_for_visit": "Referred by school counselor due to persistent low mood and poor performance"
+      },
+      "patient_background": {
+        "living_situation": "Lives with roommate",
+        "family_history": "Sister has depression",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Persistent depressed mood",
+          "Difficulty concentrating",
+          "Low energy",
+          "Feelings of inadequacy"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on teaching and personal life",
+        "specific_examples": [
+          "Difficulty preparing lessons",
+          "Struggling to engage with students",
+          "Avoiding social situations",
+          "Reduced work performance"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Persistently depressed",
+        "thoughts": [
+          "I'm a terrible teacher",
+          "I can't connect with my students",
+          "I'm not good enough"
+        ],
+        "feelings": [
+          "Inadequacy",
+          "Hopelessness",
+          "Fatigue"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Minimal lesson preparation",
+          "Reduced student interaction",
+          "Avoiding staff meetings"
+        ],
+        "changes_in_routine": [
+          "Irregular sleep pattern",
+          "Poor eating habits",
+          "Decreased social activity"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Overworking",
+          "Avoidance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood for more than 2 years",
+          "Poor concentration",
+          "Low energy",
+          "Feelings of inadequacy",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 4,
+      "patient_profile": {
+        "name": "David Wilson",
+        "age": 45,
+        "gender": "Male",
+        "occupation": "Business Owner"
+      },
+      "conversation_context": {
+        "setting": "Private Practice",
+        "reason_for_visit": "Self-referred due to persistent low mood and business difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "Father had depression",
+        "medical_history": "Hypertension"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Persistent depressed mood",
+          "Low energy",
+          "Poor decision-making",
+          "Feelings of hopelessness"
+        ],
+        "duration": "2.5 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on business and personal life",
+        "specific_examples": [
+          "Difficulty making business decisions",
+          "Reduced work productivity",
+          "Avoiding social situations",
+          "Struggling with daily tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Persistently depressed",
+        "thoughts": [
+          "My business is failing",
+          "I'm a failure",
+          "Things will never improve"
+        ],
+        "feelings": [
+          "Hopelessness",
+          "Worthlessness",
+          "Exhaustion"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Reduced work hours",
+          "Avoiding business meetings",
+          "Minimal social interaction"
+        ],
+        "changes_in_routine": [
+          "Irregular sleep pattern",
+          "Poor eating habits",
+          "Decreased physical activity"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Avoidance",
+          "Overworking"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood for more than 2 years",
+          "Low energy",
+          "Poor decision-making",
+          "Feelings of hopelessness",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 5,
+      "patient_profile": {
+        "name": "Lisa Chen",
+        "age": 31,
+        "gender": "Female",
+        "occupation": "Software Engineer"
+      },
+      "conversation_context": {
+        "setting": "Employee Assistance Program",
+        "reason_for_visit": "Referred by supervisor due to persistent low mood and poor performance"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Mother has depression",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Persistent depressed mood",
+          "Difficulty concentrating",
+          "Low energy",
+          "Feelings of inadequacy"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Difficulty completing coding tasks",
+          "Avoiding team meetings",
+          "Reduced work productivity",
+          "Struggling with daily tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Persistently depressed",
+        "thoughts": [
+          "I'm not good enough at coding",
+          "I can't keep up with others",
+          "I'm a failure"
+        ],
+        "feelings": [
+          "Inadequacy",
+          "Hopelessness",
+          "Fatigue"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Reduced work productivity",
+          "Avoiding team interactions",
+          "Minimal social activity"
+        ],
+        "changes_in_routine": [
+          "Irregular sleep pattern",
+          "Poor eating habits",
+          "Decreased physical activity"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Overworking",
+          "Avoidance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood for more than 2 years",
+          "Poor concentration",
+          "Low energy",
+          "Feelings of inadequacy",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 6,
+      "patient_profile": {
+        "name": "James Martinez",
+        "age": 38,
+        "gender": "Male",
+        "occupation": "Chef"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred due to persistent low mood and work difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Persistent depressed mood",
+          "Low energy",
+          "Poor appetite",
+          "Feelings of hopelessness"
+        ],
+        "duration": "2.5 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Difficulty creating new dishes",
+          "Reduced work creativity",
+          "Avoiding social situations",
+          "Struggling with daily tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Persistently depressed",
+        "thoughts": [
+          "I've lost my passion for cooking",
+          "I'm not creative anymore",
+          "I'm a failure"
+        ],
+        "feelings": [
+          "Hopelessness",
+          "Worthlessness",
+          "Exhaustion"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Reduced work creativity",
+          "Minimal social interaction",
+          "Avoiding new challenges"
+        ],
+        "changes_in_routine": [
+          "Irregular sleep pattern",
+          "Poor eating habits",
+          "Decreased physical activity"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Avoidance",
+          "Overworking"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood for more than 2 years",
+          "Low energy",
+          "Poor appetite",
+          "Feelings of hopelessness",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 7,
+      "patient_profile": {
+        "name": "Rachel Kim",
+        "age": 29,
+        "gender": "Female",
+        "occupation": "Graduate Student"
+      },
+      "conversation_context": {
+        "setting": "University Health Center",
+        "reason_for_visit": "Self-referred due to persistent low mood and academic difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives with roommates",
+        "family_history": "Mother has depression",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Persistent depressed mood",
+          "Difficulty concentrating",
+          "Low energy",
+          "Feelings of inadequacy"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on academic and personal life",
+        "specific_examples": [
+          "Difficulty completing research",
+          "Avoiding academic meetings",
+          "Reduced academic productivity",
+          "Struggling with daily tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Persistently depressed",
+        "thoughts": [
+          "I'm not smart enough",
+          "I can't finish my degree",
+          "I'm a failure"
+        ],
+        "feelings": [
+          "Inadequacy",
+          "Hopelessness",
+          "Fatigue"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Reduced academic work",
+          "Avoiding academic meetings",
+          "Minimal social interaction"
+        ],
+        "changes_in_routine": [
+          "Irregular sleep pattern",
+          "Poor eating habits",
+          "Decreased physical activity"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Overworking",
+          "Avoidance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood for more than 2 years",
+          "Poor concentration",
+          "Low energy",
+          "Feelings of inadequacy",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 8,
+      "patient_profile": {
+        "name": "Thomas Anderson",
+        "age": 34,
+        "gender": "Male",
+        "occupation": "Lawyer"
+      },
+      "conversation_context": {
+        "setting": "Private Practice",
+        "reason_for_visit": "Self-referred due to persistent low mood and work difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Father had depression",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Persistent depressed mood",
+          "Low energy",
+          "Poor concentration",
+          "Feelings of hopelessness"
+        ],
+        "duration": "2.5 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Difficulty preparing cases",
+          "Avoiding client meetings",
+          "Reduced work productivity",
+          "Struggling with daily tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Persistently depressed",
+        "thoughts": [
+          "I'm not a good lawyer",
+          "I can't help my clients",
+          "I'm a failure"
+        ],
+        "feelings": [
+          "Hopelessness",
+          "Worthlessness",
+          "Exhaustion"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Reduced work hours",
+          "Avoiding client meetings",
+          "Minimal social interaction"
+        ],
+        "changes_in_routine": [
+          "Irregular sleep pattern",
+          "Poor eating habits",
+          "Decreased physical activity"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Avoidance",
+          "Overworking"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood for more than 2 years",
+          "Low energy",
+          "Poor concentration",
+          "Feelings of hopelessness",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 9,
+      "patient_profile": {
+        "name": "Sophie Brown",
+        "age": 27,
+        "gender": "Female",
+        "occupation": "Artist"
+      },
+      "conversation_context": {
+        "setting": "Community Mental Health Center",
+        "reason_for_visit": "Self-referred due to persistent low mood and creative block"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "Sister has depression",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Persistent depressed mood",
+          "Low energy",
+          "Loss of creativity",
+          "Feelings of inadequacy"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on creative work and personal life",
+        "specific_examples": [
+          "Difficulty creating new artwork",
+          "Avoiding gallery shows",
+          "Reduced creative productivity",
+          "Struggling with daily tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Persistently depressed",
+        "thoughts": [
+          "I've lost my creative spark",
+          "I'm not a real artist",
+          "I'm a failure"
+        ],
+        "feelings": [
+          "Inadequacy",
+          "Hopelessness",
+          "Fatigue"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Reduced creative work",
+          "Avoiding art shows",
+          "Minimal social interaction"
+        ],
+        "changes_in_routine": [
+          "Irregular sleep pattern",
+          "Poor eating habits",
+          "Decreased physical activity"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Avoidance",
+          "Overworking"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood for more than 2 years",
+          "Low energy",
+          "Loss of creativity",
+          "Feelings of inadequacy",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 10,
+      "patient_profile": {
+        "name": "Daniel Wilson",
+        "age": 39,
+        "gender": "Male",
+        "occupation": "Doctor"
+      },
+      "conversation_context": {
+        "setting": "Hospital Employee Health",
+        "reason_for_visit": "Self-referred due to persistent low mood and work difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse and children",
+        "family_history": "Mother has depression",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Persistent depressed mood",
+          "Low energy",
+          "Poor concentration",
+          "Feelings of inadequacy"
+        ],
+        "duration": "2.5 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work and family life",
+        "specific_examples": [
+          "Difficulty making medical decisions",
+          "Avoiding patient consultations",
+          "Reduced work productivity",
+          "Struggling with daily tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Persistently depressed",
+        "thoughts": [
+          "I'm not a good doctor",
+          "I can't help my patients",
+          "I'm a failure"
+        ],
+        "feelings": [
+          "Inadequacy",
+          "Hopelessness",
+          "Exhaustion"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Reduced work hours",
+          "Avoiding patient consultations",
+          "Minimal family interaction"
+        ],
+        "changes_in_routine": [
+          "Irregular sleep pattern",
+          "Poor eating habits",
+          "Decreased physical activity"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Avoidance",
+          "Overworking"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood for more than 2 years",
+          "Low energy",
+          "Poor concentration",
+          "Feelings of inadequacy",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 11,
+      "patient_profile": {
+        "name": "Maria Garcia",
+        "age": 32,
+        "gender": "Female",
+        "occupation": "Nurse"
+      },
+      "conversation_context": {
+        "setting": "Hospital Employee Health",
+        "reason_for_visit": "Referred by supervisor due to persistent low mood and work difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Persistent depressed mood",
+          "Low energy",
+          "Poor concentration",
+          "Feelings of inadequacy"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Difficulty completing patient care",
+          "Avoiding team meetings",
+          "Reduced work productivity",
+          "Struggling with daily tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Persistently depressed",
+        "thoughts": [
+          "I'm not a good nurse",
+          "I can't help my patients",
+          "I'm a failure"
+        ],
+        "feelings": [
+          "Inadequacy",
+          "Hopelessness",
+          "Exhaustion"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Reduced work productivity",
+          "Avoiding team meetings",
+          "Minimal social interaction"
+        ],
+        "changes_in_routine": [
+          "Irregular sleep pattern",
+          "Poor eating habits",
+          "Decreased physical activity"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Avoidance",
+          "Overworking"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood for more than 2 years",
+          "Low energy",
+          "Poor concentration",
+          "Feelings of inadequacy",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 12,
+      "patient_profile": {
+        "name": "William Taylor",
+        "age": 36,
+        "gender": "Male",
+        "occupation": "Engineer"
+      },
+      "conversation_context": {
+        "setting": "Employee Assistance Program",
+        "reason_for_visit": "Self-referred due to persistent low mood and work difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "Father had depression",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Persistent depressed mood",
+          "Low energy",
+          "Poor concentration",
+          "Feelings of inadequacy"
+        ],
+        "duration": "2.5 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Difficulty completing projects",
+          "Avoiding team meetings",
+          "Reduced work productivity",
+          "Struggling with daily tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Persistently depressed",
+        "thoughts": [
+          "I'm not a good engineer",
+          "I can't solve problems",
+          "I'm a failure"
+        ],
+        "feelings": [
+          "Inadequacy",
+          "Hopelessness",
+          "Exhaustion"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Reduced work productivity",
+          "Avoiding team meetings",
+          "Minimal social interaction"
+        ],
+        "changes_in_routine": [
+          "Irregular sleep pattern",
+          "Poor eating habits",
+          "Decreased physical activity"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Avoidance",
+          "Overworking"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood for more than 2 years",
+          "Low energy",
+          "Poor concentration",
+          "Feelings of inadequacy",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 13,
+      "patient_profile": {
+        "name": "Jennifer Lee",
+        "age": 30,
+        "gender": "Female",
+        "occupation": "Marketing Manager"
+      },
+      "conversation_context": {
+        "setting": "Private Practice",
+        "reason_for_visit": "Self-referred due to persistent low mood and work difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Mother has depression",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Persistent depressed mood",
+          "Low energy",
+          "Poor concentration",
+          "Feelings of inadequacy"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Difficulty managing team",
+          "Avoiding client meetings",
+          "Reduced work productivity",
+          "Struggling with daily tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Persistently depressed",
+        "thoughts": [
+          "I'm not a good manager",
+          "I can't lead my team",
+          "I'm a failure"
+        ],
+        "feelings": [
+          "Inadequacy",
+          "Hopelessness",
+          "Exhaustion"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Reduced work productivity",
+          "Avoiding team meetings",
+          "Minimal social interaction"
+        ],
+        "changes_in_routine": [
+          "Irregular sleep pattern",
+          "Poor eating habits",
+          "Decreased physical activity"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Avoidance",
+          "Overworking"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood for more than 2 years",
+          "Low energy",
+          "Poor concentration",
+          "Feelings of inadequacy",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 14,
+      "patient_profile": {
+        "name": "Robert Chen",
+        "age": 33,
+        "gender": "Male",
+        "occupation": "Architect"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred due to persistent low mood and work difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Persistent depressed mood",
+          "Low energy",
+          "Loss of creativity",
+          "Feelings of inadequacy"
+        ],
+        "duration": "2.5 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Difficulty designing buildings",
+          "Avoiding client meetings",
+          "Reduced work productivity",
+          "Struggling with daily tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Persistently depressed",
+        "thoughts": [
+          "I've lost my creative spark",
+          "I can't design anymore",
+          "I'm a failure"
+        ],
+        "feelings": [
+          "Inadequacy",
+          "Hopelessness",
+          "Exhaustion"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Reduced work productivity",
+          "Avoiding client meetings",
+          "Minimal social interaction"
+        ],
+        "changes_in_routine": [
+          "Irregular sleep pattern",
+          "Poor eating habits",
+          "Decreased physical activity"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Avoidance",
+          "Overworking"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood for more than 2 years",
+          "Low energy",
+          "Loss of creativity",
+          "Feelings of inadequacy",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 15,
+      "patient_profile": {
+        "name": "Alex Thompson",
+        "age": 25,
+        "gender": "Male",
+        "occupation": "Graduate Student"
+      },
+      "conversation_context": {
+        "setting": "University Health Center",
+        "reason_for_visit": "Self-referred due to mild mood changes"
+      },
+      "patient_background": {
+        "living_situation": "Lives with roommates",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Occasional low mood",
+          "Normal energy levels",
+          "Good concentration",
+          "Normal self-esteem"
+        ],
+        "duration": "6 months",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on academic and personal life",
+        "specific_examples": [
+          "Normal academic performance",
+          "Regular social interactions",
+          "Maintained daily routines",
+          "No significant difficulties"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Generally positive with occasional low mood",
+        "thoughts": [
+          "I'm doing well in my studies",
+          "I have good relationships",
+          "I'm capable of handling challenges"
+        ],
+        "feelings": [
+          "Generally positive",
+          "Normal energy levels",
+          "Good self-esteem"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Regular academic work",
+          "Normal social interactions",
+          "Maintained hobbies"
+        ],
+        "changes_in_routine": [
+          "Regular sleep pattern",
+          "Healthy eating habits",
+          "Regular physical activity"
+        ],
+        "coping_mechanisms": [
+          "Healthy lifestyle",
+          "Social support",
+          "Regular exercise"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": false,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Normal mood fluctuations",
+          "No significant functional impairment",
+          "Healthy coping mechanisms",
+          "Regular daily routines",
+          "Good social support"
+        ]
+      }
+    }
+  ]
+} 

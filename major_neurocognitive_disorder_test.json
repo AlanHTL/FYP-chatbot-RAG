@@ -1,0 +1,1114 @@
+{
+  "test_cases": [
+    {
+      "case_id": 1,
+      "patient_profile": {
+        "name": "William Anderson",
+        "age": 72,
+        "gender": "Male",
+        "occupation": "Retired Professor"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Family concerned about significant memory loss and confusion"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "Mother had dementia",
+        "medical_history": "Hypertension, controlled with medication"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't remember recent events",
+          "Getting lost in familiar places",
+          "Difficulty managing finances"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Unable to drive, needs assistance with daily tasks",
+        "specific_examples": [
+          "Forgetting recent conversations",
+          "Getting lost while driving",
+          "Making errors in checkbook"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Frustrated and anxious",
+        "thoughts": [
+          "I'm losing my mind",
+          "I can't trust my memory",
+          "I'm becoming a burden"
+        ],
+        "feelings": [
+          "Frustrated",
+          "Anxious",
+          "Embarrassed"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Struggling with routine tasks",
+          "Repeating questions",
+          "Wandering aimlessly"
+        ],
+        "changes_in_routine": [
+          "Lost ability to drive",
+          "Needs help with finances",
+          "Difficulty with hygiene"
+        ],
+        "coping_mechanisms": [
+          "Denial",
+          "Withdrawal",
+          "Dependency on spouse"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significant cognitive decline",
+          "Interferes with independence",
+          "Not due to delirium",
+          "Not better explained by other disorders",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 2,
+      "patient_profile": {
+        "name": "Margaret Chen",
+        "age": 68,
+        "gender": "Female",
+        "occupation": "Retired Nurse"
+      },
+      "conversation_context": {
+        "setting": "Neurology clinic",
+        "reason_for_visit": "Progressive memory loss and language difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives with daughter",
+        "family_history": "No known dementia history",
+        "medical_history": "Diabetes, well-controlled"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't find right words",
+          "Forgetting how to do things",
+          "Getting confused easily"
+        ],
+        "duration": "3 years",
+        "severity": "Severe",
+        "impact_on_life": "Requires full-time care, can't live independently",
+        "specific_examples": [
+          "Word-finding difficulties",
+          "Forgetting how to cook",
+          "Getting lost at home"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Confused and agitated",
+        "thoughts": [
+          "I can't express myself",
+          "Everything is confusing",
+          "I don't know what's happening"
+        ],
+        "feelings": [
+          "Confused",
+          "Frustrated",
+          "Scared"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Struggling with communication",
+          "Needing constant supervision",
+          "Wandering at night"
+        ],
+        "changes_in_routine": [
+          "Lost ability to cook",
+          "Needs help dressing",
+          "Sleep pattern disruption"
+        ],
+        "coping_mechanisms": [
+          "Withdrawal",
+          "Agitation",
+          "Dependency"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significant cognitive decline",
+          "Language impairment",
+          "Loss of independence",
+          "Not due to delirium",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 3,
+      "patient_profile": {
+        "name": "Robert Wilson",
+        "age": 75,
+        "gender": "Male",
+        "occupation": "Retired Engineer"
+      },
+      "conversation_context": {
+        "setting": "Geriatric clinic",
+        "reason_for_visit": "Progressive memory loss and behavioral changes"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "Father had Alzheimer's",
+        "medical_history": "Heart disease, stable"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't remember recent events",
+          "Difficulty with spatial tasks",
+          "Personality changes"
+        ],
+        "duration": "4 years",
+        "severity": "Severe",
+        "impact_on_life": "Unable to manage daily activities, needs supervision",
+        "specific_examples": [
+          "Forgetting recent conversations",
+          "Getting lost in neighborhood",
+          "Uncharacteristic anger outbursts"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and confused",
+        "thoughts": [
+          "I'm losing control",
+          "Everything is unfamiliar",
+          "I can't trust my mind"
+        ],
+        "feelings": [
+          "Angry",
+          "Confused",
+          "Frightened"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Wandering aimlessly",
+          "Repeating questions",
+          "Sundowning behavior"
+        ],
+        "changes_in_routine": [
+          "Lost ability to drive",
+          "Needs help with hygiene",
+          "Sleep pattern disruption"
+        ],
+        "coping_mechanisms": [
+          "Agitation",
+          "Wandering",
+          "Denial"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significant cognitive decline",
+          "Behavioral changes",
+          "Loss of independence",
+          "Not due to delirium",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 4,
+      "patient_profile": {
+        "name": "Sarah Martinez",
+        "age": 70,
+        "gender": "Female",
+        "occupation": "Retired Teacher"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Progressive memory loss and confusion"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "Mother had dementia",
+        "medical_history": "Depression, treated"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't remember recent events",
+          "Difficulty with daily tasks",
+          "Getting confused easily"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate",
+        "impact_on_life": "Needs help with daily activities, can't drive",
+        "specific_examples": [
+          "Forgetting appointments",
+          "Struggling with cooking",
+          "Getting lost while driving"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and depressed",
+        "thoughts": [
+          "I'm losing my mind",
+          "I can't do anything right",
+          "I'm becoming a burden"
+        ],
+        "feelings": [
+          "Sad",
+          "Anxious",
+          "Frustrated"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Struggling with routine tasks",
+          "Repeating questions",
+          "Avoiding social situations"
+        ],
+        "changes_in_routine": [
+          "Lost ability to drive",
+          "Needs help with cooking",
+          "Social withdrawal"
+        ],
+        "coping_mechanisms": [
+          "Withdrawal",
+          "Denial",
+          "Dependency"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significant cognitive decline",
+          "Interferes with independence",
+          "Not due to delirium",
+          "Not better explained by depression",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 5,
+      "patient_profile": {
+        "name": "James Thompson",
+        "age": 78,
+        "gender": "Male",
+        "occupation": "Retired Business Owner"
+      },
+      "conversation_context": {
+        "setting": "Neurology clinic",
+        "reason_for_visit": "Progressive memory loss and executive function decline"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known dementia history",
+        "medical_history": "Stroke 2 years ago"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't manage finances",
+          "Difficulty with planning",
+          "Memory problems"
+        ],
+        "duration": "3 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Unable to manage business affairs, needs supervision",
+        "specific_examples": [
+          "Making poor financial decisions",
+          "Can't plan daily activities",
+          "Forgetting recent events"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Frustrated and anxious",
+        "thoughts": [
+          "I can't make decisions",
+          "I'm losing control",
+          "I can't trust my judgment"
+        ],
+        "feelings": [
+          "Frustrated",
+          "Anxious",
+          "Inadequate"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Struggling with decision-making",
+          "Repeating questions",
+          "Avoiding complex tasks"
+        ],
+        "changes_in_routine": [
+          "Lost ability to manage finances",
+          "Needs help with planning",
+          "Social withdrawal"
+        ],
+        "coping_mechanisms": [
+          "Denial",
+          "Withdrawal",
+          "Dependency"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significant cognitive decline",
+          "Executive function impairment",
+          "Loss of independence",
+          "Not due to stroke alone",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 6,
+      "patient_profile": {
+        "name": "Elizabeth Brown",
+        "age": 82,
+        "gender": "Female",
+        "occupation": "Retired Librarian"
+      },
+      "conversation_context": {
+        "setting": "Geriatric clinic",
+        "reason_for_visit": "Progressive memory loss and language difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives in assisted living",
+        "family_history": "Sister had dementia",
+        "medical_history": "Hypothyroidism, treated"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't find words",
+          "Forgetting how to do things",
+          "Getting confused easily"
+        ],
+        "duration": "4 years",
+        "severity": "Severe",
+        "impact_on_life": "Requires full-time care, can't live independently",
+        "specific_examples": [
+          "Word-finding difficulties",
+          "Forgetting how to use phone",
+          "Getting lost in facility"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Confused and agitated",
+        "thoughts": [
+          "I can't express myself",
+          "Everything is confusing",
+          "I don't know what's happening"
+        ],
+        "feelings": [
+          "Confused",
+          "Frustrated",
+          "Scared"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Struggling with communication",
+          "Needing constant supervision",
+          "Wandering at night"
+        ],
+        "changes_in_routine": [
+          "Lost ability to read",
+          "Needs help with dressing",
+          "Sleep pattern disruption"
+        ],
+        "coping_mechanisms": [
+          "Withdrawal",
+          "Agitation",
+          "Dependency"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significant cognitive decline",
+          "Language impairment",
+          "Loss of independence",
+          "Not due to delirium",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 7,
+      "patient_profile": {
+        "name": "David Lee",
+        "age": 76,
+        "gender": "Male",
+        "occupation": "Retired Doctor"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Progressive memory loss and executive function decline"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known dementia history",
+        "medical_history": "Parkinson's disease"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't remember medical knowledge",
+          "Difficulty with decision-making",
+          "Getting confused easily"
+        ],
+        "duration": "3 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Unable to practice medicine, needs supervision",
+        "specific_examples": [
+          "Forgetting medical procedures",
+          "Making poor decisions",
+          "Getting lost in hospital"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Depressed and anxious",
+        "thoughts": [
+          "I've lost my expertise",
+          "I can't trust my judgment",
+          "I'm becoming a burden"
+        ],
+        "feelings": [
+          "Sad",
+          "Anxious",
+          "Frustrated"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Struggling with complex tasks",
+          "Repeating questions",
+          "Avoiding medical discussions"
+        ],
+        "changes_in_routine": [
+          "Lost ability to practice medicine",
+          "Needs help with decisions",
+          "Social withdrawal"
+        ],
+        "coping_mechanisms": [
+          "Denial",
+          "Withdrawal",
+          "Dependency"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significant cognitive decline",
+          "Executive function impairment",
+          "Loss of independence",
+          "Not due to Parkinson's alone",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 8,
+      "patient_profile": {
+        "name": "Patricia Garcia",
+        "age": 74,
+        "gender": "Female",
+        "occupation": "Retired Artist"
+      },
+      "conversation_context": {
+        "setting": "Neurology clinic",
+        "reason_for_visit": "Progressive memory loss and visual-spatial difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives with daughter",
+        "family_history": "Mother had dementia",
+        "medical_history": "Glaucoma, treated"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't draw anymore",
+          "Getting lost easily",
+          "Forgetting recent events"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate",
+        "impact_on_life": "Unable to create art, needs help with navigation",
+        "specific_examples": [
+          "Lost artistic ability",
+          "Getting lost in neighborhood",
+          "Forgetting recent conversations"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Frustrated and sad",
+        "thoughts": [
+          "I've lost my creativity",
+          "I can't find my way",
+          "I'm losing myself"
+        ],
+        "feelings": [
+          "Sad",
+          "Frustrated",
+          "Lost"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Struggling with spatial tasks",
+          "Avoiding art creation",
+          "Getting lost frequently"
+        ],
+        "changes_in_routine": [
+          "Lost ability to create art",
+          "Needs help with navigation",
+          "Social withdrawal"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Withdrawal",
+          "Dependency"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significant cognitive decline",
+          "Visual-spatial impairment",
+          "Loss of independence",
+          "Not due to glaucoma alone",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 9,
+      "patient_profile": {
+        "name": "Richard Wilson",
+        "age": 79,
+        "gender": "Male",
+        "occupation": "Retired Accountant"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Progressive memory loss and calculation difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known dementia history",
+        "medical_history": "Diabetes, well-controlled"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't do math anymore",
+          "Forgetting recent events",
+          "Getting confused easily"
+        ],
+        "duration": "3 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Unable to manage finances, needs supervision",
+        "specific_examples": [
+          "Making calculation errors",
+          "Forgetting recent conversations",
+          "Getting lost while driving"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and frustrated",
+        "thoughts": [
+          "I can't trust my calculations",
+          "I'm losing my mind",
+          "I can't do anything right"
+        ],
+        "feelings": [
+          "Frustrated",
+          "Anxious",
+          "Inadequate"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding financial tasks",
+          "Repeating questions",
+          "Getting lost frequently"
+        ],
+        "changes_in_routine": [
+          "Lost ability to manage finances",
+          "Needs help with calculations",
+          "Social withdrawal"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Denial",
+          "Dependency"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significant cognitive decline",
+          "Calculation impairment",
+          "Loss of independence",
+          "Not due to diabetes alone",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 10,
+      "patient_profile": {
+        "name": "Mary Johnson",
+        "age": 71,
+        "gender": "Female",
+        "occupation": "Retired Teacher"
+      },
+      "conversation_context": {
+        "setting": "Geriatric clinic",
+        "reason_for_visit": "Progressive memory loss and language difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "Sister has dementia",
+        "medical_history": "Depression, treated"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't remember words",
+          "Forgetting how to do things",
+          "Getting confused easily"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate",
+        "impact_on_life": "Unable to teach, needs help with communication",
+        "specific_examples": [
+          "Word-finding difficulties",
+          "Forgetting how to use appliances",
+          "Getting lost in familiar places"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Frustrated and anxious",
+        "thoughts": [
+          "I can't express myself",
+          "I'm losing my abilities",
+          "I'm becoming a burden"
+        ],
+        "feelings": [
+          "Frustrated",
+          "Anxious",
+          "Sad"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Struggling with communication",
+          "Avoiding complex tasks",
+          "Getting lost frequently"
+        ],
+        "changes_in_routine": [
+          "Lost ability to teach",
+          "Needs help with communication",
+          "Social withdrawal"
+        ],
+        "coping_mechanisms": [
+          "Withdrawal",
+          "Avoidance",
+          "Dependency"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significant cognitive decline",
+          "Language impairment",
+          "Loss of independence",
+          "Not due to depression alone",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 11,
+      "patient_profile": {
+        "name": "Thomas Anderson",
+        "age": 77,
+        "gender": "Male",
+        "occupation": "Retired Lawyer"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Progressive memory loss and executive function decline"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known dementia history",
+        "medical_history": "Heart disease, stable"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't understand legal documents",
+          "Difficulty with decision-making",
+          "Forgetting recent events"
+        ],
+        "duration": "3 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Unable to practice law, needs supervision",
+        "specific_examples": [
+          "Making poor legal decisions",
+          "Forgetting recent conversations",
+          "Getting lost while driving"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Depressed and anxious",
+        "thoughts": [
+          "I've lost my expertise",
+          "I can't trust my judgment",
+          "I'm becoming a burden"
+        ],
+        "feelings": [
+          "Sad",
+          "Anxious",
+          "Frustrated"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding legal documents",
+          "Repeating questions",
+          "Getting lost frequently"
+        ],
+        "changes_in_routine": [
+          "Lost ability to practice law",
+          "Needs help with decisions",
+          "Social withdrawal"
+        ],
+        "coping_mechanisms": [
+          "Denial",
+          "Withdrawal",
+          "Dependency"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significant cognitive decline",
+          "Executive function impairment",
+          "Loss of independence",
+          "Not due to heart disease alone",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 12,
+      "patient_profile": {
+        "name": "Susan White",
+        "age": 73,
+        "gender": "Female",
+        "occupation": "Retired Nurse"
+      },
+      "conversation_context": {
+        "setting": "Neurology clinic",
+        "reason_for_visit": "Progressive memory loss and executive function decline"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "Mother had dementia",
+        "medical_history": "Hypothyroidism, treated"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't remember medical procedures",
+          "Difficulty with planning",
+          "Getting confused easily"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate",
+        "impact_on_life": "Unable to provide medical care, needs supervision",
+        "specific_examples": [
+          "Forgetting medical procedures",
+          "Making poor decisions",
+          "Getting lost in hospital"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and frustrated",
+        "thoughts": [
+          "I've lost my medical knowledge",
+          "I can't trust my judgment",
+          "I'm becoming a burden"
+        ],
+        "feelings": [
+          "Frustrated",
+          "Anxious",
+          "Sad"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding medical tasks",
+          "Repeating questions",
+          "Getting lost frequently"
+        ],
+        "changes_in_routine": [
+          "Lost ability to provide medical care",
+          "Needs help with planning",
+          "Social withdrawal"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Withdrawal",
+          "Dependency"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significant cognitive decline",
+          "Executive function impairment",
+          "Loss of independence",
+          "Not due to hypothyroidism alone",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 13,
+      "patient_profile": {
+        "name": "Robert Martinez",
+        "age": 76,
+        "gender": "Male",
+        "occupation": "Retired Engineer"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Progressive memory loss and visual-spatial difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known dementia history",
+        "medical_history": "Glaucoma, treated"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't understand blueprints",
+          "Difficulty with spatial tasks",
+          "Forgetting recent events"
+        ],
+        "duration": "3 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Unable to work with technical drawings, needs supervision",
+        "specific_examples": [
+          "Making spatial errors",
+          "Forgetting recent conversations",
+          "Getting lost while driving"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Frustrated and anxious",
+        "thoughts": [
+          "I've lost my technical skills",
+          "I can't trust my judgment",
+          "I'm becoming a burden"
+        ],
+        "feelings": [
+          "Frustrated",
+          "Anxious",
+          "Sad"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding technical tasks",
+          "Repeating questions",
+          "Getting lost frequently"
+        ],
+        "changes_in_routine": [
+          "Lost ability to work with drawings",
+          "Needs help with spatial tasks",
+          "Social withdrawal"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Withdrawal",
+          "Dependency"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significant cognitive decline",
+          "Visual-spatial impairment",
+          "Loss of independence",
+          "Not due to glaucoma alone",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 14,
+      "patient_profile": {
+        "name": "Linda Thompson",
+        "age": 75,
+        "gender": "Female",
+        "occupation": "Retired Artist"
+      },
+      "conversation_context": {
+        "setting": "Geriatric clinic",
+        "reason_for_visit": "Progressive memory loss and visual-spatial difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "Mother had dementia",
+        "medical_history": "Depression, treated"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't paint anymore",
+          "Difficulty with spatial tasks",
+          "Forgetting recent events"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate",
+        "impact_on_life": "Unable to create art, needs supervision",
+        "specific_examples": [
+          "Lost artistic ability",
+          "Getting lost in neighborhood",
+          "Forgetting recent conversations"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Depressed and anxious",
+        "thoughts": [
+          "I've lost my creativity",
+          "I can't trust my judgment",
+          "I'm becoming a burden"
+        ],
+        "feelings": [
+          "Sad",
+          "Anxious",
+          "Frustrated"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding art creation",
+          "Repeating questions",
+          "Getting lost frequently"
+        ],
+        "changes_in_routine": [
+          "Lost ability to create art",
+          "Needs help with spatial tasks",
+          "Social withdrawal"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Withdrawal",
+          "Dependency"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significant cognitive decline",
+          "Visual-spatial impairment",
+          "Loss of independence",
+          "Not due to depression alone",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 15,
+      "patient_profile": {
+        "name": "John Davis",
+        "age": 72,
+        "gender": "Male",
+        "occupation": "Retired Professor"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Concerns about memory and concentration"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known dementia history",
+        "medical_history": "Depression, treated"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Occasional forgetfulness",
+          "Mild concentration issues",
+          "Some word-finding difficulties"
+        ],
+        "duration": "6 months",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on daily activities",
+        "specific_examples": [
+          "Occasionally forgetting names",
+          "Mild difficulty finding words",
+          "Normal aging changes"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious but hopeful",
+        "thoughts": [
+          "This might be normal aging",
+          "I'm still functioning well",
+          "I'll adapt to these changes"
+        ],
+        "feelings": [
+          "Anxious",
+          "Hopeful",
+          "Adaptive"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Maintaining normal routine",
+          "Using memory aids",
+          "Staying active"
+        ],
+        "changes_in_routine": [
+          "Using calendar more",
+          "Taking more notes",
+          "Maintaining activities"
+        ],
+        "coping_mechanisms": [
+          "Memory aids",
+          "Organization",
+          "Active lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": false,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Normal aging changes",
+          "Minimal functional impact",
+          "Maintained independence",
+          "No significant decline",
+          "Normal test results"
+        ]
+      }
+    }
+  ]
+} 

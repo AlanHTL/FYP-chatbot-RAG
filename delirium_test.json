@@ -1,0 +1,1114 @@
+{
+  "test_cases": [
+    {
+      "case_id": 1,
+      "patient_profile": {
+        "name": "James Wilson",
+        "age": 78,
+        "gender": "Male",
+        "occupation": "Retired"
+      },
+      "conversation_context": {
+        "setting": "Hospital emergency room",
+        "reason_for_visit": "Sudden onset of confusion and agitation following surgery"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known psychiatric history",
+        "medical_history": "Recent hip replacement surgery, hypertension"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Severe confusion",
+          "Inability to focus",
+          "Agitation"
+        ],
+        "duration": "24 hours",
+        "severity": "Severe",
+        "impact_on_life": "Unable to communicate effectively, requires constant supervision",
+        "specific_examples": [
+          "Cannot maintain attention for more than a few seconds",
+          "Fluctuating levels of consciousness",
+          "Disoriented to time and place"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Agitated and fearful",
+        "thoughts": [
+          "I don't know where I am",
+          "People are trying to harm me",
+          "I need to get out of here"
+        ],
+        "feelings": [
+          "Fear",
+          "Confusion",
+          "Agitation"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Unable to complete basic tasks",
+          "Wandering aimlessly",
+          "Attempting to remove medical devices"
+        ],
+        "changes_in_routine": [
+          "Complete disruption of normal routine",
+          "Inability to recognize family members",
+          "Sleep-wake cycle disturbance"
+        ],
+        "coping_mechanisms": [
+          "Resistance to care",
+          "Physical agitation",
+          "Attempts to escape"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Disturbance in attention and awareness",
+          "Rapid development",
+          "Fluctuating severity",
+          "Additional cognitive disturbance",
+          "Evidence of medical cause (post-surgical)"
+        ]
+      }
+    },
+    {
+      "case_id": 2,
+      "patient_profile": {
+        "name": "Maria Rodriguez",
+        "age": 82,
+        "gender": "Female",
+        "occupation": "Retired"
+      },
+      "conversation_context": {
+        "setting": "Nursing home",
+        "reason_for_visit": "Sudden onset of confusion and disorientation"
+      },
+      "patient_background": {
+        "living_situation": "Resident in nursing home",
+        "family_history": "No known psychiatric history",
+        "medical_history": "UTI, dehydration"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Severe confusion",
+          "Inability to focus",
+          "Sleep disturbance"
+        ],
+        "duration": "48 hours",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Unable to participate in daily activities, requires increased supervision",
+        "specific_examples": [
+          "Difficulty maintaining attention",
+          "Inconsistent responses to questions",
+          "Disoriented to time and place"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Confused and anxious",
+        "thoughts": [
+          "I don't know what's happening",
+          "I want to go home",
+          "I'm scared"
+        ],
+        "feelings": [
+          "Fear",
+          "Confusion",
+          "Anxiety"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Unable to participate in activities",
+          "Wandering at night",
+          "Inconsistent sleep pattern"
+        ],
+        "changes_in_routine": [
+          "Disruption of normal schedule",
+          "Inability to recognize staff",
+          "Sleep-wake cycle disturbance"
+        ],
+        "coping_mechanisms": [
+          "Withdrawal",
+          "Restlessness",
+          "Attempts to leave"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Disturbance in attention and awareness",
+          "Rapid development",
+          "Fluctuating severity",
+          "Additional cognitive disturbance",
+          "Evidence of medical cause (UTI, dehydration)"
+        ]
+      }
+    },
+    {
+      "case_id": 3,
+      "patient_profile": {
+        "name": "Robert Thompson",
+        "age": 65,
+        "gender": "Male",
+        "occupation": "Retired"
+      },
+      "conversation_context": {
+        "setting": "Hospital",
+        "reason_for_visit": "Post-operative confusion and agitation"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known psychiatric history",
+        "medical_history": "Recent cardiac surgery, diabetes"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Severe confusion",
+          "Inability to focus",
+          "Agitation"
+        ],
+        "duration": "36 hours",
+        "severity": "Severe",
+        "impact_on_life": "Unable to communicate effectively, requires constant supervision",
+        "specific_examples": [
+          "Cannot maintain attention",
+          "Fluctuating consciousness",
+          "Disoriented to time and place"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Agitated and fearful",
+        "thoughts": [
+          "I need to get out of here",
+          "People are trying to hurt me",
+          "I don't know what's happening"
+        ],
+        "feelings": [
+          "Fear",
+          "Agitation",
+          "Confusion"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Unable to complete basic tasks",
+          "Attempting to remove medical devices",
+          "Physical agitation"
+        ],
+        "changes_in_routine": [
+          "Complete disruption of normal routine",
+          "Inability to recognize family",
+          "Sleep-wake cycle disturbance"
+        ],
+        "coping_mechanisms": [
+          "Resistance to care",
+          "Physical agitation",
+          "Attempts to escape"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Disturbance in attention and awareness",
+          "Rapid development",
+          "Fluctuating severity",
+          "Additional cognitive disturbance",
+          "Evidence of medical cause (post-cardiac surgery)"
+        ]
+      }
+    },
+    {
+      "case_id": 4,
+      "patient_profile": {
+        "name": "Sarah Chen",
+        "age": 75,
+        "gender": "Female",
+        "occupation": "Retired"
+      },
+      "conversation_context": {
+        "setting": "Hospital",
+        "reason_for_visit": "Sudden onset of confusion following medication change"
+      },
+      "patient_background": {
+        "living_situation": "Lives with daughter",
+        "family_history": "No known psychiatric history",
+        "medical_history": "Recent medication changes, hypertension"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Confusion",
+          "Difficulty focusing",
+          "Sleep disturbance"
+        ],
+        "duration": "24 hours",
+        "severity": "Moderate",
+        "impact_on_life": "Unable to participate in daily activities, requires supervision",
+        "specific_examples": [
+          "Difficulty maintaining attention",
+          "Inconsistent responses",
+          "Disoriented to time"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Confused and anxious",
+        "thoughts": [
+          "I don't understand what's happening",
+          "I feel strange",
+          "I'm scared"
+        ],
+        "feelings": [
+          "Confusion",
+          "Anxiety",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Unable to complete tasks",
+          "Wandering at night",
+          "Inconsistent sleep pattern"
+        ],
+        "changes_in_routine": [
+          "Disruption of normal schedule",
+          "Inability to recognize familiar people",
+          "Sleep-wake cycle disturbance"
+        ],
+        "coping_mechanisms": [
+          "Withdrawal",
+          "Restlessness",
+          "Confusion"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Disturbance in attention and awareness",
+          "Rapid development",
+          "Fluctuating severity",
+          "Additional cognitive disturbance",
+          "Evidence of medical cause (medication change)"
+        ]
+      }
+    },
+    {
+      "case_id": 5,
+      "patient_profile": {
+        "name": "John Davis",
+        "age": 70,
+        "gender": "Male",
+        "occupation": "Retired"
+      },
+      "conversation_context": {
+        "setting": "Hospital",
+        "reason_for_visit": "Post-operative confusion and disorientation"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known psychiatric history",
+        "medical_history": "Recent knee replacement surgery, COPD"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Severe confusion",
+          "Inability to focus",
+          "Agitation"
+        ],
+        "duration": "48 hours",
+        "severity": "Severe",
+        "impact_on_life": "Unable to communicate effectively, requires constant supervision",
+        "specific_examples": [
+          "Cannot maintain attention",
+          "Fluctuating consciousness",
+          "Disoriented to time and place"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Agitated and fearful",
+        "thoughts": [
+          "I need to leave",
+          "People are trying to harm me",
+          "I don't know where I am"
+        ],
+        "feelings": [
+          "Fear",
+          "Agitation",
+          "Confusion"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Unable to complete basic tasks",
+          "Attempting to remove medical devices",
+          "Physical agitation"
+        ],
+        "changes_in_routine": [
+          "Complete disruption of normal routine",
+          "Inability to recognize family",
+          "Sleep-wake cycle disturbance"
+        ],
+        "coping_mechanisms": [
+          "Resistance to care",
+          "Physical agitation",
+          "Attempts to escape"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Disturbance in attention and awareness",
+          "Rapid development",
+          "Fluctuating severity",
+          "Additional cognitive disturbance",
+          "Evidence of medical cause (post-surgery)"
+        ]
+      }
+    },
+    {
+      "case_id": 6,
+      "patient_profile": {
+        "name": "Emily White",
+        "age": 85,
+        "gender": "Female",
+        "occupation": "Retired"
+      },
+      "conversation_context": {
+        "setting": "Hospital",
+        "reason_for_visit": "Sudden onset of confusion following infection"
+      },
+      "patient_background": {
+        "living_situation": "Lives in assisted living",
+        "family_history": "No known psychiatric history",
+        "medical_history": "Pneumonia, dehydration"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Severe confusion",
+          "Inability to focus",
+          "Sleep disturbance"
+        ],
+        "duration": "72 hours",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Unable to participate in daily activities, requires increased supervision",
+        "specific_examples": [
+          "Difficulty maintaining attention",
+          "Inconsistent responses",
+          "Disoriented to time and place"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Confused and anxious",
+        "thoughts": [
+          "I don't know what's happening",
+          "I want to go home",
+          "I'm scared"
+        ],
+        "feelings": [
+          "Confusion",
+          "Anxiety",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Unable to complete tasks",
+          "Wandering at night",
+          "Inconsistent sleep pattern"
+        ],
+        "changes_in_routine": [
+          "Disruption of normal schedule",
+          "Inability to recognize staff",
+          "Sleep-wake cycle disturbance"
+        ],
+        "coping_mechanisms": [
+          "Withdrawal",
+          "Restlessness",
+          "Confusion"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Disturbance in attention and awareness",
+          "Rapid development",
+          "Fluctuating severity",
+          "Additional cognitive disturbance",
+          "Evidence of medical cause (pneumonia, dehydration)"
+        ]
+      }
+    },
+    {
+      "case_id": 7,
+      "patient_profile": {
+        "name": "Michael Brown",
+        "age": 68,
+        "gender": "Male",
+        "occupation": "Retired"
+      },
+      "conversation_context": {
+        "setting": "Hospital",
+        "reason_for_visit": "Post-operative confusion and agitation"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known psychiatric history",
+        "medical_history": "Recent abdominal surgery, diabetes"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Severe confusion",
+          "Inability to focus",
+          "Agitation"
+        ],
+        "duration": "36 hours",
+        "severity": "Severe",
+        "impact_on_life": "Unable to communicate effectively, requires constant supervision",
+        "specific_examples": [
+          "Cannot maintain attention",
+          "Fluctuating consciousness",
+          "Disoriented to time and place"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Agitated and fearful",
+        "thoughts": [
+          "I need to get out of here",
+          "People are trying to hurt me",
+          "I don't know what's happening"
+        ],
+        "feelings": [
+          "Fear",
+          "Agitation",
+          "Confusion"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Unable to complete basic tasks",
+          "Attempting to remove medical devices",
+          "Physical agitation"
+        ],
+        "changes_in_routine": [
+          "Complete disruption of normal routine",
+          "Inability to recognize family",
+          "Sleep-wake cycle disturbance"
+        ],
+        "coping_mechanisms": [
+          "Resistance to care",
+          "Physical agitation",
+          "Attempts to escape"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Disturbance in attention and awareness",
+          "Rapid development",
+          "Fluctuating severity",
+          "Additional cognitive disturbance",
+          "Evidence of medical cause (post-surgery)"
+        ]
+      }
+    },
+    {
+      "case_id": 8,
+      "patient_profile": {
+        "name": "Patricia Lee",
+        "age": 80,
+        "gender": "Female",
+        "occupation": "Retired"
+      },
+      "conversation_context": {
+        "setting": "Hospital",
+        "reason_for_visit": "Sudden onset of confusion following medication interaction"
+      },
+      "patient_background": {
+        "living_situation": "Lives with son",
+        "family_history": "No known psychiatric history",
+        "medical_history": "Recent medication changes, heart disease"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Confusion",
+          "Difficulty focusing",
+          "Sleep disturbance"
+        ],
+        "duration": "24 hours",
+        "severity": "Moderate",
+        "impact_on_life": "Unable to participate in daily activities, requires supervision",
+        "specific_examples": [
+          "Difficulty maintaining attention",
+          "Inconsistent responses",
+          "Disoriented to time"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Confused and anxious",
+        "thoughts": [
+          "I don't understand what's happening",
+          "I feel strange",
+          "I'm scared"
+        ],
+        "feelings": [
+          "Confusion",
+          "Anxiety",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Unable to complete tasks",
+          "Wandering at night",
+          "Inconsistent sleep pattern"
+        ],
+        "changes_in_routine": [
+          "Disruption of normal schedule",
+          "Inability to recognize familiar people",
+          "Sleep-wake cycle disturbance"
+        ],
+        "coping_mechanisms": [
+          "Withdrawal",
+          "Restlessness",
+          "Confusion"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Disturbance in attention and awareness",
+          "Rapid development",
+          "Fluctuating severity",
+          "Additional cognitive disturbance",
+          "Evidence of medical cause (medication interaction)"
+        ]
+      }
+    },
+    {
+      "case_id": 9,
+      "patient_profile": {
+        "name": "William Anderson",
+        "age": 72,
+        "gender": "Male",
+        "occupation": "Retired"
+      },
+      "conversation_context": {
+        "setting": "Hospital",
+        "reason_for_visit": "Post-operative confusion and disorientation"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known psychiatric history",
+        "medical_history": "Recent prostate surgery, hypertension"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Severe confusion",
+          "Inability to focus",
+          "Agitation"
+        ],
+        "duration": "48 hours",
+        "severity": "Severe",
+        "impact_on_life": "Unable to communicate effectively, requires constant supervision",
+        "specific_examples": [
+          "Cannot maintain attention",
+          "Fluctuating consciousness",
+          "Disoriented to time and place"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Agitated and fearful",
+        "thoughts": [
+          "I need to leave",
+          "People are trying to harm me",
+          "I don't know where I am"
+        ],
+        "feelings": [
+          "Fear",
+          "Agitation",
+          "Confusion"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Unable to complete basic tasks",
+          "Attempting to remove medical devices",
+          "Physical agitation"
+        ],
+        "changes_in_routine": [
+          "Complete disruption of normal routine",
+          "Inability to recognize family",
+          "Sleep-wake cycle disturbance"
+        ],
+        "coping_mechanisms": [
+          "Resistance to care",
+          "Physical agitation",
+          "Attempts to escape"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Disturbance in attention and awareness",
+          "Rapid development",
+          "Fluctuating severity",
+          "Additional cognitive disturbance",
+          "Evidence of medical cause (post-surgery)"
+        ]
+      }
+    },
+    {
+      "case_id": 10,
+      "patient_profile": {
+        "name": "Margaret Chen",
+        "age": 88,
+        "gender": "Female",
+        "occupation": "Retired"
+      },
+      "conversation_context": {
+        "setting": "Hospital",
+        "reason_for_visit": "Sudden onset of confusion following infection"
+      },
+      "patient_background": {
+        "living_situation": "Lives in nursing home",
+        "family_history": "No known psychiatric history",
+        "medical_history": "UTI, dehydration"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Severe confusion",
+          "Inability to focus",
+          "Sleep disturbance"
+        ],
+        "duration": "24 hours",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Unable to participate in daily activities, requires increased supervision",
+        "specific_examples": [
+          "Difficulty maintaining attention",
+          "Inconsistent responses",
+          "Disoriented to time and place"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Confused and anxious",
+        "thoughts": [
+          "I don't know what's happening",
+          "I want to go home",
+          "I'm scared"
+        ],
+        "feelings": [
+          "Confusion",
+          "Anxiety",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Unable to complete tasks",
+          "Wandering at night",
+          "Inconsistent sleep pattern"
+        ],
+        "changes_in_routine": [
+          "Disruption of normal schedule",
+          "Inability to recognize staff",
+          "Sleep-wake cycle disturbance"
+        ],
+        "coping_mechanisms": [
+          "Withdrawal",
+          "Restlessness",
+          "Confusion"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Disturbance in attention and awareness",
+          "Rapid development",
+          "Fluctuating severity",
+          "Additional cognitive disturbance",
+          "Evidence of medical cause (UTI, dehydration)"
+        ]
+      }
+    },
+    {
+      "case_id": 11,
+      "patient_profile": {
+        "name": "Thomas Wilson",
+        "age": 75,
+        "gender": "Male",
+        "occupation": "Retired"
+      },
+      "conversation_context": {
+        "setting": "Hospital",
+        "reason_for_visit": "Post-operative confusion and agitation"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known psychiatric history",
+        "medical_history": "Recent hip surgery, COPD"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Severe confusion",
+          "Inability to focus",
+          "Agitation"
+        ],
+        "duration": "36 hours",
+        "severity": "Severe",
+        "impact_on_life": "Unable to communicate effectively, requires constant supervision",
+        "specific_examples": [
+          "Cannot maintain attention",
+          "Fluctuating consciousness",
+          "Disoriented to time and place"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Agitated and fearful",
+        "thoughts": [
+          "I need to get out of here",
+          "People are trying to hurt me",
+          "I don't know what's happening"
+        ],
+        "feelings": [
+          "Fear",
+          "Agitation",
+          "Confusion"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Unable to complete basic tasks",
+          "Attempting to remove medical devices",
+          "Physical agitation"
+        ],
+        "changes_in_routine": [
+          "Complete disruption of normal routine",
+          "Inability to recognize family",
+          "Sleep-wake cycle disturbance"
+        ],
+        "coping_mechanisms": [
+          "Resistance to care",
+          "Physical agitation",
+          "Attempts to escape"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Disturbance in attention and awareness",
+          "Rapid development",
+          "Fluctuating severity",
+          "Additional cognitive disturbance",
+          "Evidence of medical cause (post-surgery)"
+        ]
+      }
+    },
+    {
+      "case_id": 12,
+      "patient_profile": {
+        "name": "Elizabeth Martinez",
+        "age": 82,
+        "gender": "Female",
+        "occupation": "Retired"
+      },
+      "conversation_context": {
+        "setting": "Hospital",
+        "reason_for_visit": "Sudden onset of confusion following medication change"
+      },
+      "patient_background": {
+        "living_situation": "Lives with daughter",
+        "family_history": "No known psychiatric history",
+        "medical_history": "Recent medication changes, heart disease"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Confusion",
+          "Difficulty focusing",
+          "Sleep disturbance"
+        ],
+        "duration": "24 hours",
+        "severity": "Moderate",
+        "impact_on_life": "Unable to participate in daily activities, requires supervision",
+        "specific_examples": [
+          "Difficulty maintaining attention",
+          "Inconsistent responses",
+          "Disoriented to time"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Confused and anxious",
+        "thoughts": [
+          "I don't understand what's happening",
+          "I feel strange",
+          "I'm scared"
+        ],
+        "feelings": [
+          "Confusion",
+          "Anxiety",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Unable to complete tasks",
+          "Wandering at night",
+          "Inconsistent sleep pattern"
+        ],
+        "changes_in_routine": [
+          "Disruption of normal schedule",
+          "Inability to recognize familiar people",
+          "Sleep-wake cycle disturbance"
+        ],
+        "coping_mechanisms": [
+          "Withdrawal",
+          "Restlessness",
+          "Confusion"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Disturbance in attention and awareness",
+          "Rapid development",
+          "Fluctuating severity",
+          "Additional cognitive disturbance",
+          "Evidence of medical cause (medication change)"
+        ]
+      }
+    },
+    {
+      "case_id": 13,
+      "patient_profile": {
+        "name": "Richard Thompson",
+        "age": 69,
+        "gender": "Male",
+        "occupation": "Retired"
+      },
+      "conversation_context": {
+        "setting": "Hospital",
+        "reason_for_visit": "Post-operative confusion and disorientation"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known psychiatric history",
+        "medical_history": "Recent knee surgery, diabetes"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Severe confusion",
+          "Inability to focus",
+          "Agitation"
+        ],
+        "duration": "48 hours",
+        "severity": "Severe",
+        "impact_on_life": "Unable to communicate effectively, requires constant supervision",
+        "specific_examples": [
+          "Cannot maintain attention",
+          "Fluctuating consciousness",
+          "Disoriented to time and place"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Agitated and fearful",
+        "thoughts": [
+          "I need to leave",
+          "People are trying to harm me",
+          "I don't know where I am"
+        ],
+        "feelings": [
+          "Fear",
+          "Agitation",
+          "Confusion"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Unable to complete basic tasks",
+          "Attempting to remove medical devices",
+          "Physical agitation"
+        ],
+        "changes_in_routine": [
+          "Complete disruption of normal routine",
+          "Inability to recognize family",
+          "Sleep-wake cycle disturbance"
+        ],
+        "coping_mechanisms": [
+          "Resistance to care",
+          "Physical agitation",
+          "Attempts to escape"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Disturbance in attention and awareness",
+          "Rapid development",
+          "Fluctuating severity",
+          "Additional cognitive disturbance",
+          "Evidence of medical cause (post-surgery)"
+        ]
+      }
+    },
+    {
+      "case_id": 14,
+      "patient_profile": {
+        "name": "Susan Lee",
+        "age": 85,
+        "gender": "Female",
+        "occupation": "Retired"
+      },
+      "conversation_context": {
+        "setting": "Hospital",
+        "reason_for_visit": "Sudden onset of confusion following infection"
+      },
+      "patient_background": {
+        "living_situation": "Lives in assisted living",
+        "family_history": "No known psychiatric history",
+        "medical_history": "Pneumonia, dehydration"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Severe confusion",
+          "Inability to focus",
+          "Sleep disturbance"
+        ],
+        "duration": "24 hours",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Unable to participate in daily activities, requires increased supervision",
+        "specific_examples": [
+          "Difficulty maintaining attention",
+          "Inconsistent responses",
+          "Disoriented to time and place"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Confused and anxious",
+        "thoughts": [
+          "I don't know what's happening",
+          "I want to go home",
+          "I'm scared"
+        ],
+        "feelings": [
+          "Confusion",
+          "Anxiety",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Unable to complete tasks",
+          "Wandering at night",
+          "Inconsistent sleep pattern"
+        ],
+        "changes_in_routine": [
+          "Disruption of normal schedule",
+          "Inability to recognize staff",
+          "Sleep-wake cycle disturbance"
+        ],
+        "coping_mechanisms": [
+          "Withdrawal",
+          "Restlessness",
+          "Confusion"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Disturbance in attention and awareness",
+          "Rapid development",
+          "Fluctuating severity",
+          "Additional cognitive disturbance",
+          "Evidence of medical cause (pneumonia, dehydration)"
+        ]
+      }
+    },
+    {
+      "case_id": 15,
+      "patient_profile": {
+        "name": "David Anderson",
+        "age": 70,
+        "gender": "Male",
+        "occupation": "Retired"
+      },
+      "conversation_context": {
+        "setting": "Hospital",
+        "reason_for_visit": "Normal post-operative recovery with expected temporary confusion"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known psychiatric history",
+        "medical_history": "Recent minor surgery, well-controlled hypertension"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild confusion",
+          "Temporary disorientation",
+          "Normal post-operative fatigue"
+        ],
+        "duration": "12 hours",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on daily activities",
+        "specific_examples": [
+          "Brief periods of confusion",
+          "Normal post-operative drowsiness",
+          "Expected temporary disorientation"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Calm and oriented",
+        "thoughts": [
+          "I understand what's happening",
+          "This is normal after surgery",
+          "I'll feel better soon"
+        ],
+        "feelings": [
+          "Calm",
+          "Understanding",
+          "Hopeful"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Maintaining normal routine",
+          "Following medical instructions",
+          "Adequate rest"
+        ],
+        "changes_in_routine": [
+          "Expected post-operative changes",
+          "Normal recovery process",
+          "Appropriate rest periods"
+        ],
+        "coping_mechanisms": [
+          "Following medical advice",
+          "Adequate rest",
+          "Family support"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": false,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Normal post-operative recovery",
+          "Expected temporary confusion",
+          "No significant disturbance",
+          "Normal recovery process",
+          "No medical complications"
+        ]
+      }
+    }
+  ]
+} 

@@ -1,0 +1,375 @@
+{
+  "mental_disorders": [
+    {
+      "name": "Major Neurocognitive Disorder",
+      "diagnostic_criteria": {
+        "A": {
+          "description": "Significant cognitive decline from a previous level of performance in one or more cognitive domains",
+          "criteria": [
+            "The individual, informant, or clinician has noted significant decline in cognitive function",
+            "The decline is documented by standardized neuropsychological testing or another quantified clinical assessment"
+          ]
+        },
+        "B": "The cognitive deficits interfere with independence in everyday activities",
+        "C": "The cognitive deficits do not occur exclusively in the context of a delirium",
+        "D": "The cognitive deficits are not better explained by another mental disorder"
+      }
+    },
+    {
+      "name": "Mild Neurocognitive Disorder",
+      "diagnostic_criteria": {
+        "A": {
+          "description": "Modest cognitive decline from a previous level of performance in one or more cognitive domains",
+          "criteria": [
+            "The individual, informant, or clinician has noted mild decline in cognitive function",
+            "The decline is documented by standardized neuropsychological testing or another quantified clinical assessment"
+          ]
+        },
+        "B": "The cognitive deficits do not interfere with independence in everyday activities",
+        "C": "The cognitive deficits do not occur exclusively in the context of a delirium",
+        "D": "The cognitive deficits are not better explained by another mental disorder"
+      }
+    },
+    {
+      "name": "Delirium",
+      "diagnostic_criteria": {
+        "A": "Disturbance in attention and awareness",
+        "B": "The disturbance develops over a short period of time, represents a change from baseline attention and awareness, and tends to fluctuate in severity during the course of a day",
+        "C": "An additional disturbance in cognition",
+        "D": "The disturbances in Criteria A and C are not better explained by another preexisting, established, or evolving neurocognitive disorder",
+        "E": "There is evidence from the history, physical examination, or laboratory findings that the disturbance is a direct physiological consequence of another medical condition, substance intoxication or withdrawal, or exposure to a toxin"
+      }
+    },
+    {
+      "name": "Schizophrenia",
+      "diagnostic_criteria": {
+        "A": {
+          "description": "Two (or more) of the following symptoms, each present for a significant portion of time during a 1-month period, with at least one being delusions, hallucinations, or disorganized speech",
+          "symptoms": [
+            "Delusions",
+            "Hallucinations",
+            "Disorganized speech",
+            "Grossly disorganized or catatonic behavior",
+            "Negative symptoms"
+          ]
+        },
+        "B": "For a significant portion of the time since the onset of the disturbance, level of functioning in one or more major areas is markedly below the level achieved prior to the onset",
+        "C": "Continuous signs of the disturbance persist for at least 6 months",
+        "D": "Schizoaffective disorder and depressive or bipolar disorder with psychotic features have been ruled out",
+        "E": "The disturbance is not attributable to the physiological effects of a substance or another medical condition",
+        "F": "If there is a history of autism spectrum disorder or a communication disorder of childhood onset, the additional diagnosis of schizophrenia is made only if prominent delusions or hallucinations are also present for at least 1 month"
+      }
+    },
+    {
+      "name": "Major Depressive Disorder",
+      "diagnostic_criteria": {
+        "A": {
+          "description": "Five (or more) of the following symptoms have been present during the same 2-week period and represent a change from previous functioning; at least one of the symptoms is either depressed mood or loss of interest or pleasure",
+          "symptoms": [
+            "Depressed mood most of the day, nearly every day",
+            "Markedly diminished interest or pleasure in all, or almost all, activities most of the day, nearly every day",
+            "Significant weight loss or gain",
+            "Insomnia or hypersomnia nearly every day",
+            "Psychomotor agitation or retardation nearly every day",
+            "Fatigue or loss of energy nearly every day",
+            "Feelings of worthlessness or excessive or inappropriate guilt nearly every day",
+            "Diminished ability to think or concentrate, or indecisiveness, nearly every day",
+            "Recurrent thoughts of death, recurrent suicidal ideation without a specific plan, or a suicide attempt or a specific plan for committing suicide"
+          ]
+        },
+        "B": "The symptoms cause clinically significant distress or impairment in social, occupational, or other important areas of functioning",
+        "C": "The episode is not attributable to the physiological effects of a substance or another medical condition",
+        "D": "The occurrence of the major depressive episode is not better explained by schizoaffective disorder, schizophrenia, schizophreniform disorder, delusional disorder, or other specified and unspecified schizophrenia spectrum and other psychotic disorders",
+        "E": "There has never been a manic episode or a hypomanic episode"
+      }
+    },
+    {
+      "name": "Manic Episode",
+      "diagnostic_criteria": {
+        "A": "A distinct period of abnormally and persistently elevated, expansive, or irritable mood and abnormally and persistently increased goal-directed activity or energy, lasting at least 1 week",
+        "B": {
+          "description": "During the period of mood disturbance and increased energy or activity, three (or more) of the following symptoms have persisted",
+          "symptoms": [
+            "Inflated self-esteem or grandiosity",
+            "Decreased need for sleep",
+            "More talkative than usual or pressure to keep talking",
+            "Flight of ideas or subjective experience that thoughts are racing",
+            "Distractibility",
+            "Increase in goal-directed activity or psychomotor agitation",
+            "Excessive involvement in activities that have a high potential for painful consequences"
+          ]
+        },
+        "C": "The mood disturbance is sufficiently severe to cause marked impairment in social or occupational functioning or to necessitate hospitalization",
+        "D": "The episode is not attributable to the physiological effects of a substance or another medical condition"
+      }
+    },
+    {
+      "name": "Persistent Depressive Disorder",
+      "diagnostic_criteria": {
+        "A": "Depressed mood for most of the day, for more days than not, for at least 2 years",
+        "B": {
+          "description": "While depressed, the person experiences two (or more) of the following",
+          "symptoms": [
+            "Poor appetite or overeating",
+            "Insomnia or hypersomnia",
+            "Low energy or fatigue",
+            "Low self-esteem",
+            "Poor concentration or difficulty making decisions",
+            "Feelings of hopelessness"
+          ]
+        },
+        "C": "During the 2-year period of the disturbance, the individual has never been without the symptoms in Criteria A and B for more than 2 months at a time",
+        "D": "Criteria for a major depressive disorder may be continuously present for 2 years",
+        "E": "There has never been a manic episode or a hypomanic episode",
+        "F": "The disturbance is not better explained by a persistent schizoaffective disorder, schizophrenia, delusional disorder, or other specified or unspecified schizophrenia spectrum and other psychotic disorder",
+        "G": "The symptoms are not attributable to the physiological effects of a substance or another medical condition",
+        "H": "The symptoms cause clinically significant distress or impairment in social, occupational, or other important areas of functioning"
+      }
+    },
+    {
+      "name": "Obsessive-Compulsive Disorder",
+      "diagnostic_criteria": {
+        "A": {
+          "obsessions": {
+            "description": "Recurrent and persistent thoughts, urges, or images",
+            "criteria": [
+              "The thoughts, urges, or images are intrusive and unwanted",
+              "The individual attempts to ignore or suppress such thoughts, urges, or images",
+              "The thoughts, urges, or images cause marked anxiety or distress"
+            ]
+          },
+          "compulsions": {
+            "description": "Repetitive behaviors or mental acts",
+            "criteria": [
+              "The behaviors or mental acts are aimed at preventing or reducing anxiety or distress",
+              "The behaviors or mental acts are not connected in a realistic way with what they are designed to neutralize or prevent",
+              "The behaviors or mental acts are clearly excessive"
+            ]
+          }
+        },
+        "B": "The obsessions or compulsions are time-consuming or cause clinically significant distress or impairment in social, occupational, or other important areas of functioning",
+        "C": "The obsessive-compulsive symptoms are not attributable to the physiological effects of a substance or another medical condition",
+        "D": "The disturbance is not better explained by the symptoms of another mental disorder"
+      }
+    },
+    {
+      "name": "Generalized Anxiety Disorder",
+      "diagnostic_criteria": {
+        "A": "Excessive anxiety and worry occurring more days than not for at least 6 months, about a number of events or activities",
+        "B": "The individual finds it difficult to control the worry",
+        "C": {
+          "description": "The anxiety and worry are associated with three (or more) of the following six symptoms",
+          "symptoms": [
+            "Restlessness or feeling keyed up or on edge",
+            "Being easily fatigued",
+            "Difficulty concentrating or mind going blank",
+            "Irritability",
+            "Muscle tension",
+            "Sleep disturbance"
+          ]
+        },
+        "D": "The anxiety, worry, or physical symptoms cause clinically significant distress or impairment in social, occupational, or other important areas of functioning",
+        "E": "The disturbance is not attributable to the physiological effects of a substance or another medical condition",
+        "F": "The disturbance is not better explained by another mental disorder"
+      }
+    },
+    {
+      "name": "Panic Disorder",
+      "diagnostic_criteria": {
+        "A": {
+          "description": "Recurrent unexpected panic attacks with four (or more) of the following symptoms",
+          "symptoms": [
+            "Palpitations, pounding heart, or accelerated heart rate",
+            "Sweating",
+            "Trembling or shaking",
+            "Sensations of shortness of breath or smothering",
+            "Feelings of choking",
+            "Chest pain or discomfort",
+            "Nausea or abdominal distress",
+            "Feeling dizzy, unsteady, light-headed, or faint",
+            "Chills or heat sensations",
+            "Paresthesias",
+            "Derealization or depersonalization",
+            "Fear of losing control or going crazy",
+            "Fear of dying"
+          ]
+        },
+        "B": "At least one of the attacks has been followed by 1 month (or more) of one or both of the following",
+        "C": "The disturbance is not attributable to the physiological effects of a substance or another medical condition",
+        "D": "The disturbance is not better explained by another mental disorder"
+      }
+    },
+    {
+      "name": "Posttraumatic Stress Disorder",
+      "diagnostic_criteria": {
+        "A": {
+          "description": "Exposure to actual or threatened death, serious injury, or violence",
+          "exposure_types": [
+            "Directly experiencing the traumatic event(s)",
+            "Witnessing, in person, the event(s) as it occurred to others",
+            "Learning that the traumatic event(s) occurred to a close family member or close friend",
+            "Experiencing repeated or extreme exposure to aversive details of the traumatic event(s)"
+          ]
+        },
+        "B": {
+          "description": "Presence of intrusive symptoms associated with the traumatic event(s)",
+          "symptoms": [
+            "Recurrent, involuntary, and intrusive distressing memories of the traumatic event(s)",
+            "Recurrent distressing dreams in which the content and/or affect of the dream are related to the traumatic event(s)",
+            "Dissociative reactions in which the individual feels or acts as if the traumatic event(s) were recurring",
+            "Intense or prolonged psychological distress at exposure to internal or external cues that symbolize or resemble an aspect of the traumatic event(s)",
+            "Marked physiological reactions to internal or external cues that symbolize or resemble an aspect of the traumatic event(s)"
+          ]
+        },
+        "C": "Persistent avoidance of stimuli associated with the traumatic event(s)",
+        "D": "Negative changes in thoughts and mood associated with the traumatic event(s)",
+        "E": "Changes in arousal and reactivity associated with the traumatic event(s)",
+        "F": "Duration of the disturbance is more than 1 month",
+        "G": "The disturbance causes clinically significant distress or impairment in social, occupational, or other important areas of functioning",
+        "H": "The disturbance is not attributable to the physiological effects of a substance or another medical condition"
+      }
+    },
+    {
+      "name": "Attention-Deficit/Hyperactivity Disorder",
+      "diagnostic_criteria": {
+        "A": {
+          "inattention": {
+            "description": "Six (or more) of the following symptoms have persisted for at least 6 months",
+            "symptoms": [
+              "Often fails to give close attention to details",
+              "Often has difficulty sustaining attention in tasks or play activities",
+              "Often does not seem to listen when spoken to directly",
+              "Often does not follow through on instructions",
+              "Often has difficulty organizing tasks and activities",
+              "Often avoids, dislikes, or is reluctant to engage in tasks that require sustained mental effort",
+              "Often loses things necessary for tasks and activities",
+              "Is often easily distracted by extraneous stimuli",
+              "Is often forgetful in daily activities"
+            ]
+          },
+          "hyperactivity_impulsivity": {
+            "description": "Six (or more) of the following symptoms have persisted for at least 6 months",
+            "symptoms": [
+              "Often fidgets with or taps hands or feet or squirms in seat",
+              "Often leaves seat in situations when remaining seated is expected",
+              "Often runs about or climbs in situations where it is inappropriate",
+              "Often unable to play or engage in leisure activities quietly",
+              "Is often 'on the go' acting as if 'driven by a motor'",
+              "Often talks excessively",
+              "Often blurts out an answer before a question has been completed",
+              "Often has difficulty waiting his or her turn",
+              "Often interrupts or intrudes on others"
+            ]
+          }
+        },
+        "B": "Several inattentive or hyperactive-impulsive symptoms were present prior to age 12 years",
+        "C": "Several inattentive or hyperactive-impulsive symptoms are present in two or more settings",
+        "D": "There is clear evidence that the symptoms interfere with or reduce the quality of social, academic, or occupational functioning",
+        "E": "The symptoms do not occur exclusively during the course of schizophrenia or another psychotic disorder"
+      }
+    },
+    {
+      "name": "Oppositional Defiant Disorder",
+      "diagnostic_criteria": {
+        "A": {
+          "description": "A pattern of angry/irritable mood, argumentative/defiant behavior, or vindictiveness lasting at least 6 months",
+          "categories": {
+            "angry_irritable_mood": [
+              "Often loses temper",
+              "Is often touchy or easily annoyed",
+              "Is often angry and resentful"
+            ],
+            "argumentative_defiant_behavior": [
+              "Often argues with authority figures",
+              "Often actively defies or refuses to comply with requests from authority figures or with rules",
+              "Often deliberately annoys others",
+              "Often blames others for his or her mistakes or misbehavior"
+            ],
+            "vindictiveness": [
+              "Has been spiteful or vindictive at least twice within the past 6 months"
+            ]
+          }
+        },
+        "B": "The disturbance in behavior is associated with distress in the individual or others in his or her immediate social context",
+        "C": "The behaviors do not occur exclusively during the course of a psychotic, substance use, depressive, or bipolar disorder"
+      }
+    },
+    {
+      "name": "Conduct Disorder",
+      "diagnostic_criteria": {
+        "A": {
+          "description": "A repetitive and persistent pattern of behavior that violates the basic rights of others or major age-appropriate societal norms or rules",
+          "categories": {
+            "aggression_to_people_and_animals": [
+              "Often bullies, threatens, or intimidates others",
+              "Often initiates physical fights",
+              "Has used a weapon that can cause serious physical harm to others",
+              "Has been physically cruel to people",
+              "Has been physically cruel to animals",
+              "Has stolen while confronting a victim",
+              "Has forced someone into sexual activity"
+            ],
+            "destruction_of_property": [
+              "Has deliberately engaged in fire setting with the intention of causing serious damage",
+              "Has deliberately destroyed others' property"
+            ],
+            "deceitfulness_or_theft": [
+              "Has broken into someone else's house, building, or car",
+              "Often lies to obtain goods or favors or to avoid obligations",
+              "Has stolen items of nontrivial value without confronting a victim"
+            ],
+            "serious_violations_of_rules": [
+              "Often stays out at night despite parental prohibitions",
+              "Has run away from home overnight at least twice",
+              "Is often truant from school, beginning before age 13 years"
+            ]
+          }
+        },
+        "B": "The disturbance in behavior causes clinically significant impairment in social, academic, or occupational functioning",
+        "C": "If the individual is age 18 years or older, criteria are not met for Antisocial Personality Disorder"
+      }
+    },
+    {
+      "name": "Autism Spectrum Disorder",
+      "diagnostic_criteria": {
+        "A": {
+          "description": "Persistent deficits in social communication and social interaction across multiple contexts",
+          "criteria": [
+            "Deficits in social-emotional reciprocity",
+            "Deficits in nonverbal communicative behaviors used for social interaction",
+            "Deficits in developing, maintaining, and understanding relationships"
+          ]
+        },
+        "B": {
+          "description": "Restricted, repetitive patterns of behavior, interests, or activities",
+          "criteria": [
+            "Stereotyped or repetitive motor movements, use of objects, or speech",
+            "Insistence on sameness, inflexible adherence to routines, or ritualized patterns of verbal or nonverbal behavior",
+            "Highly restricted, fixated interests that are abnormal in intensity or focus",
+            "Hyper- or hyporeactivity to sensory input or unusual interest in sensory aspects of the environment"
+          ]
+        },
+        "C": "Symptoms must be present in the early developmental period",
+        "D": "Symptoms cause clinically significant impairment in social, occupational, or other important areas of current functioning",
+        "E": "These disturbances are not better explained by intellectual disability or global developmental delay"
+      }
+    },
+    {
+      "name": "Tourette's Disorder",
+      "diagnostic_criteria": {
+        "A": "Both multiple motor and one or more vocal tics have been present at some time during the illness",
+        "B": "The frequency of tics may wax and wane but they have persisted for more than 1 year since first tic onset",
+        "C": "Onset is before age 18 years",
+        "D": "The disturbance is not attributable to the physiological effects of a substance or another medical condition"
+      }
+    },
+    {
+      "name": "Intellectual Disabilities",
+      "diagnostic_criteria": {
+        "A": "Deficits in intellectual functions confirmed by both clinical assessment and individualized, standardized intelligence testing",
+        "B": "Deficits in adaptive functioning that result in failure to meet developmental and sociocultural standards for personal independence and social responsibility",
+        "C": "Onset of intellectual and adaptive deficits during the developmental period"
+      }
+    }
+  ]
+} 

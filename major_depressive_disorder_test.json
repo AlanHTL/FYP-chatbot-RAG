@@ -1,0 +1,1111 @@
+{
+  "test_cases": [
+    {
+      "case_id": 1,
+      "patient_profile": {
+        "name": "Sarah Chen",
+        "age": 34,
+        "gender": "Female",
+        "occupation": "Software Engineer"
+      },
+      "conversation_context": {
+        "setting": "Online therapy session",
+        "reason_for_visit": "I've been feeling really down lately and can't seem to enjoy anything anymore"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone in an apartment, recently divorced",
+        "family_history": "Mother had depression in her 40s",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't get out of bed most days",
+          "Lost interest in all activities",
+          "Constant fatigue",
+          "Sleeping too much"
+        ],
+        "duration": "About 3 months",
+        "severity": "Severe",
+        "impact_on_life": "Unable to work, neglecting personal hygiene",
+        "specific_examples": [
+          "Missed 2 weeks of work",
+          "Haven't showered in 3 days",
+          "Can't concentrate on anything"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Persistently sad and hopeless",
+        "thoughts": [
+          "Life is meaningless",
+          "I'm a burden to everyone",
+          "I wish I could just disappear"
+        ],
+        "feelings": [
+          "Worthless",
+          "Guilty",
+          "Empty"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Stays in bed most of the day",
+          "Barely eats",
+          "Avoids all social contact"
+        ],
+        "changes_in_routine": [
+          "Stopped exercising",
+          "No longer cooking meals",
+          "Ignoring phone calls"
+        ],
+        "coping_mechanisms": [
+          "Sleeping to escape",
+          "Avoiding all responsibilities"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood most of the day",
+          "Markedly diminished interest in activities",
+          "Insomnia or hypersomnia",
+          "Fatigue or loss of energy",
+          "Feelings of worthlessness",
+          "Diminished ability to think or concentrate"
+        ]
+      }
+    },
+    {
+      "case_id": 2,
+      "patient_profile": {
+        "name": "Michael Rodriguez",
+        "age": 45,
+        "gender": "Male",
+        "occupation": "High School Teacher"
+      },
+      "conversation_context": {
+        "setting": "Initial consultation",
+        "reason_for_visit": "I'm having trouble sleeping and feel constantly tired"
+      },
+      "patient_background": {
+        "living_situation": "Married with two teenage children",
+        "family_history": "No known mental health history",
+        "medical_history": "Mild hypertension"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Early morning awakening",
+          "Loss of appetite",
+          "Difficulty concentrating at work"
+        ],
+        "duration": "6 weeks",
+        "severity": "Moderate",
+        "impact_on_life": "Struggling with work performance",
+        "specific_examples": [
+          "Waking up at 3 AM every night",
+          "Lost 10 pounds in 6 weeks",
+          "Can't focus on lesson planning"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and sad",
+        "thoughts": [
+          "I'm not doing my job well enough",
+          "My family deserves better"
+        ],
+        "feelings": [
+          "Anxious",
+          "Guilty",
+          "Overwhelmed"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Still working but with difficulty",
+          "Minimal interaction with family",
+          "Reduced physical activity"
+        ],
+        "changes_in_routine": [
+          "Stopped morning exercise",
+          "Eating less",
+          "Withdrawing from social activities"
+        ],
+        "coping_mechanisms": [
+          "Working longer hours to compensate",
+          "Drinking more coffee"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood",
+          "Insomnia",
+          "Significant weight loss",
+          "Fatigue",
+          "Diminished ability to concentrate"
+        ]
+      }
+    },
+    {
+      "case_id": 3,
+      "patient_profile": {
+        "name": "Aisha Patel",
+        "age": 28,
+        "gender": "Female",
+        "occupation": "Medical Resident"
+      },
+      "conversation_context": {
+        "setting": "Emergency room consultation",
+        "reason_for_visit": "I'm having thoughts of self-harm"
+      },
+      "patient_background": {
+        "living_situation": "Lives with roommate, medical resident",
+        "family_history": "Father had depression",
+        "medical_history": "None significant"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Suicidal thoughts",
+          "Extreme fatigue",
+          "Inability to function at work"
+        ],
+        "duration": "2 months",
+        "severity": "Severe",
+        "impact_on_life": "Unable to work, considering quitting residency",
+        "specific_examples": [
+          "Made a plan to overdose on medications",
+          "Crying spells at work",
+          "Isolating from colleagues"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Desperate and hopeless",
+        "thoughts": [
+          "I'm a failure as a doctor",
+          "Everyone would be better off without me",
+          "I can't take this anymore"
+        ],
+        "feelings": [
+          "Overwhelmed",
+          "Hopeless",
+          "Worthless"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Minimal work attendance",
+          "Avoiding patient contact",
+          "Sleeping whenever possible"
+        ],
+        "changes_in_routine": [
+          "Stopped studying",
+          "Neglecting personal care",
+          "Avoiding all social contact"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Sleeping to escape"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood",
+          "Recurrent thoughts of death",
+          "Fatigue",
+          "Feelings of worthlessness",
+          "Diminished ability to function"
+        ]
+      }
+    },
+    {
+      "case_id": 4,
+      "patient_profile": {
+        "name": "James Wilson",
+        "age": 52,
+        "gender": "Male",
+        "occupation": "Construction Site Manager"
+      },
+      "conversation_context": {
+        "setting": "Primary care follow-up",
+        "reason_for_visit": "My doctor said I should talk to someone about my mood"
+      },
+      "patient_background": {
+        "living_situation": "Married, two adult children",
+        "family_history": "Unknown",
+        "medical_history": "Back pain, recent work injury"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Back pain getting worse",
+          "Can't sleep",
+          "No energy"
+        ],
+        "duration": "4 months",
+        "severity": "Moderate",
+        "impact_on_life": "Unable to work due to pain and mood",
+        "specific_examples": [
+          "Taking more pain medication than prescribed",
+          "Arguing with wife frequently",
+          "Avoiding social activities"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and frustrated",
+        "thoughts": [
+          "I'll never work again",
+          "I'm letting my family down",
+          "The pain will never get better"
+        ],
+        "feelings": [
+          "Angry",
+          "Frustrated",
+          "Hopeless"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Limited physical activity",
+          "Increased TV watching",
+          "More time alone"
+        ],
+        "changes_in_routine": [
+          "Stopped going to church",
+          "Reduced social contact",
+          "Changed sleep schedule"
+        ],
+        "coping_mechanisms": [
+          "Pain medication",
+          "Alcohol use",
+          "Avoidance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood",
+          "Insomnia",
+          "Fatigue",
+          "Feelings of worthlessness",
+          "Psychomotor changes"
+        ]
+      }
+    },
+    {
+      "case_id": 5,
+      "patient_profile": {
+        "name": "Emma Thompson",
+        "age": 19,
+        "gender": "Female",
+        "occupation": "College Student"
+      },
+      "conversation_context": {
+        "setting": "University counseling center",
+        "reason_for_visit": "I'm failing my classes and can't seem to care anymore"
+      },
+      "patient_background": {
+        "living_situation": "Dormitory, first year away from home",
+        "family_history": "Mother has anxiety",
+        "medical_history": "None significant"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't focus on studies",
+          "Sleeping too much",
+          "No motivation"
+        ],
+        "duration": "2 months",
+        "severity": "Moderate",
+        "impact_on_life": "Failing multiple classes, social isolation",
+        "specific_examples": [
+          "Missing classes regularly",
+          "Not completing assignments",
+          "Avoiding friends"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Numb and overwhelmed",
+        "thoughts": [
+          "I'm not smart enough for college",
+          "I should just drop out",
+          "Everyone else is doing fine"
+        ],
+        "feelings": [
+          "Overwhelmed",
+          "Inadequate",
+          "Lonely"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Sleeping 12+ hours",
+          "Skipping meals",
+          "Avoiding classes"
+        ],
+        "changes_in_routine": [
+          "Stopped attending study groups",
+          "Changed sleep schedule",
+          "Reduced social activities"
+        ],
+        "coping_mechanisms": [
+          "Sleeping to escape",
+          "Avoiding responsibilities"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood",
+          "Hypersomnia",
+          "Fatigue",
+          "Diminished ability to concentrate",
+          "Social withdrawal"
+        ]
+      }
+    },
+    {
+      "case_id": 6,
+      "patient_profile": {
+        "name": "David Kim",
+        "age": 41,
+        "gender": "Male",
+        "occupation": "Restaurant Owner"
+      },
+      "conversation_context": {
+        "setting": "Private practice",
+        "reason_for_visit": "Business is failing and I can't handle the stress anymore"
+      },
+      "patient_background": {
+        "living_situation": "Married, two young children",
+        "family_history": "No known mental health history",
+        "medical_history": "None significant"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Constant worry about business",
+          "Can't sleep",
+          "No appetite"
+        ],
+        "duration": "3 months",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Struggling to run business, family tension",
+        "specific_examples": [
+          "Working 16-hour days",
+          "Lost 15 pounds",
+          "Snapping at employees"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and depressed",
+        "thoughts": [
+          "I'm going to lose everything",
+          "I'm failing my family",
+          "I can't keep this up"
+        ],
+        "feelings": [
+          "Overwhelmed",
+          "Guilty",
+          "Hopeless"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive work hours",
+          "Minimal family time",
+          "Irregular eating"
+        ],
+        "changes_in_routine": [
+          "Changed sleep schedule",
+          "Reduced exercise",
+          "Increased work hours"
+        ],
+        "coping_mechanisms": [
+          "Working more",
+          "Avoiding family",
+          "Drinking alcohol"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood",
+          "Insomnia",
+          "Significant weight loss",
+          "Fatigue",
+          "Feelings of worthlessness"
+        ]
+      }
+    },
+    {
+      "case_id": 7,
+      "patient_profile": {
+        "name": "Maria Garcia",
+        "age": 63,
+        "gender": "Female",
+        "occupation": "Retired Teacher"
+      },
+      "conversation_context": {
+        "setting": "Geriatric clinic",
+        "reason_for_visit": "My children are worried about my mood changes"
+      },
+      "patient_background": {
+        "living_situation": "Widowed, lives alone",
+        "family_history": "No known mental health history",
+        "medical_history": "Hypertension, arthritis"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "No energy",
+          "Can't enjoy activities",
+          "Memory problems"
+        ],
+        "duration": "6 months",
+        "severity": "Moderate",
+        "impact_on_life": "Stopped social activities, neglecting home",
+        "specific_examples": [
+          "Stopped attending church",
+          "Not cooking meals",
+          "Forgetting appointments"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Sad and withdrawn",
+        "thoughts": [
+          "I'm getting too old",
+          "No one needs me anymore",
+          "Life is meaningless"
+        ],
+        "feelings": [
+          "Lonely",
+          "Useless",
+          "Tired"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Minimal housekeeping",
+          "Watching TV all day",
+          "Irregular meals"
+        ],
+        "changes_in_routine": [
+          "Stopped social activities",
+          "Changed sleep schedule",
+          "Reduced physical activity"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "TV watching",
+          "Sleeping more"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood",
+          "Loss of interest",
+          "Fatigue",
+          "Feelings of worthlessness",
+          "Social withdrawal"
+        ]
+      }
+    },
+    {
+      "case_id": 8,
+      "patient_profile": {
+        "name": "Robert Taylor",
+        "age": 29,
+        "gender": "Male",
+        "occupation": "Unemployed"
+      },
+      "conversation_context": {
+        "setting": "Community mental health center",
+        "reason_for_visit": "I need help getting my life back together"
+      },
+      "patient_background": {
+        "living_situation": "Lives with parents after job loss",
+        "family_history": "Father had depression",
+        "medical_history": "None significant"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't find motivation",
+          "Sleeping too much",
+          "Feel worthless"
+        ],
+        "duration": "8 months",
+        "severity": "Severe",
+        "impact_on_life": "Unable to work, dependent on parents",
+        "specific_examples": [
+          "Lost job 8 months ago",
+          "Sleeping 14 hours daily",
+          "No job searching"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Hopeless and ashamed",
+        "thoughts": [
+          "I'm a failure",
+          "I'll never get another job",
+          "I'm letting my parents down"
+        ],
+        "feelings": [
+          "Ashamed",
+          "Guilty",
+          "Hopeless"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive sleeping",
+          "Minimal job searching",
+          "Video gaming"
+        ],
+        "changes_in_routine": [
+          "Irregular sleep schedule",
+          "No exercise",
+          "Avoiding social contact"
+        ],
+        "coping_mechanisms": [
+          "Sleeping",
+          "Video games",
+          "Avoidance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood",
+          "Hypersomnia",
+          "Fatigue",
+          "Feelings of worthlessness",
+          "Social withdrawal"
+        ]
+      }
+    },
+    {
+      "case_id": 9,
+      "patient_profile": {
+        "name": "Sophie Anderson",
+        "age": 25,
+        "gender": "Female",
+        "occupation": "Marketing Associate"
+      },
+      "conversation_context": {
+        "setting": "Employee assistance program",
+        "reason_for_visit": "Work performance has declined and I'm feeling overwhelmed"
+      },
+      "patient_background": {
+        "living_situation": "Lives with boyfriend",
+        "family_history": "Sister has anxiety",
+        "medical_history": "None significant"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't concentrate at work",
+          "Feeling overwhelmed",
+          "Sleep problems"
+        ],
+        "duration": "2 months",
+        "severity": "Mild to moderate",
+        "impact_on_life": "Work performance declining",
+        "specific_examples": [
+          "Missing deadlines",
+          "Trouble sleeping",
+          "Avoiding work tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and sad",
+        "thoughts": [
+          "I'm not good enough at my job",
+          "Everyone notices my mistakes",
+          "I can't keep up"
+        ],
+        "feelings": [
+          "Overwhelmed",
+          "Inadequate",
+          "Stressed"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working but struggling",
+          "Reduced social activities",
+          "Irregular sleep"
+        ],
+        "changes_in_routine": [
+          "Changed sleep schedule",
+          "Reduced exercise",
+          "More time alone"
+        ],
+        "coping_mechanisms": [
+          "Procrastination",
+          "Avoidance",
+          "Caffeine use"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "Depressed mood",
+          "Insomnia",
+          "Diminished ability to concentrate",
+          "Fatigue",
+          "Work impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 10,
+      "patient_profile": {
+        "name": "Thomas Lee",
+        "age": 35,
+        "gender": "Male",
+        "occupation": "Police Officer"
+      },
+      "conversation_context": {
+        "setting": "Department counseling",
+        "reason_for_visit": "Having trouble after a traumatic incident"
+      },
+      "patient_background": {
+        "living_situation": "Married, two children",
+        "family_history": "No known mental health history",
+        "medical_history": "None significant"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Nightmares",
+          "Can't sleep",
+          "No interest in activities"
+        ],
+        "duration": "3 months",
+        "severity": "Moderate",
+        "impact_on_life": "Struggling with work and family",
+        "specific_examples": [
+          "Avoiding certain situations",
+          "Irritable with family",
+          "Sleep problems"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Numb and irritable",
+        "thoughts": [
+          "I should have done more",
+          "I'm not safe anymore",
+          "I'm letting my family down"
+        ],
+        "feelings": [
+          "Guilty",
+          "Angry",
+          "Detached"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working but avoiding certain calls",
+          "Minimal family interaction",
+          "Increased vigilance"
+        ],
+        "changes_in_routine": [
+          "Changed sleep schedule",
+          "Avoiding certain areas",
+          "Reduced social activities"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Hypervigilance",
+          "Isolation"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood",
+          "Insomnia",
+          "Loss of interest",
+          "Irritability",
+          "Social withdrawal"
+        ]
+      }
+    },
+    {
+      "case_id": 11,
+      "patient_profile": {
+        "name": "Lisa Wong",
+        "age": 31,
+        "gender": "Female",
+        "occupation": "Nurse"
+      },
+      "conversation_context": {
+        "setting": "Hospital employee health",
+        "reason_for_visit": "Exhausted and feeling down after long shifts"
+      },
+      "patient_background": {
+        "living_situation": "Single, lives alone",
+        "family_history": "Mother had depression",
+        "medical_history": "None significant"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Exhaustion",
+          "Can't sleep properly",
+          "No energy for anything"
+        ],
+        "duration": "4 months",
+        "severity": "Moderate",
+        "impact_on_life": "Struggling with work schedule",
+        "specific_examples": [
+          "Difficulty staying awake at work",
+          "Missing social events",
+          "Irregular sleep schedule"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Tired and sad",
+        "thoughts": [
+          "I can't keep up with work",
+          "I'm not a good nurse anymore",
+          "I'm missing out on life"
+        ],
+        "feelings": [
+          "Exhausted",
+          "Overwhelmed",
+          "Lonely"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working but struggling",
+          "Minimal social life",
+          "Irregular sleep"
+        ],
+        "changes_in_routine": [
+          "Changed sleep schedule",
+          "Reduced exercise",
+          "Avoiding social events"
+        ],
+        "coping_mechanisms": [
+          "Caffeine",
+          "Sleeping when possible",
+          "Avoidance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "Depressed mood",
+          "Insomnia",
+          "Fatigue",
+          "Loss of interest",
+          "Work impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 12,
+      "patient_profile": {
+        "name": "John Martinez",
+        "age": 45,
+        "gender": "Male",
+        "occupation": "Construction Worker"
+      },
+      "conversation_context": {
+        "setting": "Workers' compensation evaluation",
+        "reason_for_visit": "Can't return to work after injury"
+      },
+      "patient_background": {
+        "living_situation": "Married, three children",
+        "family_history": "No known mental health history",
+        "medical_history": "Back injury, chronic pain"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Constant pain",
+          "Can't sleep",
+          "No energy"
+        ],
+        "duration": "6 months",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Unable to work, family stress",
+        "specific_examples": [
+          "Taking pain medication",
+          "Sleeping irregularly",
+          "Avoiding physical activity"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Frustrated and sad",
+        "thoughts": [
+          "I'll never work again",
+          "I'm useless to my family",
+          "The pain will never end"
+        ],
+        "feelings": [
+          "Angry",
+          "Hopeless",
+          "Guilty"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Limited physical activity",
+          "Watching TV",
+          "Taking medication"
+        ],
+        "changes_in_routine": [
+          "No work",
+          "Changed sleep schedule",
+          "Reduced activity"
+        ],
+        "coping_mechanisms": [
+          "Pain medication",
+          "Rest",
+          "Avoidance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood",
+          "Insomnia",
+          "Fatigue",
+          "Feelings of worthlessness",
+          "Loss of interest"
+        ]
+      }
+    },
+    {
+      "case_id": 13,
+      "patient_profile": {
+        "name": "Rachel Green",
+        "age": 27,
+        "gender": "Female",
+        "occupation": "Graduate Student"
+      },
+      "conversation_context": {
+        "setting": "University counseling center",
+        "reason_for_visit": "Having trouble with dissertation and feeling overwhelmed"
+      },
+      "patient_background": {
+        "living_situation": "Lives with roommate",
+        "family_history": "Father had depression",
+        "medical_history": "None significant"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Can't focus on research",
+          "Sleeping problems",
+          "No motivation"
+        ],
+        "duration": "3 months",
+        "severity": "Moderate",
+        "impact_on_life": "Dissertation progress stalled",
+        "specific_examples": [
+          "Avoiding writing",
+          "Irregular sleep schedule",
+          "Missing meetings"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Overwhelmed and sad",
+        "thoughts": [
+          "I'll never finish my degree",
+          "I'm not smart enough",
+          "Everyone else is ahead of me"
+        ],
+        "feelings": [
+          "Inadequate",
+          "Overwhelmed",
+          "Hopeless"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Minimal research work",
+          "Irregular sleep",
+          "Avoiding campus"
+        ],
+        "changes_in_routine": [
+          "Changed sleep schedule",
+          "Reduced social contact",
+          "Avoiding work"
+        ],
+        "coping_mechanisms": [
+          "Procrastination",
+          "Sleeping",
+          "Avoidance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood",
+          "Insomnia",
+          "Diminished ability to concentrate",
+          "Fatigue",
+          "Loss of interest"
+        ]
+      }
+    },
+    {
+      "case_id": 14,
+      "patient_profile": {
+        "name": "Daniel Brown",
+        "age": 38,
+        "gender": "Male",
+        "occupation": "Business Consultant"
+      },
+      "conversation_context": {
+        "setting": "Private practice",
+        "reason_for_visit": "Feeling down after business failure"
+      },
+      "patient_background": {
+        "living_situation": "Divorced, lives alone",
+        "family_history": "No known mental health history",
+        "medical_history": "None significant"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Lost business",
+          "Can't sleep",
+          "No future prospects"
+        ],
+        "duration": "4 months",
+        "severity": "Severe",
+        "impact_on_life": "Financial problems, social isolation",
+        "specific_examples": [
+          "Business bankruptcy",
+          "Lost home",
+          "Avoiding friends"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Hopeless and desperate",
+        "thoughts": [
+          "I've lost everything",
+          "I'm a complete failure",
+          "There's no way back"
+        ],
+        "feelings": [
+          "Worthless",
+          "Ashamed",
+          "Hopeless"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Minimal job searching",
+          "Sleeping irregularly",
+          "Avoiding social contact"
+        ],
+        "changes_in_routine": [
+          "Changed sleep schedule",
+          "No exercise",
+          "Isolation"
+        ],
+        "coping_mechanisms": [
+          "Sleeping",
+          "Avoidance",
+          "Alcohol use"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Depressed mood",
+          "Insomnia",
+          "Fatigue",
+          "Feelings of worthlessness",
+          "Loss of interest"
+        ]
+      }
+    },
+    {
+      "case_id": 15,
+      "patient_profile": {
+        "name": "Emily Parker",
+        "age": 24,
+        "gender": "Female",
+        "occupation": "Recent College Graduate"
+      },
+      "conversation_context": {
+        "setting": "Career counseling center",
+        "reason_for_visit": "Feeling down about job search"
+      },
+      "patient_background": {
+        "living_situation": "Lives with parents while job searching",
+        "family_history": "No known mental health history",
+        "medical_history": "None significant"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Job search frustration",
+          "Temporary sadness",
+          "Some sleep changes"
+        ],
+        "duration": "2 weeks",
+        "severity": "Mild",
+        "impact_on_life": "Temporary adjustment period",
+        "specific_examples": [
+          "Some job rejections",
+          "Slightly irregular sleep",
+          "Normal stress response"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Frustrated but hopeful",
+        "thoughts": [
+          "Job search is challenging",
+          "I'll find something soon",
+          "This is temporary"
+        ],
+        "feelings": [
+          "Frustrated",
+          "Hopeful",
+          "Motivated"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Active job searching",
+          "Maintaining social life",
+          "Regular exercise"
+        ],
+        "changes_in_routine": [
+          "Slightly changed sleep schedule",
+          "More time job searching",
+          "Maintaining activities"
+        ],
+        "coping_mechanisms": [
+          "Exercise",
+          "Social support",
+          "Job search strategies"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": false,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Normal adjustment reaction",
+          "Situational stress",
+          "Maintained functioning",
+          "Preserved interests",
+          "Normal sleep pattern"
+        ]
+      }
+    }
+  ]
+} 

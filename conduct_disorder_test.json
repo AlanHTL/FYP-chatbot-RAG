@@ -1,0 +1,1357 @@
+{
+  "test_cases": [
+    {
+      "case_id": 1,
+      "patient_profile": {
+        "name": "Michael Johnson",
+        "age": 15,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Juvenile Justice Center",
+        "reason_for_visit": "Court-mandated evaluation following multiple arrests for aggressive behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with single mother, frequently runs away",
+        "family_history": "Father has history of substance abuse and incarceration",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "aggression_to_people_and_animals": [
+          "Often bullies, threatens, or intimidates others",
+          "Often initiates physical fights",
+          "Has been physically cruel to people",
+          "Has been physically cruel to animals",
+          "Has stolen while confronting a victim"
+        ],
+        "destruction_of_property": [
+          "Has deliberately destroyed others' property",
+          "Has deliberately engaged in fire setting"
+        ],
+        "deceitfulness_or_theft": [
+          "Has broken into someone else's house",
+          "Often lies to obtain goods or favors",
+          "Has stolen items of nontrivial value"
+        ],
+        "serious_violations_of_rules": [
+          "Often stays out at night despite parental prohibitions",
+          "Has run away from home overnight at least twice",
+          "Is often truant from school"
+        ],
+        "duration": "3 years",
+        "severity": "Severe",
+        "impact_on_life": "Severe impact on family, school, and legal status",
+        "specific_examples": [
+          "Multiple arrests for assault",
+          "School expulsion for fighting",
+          "Repeated property damage",
+          "Chronic truancy"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Angry and defiant",
+        "thoughts": [
+          "Rules don't apply to me",
+          "I need to prove I'm tough",
+          "No one can tell me what to do"
+        ],
+        "feelings": [
+          "Anger",
+          "Defiance",
+          "Lack of remorse",
+          "Aggression"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Frequent physical altercations",
+          "Property destruction",
+          "Truancy",
+          "Substance use"
+        ],
+        "changes_in_routine": [
+          "Juvenile detention",
+          "Intensive therapy",
+          "Substance abuse treatment",
+          "Family intervention"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Conflict resolution",
+          "Social skills training",
+          "Substance abuse counseling"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of behavior violating rights of others",
+          "Multiple categories of symptoms present",
+          "Significant functional impairment",
+          "Duration of more than 12 months"
+        ]
+      }
+    },
+    {
+      "case_id": 2,
+      "patient_profile": {
+        "name": "Sarah Williams",
+        "age": 14,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Mental Health Clinic",
+        "reason_for_visit": "Parent and school concerns about aggressive behavior and rule violations"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "Mother has depression",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "aggression_to_people_and_animals": [
+          "Often bullies, threatens, or intimidates others",
+          "Often initiates physical fights"
+        ],
+        "destruction_of_property": [
+          "Has deliberately destroyed others' property"
+        ],
+        "deceitfulness_or_theft": [
+          "Often lies to obtain goods or favors",
+          "Has stolen items of nontrivial value"
+        ],
+        "serious_violations_of_rules": [
+          "Often stays out at night despite parental prohibitions",
+          "Is often truant from school"
+        ],
+        "duration": "1.5 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on family and school functioning",
+        "specific_examples": [
+          "Frequent school suspensions",
+          "Physical altercations with peers",
+          "Property damage at home",
+          "Chronic lying"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and defiant",
+        "thoughts": [
+          "I don't care about consequences",
+          "I can do whatever I want",
+          "No one understands me"
+        ],
+        "feelings": [
+          "Anger",
+          "Defiance",
+          "Lack of empathy",
+          "Frustration"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "School behavior problems",
+          "Peer conflicts",
+          "Rule violations",
+          "Deceptive behavior"
+        ],
+        "changes_in_routine": [
+          "Individual therapy",
+          "Family therapy",
+          "Behavior modification",
+          "School intervention"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Social skills training",
+          "Problem-solving strategies",
+          "Parent training"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of behavior violating rights of others",
+          "Multiple categories of symptoms present",
+          "Significant functional impairment",
+          "Duration of more than 12 months"
+        ]
+      }
+    },
+    {
+      "case_id": 3,
+      "patient_profile": {
+        "name": "David Chen",
+        "age": 16,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Juvenile Detention Center",
+        "reason_for_visit": "Court-ordered evaluation following arrest for aggravated assault"
+      },
+      "patient_background": {
+        "living_situation": "Lives with grandmother, parents incarcerated",
+        "family_history": "Both parents have criminal records",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "aggression_to_people_and_animals": [
+          "Often bullies, threatens, or intimidates others",
+          "Often initiates physical fights",
+          "Has used a weapon that can cause serious physical harm",
+          "Has been physically cruel to people",
+          "Has stolen while confronting a victim"
+        ],
+        "destruction_of_property": [
+          "Has deliberately engaged in fire setting",
+          "Has deliberately destroyed others' property"
+        ],
+        "deceitfulness_or_theft": [
+          "Has broken into someone else's house",
+          "Often lies to obtain goods or favors",
+          "Has stolen items of nontrivial value"
+        ],
+        "serious_violations_of_rules": [
+          "Often stays out at night despite parental prohibitions",
+          "Has run away from home overnight at least twice",
+          "Is often truant from school"
+        ],
+        "duration": "4 years",
+        "severity": "Severe",
+        "impact_on_life": "Severe impact on family, school, and legal status",
+        "specific_examples": [
+          "Multiple arrests for violent crimes",
+          "School expulsion for assault",
+          "Repeated property damage",
+          "Chronic criminal behavior"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Angry and aggressive",
+        "thoughts": [
+          "I don't care about anyone",
+          "Violence gets me what I want",
+          "Rules are for weak people"
+        ],
+        "feelings": [
+          "Anger",
+          "Aggression",
+          "Lack of remorse",
+          "Defiance"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Violent behavior",
+          "Criminal activity",
+          "Substance use",
+          "Gang involvement"
+        ],
+        "changes_in_routine": [
+          "Juvenile detention",
+          "Intensive therapy",
+          "Substance abuse treatment",
+          "Gang intervention"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Conflict resolution",
+          "Substance abuse counseling",
+          "Social skills training"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of behavior violating rights of others",
+          "Multiple categories of symptoms present",
+          "Severe functional impairment",
+          "Duration of more than 12 months"
+        ]
+      }
+    },
+    {
+      "case_id": 4,
+      "patient_profile": {
+        "name": "Emily Rodriguez",
+        "age": 13,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Counseling Office",
+        "reason_for_visit": "Teacher and parent concerns about aggressive behavior and rule violations"
+      },
+      "patient_background": {
+        "living_situation": "Lives with mother and stepfather",
+        "family_history": "Biological father has history of violence",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "aggression_to_people_and_animals": [
+          "Often bullies, threatens, or intimidates others",
+          "Often initiates physical fights"
+        ],
+        "destruction_of_property": [
+          "Has deliberately destroyed others' property"
+        ],
+        "deceitfulness_or_theft": [
+          "Often lies to obtain goods or favors",
+          "Has stolen items of nontrivial value"
+        ],
+        "serious_violations_of_rules": [
+          "Often stays out at night despite parental prohibitions",
+          "Is often truant from school"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on family and school functioning",
+        "specific_examples": [
+          "Physical altercations with peers",
+          "Property damage at home",
+          "School suspensions",
+          "Chronic lying"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and defiant",
+        "thoughts": [
+          "I don't care about consequences",
+          "I can do whatever I want",
+          "No one understands me"
+        ],
+        "feelings": [
+          "Anger",
+          "Defiance",
+          "Lack of empathy",
+          "Frustration"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "School behavior problems",
+          "Peer conflicts",
+          "Rule violations",
+          "Deceptive behavior"
+        ],
+        "changes_in_routine": [
+          "Individual therapy",
+          "Family therapy",
+          "Behavior modification",
+          "School intervention"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Social skills training",
+          "Problem-solving strategies",
+          "Parent training"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of behavior violating rights of others",
+          "Multiple categories of symptoms present",
+          "Significant functional impairment",
+          "Duration of more than 12 months"
+        ]
+      }
+    },
+    {
+      "case_id": 5,
+      "patient_profile": {
+        "name": "James Wilson",
+        "age": 15,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Juvenile Justice Center",
+        "reason_for_visit": "Court-mandated evaluation following arrest for property damage"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "Brother has ADHD",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "aggression_to_people_and_animals": [
+          "Often bullies, threatens, or intimidates others",
+          "Often initiates physical fights"
+        ],
+        "destruction_of_property": [
+          "Has deliberately destroyed others' property",
+          "Has deliberately engaged in fire setting"
+        ],
+        "deceitfulness_or_theft": [
+          "Often lies to obtain goods or favors",
+          "Has stolen items of nontrivial value"
+        ],
+        "serious_violations_of_rules": [
+          "Often stays out at night despite parental prohibitions",
+          "Is often truant from school"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on family and school functioning",
+        "specific_examples": [
+          "Multiple arrests for vandalism",
+          "School suspensions for fighting",
+          "Property damage in neighborhood",
+          "Chronic rule violations"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Angry and defiant",
+        "thoughts": [
+          "Rules don't apply to me",
+          "I need to prove I'm tough",
+          "No one can tell me what to do"
+        ],
+        "feelings": [
+          "Anger",
+          "Defiance",
+          "Lack of remorse",
+          "Aggression"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Property destruction",
+          "Physical altercations",
+          "Rule violations",
+          "Deceptive behavior"
+        ],
+        "changes_in_routine": [
+          "Juvenile probation",
+          "Individual therapy",
+          "Family therapy",
+          "Community service"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Conflict resolution",
+          "Social skills training",
+          "Parent training"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of behavior violating rights of others",
+          "Multiple categories of symptoms present",
+          "Significant functional impairment",
+          "Duration of more than 12 months"
+        ]
+      }
+    },
+    {
+      "case_id": 6,
+      "patient_profile": {
+        "name": "Jessica Martinez",
+        "age": 14,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Mental Health Clinic",
+        "reason_for_visit": "Parent concerns about aggressive behavior and rule violations"
+      },
+      "patient_background": {
+        "living_situation": "Lives with single mother",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "aggression_to_people_and_animals": [
+          "Often bullies, threatens, or intimidates others",
+          "Often initiates physical fights"
+        ],
+        "destruction_of_property": [
+          "Has deliberately destroyed others' property"
+        ],
+        "deceitfulness_or_theft": [
+          "Often lies to obtain goods or favors",
+          "Has stolen items of nontrivial value"
+        ],
+        "serious_violations_of_rules": [
+          "Often stays out at night despite parental prohibitions",
+          "Is often truant from school"
+        ],
+        "duration": "1.5 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on family and school functioning",
+        "specific_examples": [
+          "Physical altercations with peers",
+          "Property damage at home",
+          "School suspensions",
+          "Chronic lying"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and defiant",
+        "thoughts": [
+          "I don't care about consequences",
+          "I can do whatever I want",
+          "No one understands me"
+        ],
+        "feelings": [
+          "Anger",
+          "Defiance",
+          "Lack of empathy",
+          "Frustration"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "School behavior problems",
+          "Peer conflicts",
+          "Rule violations",
+          "Deceptive behavior"
+        ],
+        "changes_in_routine": [
+          "Individual therapy",
+          "Family therapy",
+          "Behavior modification",
+          "School intervention"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Social skills training",
+          "Problem-solving strategies",
+          "Parent training"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of behavior violating rights of others",
+          "Multiple categories of symptoms present",
+          "Significant functional impairment",
+          "Duration of more than 12 months"
+        ]
+      }
+    },
+    {
+      "case_id": 7,
+      "patient_profile": {
+        "name": "Robert Thompson",
+        "age": 16,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Juvenile Detention Center",
+        "reason_for_visit": "Court-ordered evaluation following arrest for armed robbery"
+      },
+      "patient_background": {
+        "living_situation": "Lives with mother, father deceased",
+        "family_history": "Father had history of criminal behavior",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "aggression_to_people_and_animals": [
+          "Often bullies, threatens, or intimidates others",
+          "Often initiates physical fights",
+          "Has used a weapon that can cause serious physical harm",
+          "Has been physically cruel to people",
+          "Has stolen while confronting a victim"
+        ],
+        "destruction_of_property": [
+          "Has deliberately engaged in fire setting",
+          "Has deliberately destroyed others' property"
+        ],
+        "deceitfulness_or_theft": [
+          "Has broken into someone else's house",
+          "Often lies to obtain goods or favors",
+          "Has stolen items of nontrivial value"
+        ],
+        "serious_violations_of_rules": [
+          "Often stays out at night despite parental prohibitions",
+          "Has run away from home overnight at least twice",
+          "Is often truant from school"
+        ],
+        "duration": "3 years",
+        "severity": "Severe",
+        "impact_on_life": "Severe impact on family, school, and legal status",
+        "specific_examples": [
+          "Multiple arrests for violent crimes",
+          "School expulsion for assault",
+          "Repeated property damage",
+          "Chronic criminal behavior"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Angry and aggressive",
+        "thoughts": [
+          "I don't care about anyone",
+          "Violence gets me what I want",
+          "Rules are for weak people"
+        ],
+        "feelings": [
+          "Anger",
+          "Aggression",
+          "Lack of remorse",
+          "Defiance"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Violent behavior",
+          "Criminal activity",
+          "Substance use",
+          "Gang involvement"
+        ],
+        "changes_in_routine": [
+          "Juvenile detention",
+          "Intensive therapy",
+          "Substance abuse treatment",
+          "Gang intervention"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Conflict resolution",
+          "Substance abuse counseling",
+          "Social skills training"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of behavior violating rights of others",
+          "Multiple categories of symptoms present",
+          "Severe functional impairment",
+          "Duration of more than 12 months"
+        ]
+      }
+    },
+    {
+      "case_id": 8,
+      "patient_profile": {
+        "name": "Amanda Chen",
+        "age": 13,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Counseling Office",
+        "reason_for_visit": "Teacher and parent concerns about aggressive behavior and rule violations"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "aggression_to_people_and_animals": [
+          "Often bullies, threatens, or intimidates others",
+          "Often initiates physical fights"
+        ],
+        "destruction_of_property": [
+          "Has deliberately destroyed others' property"
+        ],
+        "deceitfulness_or_theft": [
+          "Often lies to obtain goods or favors",
+          "Has stolen items of nontrivial value"
+        ],
+        "serious_violations_of_rules": [
+          "Often stays out at night despite parental prohibitions",
+          "Is often truant from school"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on family and school functioning",
+        "specific_examples": [
+          "Physical altercations with peers",
+          "Property damage at home",
+          "School suspensions",
+          "Chronic lying"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and defiant",
+        "thoughts": [
+          "I don't care about consequences",
+          "I can do whatever I want",
+          "No one understands me"
+        ],
+        "feelings": [
+          "Anger",
+          "Defiance",
+          "Lack of empathy",
+          "Frustration"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "School behavior problems",
+          "Peer conflicts",
+          "Rule violations",
+          "Deceptive behavior"
+        ],
+        "changes_in_routine": [
+          "Individual therapy",
+          "Family therapy",
+          "Behavior modification",
+          "School intervention"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Social skills training",
+          "Problem-solving strategies",
+          "Parent training"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of behavior violating rights of others",
+          "Multiple categories of symptoms present",
+          "Significant functional impairment",
+          "Duration of more than 12 months"
+        ]
+      }
+    },
+    {
+      "case_id": 9,
+      "patient_profile": {
+        "name": "Daniel Rodriguez",
+        "age": 15,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Juvenile Justice Center",
+        "reason_for_visit": "Court-mandated evaluation following multiple arrests for aggressive behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with single mother, frequently runs away",
+        "family_history": "Father has history of substance abuse and incarceration",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "aggression_to_people_and_animals": [
+          "Often bullies, threatens, or intimidates others",
+          "Often initiates physical fights",
+          "Has been physically cruel to people",
+          "Has been physically cruel to animals",
+          "Has stolen while confronting a victim"
+        ],
+        "destruction_of_property": [
+          "Has deliberately destroyed others' property",
+          "Has deliberately engaged in fire setting"
+        ],
+        "deceitfulness_or_theft": [
+          "Has broken into someone else's house",
+          "Often lies to obtain goods or favors",
+          "Has stolen items of nontrivial value"
+        ],
+        "serious_violations_of_rules": [
+          "Often stays out at night despite parental prohibitions",
+          "Has run away from home overnight at least twice",
+          "Is often truant from school"
+        ],
+        "duration": "3 years",
+        "severity": "Severe",
+        "impact_on_life": "Severe impact on family, school, and legal status",
+        "specific_examples": [
+          "Multiple arrests for assault",
+          "School expulsion for fighting",
+          "Repeated property damage",
+          "Chronic truancy"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Angry and defiant",
+        "thoughts": [
+          "Rules don't apply to me",
+          "I need to prove I'm tough",
+          "No one can tell me what to do"
+        ],
+        "feelings": [
+          "Anger",
+          "Defiance",
+          "Lack of remorse",
+          "Aggression"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Frequent physical altercations",
+          "Property destruction",
+          "Truancy",
+          "Substance use"
+        ],
+        "changes_in_routine": [
+          "Juvenile detention",
+          "Intensive therapy",
+          "Substance abuse treatment",
+          "Family intervention"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Conflict resolution",
+          "Social skills training",
+          "Substance abuse counseling"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of behavior violating rights of others",
+          "Multiple categories of symptoms present",
+          "Significant functional impairment",
+          "Duration of more than 12 months"
+        ]
+      }
+    },
+    {
+      "case_id": 10,
+      "patient_profile": {
+        "name": "Sophia Williams",
+        "age": 14,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Mental Health Clinic",
+        "reason_for_visit": "Parent and school concerns about aggressive behavior and rule violations"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "Mother has depression",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "aggression_to_people_and_animals": [
+          "Often bullies, threatens, or intimidates others",
+          "Often initiates physical fights"
+        ],
+        "destruction_of_property": [
+          "Has deliberately destroyed others' property"
+        ],
+        "deceitfulness_or_theft": [
+          "Often lies to obtain goods or favors",
+          "Has stolen items of nontrivial value"
+        ],
+        "serious_violations_of_rules": [
+          "Often stays out at night despite parental prohibitions",
+          "Is often truant from school"
+        ],
+        "duration": "1.5 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on family and school functioning",
+        "specific_examples": [
+          "Frequent school suspensions",
+          "Physical altercations with peers",
+          "Property damage at home",
+          "Chronic lying"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and defiant",
+        "thoughts": [
+          "I don't care about consequences",
+          "I can do whatever I want",
+          "No one understands me"
+        ],
+        "feelings": [
+          "Anger",
+          "Defiance",
+          "Lack of empathy",
+          "Frustration"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "School behavior problems",
+          "Peer conflicts",
+          "Rule violations",
+          "Deceptive behavior"
+        ],
+        "changes_in_routine": [
+          "Individual therapy",
+          "Family therapy",
+          "Behavior modification",
+          "School intervention"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Social skills training",
+          "Problem-solving strategies",
+          "Parent training"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of behavior violating rights of others",
+          "Multiple categories of symptoms present",
+          "Significant functional impairment",
+          "Duration of more than 12 months"
+        ]
+      }
+    },
+    {
+      "case_id": 11,
+      "patient_profile": {
+        "name": "Christopher Chen",
+        "age": 16,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Juvenile Detention Center",
+        "reason_for_visit": "Court-ordered evaluation following arrest for aggravated assault"
+      },
+      "patient_background": {
+        "living_situation": "Lives with grandmother, parents incarcerated",
+        "family_history": "Both parents have criminal records",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "aggression_to_people_and_animals": [
+          "Often bullies, threatens, or intimidates others",
+          "Often initiates physical fights",
+          "Has used a weapon that can cause serious physical harm",
+          "Has been physically cruel to people",
+          "Has stolen while confronting a victim"
+        ],
+        "destruction_of_property": [
+          "Has deliberately engaged in fire setting",
+          "Has deliberately destroyed others' property"
+        ],
+        "deceitfulness_or_theft": [
+          "Has broken into someone else's house",
+          "Often lies to obtain goods or favors",
+          "Has stolen items of nontrivial value"
+        ],
+        "serious_violations_of_rules": [
+          "Often stays out at night despite parental prohibitions",
+          "Has run away from home overnight at least twice",
+          "Is often truant from school"
+        ],
+        "duration": "4 years",
+        "severity": "Severe",
+        "impact_on_life": "Severe impact on family, school, and legal status",
+        "specific_examples": [
+          "Multiple arrests for violent crimes",
+          "School expulsion for assault",
+          "Repeated property damage",
+          "Chronic criminal behavior"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Angry and aggressive",
+        "thoughts": [
+          "I don't care about anyone",
+          "Violence gets me what I want",
+          "Rules are for weak people"
+        ],
+        "feelings": [
+          "Anger",
+          "Aggression",
+          "Lack of remorse",
+          "Defiance"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Violent behavior",
+          "Criminal activity",
+          "Substance use",
+          "Gang involvement"
+        ],
+        "changes_in_routine": [
+          "Juvenile detention",
+          "Intensive therapy",
+          "Substance abuse treatment",
+          "Gang intervention"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Conflict resolution",
+          "Substance abuse counseling",
+          "Social skills training"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of behavior violating rights of others",
+          "Multiple categories of symptoms present",
+          "Severe functional impairment",
+          "Duration of more than 12 months"
+        ]
+      }
+    },
+    {
+      "case_id": 12,
+      "patient_profile": {
+        "name": "Olivia Rodriguez",
+        "age": 13,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Counseling Office",
+        "reason_for_visit": "Teacher and parent concerns about aggressive behavior and rule violations"
+      },
+      "patient_background": {
+        "living_situation": "Lives with mother and stepfather",
+        "family_history": "Biological father has history of violence",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "aggression_to_people_and_animals": [
+          "Often bullies, threatens, or intimidates others",
+          "Often initiates physical fights"
+        ],
+        "destruction_of_property": [
+          "Has deliberately destroyed others' property"
+        ],
+        "deceitfulness_or_theft": [
+          "Often lies to obtain goods or favors",
+          "Has stolen items of nontrivial value"
+        ],
+        "serious_violations_of_rules": [
+          "Often stays out at night despite parental prohibitions",
+          "Is often truant from school"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on family and school functioning",
+        "specific_examples": [
+          "Physical altercations with peers",
+          "Property damage at home",
+          "School suspensions",
+          "Chronic lying"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and defiant",
+        "thoughts": [
+          "I don't care about consequences",
+          "I can do whatever I want",
+          "No one understands me"
+        ],
+        "feelings": [
+          "Anger",
+          "Defiance",
+          "Lack of empathy",
+          "Frustration"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "School behavior problems",
+          "Peer conflicts",
+          "Rule violations",
+          "Deceptive behavior"
+        ],
+        "changes_in_routine": [
+          "Individual therapy",
+          "Family therapy",
+          "Behavior modification",
+          "School intervention"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Social skills training",
+          "Problem-solving strategies",
+          "Parent training"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of behavior violating rights of others",
+          "Multiple categories of symptoms present",
+          "Significant functional impairment",
+          "Duration of more than 12 months"
+        ]
+      }
+    },
+    {
+      "case_id": 13,
+      "patient_profile": {
+        "name": "William Wilson",
+        "age": 15,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Juvenile Justice Center",
+        "reason_for_visit": "Court-mandated evaluation following arrest for property damage"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "Brother has ADHD",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "aggression_to_people_and_animals": [
+          "Often bullies, threatens, or intimidates others",
+          "Often initiates physical fights"
+        ],
+        "destruction_of_property": [
+          "Has deliberately destroyed others' property",
+          "Has deliberately engaged in fire setting"
+        ],
+        "deceitfulness_or_theft": [
+          "Often lies to obtain goods or favors",
+          "Has stolen items of nontrivial value"
+        ],
+        "serious_violations_of_rules": [
+          "Often stays out at night despite parental prohibitions",
+          "Is often truant from school"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on family and school functioning",
+        "specific_examples": [
+          "Multiple arrests for vandalism",
+          "School suspensions for fighting",
+          "Property damage in neighborhood",
+          "Chronic rule violations"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Angry and defiant",
+        "thoughts": [
+          "Rules don't apply to me",
+          "I need to prove I'm tough",
+          "No one can tell me what to do"
+        ],
+        "feelings": [
+          "Anger",
+          "Defiance",
+          "Lack of remorse",
+          "Aggression"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Property destruction",
+          "Physical altercations",
+          "Rule violations",
+          "Deceptive behavior"
+        ],
+        "changes_in_routine": [
+          "Juvenile probation",
+          "Individual therapy",
+          "Family therapy",
+          "Community service"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Conflict resolution",
+          "Social skills training",
+          "Parent training"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of behavior violating rights of others",
+          "Multiple categories of symptoms present",
+          "Significant functional impairment",
+          "Duration of more than 12 months"
+        ]
+      }
+    },
+    {
+      "case_id": 14,
+      "patient_profile": {
+        "name": "Isabella Martinez",
+        "age": 14,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Mental Health Clinic",
+        "reason_for_visit": "Parent concerns about aggressive behavior and rule violations"
+      },
+      "patient_background": {
+        "living_situation": "Lives with single mother",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "aggression_to_people_and_animals": [
+          "Often bullies, threatens, or intimidates others",
+          "Often initiates physical fights"
+        ],
+        "destruction_of_property": [
+          "Has deliberately destroyed others' property"
+        ],
+        "deceitfulness_or_theft": [
+          "Often lies to obtain goods or favors",
+          "Has stolen items of nontrivial value"
+        ],
+        "serious_violations_of_rules": [
+          "Often stays out at night despite parental prohibitions",
+          "Is often truant from school"
+        ],
+        "duration": "1.5 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on family and school functioning",
+        "specific_examples": [
+          "Physical altercations with peers",
+          "Property damage at home",
+          "School suspensions",
+          "Chronic lying"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and defiant",
+        "thoughts": [
+          "I don't care about consequences",
+          "I can do whatever I want",
+          "No one understands me"
+        ],
+        "feelings": [
+          "Anger",
+          "Defiance",
+          "Lack of empathy",
+          "Frustration"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "School behavior problems",
+          "Peer conflicts",
+          "Rule violations",
+          "Deceptive behavior"
+        ],
+        "changes_in_routine": [
+          "Individual therapy",
+          "Family therapy",
+          "Behavior modification",
+          "School intervention"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Social skills training",
+          "Problem-solving strategies",
+          "Parent training"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of behavior violating rights of others",
+          "Multiple categories of symptoms present",
+          "Significant functional impairment",
+          "Duration of more than 12 months"
+        ]
+      }
+    },
+    {
+      "case_id": 15,
+      "patient_profile": {
+        "name": "Thomas Thompson",
+        "age": 13,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Counseling Office",
+        "reason_for_visit": "Teacher and parent concerns about occasional rule violations"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "aggression_to_people_and_animals": [
+          "Sometimes bullies or threatens others",
+          "Occasionally initiates physical fights"
+        ],
+        "destruction_of_property": [
+          "Has occasionally damaged others' property"
+        ],
+        "deceitfulness_or_theft": [
+          "Sometimes lies to avoid trouble",
+          "Has occasionally taken small items"
+        ],
+        "serious_violations_of_rules": [
+          "Sometimes stays out late",
+          "Occasionally skips school"
+        ],
+        "duration": "6 months",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on family and school functioning",
+        "specific_examples": [
+          "Occasional arguments with peers",
+          "Minor property damage",
+          "Infrequent school detentions",
+          "Occasional rule violations"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Generally positive",
+        "thoughts": [
+          "I usually follow rules",
+          "I try to get along with others",
+          "I know right from wrong"
+        ],
+        "feelings": [
+          "Generally well-adjusted",
+          "Occasional frustration",
+          "Normal mood",
+          "Positive attitude"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Generally compliant",
+          "Follows most rules",
+          "Good peer relationships",
+          "Normal behavior"
+        ],
+        "changes_in_routine": [
+          "Regular exercise",
+          "Balanced activities",
+          "Good sleep schedule",
+          "Structured routines"
+        ],
+        "coping_mechanisms": [
+          "Regular exercise",
+          "Good sleep habits",
+          "Balanced activities",
+          "Parent support"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": false,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Insufficient number of symptoms",
+          "Symptoms not present for at least 12 months",
+          "No significant functional impairment",
+          "Normal developmental variation"
+        ]
+      }
+    }
+  ]
+}
+</rewritten_file>

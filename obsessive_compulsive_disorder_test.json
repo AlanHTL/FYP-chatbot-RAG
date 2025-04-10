@@ -1,0 +1,1144 @@
+{
+  "test_cases": [
+    {
+      "case_id": 1,
+      "patient_profile": {
+        "name": "Emma Wilson",
+        "age": 28,
+        "gender": "Female",
+        "occupation": "Office Manager"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred due to excessive hand washing and cleaning rituals"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive hand washing",
+          "Cleaning rituals",
+          "Fear of contamination",
+          "Checking behaviors"
+        ],
+        "duration": "5 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on work and social functioning",
+        "specific_examples": [
+          "Washing hands 50+ times per day",
+          "Spending 3+ hours cleaning daily",
+          "Avoiding public places",
+          "Repeatedly checking locks and appliances"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "Everything is contaminated",
+          "I must clean everything perfectly",
+          "Something bad will happen if I don't check"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Fear",
+          "Distress"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive cleaning",
+          "Repeated hand washing",
+          "Checking rituals"
+        ],
+        "changes_in_routine": [
+          "Avoiding public places",
+          "Taking long showers",
+          "Arriving early to work to clean"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Rituals",
+          "Seeking reassurance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent and persistent thoughts about contamination",
+          "Compulsive hand washing and cleaning",
+          "Time-consuming rituals",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 2,
+      "patient_profile": {
+        "name": "James Chen",
+        "age": 32,
+        "gender": "Male",
+        "occupation": "Software Engineer"
+      },
+      "conversation_context": {
+        "setting": "Employee Assistance Program",
+        "reason_for_visit": "Self-referred due to excessive checking and counting rituals"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive checking of code",
+          "Counting rituals",
+          "Need for symmetry",
+          "Perfectionism"
+        ],
+        "duration": "3 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work productivity",
+        "specific_examples": [
+          "Reviewing code 10+ times before submission",
+          "Counting steps while walking",
+          "Arranging items in perfect symmetry",
+          "Spending hours organizing files"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I must check everything perfectly",
+          "Things must be in perfect order",
+          "Something bad will happen if I don't count"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Distress"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive code checking",
+          "Counting rituals",
+          "Arranging items symmetrically"
+        ],
+        "changes_in_routine": [
+          "Working late to complete rituals",
+          "Avoiding deadlines",
+          "Taking longer routes to count steps"
+        ],
+        "coping_mechanisms": [
+          "Rituals",
+          "Avoidance",
+          "Perfectionism"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent and persistent thoughts about order and symmetry",
+          "Compulsive checking and counting",
+          "Time-consuming rituals",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 3,
+      "patient_profile": {
+        "name": "Sophia Rodriguez",
+        "age": 25,
+        "gender": "Female",
+        "occupation": "Graduate Student"
+      },
+      "conversation_context": {
+        "setting": "University Health Center",
+        "reason_for_visit": "Self-referred due to intrusive thoughts and mental rituals"
+      },
+      "patient_background": {
+        "living_situation": "Lives with roommates",
+        "family_history": "Father has OCD",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Intrusive thoughts",
+          "Mental rituals",
+          "Need for reassurance",
+          "Perfectionism"
+        ],
+        "duration": "4 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on academic performance",
+        "specific_examples": [
+          "Repeating phrases mentally",
+          "Seeking constant reassurance",
+          "Perfectionist tendencies in writing",
+          "Avoiding certain numbers"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I must repeat these phrases",
+          "Something bad will happen if I don't",
+          "I need constant reassurance"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Fear",
+          "Distress"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Mental rituals",
+          "Seeking reassurance",
+          "Avoiding triggers"
+        ],
+        "changes_in_routine": [
+          "Taking longer to complete tasks",
+          "Avoiding certain situations",
+          "Repeated checking of work"
+        ],
+        "coping_mechanisms": [
+          "Mental rituals",
+          "Avoidance",
+          "Reassurance seeking"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent and persistent intrusive thoughts",
+          "Mental rituals",
+          "Time-consuming behaviors",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 4,
+      "patient_profile": {
+        "name": "Michael Thompson",
+        "age": 35,
+        "gender": "Male",
+        "occupation": "Chef"
+      },
+      "conversation_context": {
+        "setting": "Private Practice",
+        "reason_for_visit": "Self-referred due to excessive food safety concerns"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive food safety concerns",
+          "Cleaning rituals",
+          "Checking behaviors",
+          "Perfectionism"
+        ],
+        "duration": "6 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Excessive food temperature checking",
+          "Repeated cleaning of kitchen equipment",
+          "Avoiding certain ingredients",
+          "Taking hours to prepare simple dishes"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "Food must be perfectly safe",
+          "I must clean everything thoroughly",
+          "Something bad will happen if I don't check"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Fear",
+          "Distress"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive food safety checks",
+          "Cleaning rituals",
+          "Avoiding certain foods"
+        ],
+        "changes_in_routine": [
+          "Taking longer to prepare food",
+          "Avoiding complex recipes",
+          "Repeated temperature checks"
+        ],
+        "coping_mechanisms": [
+          "Rituals",
+          "Avoidance",
+          "Perfectionism"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent and persistent thoughts about food safety",
+          "Compulsive checking and cleaning",
+          "Time-consuming rituals",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 5,
+      "patient_profile": {
+        "name": "Lisa Kim",
+        "age": 29,
+        "gender": "Female",
+        "occupation": "Nurse"
+      },
+      "conversation_context": {
+        "setting": "Hospital Employee Health",
+        "reason_for_visit": "Self-referred due to excessive medical checking"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive medical checking",
+          "Health-related obsessions",
+          "Reassurance seeking",
+          "Avoidance behaviors"
+        ],
+        "duration": "4 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Repeatedly checking patient charts",
+          "Excessive hand washing",
+          "Avoiding certain procedures",
+          "Seeking constant medical reassurance"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I must check everything perfectly",
+          "I might miss something important",
+          "Something bad will happen if I don't check"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Fear",
+          "Distress"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive chart checking",
+          "Hand washing rituals",
+          "Avoiding certain tasks"
+        ],
+        "changes_in_routine": [
+          "Taking longer to complete tasks",
+          "Avoiding certain procedures",
+          "Seeking constant reassurance"
+        ],
+        "coping_mechanisms": [
+          "Checking rituals",
+          "Avoidance",
+          "Reassurance seeking"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent and persistent thoughts about medical safety",
+          "Compulsive checking and washing",
+          "Time-consuming rituals",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 6,
+      "patient_profile": {
+        "name": "David Martinez",
+        "age": 31,
+        "gender": "Male",
+        "occupation": "Architect"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred due to excessive checking and perfectionism"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive checking of designs",
+          "Perfectionism",
+          "Need for symmetry",
+          "Counting rituals"
+        ],
+        "duration": "5 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work productivity",
+        "specific_examples": [
+          "Reviewing designs 20+ times",
+          "Arranging items in perfect symmetry",
+          "Counting steps while walking",
+          "Taking hours to make minor adjustments"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "Everything must be perfect",
+          "I must check everything thoroughly",
+          "Something bad will happen if I don't count"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Distress"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive design checking",
+          "Arranging items symmetrically",
+          "Counting rituals"
+        ],
+        "changes_in_routine": [
+          "Working late to complete rituals",
+          "Avoiding deadlines",
+          "Taking longer routes to count steps"
+        ],
+        "coping_mechanisms": [
+          "Perfectionism",
+          "Avoidance",
+          "Rituals"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent and persistent thoughts about perfection",
+          "Compulsive checking and arranging",
+          "Time-consuming rituals",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 7,
+      "patient_profile": {
+        "name": "Rachel Anderson",
+        "age": 27,
+        "gender": "Female",
+        "occupation": "Teacher"
+      },
+      "conversation_context": {
+        "setting": "School Health Center",
+        "reason_for_visit": "Self-referred due to excessive checking and perfectionism"
+      },
+      "patient_background": {
+        "living_situation": "Lives with roommates",
+        "family_history": "Sister has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive checking of student work",
+          "Perfectionism",
+          "Need for order",
+          "Mental rituals"
+        ],
+        "duration": "3 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on teaching and personal life",
+        "specific_examples": [
+          "Reviewing student work 10+ times",
+          "Arranging classroom in perfect order",
+          "Mental counting while teaching",
+          "Taking hours to grade assignments"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I must check everything perfectly",
+          "Everything must be in order",
+          "Something bad will happen if I don't count"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Distress"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive work checking",
+          "Arranging classroom items",
+          "Mental counting"
+        ],
+        "changes_in_routine": [
+          "Working late to complete rituals",
+          "Avoiding certain tasks",
+          "Taking longer to grade"
+        ],
+        "coping_mechanisms": [
+          "Perfectionism",
+          "Avoidance",
+          "Mental rituals"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent and persistent thoughts about perfection",
+          "Compulsive checking and arranging",
+          "Time-consuming rituals",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 8,
+      "patient_profile": {
+        "name": "Thomas Lee",
+        "age": 34,
+        "gender": "Male",
+        "occupation": "Lawyer"
+      },
+      "conversation_context": {
+        "setting": "Private Practice",
+        "reason_for_visit": "Self-referred due to excessive checking and perfectionism"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Father has OCD",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive checking of legal documents",
+          "Perfectionism",
+          "Need for order",
+          "Mental rituals"
+        ],
+        "duration": "6 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Reviewing documents 15+ times",
+          "Arranging files in perfect order",
+          "Mental counting while reading",
+          "Taking hours to complete simple tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I must check everything perfectly",
+          "Everything must be in order",
+          "Something bad will happen if I don't count"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Distress"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive document checking",
+          "Arranging files",
+          "Mental counting"
+        ],
+        "changes_in_routine": [
+          "Working late to complete rituals",
+          "Avoiding deadlines",
+          "Taking longer to complete tasks"
+        ],
+        "coping_mechanisms": [
+          "Perfectionism",
+          "Avoidance",
+          "Mental rituals"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent and persistent thoughts about perfection",
+          "Compulsive checking and arranging",
+          "Time-consuming rituals",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 9,
+      "patient_profile": {
+        "name": "Sarah Brown",
+        "age": 26,
+        "gender": "Female",
+        "occupation": "Artist"
+      },
+      "conversation_context": {
+        "setting": "Community Mental Health Center",
+        "reason_for_visit": "Self-referred due to excessive checking and perfectionism"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive checking of artwork",
+          "Perfectionism",
+          "Need for symmetry",
+          "Counting rituals"
+        ],
+        "duration": "4 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on creative work and personal life",
+        "specific_examples": [
+          "Reviewing artwork 20+ times",
+          "Arranging items in perfect symmetry",
+          "Counting brushstrokes",
+          "Taking hours to make minor adjustments"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "Everything must be perfect",
+          "I must check everything thoroughly",
+          "Something bad will happen if I don't count"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Distress"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive artwork checking",
+          "Arranging items symmetrically",
+          "Counting rituals"
+        ],
+        "changes_in_routine": [
+          "Working late to complete rituals",
+          "Avoiding deadlines",
+          "Taking longer to complete work"
+        ],
+        "coping_mechanisms": [
+          "Perfectionism",
+          "Avoidance",
+          "Rituals"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent and persistent thoughts about perfection",
+          "Compulsive checking and arranging",
+          "Time-consuming rituals",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 10,
+      "patient_profile": {
+        "name": "Daniel Wilson",
+        "age": 38,
+        "gender": "Male",
+        "occupation": "Doctor"
+      },
+      "conversation_context": {
+        "setting": "Hospital Employee Health",
+        "reason_for_visit": "Self-referred due to excessive medical checking"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse and children",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive medical checking",
+          "Health-related obsessions",
+          "Reassurance seeking",
+          "Avoidance behaviors"
+        ],
+        "duration": "5 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on work and family life",
+        "specific_examples": [
+          "Repeatedly checking patient records",
+          "Excessive hand washing",
+          "Avoiding certain procedures",
+          "Seeking constant medical reassurance"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I must check everything perfectly",
+          "I might miss something important",
+          "Something bad will happen if I don't check"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Fear",
+          "Distress"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive record checking",
+          "Hand washing rituals",
+          "Avoiding certain tasks"
+        ],
+        "changes_in_routine": [
+          "Taking longer to complete tasks",
+          "Avoiding certain procedures",
+          "Seeking constant reassurance"
+        ],
+        "coping_mechanisms": [
+          "Checking rituals",
+          "Avoidance",
+          "Reassurance seeking"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent and persistent thoughts about medical safety",
+          "Compulsive checking and washing",
+          "Time-consuming rituals",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 11,
+      "patient_profile": {
+        "name": "Maria Garcia",
+        "age": 30,
+        "gender": "Female",
+        "occupation": "Nurse"
+      },
+      "conversation_context": {
+        "setting": "Hospital Employee Health",
+        "reason_for_visit": "Self-referred due to excessive medical checking"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive medical checking",
+          "Health-related obsessions",
+          "Reassurance seeking",
+          "Avoidance behaviors"
+        ],
+        "duration": "4 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Repeatedly checking patient charts",
+          "Excessive hand washing",
+          "Avoiding certain procedures",
+          "Seeking constant medical reassurance"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I must check everything perfectly",
+          "I might miss something important",
+          "Something bad will happen if I don't check"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Fear",
+          "Distress"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive chart checking",
+          "Hand washing rituals",
+          "Avoiding certain tasks"
+        ],
+        "changes_in_routine": [
+          "Taking longer to complete tasks",
+          "Avoiding certain procedures",
+          "Seeking constant reassurance"
+        ],
+        "coping_mechanisms": [
+          "Checking rituals",
+          "Avoidance",
+          "Reassurance seeking"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent and persistent thoughts about medical safety",
+          "Compulsive checking and washing",
+          "Time-consuming rituals",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 12,
+      "patient_profile": {
+        "name": "William Taylor",
+        "age": 33,
+        "gender": "Male",
+        "occupation": "Engineer"
+      },
+      "conversation_context": {
+        "setting": "Employee Assistance Program",
+        "reason_for_visit": "Self-referred due to excessive checking and perfectionism"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "Father had OCD",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive checking of designs",
+          "Perfectionism",
+          "Need for symmetry",
+          "Counting rituals"
+        ],
+        "duration": "5 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Reviewing designs 15+ times",
+          "Arranging items in perfect symmetry",
+          "Counting steps while walking",
+          "Taking hours to make minor adjustments"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "Everything must be perfect",
+          "I must check everything thoroughly",
+          "Something bad will happen if I don't count"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Distress"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive design checking",
+          "Arranging items symmetrically",
+          "Counting rituals"
+        ],
+        "changes_in_routine": [
+          "Working late to complete rituals",
+          "Avoiding deadlines",
+          "Taking longer routes to count steps"
+        ],
+        "coping_mechanisms": [
+          "Perfectionism",
+          "Avoidance",
+          "Rituals"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent and persistent thoughts about perfection",
+          "Compulsive checking and arranging",
+          "Time-consuming rituals",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 13,
+      "patient_profile": {
+        "name": "Jennifer Lee",
+        "age": 27,
+        "gender": "Female",
+        "occupation": "Marketing Manager"
+      },
+      "conversation_context": {
+        "setting": "Private Practice",
+        "reason_for_visit": "Self-referred due to excessive checking and perfectionism"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive checking of work",
+          "Perfectionism",
+          "Need for order",
+          "Mental rituals"
+        ],
+        "duration": "4 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Reviewing documents 10+ times",
+          "Arranging files in perfect order",
+          "Mental counting while working",
+          "Taking hours to complete simple tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I must check everything perfectly",
+          "Everything must be in order",
+          "Something bad will happen if I don't count"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Distress"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive work checking",
+          "Arranging files",
+          "Mental counting"
+        ],
+        "changes_in_routine": [
+          "Working late to complete rituals",
+          "Avoiding deadlines",
+          "Taking longer to complete tasks"
+        ],
+        "coping_mechanisms": [
+          "Perfectionism",
+          "Avoidance",
+          "Mental rituals"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent and persistent thoughts about perfection",
+          "Compulsive checking and arranging",
+          "Time-consuming rituals",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 14,
+      "patient_profile": {
+        "name": "Robert Chen",
+        "age": 36,
+        "gender": "Male",
+        "occupation": "Architect"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred due to excessive checking and perfectionism"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive checking of designs",
+          "Perfectionism",
+          "Need for symmetry",
+          "Counting rituals"
+        ],
+        "duration": "6 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Reviewing designs 20+ times",
+          "Arranging items in perfect symmetry",
+          "Counting steps while walking",
+          "Taking hours to make minor adjustments"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "Everything must be perfect",
+          "I must check everything thoroughly",
+          "Something bad will happen if I don't count"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Distress"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive design checking",
+          "Arranging items symmetrically",
+          "Counting rituals"
+        ],
+        "changes_in_routine": [
+          "Working late to complete rituals",
+          "Avoiding deadlines",
+          "Taking longer routes to count steps"
+        ],
+        "coping_mechanisms": [
+          "Perfectionism",
+          "Avoidance",
+          "Rituals"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent and persistent thoughts about perfection",
+          "Compulsive checking and arranging",
+          "Time-consuming rituals",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 15,
+      "patient_profile": {
+        "name": "Alex Thompson",
+        "age": 25,
+        "gender": "Male",
+        "occupation": "Graduate Student"
+      },
+      "conversation_context": {
+        "setting": "University Health Center",
+        "reason_for_visit": "Self-referred due to mild checking behaviors"
+      },
+      "patient_background": {
+        "living_situation": "Lives with roommates",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Occasional checking",
+          "Mild perfectionism",
+          "Normal organization",
+          "No significant rituals"
+        ],
+        "duration": "6 months",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on academic and personal life",
+        "specific_examples": [
+          "Double-checking important assignments",
+          "Keeping organized notes",
+          "Normal attention to detail",
+          "No significant time spent on rituals"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Generally positive",
+        "thoughts": [
+          "I like to be thorough",
+          "Organization helps me study",
+          "I'm capable of handling challenges"
+        ],
+        "feelings": [
+          "Generally positive",
+          "Normal anxiety levels",
+          "Good self-esteem"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Normal checking behaviors",
+          "Regular organization",
+          "Balanced work habits"
+        ],
+        "changes_in_routine": [
+          "Regular sleep pattern",
+          "Healthy work habits",
+          "Balanced lifestyle"
+        ],
+        "coping_mechanisms": [
+          "Healthy organization",
+          "Time management",
+          "Regular exercise"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": false,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Normal checking behaviors",
+          "No significant distress",
+          "No time-consuming rituals",
+          "No functional impairment",
+          "Healthy coping mechanisms"
+        ]
+      }
+    }
+  ]
+} 

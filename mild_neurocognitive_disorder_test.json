@@ -1,0 +1,1114 @@
+{
+  "test_cases": [
+    {
+      "case_id": 1,
+      "patient_profile": {
+        "name": "Michael Brown",
+        "age": 65,
+        "gender": "Male",
+        "occupation": "Retired Business Consultant"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Noticing mild memory changes and concentration difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "Mother had dementia",
+        "medical_history": "Hypertension, well-controlled"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Occasional forgetfulness",
+          "Mild difficulty with complex tasks",
+          "Some word-finding issues"
+        ],
+        "duration": "1 year",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on daily activities",
+        "specific_examples": [
+          "Sometimes forgetting appointments",
+          "Occasional difficulty with complex planning",
+          "Mild word-finding difficulties"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Slightly anxious",
+        "thoughts": [
+          "I'm noticing some changes",
+          "I hope this isn't serious",
+          "I'm still managing well"
+        ],
+        "feelings": [
+          "Concerned",
+          "Hopeful",
+          "Adaptive"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Using memory aids",
+          "Maintaining routine",
+          "Staying active"
+        ],
+        "changes_in_routine": [
+          "More use of calendar",
+          "Taking more notes",
+          "Maintaining activities"
+        ],
+        "coping_mechanisms": [
+          "Organization",
+          "Memory aids",
+          "Active lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "Modest cognitive decline",
+          "Does not interfere with independence",
+          "Not due to delirium",
+          "Not better explained by other disorders",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 2,
+      "patient_profile": {
+        "name": "Patricia Chen",
+        "age": 68,
+        "gender": "Female",
+        "occupation": "Retired Teacher"
+      },
+      "conversation_context": {
+        "setting": "Neurology clinic",
+        "reason_for_visit": "Mild memory changes and language difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives independently",
+        "family_history": "No known dementia history",
+        "medical_history": "Diabetes, well-controlled"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Occasional word-finding difficulties",
+          "Mild memory changes",
+          "Some concentration issues"
+        ],
+        "duration": "8 months",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on daily activities",
+        "specific_examples": [
+          "Occasional word-finding difficulties",
+          "Sometimes forgetting names",
+          "Mild concentration issues"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Slightly concerned",
+        "thoughts": [
+          "I'm managing well",
+          "These changes are mild",
+          "I'm adapting fine"
+        ],
+        "feelings": [
+          "Concerned",
+          "Adaptive",
+          "Hopeful"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Maintaining routine",
+          "Using memory aids",
+          "Staying active"
+        ],
+        "changes_in_routine": [
+          "More use of notes",
+          "Using calendar more",
+          "Maintaining activities"
+        ],
+        "coping_mechanisms": [
+          "Organization",
+          "Memory aids",
+          "Active lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "Modest cognitive decline",
+          "Does not interfere with independence",
+          "Not due to delirium",
+          "Not better explained by other disorders",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 3,
+      "patient_profile": {
+        "name": "Robert Wilson",
+        "age": 70,
+        "gender": "Male",
+        "occupation": "Retired Engineer"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Mild changes in memory and spatial abilities"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "Father had dementia",
+        "medical_history": "Heart disease, stable"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild spatial difficulties",
+          "Occasional memory changes",
+          "Some concentration issues"
+        ],
+        "duration": "1 year",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on daily activities",
+        "specific_examples": [
+          "Occasional spatial disorientation",
+          "Sometimes forgetting recent events",
+          "Mild concentration difficulties"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Slightly anxious",
+        "thoughts": [
+          "I'm managing well",
+          "These changes are mild",
+          "I'm adapting fine"
+        ],
+        "feelings": [
+          "Concerned",
+          "Adaptive",
+          "Hopeful"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Maintaining routine",
+          "Using navigation aids",
+          "Staying active"
+        ],
+        "changes_in_routine": [
+          "More use of GPS",
+          "Taking more notes",
+          "Maintaining activities"
+        ],
+        "coping_mechanisms": [
+          "Navigation aids",
+          "Organization",
+          "Active lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "Modest cognitive decline",
+          "Does not interfere with independence",
+          "Not due to delirium",
+          "Not better explained by other disorders",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 4,
+      "patient_profile": {
+        "name": "Sarah Martinez",
+        "age": 67,
+        "gender": "Female",
+        "occupation": "Retired Accountant"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Mild changes in memory and calculation abilities"
+      },
+      "patient_background": {
+        "living_situation": "Lives independently",
+        "family_history": "No known dementia history",
+        "medical_history": "Depression, treated"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild calculation difficulties",
+          "Occasional memory changes",
+          "Some concentration issues"
+        ],
+        "duration": "6 months",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on daily activities",
+        "specific_examples": [
+          "Occasional calculation errors",
+          "Sometimes forgetting numbers",
+          "Mild concentration difficulties"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Slightly concerned",
+        "thoughts": [
+          "I'm managing well",
+          "These changes are mild",
+          "I'm adapting fine"
+        ],
+        "feelings": [
+          "Concerned",
+          "Adaptive",
+          "Hopeful"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Using calculator more",
+          "Maintaining routine",
+          "Staying active"
+        ],
+        "changes_in_routine": [
+          "More use of financial apps",
+          "Taking more notes",
+          "Maintaining activities"
+        ],
+        "coping_mechanisms": [
+          "Technology aids",
+          "Organization",
+          "Active lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "Modest cognitive decline",
+          "Does not interfere with independence",
+          "Not due to delirium",
+          "Not better explained by other disorders",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 5,
+      "patient_profile": {
+        "name": "James Thompson",
+        "age": 69,
+        "gender": "Male",
+        "occupation": "Retired Doctor"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Mild changes in memory and executive function"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known dementia history",
+        "medical_history": "Parkinson's disease, mild"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild planning difficulties",
+          "Occasional memory changes",
+          "Some concentration issues"
+        ],
+        "duration": "1 year",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on daily activities",
+        "specific_examples": [
+          "Occasional planning difficulties",
+          "Sometimes forgetting appointments",
+          "Mild concentration issues"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Slightly anxious",
+        "thoughts": [
+          "I'm managing well",
+          "These changes are mild",
+          "I'm adapting fine"
+        ],
+        "feelings": [
+          "Concerned",
+          "Adaptive",
+          "Hopeful"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Using planning aids",
+          "Maintaining routine",
+          "Staying active"
+        ],
+        "changes_in_routine": [
+          "More use of calendar",
+          "Taking more notes",
+          "Maintaining activities"
+        ],
+        "coping_mechanisms": [
+          "Organization",
+          "Planning aids",
+          "Active lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "Modest cognitive decline",
+          "Does not interfere with independence",
+          "Not due to delirium",
+          "Not better explained by other disorders",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 6,
+      "patient_profile": {
+        "name": "Elizabeth Brown",
+        "age": 71,
+        "gender": "Female",
+        "occupation": "Retired Librarian"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Mild changes in memory and language abilities"
+      },
+      "patient_background": {
+        "living_situation": "Lives independently",
+        "family_history": "Sister has dementia",
+        "medical_history": "Hypothyroidism, treated"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild word-finding difficulties",
+          "Occasional memory changes",
+          "Some concentration issues"
+        ],
+        "duration": "8 months",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on daily activities",
+        "specific_examples": [
+          "Occasional word-finding difficulties",
+          "Sometimes forgetting words",
+          "Mild concentration issues"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Slightly concerned",
+        "thoughts": [
+          "I'm managing well",
+          "These changes are mild",
+          "I'm adapting fine"
+        ],
+        "feelings": [
+          "Concerned",
+          "Adaptive",
+          "Hopeful"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Maintaining routine",
+          "Using memory aids",
+          "Staying active"
+        ],
+        "changes_in_routine": [
+          "More use of notes",
+          "Taking more time to express thoughts",
+          "Maintaining activities"
+        ],
+        "coping_mechanisms": [
+          "Organization",
+          "Memory aids",
+          "Active lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "Modest cognitive decline",
+          "Does not interfere with independence",
+          "Not due to delirium",
+          "Not better explained by other disorders",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 7,
+      "patient_profile": {
+        "name": "David Lee",
+        "age": 66,
+        "gender": "Male",
+        "occupation": "Retired Professor"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Mild changes in memory and executive function"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known dementia history",
+        "medical_history": "Depression, treated"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild planning difficulties",
+          "Occasional memory changes",
+          "Some concentration issues"
+        ],
+        "duration": "1 year",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on daily activities",
+        "specific_examples": [
+          "Occasional planning difficulties",
+          "Sometimes forgetting appointments",
+          "Mild concentration issues"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Slightly anxious",
+        "thoughts": [
+          "I'm managing well",
+          "These changes are mild",
+          "I'm adapting fine"
+        ],
+        "feelings": [
+          "Concerned",
+          "Adaptive",
+          "Hopeful"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Using planning aids",
+          "Maintaining routine",
+          "Staying active"
+        ],
+        "changes_in_routine": [
+          "More use of calendar",
+          "Taking more notes",
+          "Maintaining activities"
+        ],
+        "coping_mechanisms": [
+          "Organization",
+          "Planning aids",
+          "Active lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "Modest cognitive decline",
+          "Does not interfere with independence",
+          "Not due to delirium",
+          "Not better explained by other disorders",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 8,
+      "patient_profile": {
+        "name": "Patricia Garcia",
+        "age": 68,
+        "gender": "Female",
+        "occupation": "Retired Artist"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Mild changes in memory and visual-spatial abilities"
+      },
+      "patient_background": {
+        "living_situation": "Lives independently",
+        "family_history": "Mother had dementia",
+        "medical_history": "Glaucoma, treated"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild spatial difficulties",
+          "Occasional memory changes",
+          "Some concentration issues"
+        ],
+        "duration": "6 months",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on daily activities",
+        "specific_examples": [
+          "Occasional spatial disorientation",
+          "Sometimes forgetting directions",
+          "Mild concentration issues"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Slightly concerned",
+        "thoughts": [
+          "I'm managing well",
+          "These changes are mild",
+          "I'm adapting fine"
+        ],
+        "feelings": [
+          "Concerned",
+          "Adaptive",
+          "Hopeful"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Using navigation aids",
+          "Maintaining routine",
+          "Staying active"
+        ],
+        "changes_in_routine": [
+          "More use of GPS",
+          "Taking more notes",
+          "Maintaining activities"
+        ],
+        "coping_mechanisms": [
+          "Navigation aids",
+          "Organization",
+          "Active lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "Modest cognitive decline",
+          "Does not interfere with independence",
+          "Not due to delirium",
+          "Not better explained by other disorders",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 9,
+      "patient_profile": {
+        "name": "Richard Wilson",
+        "age": 70,
+        "gender": "Male",
+        "occupation": "Retired Engineer"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Mild changes in memory and technical abilities"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known dementia history",
+        "medical_history": "Diabetes, well-controlled"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild technical difficulties",
+          "Occasional memory changes",
+          "Some concentration issues"
+        ],
+        "duration": "1 year",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on daily activities",
+        "specific_examples": [
+          "Occasional technical errors",
+          "Sometimes forgetting procedures",
+          "Mild concentration issues"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Slightly anxious",
+        "thoughts": [
+          "I'm managing well",
+          "These changes are mild",
+          "I'm adapting fine"
+        ],
+        "feelings": [
+          "Concerned",
+          "Adaptive",
+          "Hopeful"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Using technical aids",
+          "Maintaining routine",
+          "Staying active"
+        ],
+        "changes_in_routine": [
+          "More use of manuals",
+          "Taking more notes",
+          "Maintaining activities"
+        ],
+        "coping_mechanisms": [
+          "Technical aids",
+          "Organization",
+          "Active lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "Modest cognitive decline",
+          "Does not interfere with independence",
+          "Not due to delirium",
+          "Not better explained by other disorders",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 10,
+      "patient_profile": {
+        "name": "Mary Johnson",
+        "age": 67,
+        "gender": "Female",
+        "occupation": "Retired Teacher"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Mild changes in memory and language abilities"
+      },
+      "patient_background": {
+        "living_situation": "Lives independently",
+        "family_history": "Sister has dementia",
+        "medical_history": "Depression, treated"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild word-finding difficulties",
+          "Occasional memory changes",
+          "Some concentration issues"
+        ],
+        "duration": "8 months",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on daily activities",
+        "specific_examples": [
+          "Occasional word-finding difficulties",
+          "Sometimes forgetting words",
+          "Mild concentration issues"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Slightly concerned",
+        "thoughts": [
+          "I'm managing well",
+          "These changes are mild",
+          "I'm adapting fine"
+        ],
+        "feelings": [
+          "Concerned",
+          "Adaptive",
+          "Hopeful"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Maintaining routine",
+          "Using memory aids",
+          "Staying active"
+        ],
+        "changes_in_routine": [
+          "More use of notes",
+          "Taking more time to express thoughts",
+          "Maintaining activities"
+        ],
+        "coping_mechanisms": [
+          "Organization",
+          "Memory aids",
+          "Active lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "Modest cognitive decline",
+          "Does not interfere with independence",
+          "Not due to delirium",
+          "Not better explained by other disorders",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 11,
+      "patient_profile": {
+        "name": "Thomas Anderson",
+        "age": 69,
+        "gender": "Male",
+        "occupation": "Retired Lawyer"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Mild changes in memory and executive function"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known dementia history",
+        "medical_history": "Heart disease, stable"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild planning difficulties",
+          "Occasional memory changes",
+          "Some concentration issues"
+        ],
+        "duration": "1 year",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on daily activities",
+        "specific_examples": [
+          "Occasional planning difficulties",
+          "Sometimes forgetting appointments",
+          "Mild concentration issues"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Slightly anxious",
+        "thoughts": [
+          "I'm managing well",
+          "These changes are mild",
+          "I'm adapting fine"
+        ],
+        "feelings": [
+          "Concerned",
+          "Adaptive",
+          "Hopeful"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Using planning aids",
+          "Maintaining routine",
+          "Staying active"
+        ],
+        "changes_in_routine": [
+          "More use of calendar",
+          "Taking more notes",
+          "Maintaining activities"
+        ],
+        "coping_mechanisms": [
+          "Organization",
+          "Planning aids",
+          "Active lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "Modest cognitive decline",
+          "Does not interfere with independence",
+          "Not due to delirium",
+          "Not better explained by other disorders",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 12,
+      "patient_profile": {
+        "name": "Susan White",
+        "age": 68,
+        "gender": "Female",
+        "occupation": "Retired Nurse"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Mild changes in memory and executive function"
+      },
+      "patient_background": {
+        "living_situation": "Lives independently",
+        "family_history": "Mother had dementia",
+        "medical_history": "Hypothyroidism, treated"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild planning difficulties",
+          "Occasional memory changes",
+          "Some concentration issues"
+        ],
+        "duration": "8 months",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on daily activities",
+        "specific_examples": [
+          "Occasional planning difficulties",
+          "Sometimes forgetting appointments",
+          "Mild concentration issues"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Slightly concerned",
+        "thoughts": [
+          "I'm managing well",
+          "These changes are mild",
+          "I'm adapting fine"
+        ],
+        "feelings": [
+          "Concerned",
+          "Adaptive",
+          "Hopeful"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Using planning aids",
+          "Maintaining routine",
+          "Staying active"
+        ],
+        "changes_in_routine": [
+          "More use of calendar",
+          "Taking more notes",
+          "Maintaining activities"
+        ],
+        "coping_mechanisms": [
+          "Organization",
+          "Planning aids",
+          "Active lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "Modest cognitive decline",
+          "Does not interfere with independence",
+          "Not due to delirium",
+          "Not better explained by other disorders",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 13,
+      "patient_profile": {
+        "name": "Robert Martinez",
+        "age": 71,
+        "gender": "Male",
+        "occupation": "Retired Engineer"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Mild changes in memory and visual-spatial abilities"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known dementia history",
+        "medical_history": "Glaucoma, treated"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild spatial difficulties",
+          "Occasional memory changes",
+          "Some concentration issues"
+        ],
+        "duration": "1 year",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on daily activities",
+        "specific_examples": [
+          "Occasional spatial disorientation",
+          "Sometimes forgetting directions",
+          "Mild concentration issues"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Slightly anxious",
+        "thoughts": [
+          "I'm managing well",
+          "These changes are mild",
+          "I'm adapting fine"
+        ],
+        "feelings": [
+          "Concerned",
+          "Adaptive",
+          "Hopeful"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Using navigation aids",
+          "Maintaining routine",
+          "Staying active"
+        ],
+        "changes_in_routine": [
+          "More use of GPS",
+          "Taking more notes",
+          "Maintaining activities"
+        ],
+        "coping_mechanisms": [
+          "Navigation aids",
+          "Organization",
+          "Active lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "Modest cognitive decline",
+          "Does not interfere with independence",
+          "Not due to delirium",
+          "Not better explained by other disorders",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 14,
+      "patient_profile": {
+        "name": "Linda Thompson",
+        "age": 69,
+        "gender": "Female",
+        "occupation": "Retired Artist"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Mild changes in memory and visual-spatial abilities"
+      },
+      "patient_background": {
+        "living_situation": "Lives independently",
+        "family_history": "Mother had dementia",
+        "medical_history": "Depression, treated"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild spatial difficulties",
+          "Occasional memory changes",
+          "Some concentration issues"
+        ],
+        "duration": "8 months",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on daily activities",
+        "specific_examples": [
+          "Occasional spatial disorientation",
+          "Sometimes forgetting directions",
+          "Mild concentration issues"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Slightly concerned",
+        "thoughts": [
+          "I'm managing well",
+          "These changes are mild",
+          "I'm adapting fine"
+        ],
+        "feelings": [
+          "Concerned",
+          "Adaptive",
+          "Hopeful"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Using navigation aids",
+          "Maintaining routine",
+          "Staying active"
+        ],
+        "changes_in_routine": [
+          "More use of GPS",
+          "Taking more notes",
+          "Maintaining activities"
+        ],
+        "coping_mechanisms": [
+          "Navigation aids",
+          "Organization",
+          "Active lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "Modest cognitive decline",
+          "Does not interfere with independence",
+          "Not due to delirium",
+          "Not better explained by other disorders",
+          "Documented by testing"
+        ]
+      }
+    },
+    {
+      "case_id": 15,
+      "patient_profile": {
+        "name": "John Davis",
+        "age": 65,
+        "gender": "Male",
+        "occupation": "Retired Professor"
+      },
+      "conversation_context": {
+        "setting": "Memory clinic",
+        "reason_for_visit": "Concerns about normal aging changes"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known dementia history",
+        "medical_history": "Depression, treated"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Normal forgetfulness",
+          "Occasional concentration issues",
+          "Some word-finding difficulties"
+        ],
+        "duration": "6 months",
+        "severity": "None",
+        "impact_on_life": "No impact on daily activities",
+        "specific_examples": [
+          "Normal forgetfulness",
+          "Occasional concentration issues",
+          "Normal word-finding difficulties"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious but hopeful",
+        "thoughts": [
+          "This is normal aging",
+          "I'm functioning well",
+          "I'll adapt to these changes"
+        ],
+        "feelings": [
+          "Anxious",
+          "Hopeful",
+          "Adaptive"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Maintaining normal routine",
+          "Using memory aids",
+          "Staying active"
+        ],
+        "changes_in_routine": [
+          "Using calendar more",
+          "Taking more notes",
+          "Maintaining activities"
+        ],
+        "coping_mechanisms": [
+          "Memory aids",
+          "Organization",
+          "Active lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": false,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Normal aging changes",
+          "No functional impact",
+          "Maintained independence",
+          "No significant decline",
+          "Normal test results"
+        ]
+      }
+    }
+  ]
+} 

@@ -1,0 +1,1335 @@
+{
+  "test_cases": [
+    {
+      "case_id": 1,
+      "patient_profile": {
+        "name": "Ethan Chen",
+        "age": 8,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Health Center",
+        "reason_for_visit": "Teacher and parent concerns about academic performance and behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and younger sibling",
+        "family_history": "Father has ADHD",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "inattention_symptoms": [
+          "Often fails to give close attention to details",
+          "Often has difficulty sustaining attention",
+          "Often does not seem to listen when spoken to directly",
+          "Often does not follow through on instructions",
+          "Often has difficulty organizing tasks",
+          "Often loses things necessary for tasks",
+          "Is often easily distracted",
+          "Is often forgetful in daily activities"
+        ],
+        "hyperactivity_impulsivity_symptoms": [
+          "Often fidgets with or taps hands or feet",
+          "Often leaves seat in classroom",
+          "Often runs about or climbs in inappropriate situations",
+          "Often unable to play quietly",
+          "Is often 'on the go'",
+          "Often talks excessively",
+          "Often blurts out answers",
+          "Often has difficulty waiting turn",
+          "Often interrupts or intrudes on others"
+        ],
+        "duration": "3 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on academic performance and social relationships",
+        "specific_examples": [
+          "Difficulty completing homework",
+          "Disruptive in classroom",
+          "Problems with peer relationships",
+          "Frequent loss of belongings"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Frustrated and anxious",
+        "thoughts": [
+          "I can't do anything right",
+          "Everyone thinks I'm bad",
+          "I try but I just can't focus"
+        ],
+        "feelings": [
+          "Frustration",
+          "Anxiety",
+          "Low self-esteem",
+          "Overwhelm"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Difficulty with morning routine",
+          "Problems with homework completion",
+          "Disruptive during class",
+          "Difficulty with transitions"
+        ],
+        "changes_in_routine": [
+          "Increased academic support",
+          "Behavior modification plan",
+          "Regular exercise routine",
+          "Structured after-school activities"
+        ],
+        "coping_mechanisms": [
+          "Fidget toys",
+          "Movement breaks",
+          "Visual schedules",
+          "Parent support"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple inattention symptoms",
+          "Multiple hyperactivity-impulsivity symptoms",
+          "Symptoms present before age 12",
+          "Symptoms present in multiple settings",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 2,
+      "patient_profile": {
+        "name": "Sophia Rodriguez",
+        "age": 15,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred due to academic difficulties and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives with mother and older sibling",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "inattention_symptoms": [
+          "Often fails to give close attention to details",
+          "Often has difficulty sustaining attention",
+          "Often does not seem to listen when spoken to directly",
+          "Often does not follow through on instructions",
+          "Often has difficulty organizing tasks",
+          "Often avoids tasks requiring sustained mental effort",
+          "Often loses things necessary for tasks",
+          "Is often easily distracted",
+          "Is often forgetful in daily activities"
+        ],
+        "hyperactivity_impulsivity_symptoms": [],
+        "duration": "5 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on academic performance",
+        "specific_examples": [
+          "Difficulty completing assignments",
+          "Problems with time management",
+          "Frequent procrastination",
+          "Disorganization in schoolwork"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and overwhelmed",
+        "thoughts": [
+          "I'm not smart enough",
+          "I can't keep up with schoolwork",
+          "I'm letting everyone down"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Frustration",
+          "Low self-esteem",
+          "Overwhelm"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Difficulty with homework",
+          "Problems with organization",
+          "Procrastination",
+          "Academic struggles"
+        ],
+        "changes_in_routine": [
+          "Academic accommodations",
+          "Study skills training",
+          "Regular exercise",
+          "Structured study time"
+        ],
+        "coping_mechanisms": [
+          "Academic support",
+          "Study groups",
+          "Organization systems",
+          "Regular breaks"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple inattention symptoms",
+          "Symptoms present before age 12",
+          "Symptoms present in multiple settings",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 3,
+      "patient_profile": {
+        "name": "Lucas Thompson",
+        "age": 10,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Health Center",
+        "reason_for_visit": "Parent and teacher concerns about behavior and social interactions"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "inattention_symptoms": [],
+        "hyperactivity_impulsivity_symptoms": [
+          "Often fidgets with or taps hands or feet",
+          "Often leaves seat in classroom",
+          "Often runs about or climbs in inappropriate situations",
+          "Often unable to play quietly",
+          "Is often 'on the go'",
+          "Often talks excessively",
+          "Often blurts out answers",
+          "Often has difficulty waiting turn",
+          "Often interrupts or intrudes on others"
+        ],
+        "duration": "4 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on classroom behavior and peer relationships",
+        "specific_examples": [
+          "Disruptive in classroom",
+          "Problems with peer relationships",
+          "Difficulty following rules",
+          "Impulsive behavior"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Energetic and impulsive",
+        "thoughts": [
+          "I can't help it",
+          "Everyone gets mad at me",
+          "I try to be good but I can't"
+        ],
+        "feelings": [
+          "Frustration",
+          "Excitement",
+          "Impulsivity",
+          "Regret"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "High energy levels",
+          "Difficulty sitting still",
+          "Impulsive actions",
+          "Social difficulties"
+        ],
+        "changes_in_routine": [
+          "Regular exercise",
+          "Behavior modification plan",
+          "Social skills training",
+          "Structured activities"
+        ],
+        "coping_mechanisms": [
+          "Physical activity",
+          "Movement breaks",
+          "Social skills groups",
+          "Parent support"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple hyperactivity-impulsivity symptoms",
+          "Symptoms present before age 12",
+          "Symptoms present in multiple settings",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 4,
+      "patient_profile": {
+        "name": "Emma Wilson",
+        "age": 17,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred due to academic difficulties and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives with parents",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "inattention_symptoms": [
+          "Often fails to give close attention to details",
+          "Often has difficulty sustaining attention",
+          "Often does not seem to listen when spoken to directly",
+          "Often does not follow through on instructions",
+          "Often has difficulty organizing tasks",
+          "Often avoids tasks requiring sustained mental effort",
+          "Often loses things necessary for tasks",
+          "Is often easily distracted",
+          "Is often forgetful in daily activities"
+        ],
+        "hyperactivity_impulsivity_symptoms": [
+          "Often fidgets with or taps hands or feet",
+          "Often talks excessively",
+          "Often has difficulty waiting turn"
+        ],
+        "duration": "8 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on academic performance and self-esteem",
+        "specific_examples": [
+          "Difficulty completing assignments",
+          "Problems with organization",
+          "Fidgeting during class",
+          "Academic underachievement"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and frustrated",
+        "thoughts": [
+          "I'm not living up to my potential",
+          "I can't keep up with schoolwork",
+          "I'm disappointing my parents"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Frustration",
+          "Low self-esteem",
+          "Overwhelm"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Difficulty with homework",
+          "Problems with organization",
+          "Fidgeting during class",
+          "Academic struggles"
+        ],
+        "changes_in_routine": [
+          "Academic accommodations",
+          "Study skills training",
+          "Regular exercise",
+          "Structured study time"
+        ],
+        "coping_mechanisms": [
+          "Academic support",
+          "Study groups",
+          "Organization systems",
+          "Regular breaks"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple inattention symptoms",
+          "Some hyperactivity-impulsivity symptoms",
+          "Symptoms present before age 12",
+          "Symptoms present in multiple settings",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 5,
+      "patient_profile": {
+        "name": "Noah Martinez",
+        "age": 7,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Health Center",
+        "reason_for_visit": "Teacher and parent concerns about behavior and academic performance"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and older sibling",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "inattention_symptoms": [
+          "Often fails to give close attention to details",
+          "Often has difficulty sustaining attention",
+          "Often does not seem to listen when spoken to directly",
+          "Often does not follow through on instructions",
+          "Often has difficulty organizing tasks",
+          "Often avoids tasks requiring sustained mental effort",
+          "Often loses things necessary for tasks",
+          "Is often easily distracted",
+          "Is often forgetful in daily activities"
+        ],
+        "hyperactivity_impulsivity_symptoms": [
+          "Often fidgets with or taps hands or feet",
+          "Often leaves seat in classroom",
+          "Often runs about or climbs in inappropriate situations",
+          "Often unable to play quietly",
+          "Is often 'on the go'",
+          "Often talks excessively",
+          "Often blurts out answers",
+          "Often has difficulty waiting turn",
+          "Often interrupts or intrudes on others"
+        ],
+        "duration": "2 years",
+        "severity": "Severe",
+        "impact_on_life": "Significant impact on academic performance and social relationships",
+        "specific_examples": [
+          "Difficulty completing work",
+          "Disruptive in classroom",
+          "Problems with peer relationships",
+          "Frequent loss of belongings"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Frustrated and anxious",
+        "thoughts": [
+          "I can't do anything right",
+          "Everyone thinks I'm bad",
+          "I try but I just can't focus"
+        ],
+        "feelings": [
+          "Frustration",
+          "Anxiety",
+          "Low self-esteem",
+          "Overwhelm"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Difficulty with morning routine",
+          "Problems with homework completion",
+          "Disruptive during class",
+          "Difficulty with transitions"
+        ],
+        "changes_in_routine": [
+          "Increased academic support",
+          "Behavior modification plan",
+          "Regular exercise routine",
+          "Structured after-school activities"
+        ],
+        "coping_mechanisms": [
+          "Fidget toys",
+          "Movement breaks",
+          "Visual schedules",
+          "Parent support"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple inattention symptoms",
+          "Multiple hyperactivity-impulsivity symptoms",
+          "Symptoms present before age 12",
+          "Symptoms present in multiple settings",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 6,
+      "patient_profile": {
+        "name": "Ava Thompson",
+        "age": 13,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Parent and teacher concerns about academic performance and organization"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "Father has ADHD",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "inattention_symptoms": [
+          "Often fails to give close attention to details",
+          "Often has difficulty sustaining attention",
+          "Often does not seem to listen when spoken to directly",
+          "Often does not follow through on instructions",
+          "Often has difficulty organizing tasks",
+          "Often avoids tasks requiring sustained mental effort",
+          "Often loses things necessary for tasks",
+          "Is often easily distracted",
+          "Is often forgetful in daily activities"
+        ],
+        "hyperactivity_impulsivity_symptoms": [],
+        "duration": "5 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on academic performance and organization",
+        "specific_examples": [
+          "Difficulty completing assignments",
+          "Problems with organization",
+          "Frequent procrastination",
+          "Disorganization in schoolwork"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and overwhelmed",
+        "thoughts": [
+          "I'm not smart enough",
+          "I can't keep up with schoolwork",
+          "I'm letting everyone down"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Frustration",
+          "Low self-esteem",
+          "Overwhelm"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Difficulty with homework",
+          "Problems with organization",
+          "Procrastination",
+          "Academic struggles"
+        ],
+        "changes_in_routine": [
+          "Academic accommodations",
+          "Study skills training",
+          "Regular exercise",
+          "Structured study time"
+        ],
+        "coping_mechanisms": [
+          "Academic support",
+          "Study groups",
+          "Organization systems",
+          "Regular breaks"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple inattention symptoms",
+          "Symptoms present before age 12",
+          "Symptoms present in multiple settings",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 7,
+      "patient_profile": {
+        "name": "Liam Anderson",
+        "age": 9,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Health Center",
+        "reason_for_visit": "Teacher and parent concerns about behavior and social interactions"
+      },
+      "patient_background": {
+        "living_situation": "Lives with mother and younger sibling",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "inattention_symptoms": [],
+        "hyperactivity_impulsivity_symptoms": [
+          "Often fidgets with or taps hands or feet",
+          "Often leaves seat in classroom",
+          "Often runs about or climbs in inappropriate situations",
+          "Often unable to play quietly",
+          "Is often 'on the go'",
+          "Often talks excessively",
+          "Often blurts out answers",
+          "Often has difficulty waiting turn",
+          "Often interrupts or intrudes on others"
+        ],
+        "duration": "3 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on classroom behavior and peer relationships",
+        "specific_examples": [
+          "Disruptive in classroom",
+          "Problems with peer relationships",
+          "Difficulty following rules",
+          "Impulsive behavior"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Energetic and impulsive",
+        "thoughts": [
+          "I can't help it",
+          "Everyone gets mad at me",
+          "I try to be good but I can't"
+        ],
+        "feelings": [
+          "Frustration",
+          "Excitement",
+          "Impulsivity",
+          "Regret"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "High energy levels",
+          "Difficulty sitting still",
+          "Impulsive actions",
+          "Social difficulties"
+        ],
+        "changes_in_routine": [
+          "Regular exercise",
+          "Behavior modification plan",
+          "Social skills training",
+          "Structured activities"
+        ],
+        "coping_mechanisms": [
+          "Physical activity",
+          "Movement breaks",
+          "Social skills groups",
+          "Parent support"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple hyperactivity-impulsivity symptoms",
+          "Symptoms present before age 12",
+          "Symptoms present in multiple settings",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 8,
+      "patient_profile": {
+        "name": "Olivia Chen",
+        "age": 16,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred due to academic difficulties and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "inattention_symptoms": [
+          "Often fails to give close attention to details",
+          "Often has difficulty sustaining attention",
+          "Often does not seem to listen when spoken to directly",
+          "Often does not follow through on instructions",
+          "Often has difficulty organizing tasks",
+          "Often avoids tasks requiring sustained mental effort",
+          "Often loses things necessary for tasks",
+          "Is often easily distracted",
+          "Is often forgetful in daily activities"
+        ],
+        "hyperactivity_impulsivity_symptoms": [
+          "Often fidgets with or taps hands or feet",
+          "Often talks excessively",
+          "Often has difficulty waiting turn"
+        ],
+        "duration": "7 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on academic performance and self-esteem",
+        "specific_examples": [
+          "Difficulty completing assignments",
+          "Problems with organization",
+          "Fidgeting during class",
+          "Academic underachievement"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and frustrated",
+        "thoughts": [
+          "I'm not living up to my potential",
+          "I can't keep up with schoolwork",
+          "I'm disappointing my parents"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Frustration",
+          "Low self-esteem",
+          "Overwhelm"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Difficulty with homework",
+          "Problems with organization",
+          "Fidgeting during class",
+          "Academic struggles"
+        ],
+        "changes_in_routine": [
+          "Academic accommodations",
+          "Study skills training",
+          "Regular exercise",
+          "Structured study time"
+        ],
+        "coping_mechanisms": [
+          "Academic support",
+          "Study groups",
+          "Organization systems",
+          "Regular breaks"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple inattention symptoms",
+          "Some hyperactivity-impulsivity symptoms",
+          "Symptoms present before age 12",
+          "Symptoms present in multiple settings",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 9,
+      "patient_profile": {
+        "name": "Mason Wilson",
+        "age": 11,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Health Center",
+        "reason_for_visit": "Teacher and parent concerns about academic performance and behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and younger sibling",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "inattention_symptoms": [
+          "Often fails to give close attention to details",
+          "Often has difficulty sustaining attention",
+          "Often does not seem to listen when spoken to directly",
+          "Often does not follow through on instructions",
+          "Often has difficulty organizing tasks",
+          "Often avoids tasks requiring sustained mental effort",
+          "Often loses things necessary for tasks",
+          "Is often easily distracted",
+          "Is often forgetful in daily activities"
+        ],
+        "hyperactivity_impulsivity_symptoms": [
+          "Often fidgets with or taps hands or feet",
+          "Often leaves seat in classroom",
+          "Often runs about or climbs in inappropriate situations",
+          "Often unable to play quietly",
+          "Is often 'on the go'",
+          "Often talks excessively",
+          "Often blurts out answers",
+          "Often has difficulty waiting turn",
+          "Often interrupts or intrudes on others"
+        ],
+        "duration": "4 years",
+        "severity": "Severe",
+        "impact_on_life": "Significant impact on academic performance and social relationships",
+        "specific_examples": [
+          "Difficulty completing work",
+          "Disruptive in classroom",
+          "Problems with peer relationships",
+          "Frequent loss of belongings"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Frustrated and anxious",
+        "thoughts": [
+          "I can't do anything right",
+          "Everyone thinks I'm bad",
+          "I try but I just can't focus"
+        ],
+        "feelings": [
+          "Frustration",
+          "Anxiety",
+          "Low self-esteem",
+          "Overwhelm"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Difficulty with morning routine",
+          "Problems with homework completion",
+          "Disruptive during class",
+          "Difficulty with transitions"
+        ],
+        "changes_in_routine": [
+          "Increased academic support",
+          "Behavior modification plan",
+          "Regular exercise routine",
+          "Structured after-school activities"
+        ],
+        "coping_mechanisms": [
+          "Fidget toys",
+          "Movement breaks",
+          "Visual schedules",
+          "Parent support"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple inattention symptoms",
+          "Multiple hyperactivity-impulsivity symptoms",
+          "Symptoms present before age 12",
+          "Symptoms present in multiple settings",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 10,
+      "patient_profile": {
+        "name": "Isabella Martinez",
+        "age": 14,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Parent and teacher concerns about academic performance and organization"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "inattention_symptoms": [
+          "Often fails to give close attention to details",
+          "Often has difficulty sustaining attention",
+          "Often does not seem to listen when spoken to directly",
+          "Often does not follow through on instructions",
+          "Often has difficulty organizing tasks",
+          "Often avoids tasks requiring sustained mental effort",
+          "Often loses things necessary for tasks",
+          "Is often easily distracted",
+          "Is often forgetful in daily activities"
+        ],
+        "hyperactivity_impulsivity_symptoms": [],
+        "duration": "6 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on academic performance and organization",
+        "specific_examples": [
+          "Difficulty completing assignments",
+          "Problems with organization",
+          "Frequent procrastination",
+          "Disorganization in schoolwork"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and overwhelmed",
+        "thoughts": [
+          "I'm not smart enough",
+          "I can't keep up with schoolwork",
+          "I'm letting everyone down"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Frustration",
+          "Low self-esteem",
+          "Overwhelm"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Difficulty with homework",
+          "Problems with organization",
+          "Procrastination",
+          "Academic struggles"
+        ],
+        "changes_in_routine": [
+          "Academic accommodations",
+          "Study skills training",
+          "Regular exercise",
+          "Structured study time"
+        ],
+        "coping_mechanisms": [
+          "Academic support",
+          "Study groups",
+          "Organization systems",
+          "Regular breaks"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple inattention symptoms",
+          "Symptoms present before age 12",
+          "Symptoms present in multiple settings",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 11,
+      "patient_profile": {
+        "name": "Ethan Thompson",
+        "age": 10,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Health Center",
+        "reason_for_visit": "Teacher and parent concerns about behavior and social interactions"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "inattention_symptoms": [],
+        "hyperactivity_impulsivity_symptoms": [
+          "Often fidgets with or taps hands or feet",
+          "Often leaves seat in classroom",
+          "Often runs about or climbs in inappropriate situations",
+          "Often unable to play quietly",
+          "Is often 'on the go'",
+          "Often talks excessively",
+          "Often blurts out answers",
+          "Often has difficulty waiting turn",
+          "Often interrupts or intrudes on others"
+        ],
+        "duration": "3 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on classroom behavior and peer relationships",
+        "specific_examples": [
+          "Disruptive in classroom",
+          "Problems with peer relationships",
+          "Difficulty following rules",
+          "Impulsive behavior"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Energetic and impulsive",
+        "thoughts": [
+          "I can't help it",
+          "Everyone gets mad at me",
+          "I try to be good but I can't"
+        ],
+        "feelings": [
+          "Frustration",
+          "Excitement",
+          "Impulsivity",
+          "Regret"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "High energy levels",
+          "Difficulty sitting still",
+          "Impulsive actions",
+          "Social difficulties"
+        ],
+        "changes_in_routine": [
+          "Regular exercise",
+          "Behavior modification plan",
+          "Social skills training",
+          "Structured activities"
+        ],
+        "coping_mechanisms": [
+          "Physical activity",
+          "Movement breaks",
+          "Social skills groups",
+          "Parent support"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple hyperactivity-impulsivity symptoms",
+          "Symptoms present before age 12",
+          "Symptoms present in multiple settings",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 12,
+      "patient_profile": {
+        "name": "Sophia Anderson",
+        "age": 15,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred due to academic difficulties and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "Father has ADHD",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "inattention_symptoms": [
+          "Often fails to give close attention to details",
+          "Often has difficulty sustaining attention",
+          "Often does not seem to listen when spoken to directly",
+          "Often does not follow through on instructions",
+          "Often has difficulty organizing tasks",
+          "Often avoids tasks requiring sustained mental effort",
+          "Often loses things necessary for tasks",
+          "Is often easily distracted",
+          "Is often forgetful in daily activities"
+        ],
+        "hyperactivity_impulsivity_symptoms": [
+          "Often fidgets with or taps hands or feet",
+          "Often talks excessively",
+          "Often has difficulty waiting turn"
+        ],
+        "duration": "7 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on academic performance and self-esteem",
+        "specific_examples": [
+          "Difficulty completing assignments",
+          "Problems with organization",
+          "Fidgeting during class",
+          "Academic underachievement"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and frustrated",
+        "thoughts": [
+          "I'm not living up to my potential",
+          "I can't keep up with schoolwork",
+          "I'm disappointing my parents"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Frustration",
+          "Low self-esteem",
+          "Overwhelm"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Difficulty with homework",
+          "Problems with organization",
+          "Fidgeting during class",
+          "Academic struggles"
+        ],
+        "changes_in_routine": [
+          "Academic accommodations",
+          "Study skills training",
+          "Regular exercise",
+          "Structured study time"
+        ],
+        "coping_mechanisms": [
+          "Academic support",
+          "Study groups",
+          "Organization systems",
+          "Regular breaks"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple inattention symptoms",
+          "Some hyperactivity-impulsivity symptoms",
+          "Symptoms present before age 12",
+          "Symptoms present in multiple settings",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 13,
+      "patient_profile": {
+        "name": "Lucas Wilson",
+        "age": 8,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Health Center",
+        "reason_for_visit": "Teacher and parent concerns about academic performance and behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and younger sibling",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "inattention_symptoms": [
+          "Often fails to give close attention to details",
+          "Often has difficulty sustaining attention",
+          "Often does not seem to listen when spoken to directly",
+          "Often does not follow through on instructions",
+          "Often has difficulty organizing tasks",
+          "Often avoids tasks requiring sustained mental effort",
+          "Often loses things necessary for tasks",
+          "Is often easily distracted",
+          "Is often forgetful in daily activities"
+        ],
+        "hyperactivity_impulsivity_symptoms": [
+          "Often fidgets with or taps hands or feet",
+          "Often leaves seat in classroom",
+          "Often runs about or climbs in inappropriate situations",
+          "Often unable to play quietly",
+          "Is often 'on the go'",
+          "Often talks excessively",
+          "Often blurts out answers",
+          "Often has difficulty waiting turn",
+          "Often interrupts or intrudes on others"
+        ],
+        "duration": "2 years",
+        "severity": "Severe",
+        "impact_on_life": "Significant impact on academic performance and social relationships",
+        "specific_examples": [
+          "Difficulty completing work",
+          "Disruptive in classroom",
+          "Problems with peer relationships",
+          "Frequent loss of belongings"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Frustrated and anxious",
+        "thoughts": [
+          "I can't do anything right",
+          "Everyone thinks I'm bad",
+          "I try but I just can't focus"
+        ],
+        "feelings": [
+          "Frustration",
+          "Anxiety",
+          "Low self-esteem",
+          "Overwhelm"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Difficulty with morning routine",
+          "Problems with homework completion",
+          "Disruptive during class",
+          "Difficulty with transitions"
+        ],
+        "changes_in_routine": [
+          "Increased academic support",
+          "Behavior modification plan",
+          "Regular exercise routine",
+          "Structured after-school activities"
+        ],
+        "coping_mechanisms": [
+          "Fidget toys",
+          "Movement breaks",
+          "Visual schedules",
+          "Parent support"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple inattention symptoms",
+          "Multiple hyperactivity-impulsivity symptoms",
+          "Symptoms present before age 12",
+          "Symptoms present in multiple settings",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 14,
+      "patient_profile": {
+        "name": "Emma Thompson",
+        "age": 12,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Parent and teacher concerns about academic performance and organization"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "inattention_symptoms": [
+          "Often fails to give close attention to details",
+          "Often has difficulty sustaining attention",
+          "Often does not seem to listen when spoken to directly",
+          "Often does not follow through on instructions",
+          "Often has difficulty organizing tasks",
+          "Often avoids tasks requiring sustained mental effort",
+          "Often loses things necessary for tasks",
+          "Is often easily distracted",
+          "Is often forgetful in daily activities"
+        ],
+        "hyperactivity_impulsivity_symptoms": [],
+        "duration": "5 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on academic performance and organization",
+        "specific_examples": [
+          "Difficulty completing assignments",
+          "Problems with organization",
+          "Frequent procrastination",
+          "Disorganization in schoolwork"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and overwhelmed",
+        "thoughts": [
+          "I'm not smart enough",
+          "I can't keep up with schoolwork",
+          "I'm letting everyone down"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Frustration",
+          "Low self-esteem",
+          "Overwhelm"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Difficulty with homework",
+          "Problems with organization",
+          "Procrastination",
+          "Academic struggles"
+        ],
+        "changes_in_routine": [
+          "Academic accommodations",
+          "Study skills training",
+          "Regular exercise",
+          "Structured study time"
+        ],
+        "coping_mechanisms": [
+          "Academic support",
+          "Study groups",
+          "Organization systems",
+          "Regular breaks"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple inattention symptoms",
+          "Symptoms present before age 12",
+          "Symptoms present in multiple settings",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 15,
+      "patient_profile": {
+        "name": "Noah Martinez",
+        "age": 9,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Health Center",
+        "reason_for_visit": "Teacher and parent concerns about occasional inattention and restlessness"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "inattention_symptoms": [
+          "Sometimes has difficulty sustaining attention",
+          "Sometimes does not seem to listen when spoken to directly",
+          "Sometimes loses things necessary for tasks"
+        ],
+        "hyperactivity_impulsivity_symptoms": [
+          "Sometimes fidgets with or taps hands or feet",
+          "Sometimes talks excessively",
+          "Sometimes has difficulty waiting turn"
+        ],
+        "duration": "6 months",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on academic performance and social relationships",
+        "specific_examples": [
+          "Occasional inattention in class",
+          "Some restlessness during long tasks",
+          "Normal academic performance",
+          "Good peer relationships"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Generally positive",
+        "thoughts": [
+          "I do well in school",
+          "I have good friends",
+          "I'm doing my best"
+        ],
+        "feelings": [
+          "Content",
+          "Confident",
+          "Normal energy levels",
+          "Positive mood"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Good academic performance",
+          "Normal attention span",
+          "Appropriate activity level",
+          "Good social interactions"
+        ],
+        "changes_in_routine": [
+          "Regular exercise",
+          "Balanced activities",
+          "Good sleep schedule",
+          "Structured routines"
+        ],
+        "coping_mechanisms": [
+          "Regular exercise",
+          "Good sleep habits",
+          "Balanced activities",
+          "Parent support"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": false,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Insufficient number of symptoms",
+          "Symptoms not present before age 12",
+          "No significant functional impairment",
+          "Normal developmental variation"
+        ]
+      }
+    }
+  ]
+} 

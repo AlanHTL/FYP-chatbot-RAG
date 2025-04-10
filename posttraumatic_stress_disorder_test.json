@@ -1,0 +1,1309 @@
+{
+  "test_cases": [
+    {
+      "case_id": 1,
+      "patient_profile": {
+        "name": "Michael Rodriguez",
+        "age": 32,
+        "gender": "Male",
+        "occupation": "Firefighter"
+      },
+      "conversation_context": {
+        "setting": "Employee Assistance Program",
+        "reason_for_visit": "Self-referred after experiencing symptoms following a traumatic rescue operation"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse and children",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "traumatic_event": {
+          "description": "Failed rescue attempt during a severe building fire",
+          "exposure_type": "Direct experience",
+          "time_since_event": "6 months"
+        },
+        "main_complaints": [
+          "Recurrent intrusive memories of the event",
+          "Nightmares about the incident",
+          "Avoidance of fire-related situations",
+          "Hypervigilance and startle response"
+        ],
+        "duration": "6 months",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on work and family life",
+        "specific_examples": [
+          "Flashbacks during routine fire safety checks",
+          "Avoiding certain types of emergency calls",
+          "Difficulty sleeping due to nightmares",
+          "Increased irritability with family"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and irritable",
+        "thoughts": [
+          "I could have saved them",
+          "I'm not fit to be a firefighter",
+          "Something bad will happen again"
+        ],
+        "feelings": [
+          "Guilt",
+          "Fear",
+          "Anger",
+          "Shame"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding certain types of emergency calls",
+          "Increased safety checks",
+          "Difficulty sleeping",
+          "Social withdrawal"
+        ],
+        "changes_in_routine": [
+          "Working fewer shifts",
+          "Avoiding fire-related media",
+          "Increased alcohol use",
+          "Difficulty with family activities"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Alcohol use",
+          "Overworking",
+          "Social isolation"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Exposure to actual threat of death",
+          "Intrusive symptoms present",
+          "Avoidance behaviors",
+          "Negative changes in thoughts and mood",
+          "Changes in arousal and reactivity",
+          "Duration more than 1 month",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 2,
+      "patient_profile": {
+        "name": "Sarah Chen",
+        "age": 28,
+        "gender": "Female",
+        "occupation": "Medical Resident"
+      },
+      "conversation_context": {
+        "setting": "Hospital Employee Health",
+        "reason_for_visit": "Self-referred after experiencing symptoms following a traumatic patient death"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "traumatic_event": {
+          "description": "Witnessed a young patient's death during emergency resuscitation",
+          "exposure_type": "Direct experience",
+          "time_since_event": "3 months"
+        },
+        "main_complaints": [
+          "Recurrent intrusive memories",
+          "Avoidance of emergency situations",
+          "Difficulty concentrating",
+          "Sleep disturbance"
+        ],
+        "duration": "3 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work performance",
+        "specific_examples": [
+          "Flashbacks during patient care",
+          "Avoiding emergency department",
+          "Difficulty making medical decisions",
+          "Increased anxiety during patient care"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and depressed",
+        "thoughts": [
+          "I failed to save the patient",
+          "I'm not cut out for medicine",
+          "I'll make a mistake again"
+        ],
+        "feelings": [
+          "Guilt",
+          "Fear",
+          "Sadness",
+          "Self-doubt"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding emergency situations",
+          "Increased medical documentation",
+          "Seeking reassurance",
+          "Social withdrawal"
+        ],
+        "changes_in_routine": [
+          "Working fewer hours",
+          "Avoiding certain patient cases",
+          "Difficulty sleeping",
+          "Reduced social activities"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Overworking",
+          "Seeking reassurance",
+          "Social isolation"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Exposure to actual death",
+          "Intrusive symptoms present",
+          "Avoidance behaviors",
+          "Negative changes in thoughts and mood",
+          "Changes in arousal and reactivity",
+          "Duration more than 1 month",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 3,
+      "patient_profile": {
+        "name": "David Wilson",
+        "age": 45,
+        "gender": "Male",
+        "occupation": "Military Veteran"
+      },
+      "conversation_context": {
+        "setting": "Veterans Affairs Medical Center",
+        "reason_for_visit": "Self-referred after experiencing symptoms following combat exposure"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "traumatic_event": {
+          "description": "Combat exposure during military service",
+          "exposure_type": "Direct experience",
+          "time_since_event": "2 years"
+        },
+        "main_complaints": [
+          "Recurrent intrusive memories",
+          "Nightmares",
+          "Hypervigilance",
+          "Emotional numbing"
+        ],
+        "duration": "2 years",
+        "severity": "Severe",
+        "impact_on_life": "Significant impact on daily functioning",
+        "specific_examples": [
+          "Flashbacks triggered by loud noises",
+          "Avoiding crowded places",
+          "Difficulty maintaining relationships",
+          "Sleep disturbance"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Numb and irritable",
+        "thoughts": [
+          "I should have done more",
+          "I don't belong in civilian life",
+          "I can't trust anyone"
+        ],
+        "feelings": [
+          "Guilt",
+          "Anger",
+          "Detachment",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding crowded places",
+          "Increased security measures",
+          "Difficulty sleeping",
+          "Social isolation"
+        ],
+        "changes_in_routine": [
+          "Working from home",
+          "Avoiding social events",
+          "Increased alcohol use",
+          "Difficulty with family activities"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Alcohol use",
+          "Hypervigilance",
+          "Social isolation"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Exposure to combat",
+          "Intrusive symptoms present",
+          "Avoidance behaviors",
+          "Negative changes in thoughts and mood",
+          "Changes in arousal and reactivity",
+          "Duration more than 1 month",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 4,
+      "patient_profile": {
+        "name": "Emily Martinez",
+        "age": 35,
+        "gender": "Female",
+        "occupation": "Police Officer"
+      },
+      "conversation_context": {
+        "setting": "Employee Assistance Program",
+        "reason_for_visit": "Self-referred after experiencing symptoms following a violent incident"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "traumatic_event": {
+          "description": "Involved in a shooting incident during duty",
+          "exposure_type": "Direct experience",
+          "time_since_event": "4 months"
+        },
+        "main_complaints": [
+          "Recurrent intrusive memories",
+          "Nightmares",
+          "Hypervigilance",
+          "Difficulty sleeping"
+        ],
+        "duration": "4 months",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Flashbacks during routine patrols",
+          "Avoiding certain neighborhoods",
+          "Difficulty sleeping",
+          "Increased anxiety during duty"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and irritable",
+        "thoughts": [
+          "I could have prevented it",
+          "I'm not safe anymore",
+          "I can't trust my judgment"
+        ],
+        "feelings": [
+          "Guilt",
+          "Fear",
+          "Anger",
+          "Self-doubt"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding certain areas",
+          "Increased security measures",
+          "Difficulty sleeping",
+          "Social withdrawal"
+        ],
+        "changes_in_routine": [
+          "Working different shifts",
+          "Avoiding social events",
+          "Increased alcohol use",
+          "Difficulty with family activities"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Alcohol use",
+          "Hypervigilance",
+          "Social isolation"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Exposure to actual threat of death",
+          "Intrusive symptoms present",
+          "Avoidance behaviors",
+          "Negative changes in thoughts and mood",
+          "Changes in arousal and reactivity",
+          "Duration more than 1 month",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 5,
+      "patient_profile": {
+        "name": "James Thompson",
+        "age": 29,
+        "gender": "Male",
+        "occupation": "Survivor of Natural Disaster"
+      },
+      "conversation_context": {
+        "setting": "Community Mental Health Center",
+        "reason_for_visit": "Self-referred after experiencing symptoms following a hurricane"
+      },
+      "patient_background": {
+        "living_situation": "Lives with family",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "traumatic_event": {
+          "description": "Experienced severe property damage and displacement during hurricane",
+          "exposure_type": "Direct experience",
+          "time_since_event": "5 months"
+        },
+        "main_complaints": [
+          "Recurrent intrusive memories",
+          "Nightmares",
+          "Anxiety during storms",
+          "Difficulty sleeping"
+        ],
+        "duration": "5 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on daily functioning",
+        "specific_examples": [
+          "Flashbacks during bad weather",
+          "Avoiding storm-related news",
+          "Difficulty sleeping",
+          "Increased anxiety during weather changes"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and fearful",
+        "thoughts": [
+          "We could have prepared better",
+          "It will happen again",
+          "We're not safe here"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Helplessness",
+          "Loss"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Monitoring weather constantly",
+          "Excessive preparation",
+          "Difficulty sleeping",
+          "Social withdrawal"
+        ],
+        "changes_in_routine": [
+          "Avoiding outdoor activities",
+          "Increased home security",
+          "Difficulty with family activities",
+          "Reduced social activities"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Over-preparation",
+          "Hypervigilance",
+          "Social isolation"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Exposure to natural disaster",
+          "Intrusive symptoms present",
+          "Avoidance behaviors",
+          "Negative changes in thoughts and mood",
+          "Changes in arousal and reactivity",
+          "Duration more than 1 month",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 6,
+      "patient_profile": {
+        "name": "Lisa Anderson",
+        "age": 31,
+        "gender": "Female",
+        "occupation": "Survivor of Sexual Assault"
+      },
+      "conversation_context": {
+        "setting": "Rape Crisis Center",
+        "reason_for_visit": "Self-referred after experiencing symptoms following sexual assault"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "traumatic_event": {
+          "description": "Experienced sexual assault",
+          "exposure_type": "Direct experience",
+          "time_since_event": "3 months"
+        },
+        "main_complaints": [
+          "Recurrent intrusive memories",
+          "Nightmares",
+          "Avoidance of triggers",
+          "Hypervigilance"
+        ],
+        "duration": "3 months",
+        "severity": "Severe",
+        "impact_on_life": "Significant impact on daily functioning",
+        "specific_examples": [
+          "Flashbacks triggered by certain situations",
+          "Avoiding social situations",
+          "Difficulty sleeping",
+          "Fear of being alone"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Fearful and anxious",
+        "thoughts": [
+          "I should have done something",
+          "I'm not safe anywhere",
+          "I can't trust anyone"
+        ],
+        "feelings": [
+          "Fear",
+          "Shame",
+          "Guilt",
+          "Anger"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding social situations",
+          "Increased security measures",
+          "Difficulty sleeping",
+          "Social isolation"
+        ],
+        "changes_in_routine": [
+          "Working from home",
+          "Avoiding public places",
+          "Difficulty with daily activities",
+          "Reduced social activities"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Hypervigilance",
+          "Social isolation",
+          "Seeking therapy"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Exposure to sexual violence",
+          "Intrusive symptoms present",
+          "Avoidance behaviors",
+          "Negative changes in thoughts and mood",
+          "Changes in arousal and reactivity",
+          "Duration more than 1 month",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 7,
+      "patient_profile": {
+        "name": "Robert Chen",
+        "age": 38,
+        "gender": "Male",
+        "occupation": "Survivor of Car Accident"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred after experiencing symptoms following a severe car accident"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "traumatic_event": {
+          "description": "Involved in a severe car accident with injuries",
+          "exposure_type": "Direct experience",
+          "time_since_event": "4 months"
+        },
+        "main_complaints": [
+          "Recurrent intrusive memories",
+          "Nightmares",
+          "Avoidance of driving",
+          "Anxiety in vehicles"
+        ],
+        "duration": "4 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on daily functioning",
+        "specific_examples": [
+          "Flashbacks while driving",
+          "Avoiding highways",
+          "Difficulty sleeping",
+          "Increased anxiety in vehicles"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and fearful",
+        "thoughts": [
+          "I could have died",
+          "I'm not safe driving",
+          "It will happen again"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Helplessness",
+          "Loss of control"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding driving",
+          "Seeking alternative transportation",
+          "Difficulty sleeping",
+          "Social withdrawal"
+        ],
+        "changes_in_routine": [
+          "Working from home",
+          "Avoiding travel",
+          "Difficulty with family activities",
+          "Reduced social activities"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Seeking alternative transportation",
+          "Social isolation",
+          "Seeking therapy"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Exposure to serious accident",
+          "Intrusive symptoms present",
+          "Avoidance behaviors",
+          "Negative changes in thoughts and mood",
+          "Changes in arousal and reactivity",
+          "Duration more than 1 month",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 8,
+      "patient_profile": {
+        "name": "Maria Garcia",
+        "age": 42,
+        "gender": "Female",
+        "occupation": "Survivor of Domestic Violence"
+      },
+      "conversation_context": {
+        "setting": "Domestic Violence Shelter",
+        "reason_for_visit": "Self-referred after experiencing symptoms following domestic violence"
+      },
+      "patient_background": {
+        "living_situation": "Recently moved to shelter",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "traumatic_event": {
+          "description": "Experienced prolonged domestic violence",
+          "exposure_type": "Direct experience",
+          "time_since_event": "2 months"
+        },
+        "main_complaints": [
+          "Recurrent intrusive memories",
+          "Nightmares",
+          "Hypervigilance",
+          "Difficulty trusting others"
+        ],
+        "duration": "2 months",
+        "severity": "Severe",
+        "impact_on_life": "Significant impact on daily functioning",
+        "specific_examples": [
+          "Flashbacks triggered by certain situations",
+          "Avoiding social situations",
+          "Difficulty sleeping",
+          "Fear of being alone"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Fearful and anxious",
+        "thoughts": [
+          "I should have left sooner",
+          "I'm not safe anywhere",
+          "I can't trust anyone"
+        ],
+        "feelings": [
+          "Fear",
+          "Shame",
+          "Guilt",
+          "Anger"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding social situations",
+          "Increased security measures",
+          "Difficulty sleeping",
+          "Social isolation"
+        ],
+        "changes_in_routine": [
+          "Working from shelter",
+          "Avoiding public places",
+          "Difficulty with daily activities",
+          "Reduced social activities"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Hypervigilance",
+          "Social isolation",
+          "Seeking support services"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Exposure to domestic violence",
+          "Intrusive symptoms present",
+          "Avoidance behaviors",
+          "Negative changes in thoughts and mood",
+          "Changes in arousal and reactivity",
+          "Duration more than 1 month",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 9,
+      "patient_profile": {
+        "name": "John Smith",
+        "age": 35,
+        "gender": "Male",
+        "occupation": "Survivor of Workplace Violence"
+      },
+      "conversation_context": {
+        "setting": "Employee Assistance Program",
+        "reason_for_visit": "Self-referred after experiencing symptoms following workplace violence"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "traumatic_event": {
+          "description": "Witnessed a violent incident at workplace",
+          "exposure_type": "Direct experience",
+          "time_since_event": "3 months"
+        },
+        "main_complaints": [
+          "Recurrent intrusive memories",
+          "Nightmares",
+          "Avoidance of workplace",
+          "Hypervigilance"
+        ],
+        "duration": "3 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work performance",
+        "specific_examples": [
+          "Flashbacks at work",
+          "Avoiding certain areas",
+          "Difficulty sleeping",
+          "Increased anxiety at work"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and fearful",
+        "thoughts": [
+          "I could have done something",
+          "I'm not safe at work",
+          "It will happen again"
+        ],
+        "feelings": [
+          "Fear",
+          "Guilt",
+          "Anxiety",
+          "Helplessness"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding certain areas",
+          "Increased security awareness",
+          "Difficulty sleeping",
+          "Social withdrawal"
+        ],
+        "changes_in_routine": [
+          "Working different hours",
+          "Avoiding crowded areas",
+          "Difficulty with work activities",
+          "Reduced social activities"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Hypervigilance",
+          "Social isolation",
+          "Seeking therapy"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Exposure to workplace violence",
+          "Intrusive symptoms present",
+          "Avoidance behaviors",
+          "Negative changes in thoughts and mood",
+          "Changes in arousal and reactivity",
+          "Duration more than 1 month",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 10,
+      "patient_profile": {
+        "name": "Sarah Lee",
+        "age": 29,
+        "gender": "Female",
+        "occupation": "Survivor of Medical Trauma"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred after experiencing symptoms following a medical emergency"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "No known psychiatric history",
+        "medical_history": "Previous medical emergency"
+      },
+      "symptoms_and_experiences": {
+        "traumatic_event": {
+          "description": "Experienced a life-threatening medical emergency",
+          "exposure_type": "Direct experience",
+          "time_since_event": "5 months"
+        },
+        "main_complaints": [
+          "Recurrent intrusive memories",
+          "Nightmares",
+          "Avoidance of medical settings",
+          "Anxiety about health"
+        ],
+        "duration": "5 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on daily functioning",
+        "specific_examples": [
+          "Flashbacks during medical appointments",
+          "Avoiding hospitals",
+          "Difficulty sleeping",
+          "Increased health anxiety"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and fearful",
+        "thoughts": [
+          "I could have died",
+          "I'm not safe",
+          "Something bad will happen again"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Helplessness",
+          "Loss of control"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding medical settings",
+          "Excessive health monitoring",
+          "Difficulty sleeping",
+          "Social withdrawal"
+        ],
+        "changes_in_routine": [
+          "Avoiding medical appointments",
+          "Increased health checks",
+          "Difficulty with daily activities",
+          "Reduced social activities"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Health monitoring",
+          "Social isolation",
+          "Seeking therapy"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Exposure to medical trauma",
+          "Intrusive symptoms present",
+          "Avoidance behaviors",
+          "Negative changes in thoughts and mood",
+          "Changes in arousal and reactivity",
+          "Duration more than 1 month",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 11,
+      "patient_profile": {
+        "name": "David Brown",
+        "age": 41,
+        "gender": "Male",
+        "occupation": "Survivor of Combat"
+      },
+      "conversation_context": {
+        "setting": "Veterans Affairs Medical Center",
+        "reason_for_visit": "Self-referred after experiencing symptoms following combat exposure"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "traumatic_event": {
+          "description": "Combat exposure during military service",
+          "exposure_type": "Direct experience",
+          "time_since_event": "1 year"
+        },
+        "main_complaints": [
+          "Recurrent intrusive memories",
+          "Nightmares",
+          "Hypervigilance",
+          "Emotional numbing"
+        ],
+        "duration": "1 year",
+        "severity": "Severe",
+        "impact_on_life": "Significant impact on daily functioning",
+        "specific_examples": [
+          "Flashbacks triggered by loud noises",
+          "Avoiding crowded places",
+          "Difficulty sleeping",
+          "Problems with relationships"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Numb and irritable",
+        "thoughts": [
+          "I should have done more",
+          "I don't belong here",
+          "I can't trust anyone"
+        ],
+        "feelings": [
+          "Guilt",
+          "Anger",
+          "Detachment",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding crowded places",
+          "Increased security measures",
+          "Difficulty sleeping",
+          "Social isolation"
+        ],
+        "changes_in_routine": [
+          "Working from home",
+          "Avoiding social events",
+          "Increased alcohol use",
+          "Difficulty with family activities"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Alcohol use",
+          "Hypervigilance",
+          "Social isolation"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Exposure to combat",
+          "Intrusive symptoms present",
+          "Avoidance behaviors",
+          "Negative changes in thoughts and mood",
+          "Changes in arousal and reactivity",
+          "Duration more than 1 month",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 12,
+      "patient_profile": {
+        "name": "Jennifer Wilson",
+        "age": 33,
+        "gender": "Female",
+        "occupation": "Survivor of Natural Disaster"
+      },
+      "conversation_context": {
+        "setting": "Community Mental Health Center",
+        "reason_for_visit": "Self-referred after experiencing symptoms following an earthquake"
+      },
+      "patient_background": {
+        "living_situation": "Lives with family",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "traumatic_event": {
+          "description": "Experienced severe property damage during earthquake",
+          "exposure_type": "Direct experience",
+          "time_since_event": "4 months"
+        },
+        "main_complaints": [
+          "Recurrent intrusive memories",
+          "Nightmares",
+          "Anxiety during tremors",
+          "Difficulty sleeping"
+        ],
+        "duration": "4 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on daily functioning",
+        "specific_examples": [
+          "Flashbacks during tremors",
+          "Avoiding tall buildings",
+          "Difficulty sleeping",
+          "Increased anxiety during minor tremors"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and fearful",
+        "thoughts": [
+          "We could have prepared better",
+          "It will happen again",
+          "We're not safe here"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Helplessness",
+          "Loss"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Monitoring for tremors",
+          "Excessive preparation",
+          "Difficulty sleeping",
+          "Social withdrawal"
+        ],
+        "changes_in_routine": [
+          "Avoiding tall buildings",
+          "Increased home security",
+          "Difficulty with family activities",
+          "Reduced social activities"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Over-preparation",
+          "Hypervigilance",
+          "Social isolation"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Exposure to natural disaster",
+          "Intrusive symptoms present",
+          "Avoidance behaviors",
+          "Negative changes in thoughts and mood",
+          "Changes in arousal and reactivity",
+          "Duration more than 1 month",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 13,
+      "patient_profile": {
+        "name": "Michael Anderson",
+        "age": 36,
+        "gender": "Male",
+        "occupation": "Survivor of Workplace Accident"
+      },
+      "conversation_context": {
+        "setting": "Employee Assistance Program",
+        "reason_for_visit": "Self-referred after experiencing symptoms following a workplace accident"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "traumatic_event": {
+          "description": "Witnessed a severe workplace accident",
+          "exposure_type": "Direct experience",
+          "time_since_event": "3 months"
+        },
+        "main_complaints": [
+          "Recurrent intrusive memories",
+          "Nightmares",
+          "Avoidance of workplace",
+          "Hypervigilance"
+        ],
+        "duration": "3 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work performance",
+        "specific_examples": [
+          "Flashbacks at work",
+          "Avoiding certain areas",
+          "Difficulty sleeping",
+          "Increased anxiety at work"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and fearful",
+        "thoughts": [
+          "I could have prevented it",
+          "I'm not safe at work",
+          "It will happen again"
+        ],
+        "feelings": [
+          "Fear",
+          "Guilt",
+          "Anxiety",
+          "Helplessness"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding certain areas",
+          "Increased safety awareness",
+          "Difficulty sleeping",
+          "Social withdrawal"
+        ],
+        "changes_in_routine": [
+          "Working different hours",
+          "Avoiding hazardous areas",
+          "Difficulty with work activities",
+          "Reduced social activities"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Hypervigilance",
+          "Social isolation",
+          "Seeking therapy"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Exposure to workplace accident",
+          "Intrusive symptoms present",
+          "Avoidance behaviors",
+          "Negative changes in thoughts and mood",
+          "Changes in arousal and reactivity",
+          "Duration more than 1 month",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 14,
+      "patient_profile": {
+        "name": "Lisa Chen",
+        "age": 30,
+        "gender": "Female",
+        "occupation": "Survivor of Medical Emergency"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred after experiencing symptoms following a medical emergency"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "Previous medical emergency"
+      },
+      "symptoms_and_experiences": {
+        "traumatic_event": {
+          "description": "Experienced a life-threatening medical emergency",
+          "exposure_type": "Direct experience",
+          "time_since_event": "4 months"
+        },
+        "main_complaints": [
+          "Recurrent intrusive memories",
+          "Nightmares",
+          "Avoidance of medical settings",
+          "Anxiety about health"
+        ],
+        "duration": "4 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on daily functioning",
+        "specific_examples": [
+          "Flashbacks during medical appointments",
+          "Avoiding hospitals",
+          "Difficulty sleeping",
+          "Increased health anxiety"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and fearful",
+        "thoughts": [
+          "I could have died",
+          "I'm not safe",
+          "Something bad will happen again"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Helplessness",
+          "Loss of control"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding medical settings",
+          "Excessive health monitoring",
+          "Difficulty sleeping",
+          "Social withdrawal"
+        ],
+        "changes_in_routine": [
+          "Avoiding medical appointments",
+          "Increased health checks",
+          "Difficulty with daily activities",
+          "Reduced social activities"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Health monitoring",
+          "Social isolation",
+          "Seeking therapy"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Exposure to medical trauma",
+          "Intrusive symptoms present",
+          "Avoidance behaviors",
+          "Negative changes in thoughts and mood",
+          "Changes in arousal and reactivity",
+          "Duration more than 1 month",
+          "Significant functional impairment"
+        ]
+      }
+    },
+    {
+      "case_id": 15,
+      "patient_profile": {
+        "name": "Alex Thompson",
+        "age": 27,
+        "gender": "Male",
+        "occupation": "Survivor of Minor Accident"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred after experiencing mild anxiety following a minor car accident"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "traumatic_event": {
+          "description": "Minor car accident with no injuries",
+          "exposure_type": "Direct experience",
+          "time_since_event": "2 weeks"
+        },
+        "main_complaints": [
+          "Mild anxiety while driving",
+          "Brief thoughts about the accident",
+          "No significant avoidance",
+          "Normal sleep pattern"
+        ],
+        "duration": "2 weeks",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on daily functioning",
+        "specific_examples": [
+          "Brief anxiety while driving",
+          "No significant avoidance",
+          "Normal sleep pattern",
+          "Continued normal activities"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Generally positive",
+        "thoughts": [
+          "I'm glad no one was hurt",
+          "I'm being more careful now",
+          "I can handle this"
+        ],
+        "feelings": [
+          "Mild anxiety",
+          "Relief",
+          "Caution",
+          "Normal mood"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Normal driving patterns",
+          "Regular sleep schedule",
+          "Continued social activities",
+          "Normal work routine"
+        ],
+        "changes_in_routine": [
+          "More careful driving",
+          "No significant changes",
+          "Normal daily activities",
+          "Continued social activities"
+        ],
+        "coping_mechanisms": [
+          "Normal caution",
+          "Regular activities",
+          "Social support",
+          "Healthy lifestyle"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": false,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "No significant trauma exposure",
+          "No intrusive symptoms",
+          "No significant avoidance",
+          "No negative changes in thoughts and mood",
+          "No significant changes in arousal",
+          "Duration less than 1 month",
+          "No significant functional impairment"
+        ]
+      }
+    }
+  ]
+} 

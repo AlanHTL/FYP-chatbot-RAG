@@ -1,0 +1,1274 @@
+{
+  "test_cases": [
+    {
+      "case_id": 1,
+      "patient_profile": {
+        "name": "Jessica Martinez",
+        "age": 29,
+        "gender": "Female",
+        "occupation": "Marketing Executive"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred due to recurrent panic attacks"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Recurrent panic attacks",
+          "Fear of having more attacks",
+          "Avoidance of situations where attacks occurred"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on work and social life",
+        "specific_examples": [
+          "Experienced 3 panic attacks in the last month",
+          "Avoiding crowded places due to fear of attacks",
+          "Difficulty sleeping due to worry about attacks",
+          "Reduced work productivity due to anxiety"
+        ],
+        "panic_attack_symptoms": [
+          "Palpitations",
+          "Sweating",
+          "Trembling",
+          "Shortness of breath",
+          "Chest pain",
+          "Nausea",
+          "Dizziness",
+          "Fear of dying"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to have another attack",
+          "I might die during an attack",
+          "I can't control these attacks"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Helplessness"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding crowded places",
+          "Carrying anxiety medication",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working from home more often",
+          "Avoiding social events",
+          "Difficulty traveling"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Deep breathing",
+          "Seeking medical help"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent unexpected panic attacks",
+          "At least one attack followed by persistent worry",
+          "Significant behavioral changes",
+          "Symptoms not attributable to substances",
+          "Not better explained by another disorder"
+        ]
+      }
+    },
+    {
+      "case_id": 2,
+      "patient_profile": {
+        "name": "Michael Chang",
+        "age": 34,
+        "gender": "Male",
+        "occupation": "Software Engineer"
+      },
+      "conversation_context": {
+        "setting": "Employee Assistance Program",
+        "reason_for_visit": "Self-referred due to panic attacks at work"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Recurrent panic attacks during meetings",
+          "Fear of public speaking",
+          "Avoidance of work presentations"
+        ],
+        "duration": "6 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work performance",
+        "specific_examples": [
+          "Experienced 2 panic attacks during team meetings",
+          "Avoiding work presentations",
+          "Difficulty concentrating at work",
+          "Reduced work productivity"
+        ],
+        "panic_attack_symptoms": [
+          "Palpitations",
+          "Sweating",
+          "Trembling",
+          "Shortness of breath",
+          "Chest pain",
+          "Nausea",
+          "Dizziness",
+          "Fear of losing control"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to have an attack during the meeting",
+          "Everyone will notice my anxiety",
+          "I might lose my job"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Embarrassment"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding team meetings",
+          "Working remotely when possible",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Arriving early to meetings to prepare",
+          "Avoiding eye contact during presentations",
+          "Difficulty sleeping before work days"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Deep breathing",
+          "Seeking medical help"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent unexpected panic attacks",
+          "At least one attack followed by persistent worry",
+          "Significant behavioral changes",
+          "Symptoms not attributable to substances",
+          "Not better explained by another disorder"
+        ]
+      }
+    },
+    {
+      "case_id": 3,
+      "patient_profile": {
+        "name": "Sarah Thompson",
+        "age": 27,
+        "gender": "Female",
+        "occupation": "Graduate Student"
+      },
+      "conversation_context": {
+        "setting": "University Health Center",
+        "reason_for_visit": "Self-referred due to panic attacks during exams"
+      },
+      "patient_background": {
+        "living_situation": "Lives with roommates",
+        "family_history": "Father has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Recurrent panic attacks during exams",
+          "Fear of academic failure",
+          "Avoidance of exam situations"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on academic performance",
+        "specific_examples": [
+          "Experienced 3 panic attacks during exams",
+          "Avoiding exam situations",
+          "Difficulty studying due to anxiety",
+          "Reduced academic performance"
+        ],
+        "panic_attack_symptoms": [
+          "Palpitations",
+          "Sweating",
+          "Trembling",
+          "Shortness of breath",
+          "Chest pain",
+          "Nausea",
+          "Dizziness",
+          "Fear of dying"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to fail my exams",
+          "I can't handle the pressure",
+          "I might have a heart attack"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Helplessness"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding exam situations",
+          "Seeking exam accommodations",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Studying excessively",
+          "Avoiding study groups",
+          "Difficulty sleeping before exams"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Deep breathing",
+          "Seeking medical help"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent unexpected panic attacks",
+          "At least one attack followed by persistent worry",
+          "Significant behavioral changes",
+          "Symptoms not attributable to substances",
+          "Not better explained by another disorder"
+        ]
+      }
+    },
+    {
+      "case_id": 4,
+      "patient_profile": {
+        "name": "David Wilson",
+        "age": 42,
+        "gender": "Male",
+        "occupation": "Business Consultant"
+      },
+      "conversation_context": {
+        "setting": "Private Practice",
+        "reason_for_visit": "Self-referred due to panic attacks during travel"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse and children",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Recurrent panic attacks during air travel",
+          "Fear of flying",
+          "Avoidance of business travel"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on work and family life",
+        "specific_examples": [
+          "Experienced 4 panic attacks during flights",
+          "Avoiding business travel",
+          "Difficulty attending family events requiring travel",
+          "Reduced work opportunities"
+        ],
+        "panic_attack_symptoms": [
+          "Palpitations",
+          "Sweating",
+          "Trembling",
+          "Shortness of breath",
+          "Chest pain",
+          "Nausea",
+          "Dizziness",
+          "Fear of dying"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "The plane might crash",
+          "I'm trapped and can't escape",
+          "I might have a heart attack"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Claustrophobia"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding air travel",
+          "Seeking alternative travel methods",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Declining business travel opportunities",
+          "Avoiding family vacations",
+          "Difficulty sleeping before travel"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Deep breathing",
+          "Seeking medical help"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent unexpected panic attacks",
+          "At least one attack followed by persistent worry",
+          "Significant behavioral changes",
+          "Symptoms not attributable to substances",
+          "Not better explained by another disorder"
+        ]
+      }
+    },
+    {
+      "case_id": 5,
+      "patient_profile": {
+        "name": "Emily Rodriguez",
+        "age": 31,
+        "gender": "Female",
+        "occupation": "Nurse"
+      },
+      "conversation_context": {
+        "setting": "Hospital Employee Health",
+        "reason_for_visit": "Self-referred due to panic attacks at work"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Recurrent panic attacks during patient care",
+          "Fear of making medical errors",
+          "Avoidance of certain medical procedures"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on work performance",
+        "specific_examples": [
+          "Experienced 3 panic attacks during patient care",
+          "Avoiding certain medical procedures",
+          "Difficulty concentrating at work",
+          "Reduced work productivity"
+        ],
+        "panic_attack_symptoms": [
+          "Palpitations",
+          "Sweating",
+          "Trembling",
+          "Shortness of breath",
+          "Chest pain",
+          "Nausea",
+          "Dizziness",
+          "Fear of losing control"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I might make a mistake",
+          "I can't handle the pressure",
+          "I might harm a patient"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Guilt"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding certain medical procedures",
+          "Seeking supervision for tasks",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working fewer hours",
+          "Avoiding night shifts",
+          "Difficulty sleeping before work"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Deep breathing",
+          "Seeking medical help"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent unexpected panic attacks",
+          "At least one attack followed by persistent worry",
+          "Significant behavioral changes",
+          "Symptoms not attributable to substances",
+          "Not better explained by another disorder"
+        ]
+      }
+    },
+    {
+      "case_id": 6,
+      "patient_profile": {
+        "name": "James Anderson",
+        "age": 38,
+        "gender": "Male",
+        "occupation": "Lawyer"
+      },
+      "conversation_context": {
+        "setting": "Private Practice",
+        "reason_for_visit": "Self-referred due to panic attacks during court appearances"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "Father had anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Recurrent panic attacks during court appearances",
+          "Fear of public speaking",
+          "Avoidance of court appearances"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on legal practice",
+        "specific_examples": [
+          "Experienced 4 panic attacks during court appearances",
+          "Avoiding court appearances",
+          "Difficulty preparing for cases",
+          "Reduced work productivity"
+        ],
+        "panic_attack_symptoms": [
+          "Palpitations",
+          "Sweating",
+          "Trembling",
+          "Shortness of breath",
+          "Chest pain",
+          "Nausea",
+          "Dizziness",
+          "Fear of losing control"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to freeze in court",
+          "Everyone will notice my anxiety",
+          "I might lose my case"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Embarrassment"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding court appearances",
+          "Seeking alternative legal work",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working more on paperwork",
+          "Avoiding client meetings",
+          "Difficulty sleeping before court"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Deep breathing",
+          "Seeking medical help"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent unexpected panic attacks",
+          "At least one attack followed by persistent worry",
+          "Significant behavioral changes",
+          "Symptoms not attributable to substances",
+          "Not better explained by another disorder"
+        ]
+      }
+    },
+    {
+      "case_id": 7,
+      "patient_profile": {
+        "name": "Rachel Lee",
+        "age": 33,
+        "gender": "Female",
+        "occupation": "Teacher"
+      },
+      "conversation_context": {
+        "setting": "School Health Center",
+        "reason_for_visit": "Self-referred due to panic attacks during class"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Recurrent panic attacks during class",
+          "Fear of losing control in front of students",
+          "Avoidance of teaching certain subjects"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on teaching performance",
+        "specific_examples": [
+          "Experienced 3 panic attacks during class",
+          "Avoiding teaching certain subjects",
+          "Difficulty managing classroom",
+          "Reduced teaching effectiveness"
+        ],
+        "panic_attack_symptoms": [
+          "Palpitations",
+          "Sweating",
+          "Trembling",
+          "Shortness of breath",
+          "Chest pain",
+          "Nausea",
+          "Dizziness",
+          "Fear of losing control"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to freeze in front of my students",
+          "I can't handle the classroom",
+          "I might faint"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Embarrassment"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding certain teaching situations",
+          "Seeking classroom support",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working fewer hours",
+          "Avoiding parent meetings",
+          "Difficulty sleeping before teaching"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Deep breathing",
+          "Seeking medical help"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent unexpected panic attacks",
+          "At least one attack followed by persistent worry",
+          "Significant behavioral changes",
+          "Symptoms not attributable to substances",
+          "Not better explained by another disorder"
+        ]
+      }
+    },
+    {
+      "case_id": 8,
+      "patient_profile": {
+        "name": "Thomas Chen",
+        "age": 36,
+        "gender": "Male",
+        "occupation": "Architect"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred due to panic attacks during client presentations"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Recurrent panic attacks during client presentations",
+          "Fear of public speaking",
+          "Avoidance of client meetings"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work performance",
+        "specific_examples": [
+          "Experienced 3 panic attacks during presentations",
+          "Avoiding client meetings",
+          "Difficulty presenting designs",
+          "Reduced work opportunities"
+        ],
+        "panic_attack_symptoms": [
+          "Palpitations",
+          "Sweating",
+          "Trembling",
+          "Shortness of breath",
+          "Chest pain",
+          "Nausea",
+          "Dizziness",
+          "Fear of losing control"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to freeze during the presentation",
+          "Everyone will notice my anxiety",
+          "I might lose the client"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Embarrassment"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding client meetings",
+          "Seeking alternative work tasks",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working more on design work",
+          "Avoiding team meetings",
+          "Difficulty sleeping before presentations"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Deep breathing",
+          "Seeking medical help"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent unexpected panic attacks",
+          "At least one attack followed by persistent worry",
+          "Significant behavioral changes",
+          "Symptoms not attributable to substances",
+          "Not better explained by another disorder"
+        ]
+      }
+    },
+    {
+      "case_id": 9,
+      "patient_profile": {
+        "name": "Sarah Brown",
+        "age": 29,
+        "gender": "Female",
+        "occupation": "Graduate Student"
+      },
+      "conversation_context": {
+        "setting": "University Health Center",
+        "reason_for_visit": "Self-referred due to panic attacks during research presentations"
+      },
+      "patient_background": {
+        "living_situation": "Lives with roommates",
+        "family_history": "Father has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Recurrent panic attacks during research presentations",
+          "Fear of public speaking",
+          "Avoidance of academic conferences"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on academic progress",
+        "specific_examples": [
+          "Experienced 3 panic attacks during presentations",
+          "Avoiding academic conferences",
+          "Difficulty presenting research",
+          "Reduced academic opportunities"
+        ],
+        "panic_attack_symptoms": [
+          "Palpitations",
+          "Sweating",
+          "Trembling",
+          "Shortness of breath",
+          "Chest pain",
+          "Nausea",
+          "Dizziness",
+          "Fear of losing control"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to freeze during the presentation",
+          "Everyone will notice my anxiety",
+          "I might fail my degree"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Embarrassment"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding research presentations",
+          "Seeking alternative academic work",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working more on research writing",
+          "Avoiding lab meetings",
+          "Difficulty sleeping before presentations"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Deep breathing",
+          "Seeking medical help"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent unexpected panic attacks",
+          "At least one attack followed by persistent worry",
+          "Significant behavioral changes",
+          "Symptoms not attributable to substances",
+          "Not better explained by another disorder"
+        ]
+      }
+    },
+    {
+      "case_id": 10,
+      "patient_profile": {
+        "name": "Daniel Wilson",
+        "age": 45,
+        "gender": "Male",
+        "occupation": "Doctor"
+      },
+      "conversation_context": {
+        "setting": "Hospital Employee Health",
+        "reason_for_visit": "Self-referred due to panic attacks during patient consultations"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse and children",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Recurrent panic attacks during patient consultations",
+          "Fear of making medical errors",
+          "Avoidance of certain patient cases"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on medical practice",
+        "specific_examples": [
+          "Experienced 4 panic attacks during consultations",
+          "Avoiding certain patient cases",
+          "Difficulty managing patient care",
+          "Reduced work productivity"
+        ],
+        "panic_attack_symptoms": [
+          "Palpitations",
+          "Sweating",
+          "Trembling",
+          "Shortness of breath",
+          "Chest pain",
+          "Nausea",
+          "Dizziness",
+          "Fear of losing control"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I might make a mistake",
+          "I can't handle the pressure",
+          "I might harm a patient"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Guilt"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding certain patient cases",
+          "Seeking supervision for tasks",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working fewer hours",
+          "Avoiding night shifts",
+          "Difficulty sleeping before work"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Deep breathing",
+          "Seeking medical help"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent unexpected panic attacks",
+          "At least one attack followed by persistent worry",
+          "Significant behavioral changes",
+          "Symptoms not attributable to substances",
+          "Not better explained by another disorder"
+        ]
+      }
+    },
+    {
+      "case_id": 11,
+      "patient_profile": {
+        "name": "Maria Garcia",
+        "age": 32,
+        "gender": "Female",
+        "occupation": "Nurse"
+      },
+      "conversation_context": {
+        "setting": "Hospital Employee Health",
+        "reason_for_visit": "Self-referred due to panic attacks during patient care"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Recurrent panic attacks during patient care",
+          "Fear of making medical errors",
+          "Avoidance of certain medical procedures"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work performance",
+        "specific_examples": [
+          "Experienced 3 panic attacks during patient care",
+          "Avoiding certain medical procedures",
+          "Difficulty concentrating at work",
+          "Reduced work productivity"
+        ],
+        "panic_attack_symptoms": [
+          "Palpitations",
+          "Sweating",
+          "Trembling",
+          "Shortness of breath",
+          "Chest pain",
+          "Nausea",
+          "Dizziness",
+          "Fear of losing control"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I might make a mistake",
+          "I can't handle the pressure",
+          "I might harm a patient"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Guilt"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding certain medical procedures",
+          "Seeking supervision for tasks",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working fewer hours",
+          "Avoiding night shifts",
+          "Difficulty sleeping before work"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Deep breathing",
+          "Seeking medical help"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent unexpected panic attacks",
+          "At least one attack followed by persistent worry",
+          "Significant behavioral changes",
+          "Symptoms not attributable to substances",
+          "Not better explained by another disorder"
+        ]
+      }
+    },
+    {
+      "case_id": 12,
+      "patient_profile": {
+        "name": "William Taylor",
+        "age": 39,
+        "gender": "Male",
+        "occupation": "Engineer"
+      },
+      "conversation_context": {
+        "setting": "Employee Assistance Program",
+        "reason_for_visit": "Self-referred due to panic attacks during project presentations"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "Father had anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Recurrent panic attacks during project presentations",
+          "Fear of public speaking",
+          "Avoidance of team meetings"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work performance",
+        "specific_examples": [
+          "Experienced 3 panic attacks during presentations",
+          "Avoiding team meetings",
+          "Difficulty presenting projects",
+          "Reduced work opportunities"
+        ],
+        "panic_attack_symptoms": [
+          "Palpitations",
+          "Sweating",
+          "Trembling",
+          "Shortness of breath",
+          "Chest pain",
+          "Nausea",
+          "Dizziness",
+          "Fear of losing control"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to freeze during the presentation",
+          "Everyone will notice my anxiety",
+          "I might lose my job"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Embarrassment"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding team meetings",
+          "Seeking alternative work tasks",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working more on technical tasks",
+          "Avoiding client meetings",
+          "Difficulty sleeping before presentations"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Deep breathing",
+          "Seeking medical help"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent unexpected panic attacks",
+          "At least one attack followed by persistent worry",
+          "Significant behavioral changes",
+          "Symptoms not attributable to substances",
+          "Not better explained by another disorder"
+        ]
+      }
+    },
+    {
+      "case_id": 13,
+      "patient_profile": {
+        "name": "Jennifer Lee",
+        "age": 35,
+        "gender": "Female",
+        "occupation": "Marketing Manager"
+      },
+      "conversation_context": {
+        "setting": "Private Practice",
+        "reason_for_visit": "Self-referred due to panic attacks during client presentations"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Recurrent panic attacks during client presentations",
+          "Fear of public speaking",
+          "Avoidance of client meetings"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work performance",
+        "specific_examples": [
+          "Experienced 3 panic attacks during presentations",
+          "Avoiding client meetings",
+          "Difficulty presenting marketing plans",
+          "Reduced work opportunities"
+        ],
+        "panic_attack_symptoms": [
+          "Palpitations",
+          "Sweating",
+          "Trembling",
+          "Shortness of breath",
+          "Chest pain",
+          "Nausea",
+          "Dizziness",
+          "Fear of losing control"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to freeze during the presentation",
+          "Everyone will notice my anxiety",
+          "I might lose the client"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Embarrassment"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding client meetings",
+          "Seeking alternative work tasks",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working more on planning tasks",
+          "Avoiding team meetings",
+          "Difficulty sleeping before presentations"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Deep breathing",
+          "Seeking medical help"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent unexpected panic attacks",
+          "At least one attack followed by persistent worry",
+          "Significant behavioral changes",
+          "Symptoms not attributable to substances",
+          "Not better explained by another disorder"
+        ]
+      }
+    },
+    {
+      "case_id": 14,
+      "patient_profile": {
+        "name": "Robert Chen",
+        "age": 41,
+        "gender": "Male",
+        "occupation": "Architect"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred due to panic attacks during client presentations"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Recurrent panic attacks during client presentations",
+          "Fear of public speaking",
+          "Avoidance of client meetings"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on work performance",
+        "specific_examples": [
+          "Experienced 4 panic attacks during presentations",
+          "Avoiding client meetings",
+          "Difficulty presenting designs",
+          "Reduced work opportunities"
+        ],
+        "panic_attack_symptoms": [
+          "Palpitations",
+          "Sweating",
+          "Trembling",
+          "Shortness of breath",
+          "Chest pain",
+          "Nausea",
+          "Dizziness",
+          "Fear of losing control"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to freeze during the presentation",
+          "Everyone will notice my anxiety",
+          "I might lose the client"
+        ],
+        "feelings": [
+          "Fear",
+          "Anxiety",
+          "Embarrassment"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Avoiding client meetings",
+          "Seeking alternative work tasks",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working more on design tasks",
+          "Avoiding team meetings",
+          "Difficulty sleeping before presentations"
+        ],
+        "coping_mechanisms": [
+          "Avoidance",
+          "Deep breathing",
+          "Seeking medical help"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Recurrent unexpected panic attacks",
+          "At least one attack followed by persistent worry",
+          "Significant behavioral changes",
+          "Symptoms not attributable to substances",
+          "Not better explained by another disorder"
+        ]
+      }
+    },
+    {
+      "case_id": 15,
+      "patient_profile": {
+        "name": "Alex Thompson",
+        "age": 28,
+        "gender": "Male",
+        "occupation": "Graduate Student"
+      },
+      "conversation_context": {
+        "setting": "University Health Center",
+        "reason_for_visit": "Self-referred due to occasional anxiety before exams"
+      },
+      "patient_background": {
+        "living_situation": "Lives with roommates",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Occasional anxiety before exams",
+          "Mild nervousness during presentations",
+          "No panic attacks"
+        ],
+        "duration": "6 months",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on academic performance",
+        "specific_examples": [
+          "Feeling nervous before exams",
+          "Mild anxiety during presentations",
+          "No significant avoidance behavior",
+          "Good academic performance"
+        ],
+        "anxiety_symptoms": [
+          "Mild nervousness",
+          "Occasional sweating",
+          "Mild difficulty concentrating"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Generally positive",
+        "thoughts": [
+          "I can handle exam stress",
+          "I'm prepared for presentations",
+          "I'm doing well in my studies"
+        ],
+        "feelings": [
+          "Generally positive",
+          "Occasional nervousness",
+          "Good self-esteem"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Regular studying",
+          "Balanced work habits",
+          "Healthy lifestyle"
+        ],
+        "changes_in_routine": [
+          "Regular sleep pattern",
+          "Healthy study habits",
+          "Balanced lifestyle"
+        ],
+        "coping_mechanisms": [
+          "Healthy study habits",
+          "Time management",
+          "Regular exercise"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": false,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "No panic attacks",
+          "Normal anxiety levels",
+          "No significant distress",
+          "No functional impairment",
+          "Healthy coping mechanisms"
+        ]
+      }
+    }
+  ]
+} 

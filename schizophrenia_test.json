@@ -1,0 +1,1128 @@
+{
+  "test_cases": [
+    {
+      "case_id": 1,
+      "patient_profile": {
+        "name": "David Chen",
+        "age": 25,
+        "gender": "Male",
+        "occupation": "Unemployed"
+      },
+      "conversation_context": {
+        "setting": "Psychiatric emergency room",
+        "reason_for_visit": "First episode of psychosis, paranoid delusions and auditory hallucinations"
+      },
+      "patient_background": {
+        "living_situation": "Lives with parents",
+        "family_history": "Uncle has schizophrenia",
+        "medical_history": "No prior psychiatric history"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Hearing voices",
+          "Paranoid thoughts",
+          "Social withdrawal"
+        ],
+        "duration": "3 months",
+        "severity": "Severe",
+        "impact_on_life": "Significant functional impairment",
+        "specific_examples": [
+          "Hears commanding voices telling him to harm others",
+          "Believes government is monitoring him through his phone",
+          "Has stopped attending classes and social activities"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and fearful",
+        "thoughts": [
+          "The voices won't stop",
+          "Everyone is against me",
+          "I need to protect myself"
+        ],
+        "feelings": [
+          "Fearful",
+          "Paranoid",
+          "Overwhelmed"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Staying in room",
+          "Avoiding social contact",
+          "Not maintaining hygiene"
+        ],
+        "changes_in_routine": [
+          "Stopped attending classes",
+          "Disrupted sleep pattern",
+          "Poor self-care"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Avoidance",
+          "None effective"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Delusions",
+          "Hallucinations",
+          "Disorganized speech",
+          "Grossly disorganized behavior",
+          "Negative symptoms",
+          "Significant social/occupational dysfunction",
+          "Duration > 6 months"
+        ]
+      }
+    },
+    {
+      "case_id": 2,
+      "patient_profile": {
+        "name": "Sarah Martinez",
+        "age": 28,
+        "gender": "Female",
+        "occupation": "Part-time retail worker"
+      },
+      "conversation_context": {
+        "setting": "Outpatient psychiatric clinic",
+        "reason_for_visit": "Follow-up for chronic schizophrenia"
+      },
+      "patient_background": {
+        "living_situation": "Lives in supported housing",
+        "family_history": "No known family history",
+        "medical_history": "Diagnosed 5 years ago, on medication"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Residual hallucinations",
+          "Social anxiety",
+          "Cognitive difficulties"
+        ],
+        "duration": "5 years",
+        "severity": "Moderate",
+        "impact_on_life": "Moderate functional impairment",
+        "specific_examples": [
+          "Occasional hearing whispers",
+          "Difficulty maintaining conversations",
+          "Struggles with work tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Stable but anxious",
+        "thoughts": [
+          "I'm managing better now",
+          "Still worried about relapse",
+          "Want to work more"
+        ],
+        "feelings": [
+          "Anxious",
+          "Hopeful",
+          "Frustrated"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working part-time",
+          "Attending therapy",
+          "Taking medication"
+        ],
+        "changes_in_routine": [
+          "Regular medication schedule",
+          "Therapy appointments",
+          "Work schedule"
+        ],
+        "coping_mechanisms": [
+          "Medication adherence",
+          "Therapy",
+          "Support group"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Residual symptoms",
+          "Social/occupational dysfunction",
+          "Duration > 6 months",
+          "History of more severe symptoms",
+          "On maintenance treatment"
+        ]
+      }
+    },
+    {
+      "case_id": 3,
+      "patient_profile": {
+        "name": "Michael Thompson",
+        "age": 22,
+        "gender": "Male",
+        "occupation": "College student"
+      },
+      "conversation_context": {
+        "setting": "University counseling center",
+        "reason_for_visit": "First episode of psychosis during exam period"
+      },
+      "patient_background": {
+        "living_situation": "Lives in dormitory",
+        "family_history": "Cousin has schizophrenia",
+        "medical_history": "History of cannabis use"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Visual hallucinations",
+          "Disorganized thinking",
+          "Sleep disturbance"
+        ],
+        "duration": "2 weeks",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant academic impairment",
+        "specific_examples": [
+          "Sees shadowy figures in room",
+          "Difficulty organizing thoughts for exams",
+          "Severe insomnia"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Agitated and confused",
+        "thoughts": [
+          "Can't focus on studies",
+          "Something is wrong with my mind",
+          "Need help but afraid to tell anyone"
+        ],
+        "feelings": [
+          "Confused",
+          "Scared",
+          "Overwhelmed"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Struggling with classes",
+          "Avoiding social situations",
+          "Irregular sleep pattern"
+        ],
+        "changes_in_routine": [
+          "Missed classes",
+          "Disrupted sleep",
+          "Poor self-care"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Avoidance",
+          "None effective"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "First episode psychosis",
+          "Hallucinations",
+          "Disorganized thinking",
+          "Significant functional impairment",
+          "Family history",
+          "Substance use history"
+        ]
+      }
+    },
+    {
+      "case_id": 4,
+      "patient_profile": {
+        "name": "Emily Wilson",
+        "age": 30,
+        "gender": "Female",
+        "occupation": "Unemployed"
+      },
+      "conversation_context": {
+        "setting": "Community mental health center",
+        "reason_for_visit": "Follow-up for treatment-resistant schizophrenia"
+      },
+      "patient_background": {
+        "living_situation": "Lives in group home",
+        "family_history": "Mother has schizophrenia",
+        "medical_history": "Multiple medication trials"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Persistent hallucinations",
+          "Negative symptoms",
+          "Cognitive impairment"
+        ],
+        "duration": "10 years",
+        "severity": "Severe",
+        "impact_on_life": "Severe functional impairment",
+        "specific_examples": [
+          "Constant auditory hallucinations",
+          "Severe apathy and withdrawal",
+          "Difficulty with basic tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Flat affect",
+        "thoughts": [
+          "No motivation to do anything",
+          "Voices are always there",
+          "Can't imagine a better future"
+        ],
+        "feelings": [
+          "Numb",
+          "Empty",
+          "Hopeless"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Minimal self-care",
+          "Staying in room",
+          "No social interaction"
+        ],
+        "changes_in_routine": [
+          "Complete social withdrawal",
+          "Poor hygiene",
+          "No structured activities"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Passivity",
+          "None effective"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Treatment-resistant symptoms",
+          "Severe negative symptoms",
+          "Long duration",
+          "Severe functional impairment",
+          "Multiple medication trials",
+          "Family history"
+        ]
+      }
+    },
+    {
+      "case_id": 5,
+      "patient_profile": {
+        "name": "James Anderson",
+        "age": 27,
+        "gender": "Male",
+        "occupation": "Part-time warehouse worker"
+      },
+      "conversation_context": {
+        "setting": "Outpatient psychiatric clinic",
+        "reason_for_visit": "Medication adjustment for residual symptoms"
+      },
+      "patient_background": {
+        "living_situation": "Lives with supportive family",
+        "family_history": "No known family history",
+        "medical_history": "Diagnosed 3 years ago"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild residual symptoms",
+          "Cognitive difficulties",
+          "Social anxiety"
+        ],
+        "duration": "3 years",
+        "severity": "Mild to moderate",
+        "impact_on_life": "Moderate functional impairment",
+        "specific_examples": [
+          "Occasional suspicious thoughts",
+          "Mild attention problems",
+          "Social discomfort"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Stable but anxious",
+        "thoughts": [
+          "Doing better with medication",
+          "Still have some symptoms",
+          "Want to work more hours"
+        ],
+        "feelings": [
+          "Anxious",
+          "Hopeful",
+          "Frustrated"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working part-time",
+          "Taking medication",
+          "Limited social activities"
+        ],
+        "changes_in_routine": [
+          "Regular medication schedule",
+          "Work schedule",
+          "Therapy appointments"
+        ],
+        "coping_mechanisms": [
+          "Medication adherence",
+          "Therapy",
+          "Family support"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Residual symptoms",
+          "Social/occupational dysfunction",
+          "Duration > 6 months",
+          "On maintenance treatment",
+          "Partial response to medication"
+        ]
+      }
+    },
+    {
+      "case_id": 6,
+      "patient_profile": {
+        "name": "Lisa Chen",
+        "age": 24,
+        "gender": "Female",
+        "occupation": "Graduate student"
+      },
+      "conversation_context": {
+        "setting": "University health center",
+        "reason_for_visit": "First episode of psychosis with religious delusions"
+      },
+      "patient_background": {
+        "living_situation": "Lives in apartment with roommate",
+        "family_history": "No known family history",
+        "medical_history": "Recent stress and sleep deprivation"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Religious delusions",
+          "Auditory hallucinations",
+          "Disorganized behavior"
+        ],
+        "duration": "1 month",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant academic and social impairment",
+        "specific_examples": [
+          "Believes she is a prophet",
+          "Hears God speaking to her",
+          "Disorganized speech and behavior"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Agitated and euphoric",
+        "thoughts": [
+          "I have a special mission",
+          "God speaks through me",
+          "Everything has meaning"
+        ],
+        "feelings": [
+          "Excited",
+          "Overwhelmed",
+          "Confused"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Religious rituals",
+          "Preaching to others",
+          "Poor self-care"
+        ],
+        "changes_in_routine": [
+          "Disrupted sleep",
+          "No structured activities",
+          "Unusual behavior"
+        ],
+        "coping_mechanisms": [
+          "Religious rituals",
+          "Isolation",
+          "None effective"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "First episode psychosis",
+          "Delusions",
+          "Hallucinations",
+          "Disorganized behavior",
+          "Significant functional impairment",
+          "Recent stress factors"
+        ]
+      }
+    },
+    {
+      "case_id": 7,
+      "patient_profile": {
+        "name": "Robert Garcia",
+        "age": 35,
+        "gender": "Male",
+        "occupation": "Unemployed"
+      },
+      "conversation_context": {
+        "setting": "Community mental health center",
+        "reason_for_visit": "Relapse after medication non-adherence"
+      },
+      "patient_background": {
+        "living_situation": "Lives in supported housing",
+        "family_history": "Brother has schizophrenia",
+        "medical_history": "Multiple relapses due to non-adherence"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Paranoid delusions",
+          "Command hallucinations",
+          "Aggressive behavior"
+        ],
+        "duration": "15 years",
+        "severity": "Severe",
+        "impact_on_life": "Severe functional impairment",
+        "specific_examples": [
+          "Believes neighbors are plotting against him",
+          "Hears voices telling him to fight",
+          "Threatening behavior towards others"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Angry and paranoid",
+        "thoughts": [
+          "Everyone is against me",
+          "Need to defend myself",
+          "Can't trust anyone"
+        ],
+        "feelings": [
+          "Angry",
+          "Paranoid",
+          "Agitated"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Aggressive behavior",
+          "Poor self-care",
+          "Social isolation"
+        ],
+        "changes_in_routine": [
+          "Disrupted sleep",
+          "No structured activities",
+          "Avoiding treatment"
+        ],
+        "coping_mechanisms": [
+          "Aggression",
+          "Isolation",
+          "None effective"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Chronic course",
+          "Multiple relapses",
+          "Treatment non-adherence",
+          "Severe symptoms",
+          "Aggressive behavior",
+          "Family history"
+        ]
+      }
+    },
+    {
+      "case_id": 8,
+      "patient_profile": {
+        "name": "Maria Rodriguez",
+        "age": 29,
+        "gender": "Female",
+        "occupation": "Part-time office worker"
+      },
+      "conversation_context": {
+        "setting": "Outpatient psychiatric clinic",
+        "reason_for_visit": "Stable on medication, seeking work accommodations"
+      },
+      "patient_background": {
+        "living_situation": "Lives independently",
+        "family_history": "No known family history",
+        "medical_history": "Diagnosed 5 years ago, stable on medication"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild cognitive difficulties",
+          "Social anxiety",
+          "Fatigue from medication"
+        ],
+        "duration": "5 years",
+        "severity": "Mild",
+        "impact_on_life": "Mild functional impairment",
+        "specific_examples": [
+          "Mild attention problems",
+          "Social discomfort",
+          "Medication side effects"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Stable but anxious",
+        "thoughts": [
+          "Managing well with medication",
+          "Want to work more",
+          "Concerned about disclosure"
+        ],
+        "feelings": [
+          "Anxious",
+          "Hopeful",
+          "Concerned"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working part-time",
+          "Taking medication",
+          "Limited social activities"
+        ],
+        "changes_in_routine": [
+          "Regular medication schedule",
+          "Work schedule",
+          "Therapy appointments"
+        ],
+        "coping_mechanisms": [
+          "Medication adherence",
+          "Therapy",
+          "Work accommodations"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Stable on medication",
+          "Mild residual symptoms",
+          "Good treatment adherence",
+          "Partial functional recovery",
+          "Long duration",
+          "Good support system"
+        ]
+      }
+    },
+    {
+      "case_id": 9,
+      "patient_profile": {
+        "name": "Thomas Lee",
+        "age": 31,
+        "gender": "Male",
+        "occupation": "Unemployed"
+      },
+      "conversation_context": {
+        "setting": "Psychiatric emergency room",
+        "reason_for_visit": "Acute psychosis with suicidal ideation"
+      },
+      "patient_background": {
+        "living_situation": "Homeless, staying in shelters",
+        "family_history": "Father had schizophrenia",
+        "medical_history": "Multiple hospitalizations, substance use"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Command hallucinations",
+          "Persecutory delusions",
+          "Suicidal thoughts"
+        ],
+        "duration": "10 years",
+        "severity": "Severe",
+        "impact_on_life": "Severe functional impairment",
+        "specific_examples": [
+          "Hears voices telling him to kill himself",
+          "Believes government agents are following him",
+          "No stable housing or employment"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Desperate and hopeless",
+        "thoughts": [
+          "Want to end the pain",
+          "Can't escape the voices",
+          "No future for me"
+        ],
+        "feelings": [
+          "Hopeless",
+          "Desperate",
+          "Overwhelmed"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Wandering streets",
+          "Substance use",
+          "No self-care"
+        ],
+        "changes_in_routine": [
+          "No stable routine",
+          "Irregular sleep",
+          "Poor hygiene"
+        ],
+        "coping_mechanisms": [
+          "Substance use",
+          "Isolation",
+          "None effective"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Chronic course",
+          "Severe symptoms",
+          "Substance use",
+          "Suicidal ideation",
+          "Homelessness",
+          "Family history",
+          "Multiple hospitalizations"
+        ]
+      }
+    },
+    {
+      "case_id": 10,
+      "patient_profile": {
+        "name": "Jennifer Wilson",
+        "age": 26,
+        "gender": "Female",
+        "occupation": "Graduate student"
+      },
+      "conversation_context": {
+        "setting": "University counseling center",
+        "reason_for_visit": "First episode of psychosis with disorganized thinking"
+      },
+      "patient_background": {
+        "living_situation": "Lives in apartment with roommate",
+        "family_history": "No known family history",
+        "medical_history": "Recent stress and sleep deprivation"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Disorganized thinking",
+          "Visual hallucinations",
+          "Social withdrawal"
+        ],
+        "duration": "2 weeks",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant academic and social impairment",
+        "specific_examples": [
+          "Tangential speech",
+          "Sees patterns moving on walls",
+          "Complete social isolation"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Confused and anxious",
+        "thoughts": [
+          "Can't organize my thoughts",
+          "Everything is connected",
+          "Need help but afraid"
+        ],
+        "feelings": [
+          "Confused",
+          "Scared",
+          "Overwhelmed"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Disorganized study attempts",
+          "Staring at walls",
+          "Poor self-care"
+        ],
+        "changes_in_routine": [
+          "Disrupted sleep",
+          "Missed classes",
+          "Unusual behavior"
+        ],
+        "coping_mechanisms": [
+          "Isolation",
+          "Avoidance",
+          "None effective"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "First episode psychosis",
+          "Disorganized thinking",
+          "Hallucinations",
+          "Significant functional impairment",
+          "Recent stress factors",
+          "Social withdrawal"
+        ]
+      }
+    },
+    {
+      "case_id": 11,
+      "patient_profile": {
+        "name": "Daniel Martinez",
+        "age": 33,
+        "gender": "Male",
+        "occupation": "Part-time maintenance worker"
+      },
+      "conversation_context": {
+        "setting": "Community mental health center",
+        "reason_for_visit": "Follow-up for stable schizophrenia"
+      },
+      "patient_background": {
+        "living_situation": "Lives in supported housing",
+        "family_history": "No known family history",
+        "medical_history": "Diagnosed 8 years ago, stable on medication"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild residual symptoms",
+          "Cognitive difficulties",
+          "Social anxiety"
+        ],
+        "duration": "8 years",
+        "severity": "Mild",
+        "impact_on_life": "Mild functional impairment",
+        "specific_examples": [
+          "Occasional suspicious thoughts",
+          "Mild attention problems",
+          "Social discomfort"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Stable but anxious",
+        "thoughts": [
+          "Doing well with medication",
+          "Want to work more",
+          "Still have some anxiety"
+        ],
+        "feelings": [
+          "Anxious",
+          "Hopeful",
+          "Content"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working part-time",
+          "Taking medication",
+          "Limited social activities"
+        ],
+        "changes_in_routine": [
+          "Regular medication schedule",
+          "Work schedule",
+          "Therapy appointments"
+        ],
+        "coping_mechanisms": [
+          "Medication adherence",
+          "Therapy",
+          "Work accommodations"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Stable on medication",
+          "Mild residual symptoms",
+          "Good treatment adherence",
+          "Partial functional recovery",
+          "Long duration",
+          "Good support system"
+        ]
+      }
+    },
+    {
+      "case_id": 12,
+      "patient_profile": {
+        "name": "Amanda Thompson",
+        "age": 27,
+        "gender": "Female",
+        "occupation": "Unemployed"
+      },
+      "conversation_context": {
+        "setting": "Outpatient psychiatric clinic",
+        "reason_for_visit": "Medication adjustment for residual symptoms"
+      },
+      "patient_background": {
+        "living_situation": "Lives with parents",
+        "family_history": "Mother has depression",
+        "medical_history": "Diagnosed 4 years ago"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild residual symptoms",
+          "Cognitive difficulties",
+          "Social anxiety"
+        ],
+        "duration": "4 years",
+        "severity": "Mild to moderate",
+        "impact_on_life": "Moderate functional impairment",
+        "specific_examples": [
+          "Occasional suspicious thoughts",
+          "Mild attention problems",
+          "Social discomfort"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Stable but anxious",
+        "thoughts": [
+          "Managing better with medication",
+          "Want to work more",
+          "Still have some symptoms"
+        ],
+        "feelings": [
+          "Anxious",
+          "Hopeful",
+          "Frustrated"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Limited activities",
+          "Taking medication",
+          "Family support"
+        ],
+        "changes_in_routine": [
+          "Regular medication schedule",
+          "Therapy appointments",
+          "Family activities"
+        ],
+        "coping_mechanisms": [
+          "Medication adherence",
+          "Therapy",
+          "Family support"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Residual symptoms",
+          "Social/occupational dysfunction",
+          "Duration > 6 months",
+          "On maintenance treatment",
+          "Partial response to medication"
+        ]
+      }
+    },
+    {
+      "case_id": 13,
+      "patient_profile": {
+        "name": "Christopher Lee",
+        "age": 30,
+        "gender": "Male",
+        "occupation": "Part-time retail worker"
+      },
+      "conversation_context": {
+        "setting": "Community mental health center",
+        "reason_for_visit": "Follow-up for stable schizophrenia"
+      },
+      "patient_background": {
+        "living_situation": "Lives in supported housing",
+        "family_history": "No known family history",
+        "medical_history": "Diagnosed 6 years ago"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Mild residual symptoms",
+          "Cognitive difficulties",
+          "Social anxiety"
+        ],
+        "duration": "6 years",
+        "severity": "Mild",
+        "impact_on_life": "Mild functional impairment",
+        "specific_examples": [
+          "Occasional suspicious thoughts",
+          "Mild attention problems",
+          "Social discomfort"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Stable but anxious",
+        "thoughts": [
+          "Doing well with medication",
+          "Want to work more",
+          "Still have some anxiety"
+        ],
+        "feelings": [
+          "Anxious",
+          "Hopeful",
+          "Content"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Working part-time",
+          "Taking medication",
+          "Limited social activities"
+        ],
+        "changes_in_routine": [
+          "Regular medication schedule",
+          "Work schedule",
+          "Therapy appointments"
+        ],
+        "coping_mechanisms": [
+          "Medication adherence",
+          "Therapy",
+          "Work accommodations"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Stable on medication",
+          "Mild residual symptoms",
+          "Good treatment adherence",
+          "Partial functional recovery",
+          "Long duration",
+          "Good support system"
+        ]
+      }
+    },
+    {
+      "case_id": 14,
+      "patient_profile": {
+        "name": "Rachel Garcia",
+        "age": 25,
+        "gender": "Female",
+        "occupation": "Unemployed"
+      },
+      "conversation_context": {
+        "setting": "Outpatient psychiatric clinic",
+        "reason_for_visit": "First episode of psychosis with religious delusions"
+      },
+      "patient_background": {
+        "living_situation": "Lives with parents",
+        "family_history": "No known family history",
+        "medical_history": "Recent stress and sleep deprivation"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Religious delusions",
+          "Auditory hallucinations",
+          "Disorganized behavior"
+        ],
+        "duration": "1 month",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant functional impairment",
+        "specific_examples": [
+          "Believes she is a prophet",
+          "Hears God speaking to her",
+          "Disorganized speech and behavior"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Agitated and euphoric",
+        "thoughts": [
+          "I have a special mission",
+          "God speaks through me",
+          "Everything has meaning"
+        ],
+        "feelings": [
+          "Excited",
+          "Overwhelmed",
+          "Confused"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Religious rituals",
+          "Preaching to others",
+          "Poor self-care"
+        ],
+        "changes_in_routine": [
+          "Disrupted sleep",
+          "No structured activities",
+          "Unusual behavior"
+        ],
+        "coping_mechanisms": [
+          "Religious rituals",
+          "Isolation",
+          "None effective"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "medium",
+        "matching_criteria": [
+          "First episode psychosis",
+          "Delusions",
+          "Hallucinations",
+          "Disorganized behavior",
+          "Significant functional impairment",
+          "Recent stress factors"
+        ]
+      }
+    },
+    {
+      "case_id": 15,
+      "patient_profile": {
+        "name": "Kevin Anderson",
+        "age": 28,
+        "gender": "Male",
+        "occupation": "Graduate student"
+      },
+      "conversation_context": {
+        "setting": "University counseling center",
+        "reason_for_visit": "Anxiety and sleep problems during exam period"
+      },
+      "patient_background": {
+        "living_situation": "Lives in apartment with roommate",
+        "family_history": "No known family history",
+        "medical_history": "History of anxiety"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Anxiety",
+          "Sleep problems",
+          "Difficulty concentrating"
+        ],
+        "duration": "2 weeks",
+        "severity": "Mild",
+        "impact_on_life": "Mild academic stress",
+        "specific_examples": [
+          "Worry about exams",
+          "Insomnia",
+          "Mild attention problems"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious but stable",
+        "thoughts": [
+          "Need to do well on exams",
+          "Having trouble sleeping",
+          "Can manage this stress"
+        ],
+        "feelings": [
+          "Anxious",
+          "Stressed",
+          "Hopeful"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Studying",
+          "Regular exercise",
+          "Maintaining routine"
+        ],
+        "changes_in_routine": [
+          "Increased study time",
+          "Sleep schedule changes",
+          "Stress management"
+        ],
+        "coping_mechanisms": [
+          "Exercise",
+          "Time management",
+          "Support from friends"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": false,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Normal stress response",
+          "No psychotic symptoms",
+          "Maintained reality testing",
+          "Appropriate emotional responses",
+          "Effective coping mechanisms",
+          "Situational factors"
+        ]
+      }
+    }
+  ]
+} 

@@ -1,0 +1,1288 @@
+{
+  "test_cases": [
+    {
+      "case_id": 1,
+      "patient_profile": {
+        "name": "Alex Thompson",
+        "age": 8,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Counseling Office",
+        "reason_for_visit": "Teacher and parent concerns about defiant behavior and anger issues"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and younger sibling",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "angry_irritable_mood": [
+          "Often loses temper",
+          "Is often touchy or easily annoyed",
+          "Is often angry and resentful"
+        ],
+        "argumentative_defiant_behavior": [
+          "Often argues with authority figures",
+          "Often actively defies or refuses to comply with requests",
+          "Often deliberately annoys others",
+          "Often blames others for mistakes"
+        ],
+        "vindictiveness": [
+          "Has been spiteful or vindictive at least twice within the past 6 months"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on family relationships and school performance",
+        "specific_examples": [
+          "Frequent arguments with parents",
+          "Refusal to follow classroom rules",
+          "Difficulty with peer relationships",
+          "Regular temper outbursts"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Angry and defiant",
+        "thoughts": [
+          "Everyone is against me",
+          "Rules are unfair",
+          "I don't have to listen to anyone"
+        ],
+        "feelings": [
+          "Anger",
+          "Resentment",
+          "Frustration",
+          "Defiance"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Frequent arguments with parents",
+          "Refusal to follow rules",
+          "Difficulty with authority",
+          "Problems with peers"
+        ],
+        "changes_in_routine": [
+          "Behavior modification plan",
+          "Family therapy",
+          "Social skills training",
+          "Parent training"
+        ],
+        "coping_mechanisms": [
+          "Anger management techniques",
+          "Positive reinforcement",
+          "Clear consequences",
+          "Structured routines"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of angry/irritable mood",
+          "Argumentative/defiant behavior",
+          "Vindictiveness",
+          "Duration of at least 6 months",
+          "Significant distress in social context"
+        ]
+      }
+    },
+    {
+      "case_id": 2,
+      "patient_profile": {
+        "name": "Emma Rodriguez",
+        "age": 12,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Parent concerns about oppositional behavior and mood issues"
+      },
+      "patient_background": {
+        "living_situation": "Lives with single mother",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "angry_irritable_mood": [
+          "Often loses temper",
+          "Is often touchy or easily annoyed",
+          "Is often angry and resentful"
+        ],
+        "argumentative_defiant_behavior": [
+          "Often argues with authority figures",
+          "Often actively defies requests",
+          "Often deliberately annoys others"
+        ],
+        "vindictiveness": [],
+        "duration": "8 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on family relationships and academic performance",
+        "specific_examples": [
+          "Frequent arguments with mother",
+          "Refusal to complete homework",
+          "Difficulty with teachers",
+          "Regular mood outbursts"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and defiant",
+        "thoughts": [
+          "My mom doesn't understand me",
+          "School is unfair",
+          "I don't need to follow rules"
+        ],
+        "feelings": [
+          "Anger",
+          "Resentment",
+          "Frustration",
+          "Defiance"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Arguments with mother",
+          "School behavior problems",
+          "Refusal to follow rules",
+          "Mood outbursts"
+        ],
+        "changes_in_routine": [
+          "Family therapy",
+          "Individual counseling",
+          "Behavior modification",
+          "Parent training"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Communication skills",
+          "Problem-solving strategies",
+          "Emotional regulation"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of angry/irritable mood",
+          "Argumentative/defiant behavior",
+          "Duration of at least 6 months",
+          "Significant distress in social context"
+        ]
+      }
+    },
+    {
+      "case_id": 3,
+      "patient_profile": {
+        "name": "Lucas Chen",
+        "age": 10,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Health Center",
+        "reason_for_visit": "Teacher and parent concerns about oppositional behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "angry_irritable_mood": [
+          "Often loses temper",
+          "Is often touchy or easily annoyed"
+        ],
+        "argumentative_defiant_behavior": [
+          "Often argues with authority figures",
+          "Often actively defies requests",
+          "Often deliberately annoys others",
+          "Often blames others for mistakes"
+        ],
+        "vindictiveness": [
+          "Has been spiteful or vindictive at least twice within the past 6 months"
+        ],
+        "duration": "1.5 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on family and school functioning",
+        "specific_examples": [
+          "Frequent arguments with parents",
+          "Refusal to follow classroom rules",
+          "Difficulty with peer relationships",
+          "Regular temper outbursts"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Angry and defiant",
+        "thoughts": [
+          "Everyone is against me",
+          "Rules are unfair",
+          "I don't have to listen to anyone"
+        ],
+        "feelings": [
+          "Anger",
+          "Resentment",
+          "Frustration",
+          "Defiance"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Frequent arguments with parents",
+          "Refusal to follow rules",
+          "Difficulty with authority",
+          "Problems with peers"
+        ],
+        "changes_in_routine": [
+          "Behavior modification plan",
+          "Family therapy",
+          "Social skills training",
+          "Parent training"
+        ],
+        "coping_mechanisms": [
+          "Anger management techniques",
+          "Positive reinforcement",
+          "Clear consequences",
+          "Structured routines"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of angry/irritable mood",
+          "Argumentative/defiant behavior",
+          "Vindictiveness",
+          "Duration of at least 6 months",
+          "Significant distress in social context"
+        ]
+      }
+    },
+    {
+      "case_id": 4,
+      "patient_profile": {
+        "name": "Sophia Wilson",
+        "age": 9,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Parent concerns about oppositional behavior and mood issues"
+      },
+      "patient_background": {
+        "living_situation": "Lives with mother and stepfather",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "angry_irritable_mood": [
+          "Often loses temper",
+          "Is often touchy or easily annoyed",
+          "Is often angry and resentful"
+        ],
+        "argumentative_defiant_behavior": [
+          "Often argues with authority figures",
+          "Often actively defies requests",
+          "Often deliberately annoys others"
+        ],
+        "vindictiveness": [],
+        "duration": "7 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on family relationships",
+        "specific_examples": [
+          "Frequent arguments with parents",
+          "Refusal to follow household rules",
+          "Difficulty with stepfather",
+          "Regular mood outbursts"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and defiant",
+        "thoughts": [
+          "My stepfather is unfair",
+          "I don't have to listen to him",
+          "My mom should take my side"
+        ],
+        "feelings": [
+          "Anger",
+          "Resentment",
+          "Frustration",
+          "Defiance"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Arguments with parents",
+          "Refusal to follow rules",
+          "Difficulty with authority",
+          "Mood outbursts"
+        ],
+        "changes_in_routine": [
+          "Family therapy",
+          "Individual counseling",
+          "Behavior modification",
+          "Parent training"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Communication skills",
+          "Problem-solving strategies",
+          "Emotional regulation"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of angry/irritable mood",
+          "Argumentative/defiant behavior",
+          "Duration of at least 6 months",
+          "Significant distress in social context"
+        ]
+      }
+    },
+    {
+      "case_id": 5,
+      "patient_profile": {
+        "name": "Noah Martinez",
+        "age": 11,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Counseling Office",
+        "reason_for_visit": "Teacher and parent concerns about oppositional behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "Father has ADHD",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "angry_irritable_mood": [
+          "Often loses temper",
+          "Is often touchy or easily annoyed",
+          "Is often angry and resentful"
+        ],
+        "argumentative_defiant_behavior": [
+          "Often argues with authority figures",
+          "Often actively defies requests",
+          "Often deliberately annoys others",
+          "Often blames others for mistakes"
+        ],
+        "vindictiveness": [
+          "Has been spiteful or vindictive at least twice within the past 6 months"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on family and school functioning",
+        "specific_examples": [
+          "Frequent arguments with parents",
+          "Refusal to follow classroom rules",
+          "Difficulty with peer relationships",
+          "Regular temper outbursts"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Angry and defiant",
+        "thoughts": [
+          "Everyone is against me",
+          "Rules are unfair",
+          "I don't have to listen to anyone"
+        ],
+        "feelings": [
+          "Anger",
+          "Resentment",
+          "Frustration",
+          "Defiance"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Frequent arguments with parents",
+          "Refusal to follow rules",
+          "Difficulty with authority",
+          "Problems with peers"
+        ],
+        "changes_in_routine": [
+          "Behavior modification plan",
+          "Family therapy",
+          "Social skills training",
+          "Parent training"
+        ],
+        "coping_mechanisms": [
+          "Anger management techniques",
+          "Positive reinforcement",
+          "Clear consequences",
+          "Structured routines"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of angry/irritable mood",
+          "Argumentative/defiant behavior",
+          "Vindictiveness",
+          "Duration of at least 6 months",
+          "Significant distress in social context"
+        ]
+      }
+    },
+    {
+      "case_id": 6,
+      "patient_profile": {
+        "name": "Isabella Thompson",
+        "age": 8,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Parent concerns about oppositional behavior and mood issues"
+      },
+      "patient_background": {
+        "living_situation": "Lives with single mother",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "angry_irritable_mood": [
+          "Often loses temper",
+          "Is often touchy or easily annoyed"
+        ],
+        "argumentative_defiant_behavior": [
+          "Often argues with authority figures",
+          "Often actively defies requests",
+          "Often deliberately annoys others"
+        ],
+        "vindictiveness": [],
+        "duration": "6 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on family relationships",
+        "specific_examples": [
+          "Frequent arguments with mother",
+          "Refusal to follow household rules",
+          "Difficulty with transitions",
+          "Regular mood outbursts"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and defiant",
+        "thoughts": [
+          "My mom doesn't understand me",
+          "Rules are unfair",
+          "I don't have to listen"
+        ],
+        "feelings": [
+          "Anger",
+          "Resentment",
+          "Frustration",
+          "Defiance"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Arguments with mother",
+          "Refusal to follow rules",
+          "Difficulty with authority",
+          "Mood outbursts"
+        ],
+        "changes_in_routine": [
+          "Family therapy",
+          "Individual counseling",
+          "Behavior modification",
+          "Parent training"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Communication skills",
+          "Problem-solving strategies",
+          "Emotional regulation"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of angry/irritable mood",
+          "Argumentative/defiant behavior",
+          "Duration of at least 6 months",
+          "Significant distress in social context"
+        ]
+      }
+    },
+    {
+      "case_id": 7,
+      "patient_profile": {
+        "name": "Ethan Rodriguez",
+        "age": 13,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Health Center",
+        "reason_for_visit": "Teacher and parent concerns about oppositional behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "angry_irritable_mood": [
+          "Often loses temper",
+          "Is often touchy or easily annoyed",
+          "Is often angry and resentful"
+        ],
+        "argumentative_defiant_behavior": [
+          "Often argues with authority figures",
+          "Often actively defies requests",
+          "Often deliberately annoys others",
+          "Often blames others for mistakes"
+        ],
+        "vindictiveness": [
+          "Has been spiteful or vindictive at least twice within the past 6 months"
+        ],
+        "duration": "1.5 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on family and school functioning",
+        "specific_examples": [
+          "Frequent arguments with parents",
+          "Refusal to follow classroom rules",
+          "Difficulty with peer relationships",
+          "Regular temper outbursts"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Angry and defiant",
+        "thoughts": [
+          "Everyone is against me",
+          "Rules are unfair",
+          "I don't have to listen to anyone"
+        ],
+        "feelings": [
+          "Anger",
+          "Resentment",
+          "Frustration",
+          "Defiance"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Frequent arguments with parents",
+          "Refusal to follow rules",
+          "Difficulty with authority",
+          "Problems with peers"
+        ],
+        "changes_in_routine": [
+          "Behavior modification plan",
+          "Family therapy",
+          "Social skills training",
+          "Parent training"
+        ],
+        "coping_mechanisms": [
+          "Anger management techniques",
+          "Positive reinforcement",
+          "Clear consequences",
+          "Structured routines"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of angry/irritable mood",
+          "Argumentative/defiant behavior",
+          "Vindictiveness",
+          "Duration of at least 6 months",
+          "Significant distress in social context"
+        ]
+      }
+    },
+    {
+      "case_id": 8,
+      "patient_profile": {
+        "name": "Olivia Chen",
+        "age": 10,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Parent concerns about oppositional behavior and mood issues"
+      },
+      "patient_background": {
+        "living_situation": "Lives with mother and stepfather",
+        "family_history": "Mother has depression",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "angry_irritable_mood": [
+          "Often loses temper",
+          "Is often touchy or easily annoyed",
+          "Is often angry and resentful"
+        ],
+        "argumentative_defiant_behavior": [
+          "Often argues with authority figures",
+          "Often actively defies requests",
+          "Often deliberately annoys others"
+        ],
+        "vindictiveness": [],
+        "duration": "8 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on family relationships",
+        "specific_examples": [
+          "Frequent arguments with parents",
+          "Refusal to follow household rules",
+          "Difficulty with stepfather",
+          "Regular mood outbursts"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and defiant",
+        "thoughts": [
+          "My stepfather is unfair",
+          "I don't have to listen to him",
+          "My mom should take my side"
+        ],
+        "feelings": [
+          "Anger",
+          "Resentment",
+          "Frustration",
+          "Defiance"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Arguments with parents",
+          "Refusal to follow rules",
+          "Difficulty with authority",
+          "Mood outbursts"
+        ],
+        "changes_in_routine": [
+          "Family therapy",
+          "Individual counseling",
+          "Behavior modification",
+          "Parent training"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Communication skills",
+          "Problem-solving strategies",
+          "Emotional regulation"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of angry/irritable mood",
+          "Argumentative/defiant behavior",
+          "Duration of at least 6 months",
+          "Significant distress in social context"
+        ]
+      }
+    },
+    {
+      "case_id": 9,
+      "patient_profile": {
+        "name": "Liam Wilson",
+        "age": 9,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Counseling Office",
+        "reason_for_visit": "Teacher and parent concerns about oppositional behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "angry_irritable_mood": [
+          "Often loses temper",
+          "Is often touchy or easily annoyed",
+          "Is often angry and resentful"
+        ],
+        "argumentative_defiant_behavior": [
+          "Often argues with authority figures",
+          "Often actively defies requests",
+          "Often deliberately annoys others",
+          "Often blames others for mistakes"
+        ],
+        "vindictiveness": [
+          "Has been spiteful or vindictive at least twice within the past 6 months"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on family and school functioning",
+        "specific_examples": [
+          "Frequent arguments with parents",
+          "Refusal to follow classroom rules",
+          "Difficulty with peer relationships",
+          "Regular temper outbursts"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Angry and defiant",
+        "thoughts": [
+          "Everyone is against me",
+          "Rules are unfair",
+          "I don't have to listen to anyone"
+        ],
+        "feelings": [
+          "Anger",
+          "Resentment",
+          "Frustration",
+          "Defiance"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Frequent arguments with parents",
+          "Refusal to follow rules",
+          "Difficulty with authority",
+          "Problems with peers"
+        ],
+        "changes_in_routine": [
+          "Behavior modification plan",
+          "Family therapy",
+          "Social skills training",
+          "Parent training"
+        ],
+        "coping_mechanisms": [
+          "Anger management techniques",
+          "Positive reinforcement",
+          "Clear consequences",
+          "Structured routines"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of angry/irritable mood",
+          "Argumentative/defiant behavior",
+          "Vindictiveness",
+          "Duration of at least 6 months",
+          "Significant distress in social context"
+        ]
+      }
+    },
+    {
+      "case_id": 10,
+      "patient_profile": {
+        "name": "Ava Martinez",
+        "age": 11,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Parent concerns about oppositional behavior and mood issues"
+      },
+      "patient_background": {
+        "living_situation": "Lives with single mother",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "angry_irritable_mood": [
+          "Often loses temper",
+          "Is often touchy or easily annoyed",
+          "Is often angry and resentful"
+        ],
+        "argumentative_defiant_behavior": [
+          "Often argues with authority figures",
+          "Often actively defies requests",
+          "Often deliberately annoys others"
+        ],
+        "vindictiveness": [],
+        "duration": "7 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on family relationships",
+        "specific_examples": [
+          "Frequent arguments with mother",
+          "Refusal to follow household rules",
+          "Difficulty with transitions",
+          "Regular mood outbursts"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and defiant",
+        "thoughts": [
+          "My mom doesn't understand me",
+          "Rules are unfair",
+          "I don't have to listen"
+        ],
+        "feelings": [
+          "Anger",
+          "Resentment",
+          "Frustration",
+          "Defiance"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Arguments with mother",
+          "Refusal to follow rules",
+          "Difficulty with authority",
+          "Mood outbursts"
+        ],
+        "changes_in_routine": [
+          "Family therapy",
+          "Individual counseling",
+          "Behavior modification",
+          "Parent training"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Communication skills",
+          "Problem-solving strategies",
+          "Emotional regulation"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of angry/irritable mood",
+          "Argumentative/defiant behavior",
+          "Duration of at least 6 months",
+          "Significant distress in social context"
+        ]
+      }
+    },
+    {
+      "case_id": 11,
+      "patient_profile": {
+        "name": "Mason Thompson",
+        "age": 8,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Health Center",
+        "reason_for_visit": "Teacher and parent concerns about oppositional behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "Father has ADHD",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "angry_irritable_mood": [
+          "Often loses temper",
+          "Is often touchy or easily annoyed",
+          "Is often angry and resentful"
+        ],
+        "argumentative_defiant_behavior": [
+          "Often argues with authority figures",
+          "Often actively defies requests",
+          "Often deliberately annoys others",
+          "Often blames others for mistakes"
+        ],
+        "vindictiveness": [
+          "Has been spiteful or vindictive at least twice within the past 6 months"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on family and school functioning",
+        "specific_examples": [
+          "Frequent arguments with parents",
+          "Refusal to follow classroom rules",
+          "Difficulty with peer relationships",
+          "Regular temper outbursts"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Angry and defiant",
+        "thoughts": [
+          "Everyone is against me",
+          "Rules are unfair",
+          "I don't have to listen to anyone"
+        ],
+        "feelings": [
+          "Anger",
+          "Resentment",
+          "Frustration",
+          "Defiance"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Frequent arguments with parents",
+          "Refusal to follow rules",
+          "Difficulty with authority",
+          "Problems with peers"
+        ],
+        "changes_in_routine": [
+          "Behavior modification plan",
+          "Family therapy",
+          "Social skills training",
+          "Parent training"
+        ],
+        "coping_mechanisms": [
+          "Anger management techniques",
+          "Positive reinforcement",
+          "Clear consequences",
+          "Structured routines"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of angry/irritable mood",
+          "Argumentative/defiant behavior",
+          "Vindictiveness",
+          "Duration of at least 6 months",
+          "Significant distress in social context"
+        ]
+      }
+    },
+    {
+      "case_id": 12,
+      "patient_profile": {
+        "name": "Sophia Rodriguez",
+        "age": 10,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Parent concerns about oppositional behavior and mood issues"
+      },
+      "patient_background": {
+        "living_situation": "Lives with mother and stepfather",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "angry_irritable_mood": [
+          "Often loses temper",
+          "Is often touchy or easily annoyed",
+          "Is often angry and resentful"
+        ],
+        "argumentative_defiant_behavior": [
+          "Often argues with authority figures",
+          "Often actively defies requests",
+          "Often deliberately annoys others"
+        ],
+        "vindictiveness": [],
+        "duration": "8 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on family relationships",
+        "specific_examples": [
+          "Frequent arguments with parents",
+          "Refusal to follow household rules",
+          "Difficulty with stepfather",
+          "Regular mood outbursts"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and defiant",
+        "thoughts": [
+          "My stepfather is unfair",
+          "I don't have to listen to him",
+          "My mom should take my side"
+        ],
+        "feelings": [
+          "Anger",
+          "Resentment",
+          "Frustration",
+          "Defiance"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Arguments with parents",
+          "Refusal to follow rules",
+          "Difficulty with authority",
+          "Mood outbursts"
+        ],
+        "changes_in_routine": [
+          "Family therapy",
+          "Individual counseling",
+          "Behavior modification",
+          "Parent training"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Communication skills",
+          "Problem-solving strategies",
+          "Emotional regulation"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of angry/irritable mood",
+          "Argumentative/defiant behavior",
+          "Duration of at least 6 months",
+          "Significant distress in social context"
+        ]
+      }
+    },
+    {
+      "case_id": 13,
+      "patient_profile": {
+        "name": "Lucas Wilson",
+        "age": 9,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Counseling Office",
+        "reason_for_visit": "Teacher and parent concerns about oppositional behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "angry_irritable_mood": [
+          "Often loses temper",
+          "Is often touchy or easily annoyed",
+          "Is often angry and resentful"
+        ],
+        "argumentative_defiant_behavior": [
+          "Often argues with authority figures",
+          "Often actively defies requests",
+          "Often deliberately annoys others",
+          "Often blames others for mistakes"
+        ],
+        "vindictiveness": [
+          "Has been spiteful or vindictive at least twice within the past 6 months"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on family and school functioning",
+        "specific_examples": [
+          "Frequent arguments with parents",
+          "Refusal to follow classroom rules",
+          "Difficulty with peer relationships",
+          "Regular temper outbursts"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Angry and defiant",
+        "thoughts": [
+          "Everyone is against me",
+          "Rules are unfair",
+          "I don't have to listen to anyone"
+        ],
+        "feelings": [
+          "Anger",
+          "Resentment",
+          "Frustration",
+          "Defiance"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Frequent arguments with parents",
+          "Refusal to follow rules",
+          "Difficulty with authority",
+          "Problems with peers"
+        ],
+        "changes_in_routine": [
+          "Behavior modification plan",
+          "Family therapy",
+          "Social skills training",
+          "Parent training"
+        ],
+        "coping_mechanisms": [
+          "Anger management techniques",
+          "Positive reinforcement",
+          "Clear consequences",
+          "Structured routines"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of angry/irritable mood",
+          "Argumentative/defiant behavior",
+          "Vindictiveness",
+          "Duration of at least 6 months",
+          "Significant distress in social context"
+        ]
+      }
+    },
+    {
+      "case_id": 14,
+      "patient_profile": {
+        "name": "Emma Thompson",
+        "age": 11,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Parent concerns about oppositional behavior and mood issues"
+      },
+      "patient_background": {
+        "living_situation": "Lives with single mother",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "angry_irritable_mood": [
+          "Often loses temper",
+          "Is often touchy or easily annoyed",
+          "Is often angry and resentful"
+        ],
+        "argumentative_defiant_behavior": [
+          "Often argues with authority figures",
+          "Often actively defies requests",
+          "Often deliberately annoys others"
+        ],
+        "vindictiveness": [],
+        "duration": "7 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on family relationships",
+        "specific_examples": [
+          "Frequent arguments with mother",
+          "Refusal to follow household rules",
+          "Difficulty with transitions",
+          "Regular mood outbursts"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Irritable and defiant",
+        "thoughts": [
+          "My mom doesn't understand me",
+          "Rules are unfair",
+          "I don't have to listen"
+        ],
+        "feelings": [
+          "Anger",
+          "Resentment",
+          "Frustration",
+          "Defiance"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Arguments with mother",
+          "Refusal to follow rules",
+          "Difficulty with authority",
+          "Mood outbursts"
+        ],
+        "changes_in_routine": [
+          "Family therapy",
+          "Individual counseling",
+          "Behavior modification",
+          "Parent training"
+        ],
+        "coping_mechanisms": [
+          "Anger management",
+          "Communication skills",
+          "Problem-solving strategies",
+          "Emotional regulation"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Pattern of angry/irritable mood",
+          "Argumentative/defiant behavior",
+          "Duration of at least 6 months",
+          "Significant distress in social context"
+        ]
+      }
+    },
+    {
+      "case_id": 15,
+      "patient_profile": {
+        "name": "Noah Martinez",
+        "age": 8,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "School Health Center",
+        "reason_for_visit": "Teacher and parent concerns about occasional oppositional behavior"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "angry_irritable_mood": [
+          "Sometimes loses temper",
+          "Sometimes touchy or easily annoyed"
+        ],
+        "argumentative_defiant_behavior": [
+          "Sometimes argues with authority figures",
+          "Sometimes refuses to comply with requests"
+        ],
+        "vindictiveness": [],
+        "duration": "3 months",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on family and school functioning",
+        "specific_examples": [
+          "Occasional arguments with parents",
+          "Sometimes refuses to follow rules",
+          "Normal peer relationships",
+          "Occasional mood outbursts"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Generally positive",
+        "thoughts": [
+          "I usually get along with others",
+          "I try to follow rules",
+          "I have good friends"
+        ],
+        "feelings": [
+          "Generally happy",
+          "Occasional frustration",
+          "Normal mood",
+          "Positive attitude"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Generally compliant",
+          "Follows most rules",
+          "Good peer relationships",
+          "Normal behavior"
+        ],
+        "changes_in_routine": [
+          "Regular exercise",
+          "Balanced activities",
+          "Good sleep schedule",
+          "Structured routines"
+        ],
+        "coping_mechanisms": [
+          "Regular exercise",
+          "Good sleep habits",
+          "Balanced activities",
+          "Parent support"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": false,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Insufficient number of symptoms",
+          "Symptoms not present for at least 6 months",
+          "No significant functional impairment",
+          "Normal developmental variation"
+        ]
+      }
+    }
+  ]
+} 

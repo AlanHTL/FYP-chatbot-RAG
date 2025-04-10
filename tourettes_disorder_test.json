@@ -1,0 +1,506 @@
+{
+  "test_cases": [
+    {
+      "case_id": "TD_001",
+      "patient_profile": {
+        "age": 12,
+        "gender": "male",
+        "background": "Middle school student with recent onset of tics"
+      },
+      "symptoms": {
+        "motor_tics": [
+          "Eye blinking",
+          "Facial grimacing",
+          "Head jerking",
+          "Shoulder shrugging"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Sniffing",
+          "Simple vocalizations"
+        ],
+        "duration": "Present for 14 months",
+        "frequency": "Multiple times per day",
+        "severity": "Moderate"
+      },
+      "onset_history": {
+        "age_at_onset": 11,
+        "initial_symptoms": "Started with eye blinking",
+        "progression": "Gradual increase in tic variety"
+      },
+      "functional_impact": {
+        "academic": "Difficulty concentrating in class",
+        "social": "Some peer teasing",
+        "daily_living": "Minimal interference"
+      }
+    },
+    {
+      "case_id": "TD_002",
+      "patient_profile": {
+        "age": 15,
+        "gender": "female",
+        "background": "High school student with complex tics"
+      },
+      "symptoms": {
+        "motor_tics": [
+          "Complex hand movements",
+          "Jumping",
+          "Touching objects",
+          "Self-injurious behaviors"
+        ],
+        "vocal_tics": [
+          "Complex phrases",
+          "Echolalia",
+          "Coprolalia"
+        ],
+        "duration": "Present for 3 years",
+        "frequency": "Multiple times per hour",
+        "severity": "Severe"
+      },
+      "onset_history": {
+        "age_at_onset": 12,
+        "initial_symptoms": "Started with simple motor tics",
+        "progression": "Progressive increase in complexity"
+      },
+      "functional_impact": {
+        "academic": "Significant classroom disruption",
+        "social": "Social isolation",
+        "daily_living": "Requires accommodations"
+      }
+    },
+    {
+      "case_id": "TD_003",
+      "patient_profile": {
+        "age": 8,
+        "gender": "male",
+        "background": "Elementary school student with mild tics"
+      },
+      "symptoms": {
+        "motor_tics": [
+          "Eye blinking",
+          "Nose wrinkling",
+          "Simple hand movements"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Simple sounds"
+        ],
+        "duration": "Present for 6 months",
+        "frequency": "Several times per day",
+        "severity": "Mild"
+      },
+      "onset_history": {
+        "age_at_onset": 7,
+        "initial_symptoms": "Started with eye blinking",
+        "progression": "Stable pattern"
+      },
+      "functional_impact": {
+        "academic": "Minimal interference",
+        "social": "No significant impact",
+        "daily_living": "No significant impact"
+      }
+    },
+    {
+      "case_id": "TD_004",
+      "patient_profile": {
+        "age": 14,
+        "gender": "male",
+        "background": "High school student with moderate tics"
+      },
+      "symptoms": {
+        "motor_tics": [
+          "Complex facial movements",
+          "Arm jerking",
+          "Touching objects",
+          "Complex hand movements"
+        ],
+        "vocal_tics": [
+          "Complex sounds",
+          "Simple phrases",
+          "Repetitive words"
+        ],
+        "duration": "Present for 2 years",
+        "frequency": "Multiple times per day",
+        "severity": "Moderate"
+      },
+      "onset_history": {
+        "age_at_onset": 12,
+        "initial_symptoms": "Started with simple motor tics",
+        "progression": "Gradual increase in complexity"
+      },
+      "functional_impact": {
+        "academic": "Some classroom disruption",
+        "social": "Some peer teasing",
+        "daily_living": "Requires some accommodations"
+      }
+    },
+    {
+      "case_id": "TD_005",
+      "patient_profile": {
+        "age": 10,
+        "gender": "female",
+        "background": "Elementary school student with moderate tics"
+      },
+      "symptoms": {
+        "motor_tics": [
+          "Eye blinking",
+          "Facial grimacing",
+          "Head jerking",
+          "Simple hand movements"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Simple sounds",
+          "Simple words"
+        ],
+        "duration": "Present for 1 year",
+        "frequency": "Multiple times per day",
+        "severity": "Moderate"
+      },
+      "onset_history": {
+        "age_at_onset": 9,
+        "initial_symptoms": "Started with eye blinking",
+        "progression": "Gradual increase in variety"
+      },
+      "functional_impact": {
+        "academic": "Some classroom disruption",
+        "social": "Some peer teasing",
+        "daily_living": "Minimal interference"
+      }
+    },
+    {
+      "case_id": "TD_006",
+      "patient_profile": {
+        "age": 16,
+        "gender": "male",
+        "background": "High school student with severe tics"
+      },
+      "symptoms": {
+        "motor_tics": [
+          "Complex body movements",
+          "Self-injurious behaviors",
+          "Complex hand movements",
+          "Touching objects"
+        ],
+        "vocal_tics": [
+          "Complex phrases",
+          "Coprolalia",
+          "Echolalia"
+        ],
+        "duration": "Present for 4 years",
+        "frequency": "Multiple times per hour",
+        "severity": "Severe"
+      },
+      "onset_history": {
+        "age_at_onset": 12,
+        "initial_symptoms": "Started with simple motor tics",
+        "progression": "Progressive increase in severity"
+      },
+      "functional_impact": {
+        "academic": "Significant classroom disruption",
+        "social": "Social isolation",
+        "daily_living": "Requires significant accommodations"
+      }
+    },
+    {
+      "case_id": "TD_007",
+      "patient_profile": {
+        "age": 9,
+        "gender": "male",
+        "background": "Elementary school student with mild tics"
+      },
+      "symptoms": {
+        "motor_tics": [
+          "Eye blinking",
+          "Nose wrinkling",
+          "Simple hand movements"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Simple sounds"
+        ],
+        "duration": "Present for 8 months",
+        "frequency": "Several times per day",
+        "severity": "Mild"
+      },
+      "onset_history": {
+        "age_at_onset": 8,
+        "initial_symptoms": "Started with eye blinking",
+        "progression": "Stable pattern"
+      },
+      "functional_impact": {
+        "academic": "Minimal interference",
+        "social": "No significant impact",
+        "daily_living": "No significant impact"
+      }
+    },
+    {
+      "case_id": "TD_008",
+      "patient_profile": {
+        "age": 13,
+        "gender": "female",
+        "background": "Middle school student with moderate tics"
+      },
+      "symptoms": {
+        "motor_tics": [
+          "Complex facial movements",
+          "Arm jerking",
+          "Touching objects",
+          "Simple hand movements"
+        ],
+        "vocal_tics": [
+          "Complex sounds",
+          "Simple phrases",
+          "Repetitive words"
+        ],
+        "duration": "Present for 2 years",
+        "frequency": "Multiple times per day",
+        "severity": "Moderate"
+      },
+      "onset_history": {
+        "age_at_onset": 11,
+        "initial_symptoms": "Started with simple motor tics",
+        "progression": "Gradual increase in complexity"
+      },
+      "functional_impact": {
+        "academic": "Some classroom disruption",
+        "social": "Some peer teasing",
+        "daily_living": "Requires some accommodations"
+      }
+    },
+    {
+      "case_id": "TD_009",
+      "patient_profile": {
+        "age": 11,
+        "gender": "male",
+        "background": "Middle school student with moderate tics"
+      },
+      "symptoms": {
+        "motor_tics": [
+          "Eye blinking",
+          "Facial grimacing",
+          "Head jerking",
+          "Simple hand movements"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Simple sounds",
+          "Simple words"
+        ],
+        "duration": "Present for 1.5 years",
+        "frequency": "Multiple times per day",
+        "severity": "Moderate"
+      },
+      "onset_history": {
+        "age_at_onset": 9,
+        "initial_symptoms": "Started with eye blinking",
+        "progression": "Gradual increase in variety"
+      },
+      "functional_impact": {
+        "academic": "Some classroom disruption",
+        "social": "Some peer teasing",
+        "daily_living": "Minimal interference"
+      }
+    },
+    {
+      "case_id": "TD_010",
+      "patient_profile": {
+        "age": 17,
+        "gender": "female",
+        "background": "High school student with severe tics"
+      },
+      "symptoms": {
+        "motor_tics": [
+          "Complex body movements",
+          "Self-injurious behaviors",
+          "Complex hand movements",
+          "Touching objects"
+        ],
+        "vocal_tics": [
+          "Complex phrases",
+          "Coprolalia",
+          "Echolalia"
+        ],
+        "duration": "Present for 5 years",
+        "frequency": "Multiple times per hour",
+        "severity": "Severe"
+      },
+      "onset_history": {
+        "age_at_onset": 12,
+        "initial_symptoms": "Started with simple motor tics",
+        "progression": "Progressive increase in severity"
+      },
+      "functional_impact": {
+        "academic": "Significant classroom disruption",
+        "social": "Social isolation",
+        "daily_living": "Requires significant accommodations"
+      }
+    },
+    {
+      "case_id": "TD_011",
+      "patient_profile": {
+        "age": 7,
+        "gender": "male",
+        "background": "Elementary school student with mild tics"
+      },
+      "symptoms": {
+        "motor_tics": [
+          "Eye blinking",
+          "Nose wrinkling",
+          "Simple hand movements"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Simple sounds"
+        ],
+        "duration": "Present for 6 months",
+        "frequency": "Several times per day",
+        "severity": "Mild"
+      },
+      "onset_history": {
+        "age_at_onset": 6,
+        "initial_symptoms": "Started with eye blinking",
+        "progression": "Stable pattern"
+      },
+      "functional_impact": {
+        "academic": "Minimal interference",
+        "social": "No significant impact",
+        "daily_living": "No significant impact"
+      }
+    },
+    {
+      "case_id": "TD_012",
+      "patient_profile": {
+        "age": 14,
+        "gender": "male",
+        "background": "High school student with moderate tics"
+      },
+      "symptoms": {
+        "motor_tics": [
+          "Complex facial movements",
+          "Arm jerking",
+          "Touching objects",
+          "Simple hand movements"
+        ],
+        "vocal_tics": [
+          "Complex sounds",
+          "Simple phrases",
+          "Repetitive words"
+        ],
+        "duration": "Present for 2.5 years",
+        "frequency": "Multiple times per day",
+        "severity": "Moderate"
+      },
+      "onset_history": {
+        "age_at_onset": 11,
+        "initial_symptoms": "Started with simple motor tics",
+        "progression": "Gradual increase in complexity"
+      },
+      "functional_impact": {
+        "academic": "Some classroom disruption",
+        "social": "Some peer teasing",
+        "daily_living": "Requires some accommodations"
+      }
+    },
+    {
+      "case_id": "TD_013",
+      "patient_profile": {
+        "age": 10,
+        "gender": "female",
+        "background": "Elementary school student with moderate tics"
+      },
+      "symptoms": {
+        "motor_tics": [
+          "Eye blinking",
+          "Facial grimacing",
+          "Head jerking",
+          "Simple hand movements"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Simple sounds",
+          "Simple words"
+        ],
+        "duration": "Present for 1 year",
+        "frequency": "Multiple times per day",
+        "severity": "Moderate"
+      },
+      "onset_history": {
+        "age_at_onset": 9,
+        "initial_symptoms": "Started with eye blinking",
+        "progression": "Gradual increase in variety"
+      },
+      "functional_impact": {
+        "academic": "Some classroom disruption",
+        "social": "Some peer teasing",
+        "daily_living": "Minimal interference"
+      }
+    },
+    {
+      "case_id": "TD_014",
+      "patient_profile": {
+        "age": 16,
+        "gender": "male",
+        "background": "High school student with severe tics"
+      },
+      "symptoms": {
+        "motor_tics": [
+          "Complex body movements",
+          "Self-injurious behaviors",
+          "Complex hand movements",
+          "Touching objects"
+        ],
+        "vocal_tics": [
+          "Complex phrases",
+          "Coprolalia",
+          "Echolalia"
+        ],
+        "duration": "Present for 4 years",
+        "frequency": "Multiple times per hour",
+        "severity": "Severe"
+      },
+      "onset_history": {
+        "age_at_onset": 12,
+        "initial_symptoms": "Started with simple motor tics",
+        "progression": "Progressive increase in severity"
+      },
+      "functional_impact": {
+        "academic": "Significant classroom disruption",
+        "social": "Social isolation",
+        "daily_living": "Requires significant accommodations"
+      }
+    },
+    {
+      "case_id": "TD_015",
+      "patient_profile": {
+        "age": 8,
+        "gender": "female",
+        "background": "Elementary school student with mild tics"
+      },
+      "symptoms": {
+        "motor_tics": [
+          "Eye blinking",
+          "Nose wrinkling",
+          "Simple hand movements"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Simple sounds"
+        ],
+        "duration": "Present for 7 months",
+        "frequency": "Several times per day",
+        "severity": "Mild"
+      },
+      "onset_history": {
+        "age_at_onset": 7,
+        "initial_symptoms": "Started with eye blinking",
+        "progression": "Stable pattern"
+      },
+      "functional_impact": {
+        "academic": "Minimal interference",
+        "social": "No significant impact",
+        "daily_living": "No significant impact"
+      }
+    }
+  ]
+} 

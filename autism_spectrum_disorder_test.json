@@ -1,0 +1,664 @@
+{
+  "test_cases": [
+    {
+      "case_id": "ASD_001",
+      "patient_profile": {
+        "age": 6,
+        "gender": "male",
+        "background": "First-grade student, previously diagnosed with speech delay"
+      },
+      "symptoms": {
+        "social_communication": [
+          "Limited eye contact during interactions",
+          "Difficulty initiating and maintaining conversations",
+          "Prefers parallel play over interactive play",
+          "Does not respond to name consistently"
+        ],
+        "restricted_behaviors": [
+          "Intense interest in train schedules and timetables",
+          "Insists on following specific routines",
+          "Becomes distressed when routine is changed",
+          "Repetitive hand flapping when excited"
+        ],
+        "sensory": [
+          "Overly sensitive to loud noises",
+          "Seeks deep pressure through hugging",
+          "Avoids certain textures in clothing"
+        ]
+      },
+      "developmental_history": {
+        "early_markers": [
+          "No babbling by 12 months",
+          "No single words by 16 months",
+          "No two-word phrases by 24 months"
+        ],
+        "social_milestones": [
+          "Delayed social smile",
+          "Limited joint attention",
+          "Difficulty with peer relationships"
+        ]
+      },
+      "functional_impact": {
+        "academic": "Requires support in classroom settings",
+        "social": "Difficulty making friends",
+        "daily_living": "Needs assistance with daily routines"
+      }
+    },
+    {
+      "case_id": "ASD_002",
+      "patient_profile": {
+        "age": 15,
+        "gender": "female",
+        "background": "High school student with strong academic abilities"
+      },
+      "symptoms": {
+        "social_communication": [
+          "Difficulty understanding social cues",
+          "Literal interpretation of language",
+          "Challenges with perspective-taking",
+          "Limited facial expressions"
+        ],
+        "restricted_behaviors": [
+          "Special interest in marine biology",
+          "Rigid thinking patterns",
+          "Need for sameness in daily schedule",
+          "Repetitive questioning about specific topics"
+        ],
+        "sensory": [
+          "Sensitivity to fluorescent lighting",
+          "Selective eating due to texture preferences",
+          "Overwhelmed in crowded environments"
+        ]
+      },
+      "developmental_history": {
+        "early_markers": [
+          "Advanced reading skills at early age",
+          "Delayed social development",
+          "Special interest in specific topics"
+        ],
+        "social_milestones": [
+          "Difficulty with group activities",
+          "Limited peer relationships",
+          "Preference for solitary activities"
+        ]
+      },
+      "functional_impact": {
+        "academic": "Excels in science subjects, struggles with group projects",
+        "social": "Limited social connections",
+        "daily_living": "Independent but needs support with social situations"
+      }
+    },
+    {
+      "case_id": "ASD_003",
+      "patient_profile": {
+        "age": 4,
+        "gender": "male",
+        "background": "Preschool student with communication challenges"
+      },
+      "symptoms": {
+        "social_communication": [
+          "Echolalia (repeating phrases)",
+          "Limited use of gestures",
+          "Difficulty with turn-taking",
+          "Minimal response to social interactions"
+        ],
+        "restricted_behaviors": [
+          "Intense interest in spinning objects",
+          "Repetitive body movements",
+          "Need for specific play routines",
+          "Difficulty with transitions"
+        ],
+        "sensory": [
+          "Sensitivity to certain sounds",
+          "Seeking movement through spinning",
+          "Avoidance of certain textures"
+        ]
+      },
+      "developmental_history": {
+        "early_markers": [
+          "Delayed language development",
+          "Limited social engagement",
+          "Sensory seeking behaviors"
+        ],
+        "social_milestones": [
+          "Delayed social smile",
+          "Limited peer interaction",
+          "Preference for solitary play"
+        ]
+      },
+      "functional_impact": {
+        "academic": "Requires specialized educational support",
+        "social": "Limited peer interactions",
+        "daily_living": "Needs assistance with daily activities"
+      }
+    },
+    {
+      "case_id": "ASD_004",
+      "patient_profile": {
+        "age": 12,
+        "gender": "female",
+        "background": "Middle school student with high-functioning ASD"
+      },
+      "symptoms": {
+        "social_communication": [
+          "Difficulty with conversation reciprocity",
+          "Challenges with nonverbal communication",
+          "Literal interpretation of language",
+          "Limited understanding of social rules"
+        ],
+        "restricted_behaviors": [
+          "Special interest in astronomy",
+          "Need for routine and predictability",
+          "Repetitive questioning about specific topics",
+          "Difficulty with flexible thinking"
+        ],
+        "sensory": [
+          "Sensitivity to certain sounds",
+          "Visual sensitivity to bright lights",
+          "Preference for specific clothing textures"
+        ]
+      },
+      "developmental_history": {
+        "early_markers": [
+          "Advanced reading skills",
+          "Delayed social development",
+          "Special interest in specific topics"
+        ],
+        "social_milestones": [
+          "Difficulty with peer relationships",
+          "Limited social engagement",
+          "Preference for structured activities"
+        ]
+      },
+      "functional_impact": {
+        "academic": "Strong in math and science, needs support with social aspects",
+        "social": "Limited peer connections",
+        "daily_living": "Independent but needs support with social situations"
+      }
+    },
+    {
+      "case_id": "ASD_005",
+      "patient_profile": {
+        "age": 8,
+        "gender": "male",
+        "background": "Elementary school student with moderate ASD"
+      },
+      "symptoms": {
+        "social_communication": [
+          "Limited eye contact",
+          "Difficulty with conversation",
+          "Challenges with social reciprocity",
+          "Limited use of gestures"
+        ],
+        "restricted_behaviors": [
+          "Special interest in dinosaurs",
+          "Need for routine",
+          "Repetitive play patterns",
+          "Difficulty with changes"
+        ],
+        "sensory": [
+          "Sensitivity to loud noises",
+          "Seeking movement through jumping",
+          "Selective eating"
+        ]
+      },
+      "developmental_history": {
+        "early_markers": [
+          "Delayed language development",
+          "Limited social engagement",
+          "Sensory seeking behaviors"
+        ],
+        "social_milestones": [
+          "Delayed social development",
+          "Limited peer interaction",
+          "Preference for solitary activities"
+        ]
+      },
+      "functional_impact": {
+        "academic": "Requires support in classroom",
+        "social": "Limited peer relationships",
+        "daily_living": "Needs assistance with daily activities"
+      }
+    },
+    {
+      "case_id": "ASD_006",
+      "patient_profile": {
+        "age": 16,
+        "gender": "female",
+        "background": "High school student with high-functioning ASD"
+      },
+      "symptoms": {
+        "social_communication": [
+          "Difficulty with social cues",
+          "Challenges with perspective-taking",
+          "Literal interpretation of language",
+          "Limited facial expressions"
+        ],
+        "restricted_behaviors": [
+          "Special interest in computer programming",
+          "Need for routine",
+          "Repetitive questioning",
+          "Difficulty with flexible thinking"
+        ],
+        "sensory": [
+          "Sensitivity to certain sounds",
+          "Visual sensitivity",
+          "Preference for specific clothing"
+        ]
+      },
+      "developmental_history": {
+        "early_markers": [
+          "Advanced reading skills",
+          "Delayed social development",
+          "Special interest in technology"
+        ],
+        "social_milestones": [
+          "Difficulty with peer relationships",
+          "Limited social engagement",
+          "Preference for structured activities"
+        ]
+      },
+      "functional_impact": {
+        "academic": "Excels in computer science, needs support with social aspects",
+        "social": "Limited peer connections",
+        "daily_living": "Independent but needs support with social situations"
+      }
+    },
+    {
+      "case_id": "ASD_007",
+      "patient_profile": {
+        "age": 5,
+        "gender": "male",
+        "background": "Kindergarten student with communication challenges"
+      },
+      "symptoms": {
+        "social_communication": [
+          "Limited verbal communication",
+          "Difficulty with social interactions",
+          "Challenges with joint attention",
+          "Limited use of gestures"
+        ],
+        "restricted_behaviors": [
+          "Special interest in trains",
+          "Need for routine",
+          "Repetitive play patterns",
+          "Difficulty with transitions"
+        ],
+        "sensory": [
+          "Sensitivity to certain sounds",
+          "Seeking movement through spinning",
+          "Selective eating"
+        ]
+      },
+      "developmental_history": {
+        "early_markers": [
+          "Delayed language development",
+          "Limited social engagement",
+          "Sensory seeking behaviors"
+        ],
+        "social_milestones": [
+          "Delayed social development",
+          "Limited peer interaction",
+          "Preference for solitary play"
+        ]
+      },
+      "functional_impact": {
+        "academic": "Requires specialized support",
+        "social": "Limited peer relationships",
+        "daily_living": "Needs assistance with daily activities"
+      }
+    },
+    {
+      "case_id": "ASD_008",
+      "patient_profile": {
+        "age": 14,
+        "gender": "male",
+        "background": "Middle school student with high-functioning ASD"
+      },
+      "symptoms": {
+        "social_communication": [
+          "Difficulty with social cues",
+          "Challenges with conversation",
+          "Literal interpretation of language",
+          "Limited facial expressions"
+        ],
+        "restricted_behaviors": [
+          "Special interest in video games",
+          "Need for routine",
+          "Repetitive questioning",
+          "Difficulty with flexible thinking"
+        ],
+        "sensory": [
+          "Sensitivity to certain sounds",
+          "Visual sensitivity",
+          "Preference for specific clothing"
+        ]
+      },
+      "developmental_history": {
+        "early_markers": [
+          "Advanced reading skills",
+          "Delayed social development",
+          "Special interest in gaming"
+        ],
+        "social_milestones": [
+          "Difficulty with peer relationships",
+          "Limited social engagement",
+          "Preference for structured activities"
+        ]
+      },
+      "functional_impact": {
+        "academic": "Strong in technology, needs support with social aspects",
+        "social": "Limited peer connections",
+        "daily_living": "Independent but needs support with social situations"
+      }
+    },
+    {
+      "case_id": "ASD_009",
+      "patient_profile": {
+        "age": 7,
+        "gender": "female",
+        "background": "Elementary school student with moderate ASD"
+      },
+      "symptoms": {
+        "social_communication": [
+          "Limited eye contact",
+          "Difficulty with conversation",
+          "Challenges with social reciprocity",
+          "Limited use of gestures"
+        ],
+        "restricted_behaviors": [
+          "Special interest in animals",
+          "Need for routine",
+          "Repetitive play patterns",
+          "Difficulty with changes"
+        ],
+        "sensory": [
+          "Sensitivity to loud noises",
+          "Seeking movement through jumping",
+          "Selective eating"
+        ]
+      },
+      "developmental_history": {
+        "early_markers": [
+          "Delayed language development",
+          "Limited social engagement",
+          "Sensory seeking behaviors"
+        ],
+        "social_milestones": [
+          "Delayed social development",
+          "Limited peer interaction",
+          "Preference for solitary activities"
+        ]
+      },
+      "functional_impact": {
+        "academic": "Requires support in classroom",
+        "social": "Limited peer relationships",
+        "daily_living": "Needs assistance with daily activities"
+      }
+    },
+    {
+      "case_id": "ASD_010",
+      "patient_profile": {
+        "age": 17,
+        "gender": "male",
+        "background": "High school student with high-functioning ASD"
+      },
+      "symptoms": {
+        "social_communication": [
+          "Difficulty with social cues",
+          "Challenges with perspective-taking",
+          "Literal interpretation of language",
+          "Limited facial expressions"
+        ],
+        "restricted_behaviors": [
+          "Special interest in mathematics",
+          "Need for routine",
+          "Repetitive questioning",
+          "Difficulty with flexible thinking"
+        ],
+        "sensory": [
+          "Sensitivity to certain sounds",
+          "Visual sensitivity",
+          "Preference for specific clothing"
+        ]
+      },
+      "developmental_history": {
+        "early_markers": [
+          "Advanced mathematical skills",
+          "Delayed social development",
+          "Special interest in numbers"
+        ],
+        "social_milestones": [
+          "Difficulty with peer relationships",
+          "Limited social engagement",
+          "Preference for structured activities"
+        ]
+      },
+      "functional_impact": {
+        "academic": "Excels in mathematics, needs support with social aspects",
+        "social": "Limited peer connections",
+        "daily_living": "Independent but needs support with social situations"
+      }
+    },
+    {
+      "case_id": "ASD_011",
+      "patient_profile": {
+        "age": 9,
+        "gender": "female",
+        "background": "Elementary school student with moderate ASD"
+      },
+      "symptoms": {
+        "social_communication": [
+          "Limited eye contact",
+          "Difficulty with conversation",
+          "Challenges with social reciprocity",
+          "Limited use of gestures"
+        ],
+        "restricted_behaviors": [
+          "Special interest in art",
+          "Need for routine",
+          "Repetitive play patterns",
+          "Difficulty with changes"
+        ],
+        "sensory": [
+          "Sensitivity to certain textures",
+          "Visual sensitivity to bright lights",
+          "Selective eating"
+        ]
+      },
+      "developmental_history": {
+        "early_markers": [
+          "Delayed language development",
+          "Limited social engagement",
+          "Sensory seeking behaviors"
+        ],
+        "social_milestones": [
+          "Delayed social development",
+          "Limited peer interaction",
+          "Preference for solitary activities"
+        ]
+      },
+      "functional_impact": {
+        "academic": "Requires support in classroom",
+        "social": "Limited peer relationships",
+        "daily_living": "Needs assistance with daily activities"
+      }
+    },
+    {
+      "case_id": "ASD_012",
+      "patient_profile": {
+        "age": 13,
+        "gender": "male",
+        "background": "Middle school student with high-functioning ASD"
+      },
+      "symptoms": {
+        "social_communication": [
+          "Difficulty with social cues",
+          "Challenges with conversation",
+          "Literal interpretation of language",
+          "Limited facial expressions"
+        ],
+        "restricted_behaviors": [
+          "Special interest in science",
+          "Need for routine",
+          "Repetitive questioning",
+          "Difficulty with flexible thinking"
+        ],
+        "sensory": [
+          "Sensitivity to certain sounds",
+          "Visual sensitivity",
+          "Preference for specific clothing"
+        ]
+      },
+      "developmental_history": {
+        "early_markers": [
+          "Advanced scientific knowledge",
+          "Delayed social development",
+          "Special interest in experiments"
+        ],
+        "social_milestones": [
+          "Difficulty with peer relationships",
+          "Limited social engagement",
+          "Preference for structured activities"
+        ]
+      },
+      "functional_impact": {
+        "academic": "Strong in science, needs support with social aspects",
+        "social": "Limited peer connections",
+        "daily_living": "Independent but needs support with social situations"
+      }
+    },
+    {
+      "case_id": "ASD_013",
+      "patient_profile": {
+        "age": 10,
+        "gender": "female",
+        "background": "Elementary school student with moderate ASD"
+      },
+      "symptoms": {
+        "social_communication": [
+          "Limited eye contact",
+          "Difficulty with conversation",
+          "Challenges with social reciprocity",
+          "Limited use of gestures"
+        ],
+        "restricted_behaviors": [
+          "Special interest in music",
+          "Need for routine",
+          "Repetitive play patterns",
+          "Difficulty with changes"
+        ],
+        "sensory": [
+          "Sensitivity to certain sounds",
+          "Seeking movement through dancing",
+          "Selective eating"
+        ]
+      },
+      "developmental_history": {
+        "early_markers": [
+          "Delayed language development",
+          "Limited social engagement",
+          "Sensory seeking behaviors"
+        ],
+        "social_milestones": [
+          "Delayed social development",
+          "Limited peer interaction",
+          "Preference for solitary activities"
+        ]
+      },
+      "functional_impact": {
+        "academic": "Requires support in classroom",
+        "social": "Limited peer relationships",
+        "daily_living": "Needs assistance with daily activities"
+      }
+    },
+    {
+      "case_id": "ASD_014",
+      "patient_profile": {
+        "age": 15,
+        "gender": "male",
+        "background": "High school student with high-functioning ASD"
+      },
+      "symptoms": {
+        "social_communication": [
+          "Difficulty with social cues",
+          "Challenges with perspective-taking",
+          "Literal interpretation of language",
+          "Limited facial expressions"
+        ],
+        "restricted_behaviors": [
+          "Special interest in history",
+          "Need for routine",
+          "Repetitive questioning",
+          "Difficulty with flexible thinking"
+        ],
+        "sensory": [
+          "Sensitivity to certain sounds",
+          "Visual sensitivity",
+          "Preference for specific clothing"
+        ]
+      },
+      "developmental_history": {
+        "early_markers": [
+          "Advanced reading skills",
+          "Delayed social development",
+          "Special interest in historical facts"
+        ],
+        "social_milestones": [
+          "Difficulty with peer relationships",
+          "Limited social engagement",
+          "Preference for structured activities"
+        ]
+      },
+      "functional_impact": {
+        "academic": "Excels in history, needs support with social aspects",
+        "social": "Limited peer connections",
+        "daily_living": "Independent but needs support with social situations"
+      }
+    },
+    {
+      "case_id": "ASD_015",
+      "patient_profile": {
+        "age": 11,
+        "gender": "female",
+        "background": "Middle school student with moderate ASD"
+      },
+      "symptoms": {
+        "social_communication": [
+          "Limited eye contact",
+          "Difficulty with conversation",
+          "Challenges with social reciprocity",
+          "Limited use of gestures"
+        ],
+        "restricted_behaviors": [
+          "Special interest in books",
+          "Need for routine",
+          "Repetitive play patterns",
+          "Difficulty with changes"
+        ],
+        "sensory": [
+          "Sensitivity to certain sounds",
+          "Visual sensitivity to bright lights",
+          "Selective eating"
+        ]
+      },
+      "developmental_history": {
+        "early_markers": [
+          "Delayed language development",
+          "Limited social engagement",
+          "Sensory seeking behaviors"
+        ],
+        "social_milestones": [
+          "Delayed social development",
+          "Limited peer interaction",
+          "Preference for solitary activities"
+        ]
+      },
+      "functional_impact": {
+        "academic": "Requires support in classroom",
+        "social": "Limited peer relationships",
+        "daily_living": "Needs assistance with daily activities"
+      }
+    }
+  ]
+} 

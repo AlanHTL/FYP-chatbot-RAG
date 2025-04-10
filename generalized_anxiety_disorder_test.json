@@ -1,0 +1,1144 @@
+{
+  "test_cases": [
+    {
+      "case_id": 1,
+      "patient_profile": {
+        "name": "Emily Johnson",
+        "age": 32,
+        "gender": "Female",
+        "occupation": "Project Manager"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred due to persistent worry and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive worry about work",
+          "Difficulty controlling worry",
+          "Restlessness",
+          "Sleep disturbance"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Worrying about work deadlines constantly",
+          "Difficulty falling asleep due to racing thoughts",
+          "Feeling restless and on edge",
+          "Difficulty concentrating on tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to fail at my job",
+          "Something bad will happen",
+          "I can't control my worry"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive planning",
+          "Avoidance of stressful situations",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working late to ensure perfection",
+          "Avoiding social situations",
+          "Difficulty relaxing"
+        ],
+        "coping_mechanisms": [
+          "Over-preparation",
+          "Avoidance",
+          "Seeking reassurance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Excessive anxiety and worry for more than 6 months",
+          "Difficulty controlling worry",
+          "Associated physical symptoms",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 2,
+      "patient_profile": {
+        "name": "Michael Chen",
+        "age": 28,
+        "gender": "Male",
+        "occupation": "Software Developer"
+      },
+      "conversation_context": {
+        "setting": "Employee Assistance Program",
+        "reason_for_visit": "Self-referred due to persistent anxiety and worry"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive worry about work performance",
+          "Difficulty controlling worry",
+          "Muscle tension",
+          "Sleep disturbance"
+        ],
+        "duration": "1 year",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work productivity",
+        "specific_examples": [
+          "Worrying about code quality constantly",
+          "Difficulty sleeping due to work concerns",
+          "Muscle tension in neck and shoulders",
+          "Difficulty concentrating on tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "My code isn't good enough",
+          "I'm going to make a mistake",
+          "I can't stop worrying"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive code review",
+          "Avoidance of deadlines",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working late to ensure perfection",
+          "Avoiding team meetings",
+          "Difficulty relaxing"
+        ],
+        "coping_mechanisms": [
+          "Over-preparation",
+          "Avoidance",
+          "Seeking reassurance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Excessive anxiety and worry for more than 6 months",
+          "Difficulty controlling worry",
+          "Associated physical symptoms",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 3,
+      "patient_profile": {
+        "name": "Sarah Williams",
+        "age": 35,
+        "gender": "Female",
+        "occupation": "Teacher"
+      },
+      "conversation_context": {
+        "setting": "School Health Center",
+        "reason_for_visit": "Self-referred due to persistent worry and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse and children",
+        "family_history": "Father has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive worry about students",
+          "Difficulty controlling worry",
+          "Restlessness",
+          "Sleep disturbance"
+        ],
+        "duration": "3 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on teaching and family life",
+        "specific_examples": [
+          "Worrying about student performance constantly",
+          "Difficulty sleeping due to teaching concerns",
+          "Feeling restless and on edge",
+          "Difficulty concentrating on tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm not teaching well enough",
+          "My students are falling behind",
+          "I can't control my worry"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive lesson planning",
+          "Avoidance of parent meetings",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working late to ensure perfection",
+          "Avoiding staff meetings",
+          "Difficulty relaxing"
+        ],
+        "coping_mechanisms": [
+          "Over-preparation",
+          "Avoidance",
+          "Seeking reassurance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Excessive anxiety and worry for more than 6 months",
+          "Difficulty controlling worry",
+          "Associated physical symptoms",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 4,
+      "patient_profile": {
+        "name": "David Rodriguez",
+        "age": 40,
+        "gender": "Male",
+        "occupation": "Business Owner"
+      },
+      "conversation_context": {
+        "setting": "Private Practice",
+        "reason_for_visit": "Self-referred due to persistent worry and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive worry about business",
+          "Difficulty controlling worry",
+          "Muscle tension",
+          "Sleep disturbance"
+        ],
+        "duration": "5 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on business and personal life",
+        "specific_examples": [
+          "Worrying about business finances constantly",
+          "Difficulty sleeping due to business concerns",
+          "Muscle tension in neck and shoulders",
+          "Difficulty concentrating on tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "My business is going to fail",
+          "I'm going to lose everything",
+          "I can't control my worry"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive financial planning",
+          "Avoidance of business decisions",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working late to ensure perfection",
+          "Avoiding business meetings",
+          "Difficulty relaxing"
+        ],
+        "coping_mechanisms": [
+          "Over-preparation",
+          "Avoidance",
+          "Seeking reassurance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Excessive anxiety and worry for more than 6 months",
+          "Difficulty controlling worry",
+          "Associated physical symptoms",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 5,
+      "patient_profile": {
+        "name": "Lisa Kim",
+        "age": 29,
+        "gender": "Female",
+        "occupation": "Medical Resident"
+      },
+      "conversation_context": {
+        "setting": "Hospital Employee Health",
+        "reason_for_visit": "Self-referred due to persistent worry and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives with roommates",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive worry about patient care",
+          "Difficulty controlling worry",
+          "Restlessness",
+          "Sleep disturbance"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on medical training and personal life",
+        "specific_examples": [
+          "Worrying about patient outcomes constantly",
+          "Difficulty sleeping due to medical concerns",
+          "Feeling restless and on edge",
+          "Difficulty concentrating on tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to make a medical error",
+          "I'm not a good doctor",
+          "I can't control my worry"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive patient review",
+          "Avoidance of difficult cases",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working late to ensure perfection",
+          "Avoiding medical procedures",
+          "Difficulty relaxing"
+        ],
+        "coping_mechanisms": [
+          "Over-preparation",
+          "Avoidance",
+          "Seeking reassurance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Excessive anxiety and worry for more than 6 months",
+          "Difficulty controlling worry",
+          "Associated physical symptoms",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 6,
+      "patient_profile": {
+        "name": "James Wilson",
+        "age": 45,
+        "gender": "Male",
+        "occupation": "Lawyer"
+      },
+      "conversation_context": {
+        "setting": "Private Practice",
+        "reason_for_visit": "Self-referred due to persistent worry and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse and children",
+        "family_history": "Father has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive worry about cases",
+          "Difficulty controlling worry",
+          "Muscle tension",
+          "Sleep disturbance"
+        ],
+        "duration": "4 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on legal practice and family life",
+        "specific_examples": [
+          "Worrying about case outcomes constantly",
+          "Difficulty sleeping due to legal concerns",
+          "Muscle tension in neck and shoulders",
+          "Difficulty concentrating on tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to lose this case",
+          "I'm not a good lawyer",
+          "I can't control my worry"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive case review",
+          "Avoidance of court appearances",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working late to ensure perfection",
+          "Avoiding client meetings",
+          "Difficulty relaxing"
+        ],
+        "coping_mechanisms": [
+          "Over-preparation",
+          "Avoidance",
+          "Seeking reassurance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Excessive anxiety and worry for more than 6 months",
+          "Difficulty controlling worry",
+          "Associated physical symptoms",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 7,
+      "patient_profile": {
+        "name": "Rachel Anderson",
+        "age": 31,
+        "gender": "Female",
+        "occupation": "Marketing Manager"
+      },
+      "conversation_context": {
+        "setting": "Employee Assistance Program",
+        "reason_for_visit": "Self-referred due to persistent worry and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive worry about work performance",
+          "Difficulty controlling worry",
+          "Restlessness",
+          "Sleep disturbance"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Worrying about marketing campaigns constantly",
+          "Difficulty sleeping due to work concerns",
+          "Feeling restless and on edge",
+          "Difficulty concentrating on tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to fail at my job",
+          "My campaigns aren't good enough",
+          "I can't control my worry"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive campaign planning",
+          "Avoidance of presentations",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working late to ensure perfection",
+          "Avoiding team meetings",
+          "Difficulty relaxing"
+        ],
+        "coping_mechanisms": [
+          "Over-preparation",
+          "Avoidance",
+          "Seeking reassurance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Excessive anxiety and worry for more than 6 months",
+          "Difficulty controlling worry",
+          "Associated physical symptoms",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 8,
+      "patient_profile": {
+        "name": "Thomas Lee",
+        "age": 38,
+        "gender": "Male",
+        "occupation": "Architect"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred due to persistent worry and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive worry about designs",
+          "Difficulty controlling worry",
+          "Muscle tension",
+          "Sleep disturbance"
+        ],
+        "duration": "3 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Worrying about design flaws constantly",
+          "Difficulty sleeping due to project concerns",
+          "Muscle tension in neck and shoulders",
+          "Difficulty concentrating on tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "My designs aren't good enough",
+          "I'm going to make a mistake",
+          "I can't control my worry"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive design review",
+          "Avoidance of client meetings",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working late to ensure perfection",
+          "Avoiding project deadlines",
+          "Difficulty relaxing"
+        ],
+        "coping_mechanisms": [
+          "Over-preparation",
+          "Avoidance",
+          "Seeking reassurance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Excessive anxiety and worry for more than 6 months",
+          "Difficulty controlling worry",
+          "Associated physical symptoms",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 9,
+      "patient_profile": {
+        "name": "Sarah Brown",
+        "age": 27,
+        "gender": "Female",
+        "occupation": "Graduate Student"
+      },
+      "conversation_context": {
+        "setting": "University Health Center",
+        "reason_for_visit": "Self-referred due to persistent worry and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives with roommates",
+        "family_history": "Father has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive worry about academic performance",
+          "Difficulty controlling worry",
+          "Restlessness",
+          "Sleep disturbance"
+        ],
+        "duration": "2 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on academic and personal life",
+        "specific_examples": [
+          "Worrying about grades constantly",
+          "Difficulty sleeping due to academic concerns",
+          "Feeling restless and on edge",
+          "Difficulty concentrating on studies"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to fail my classes",
+          "I'm not smart enough",
+          "I can't control my worry"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive studying",
+          "Avoidance of exams",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Studying late to ensure perfection",
+          "Avoiding study groups",
+          "Difficulty relaxing"
+        ],
+        "coping_mechanisms": [
+          "Over-preparation",
+          "Avoidance",
+          "Seeking reassurance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Excessive anxiety and worry for more than 6 months",
+          "Difficulty controlling worry",
+          "Associated physical symptoms",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 10,
+      "patient_profile": {
+        "name": "Daniel Wilson",
+        "age": 42,
+        "gender": "Male",
+        "occupation": "Doctor"
+      },
+      "conversation_context": {
+        "setting": "Hospital Employee Health",
+        "reason_for_visit": "Self-referred due to persistent worry and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse and children",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive worry about patient care",
+          "Difficulty controlling worry",
+          "Muscle tension",
+          "Sleep disturbance"
+        ],
+        "duration": "5 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on medical practice and family life",
+        "specific_examples": [
+          "Worrying about patient outcomes constantly",
+          "Difficulty sleeping due to medical concerns",
+          "Muscle tension in neck and shoulders",
+          "Difficulty concentrating on tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to make a medical error",
+          "I'm not a good doctor",
+          "I can't control my worry"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive patient review",
+          "Avoidance of difficult cases",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working late to ensure perfection",
+          "Avoiding medical procedures",
+          "Difficulty relaxing"
+        ],
+        "coping_mechanisms": [
+          "Over-preparation",
+          "Avoidance",
+          "Seeking reassurance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Excessive anxiety and worry for more than 6 months",
+          "Difficulty controlling worry",
+          "Associated physical symptoms",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 11,
+      "patient_profile": {
+        "name": "Maria Garcia",
+        "age": 33,
+        "gender": "Female",
+        "occupation": "Nurse"
+      },
+      "conversation_context": {
+        "setting": "Hospital Employee Health",
+        "reason_for_visit": "Self-referred due to persistent worry and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive worry about patient care",
+          "Difficulty controlling worry",
+          "Restlessness",
+          "Sleep disturbance"
+        ],
+        "duration": "3 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Worrying about patient care constantly",
+          "Difficulty sleeping due to medical concerns",
+          "Feeling restless and on edge",
+          "Difficulty concentrating on tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to make a mistake",
+          "I'm not a good nurse",
+          "I can't control my worry"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive patient review",
+          "Avoidance of difficult cases",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working late to ensure perfection",
+          "Avoiding medical procedures",
+          "Difficulty relaxing"
+        ],
+        "coping_mechanisms": [
+          "Over-preparation",
+          "Avoidance",
+          "Seeking reassurance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Excessive anxiety and worry for more than 6 months",
+          "Difficulty controlling worry",
+          "Associated physical symptoms",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 12,
+      "patient_profile": {
+        "name": "William Taylor",
+        "age": 36,
+        "gender": "Male",
+        "occupation": "Engineer"
+      },
+      "conversation_context": {
+        "setting": "Employee Assistance Program",
+        "reason_for_visit": "Self-referred due to persistent worry and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives with spouse",
+        "family_history": "Father had anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive worry about work performance",
+          "Difficulty controlling worry",
+          "Muscle tension",
+          "Sleep disturbance"
+        ],
+        "duration": "4 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Worrying about project outcomes constantly",
+          "Difficulty sleeping due to work concerns",
+          "Muscle tension in neck and shoulders",
+          "Difficulty concentrating on tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to fail at my job",
+          "My designs aren't good enough",
+          "I can't control my worry"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive project review",
+          "Avoidance of deadlines",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working late to ensure perfection",
+          "Avoiding team meetings",
+          "Difficulty relaxing"
+        ],
+        "coping_mechanisms": [
+          "Over-preparation",
+          "Avoidance",
+          "Seeking reassurance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Excessive anxiety and worry for more than 6 months",
+          "Difficulty controlling worry",
+          "Associated physical symptoms",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 13,
+      "patient_profile": {
+        "name": "Jennifer Lee",
+        "age": 30,
+        "gender": "Female",
+        "occupation": "Marketing Manager"
+      },
+      "conversation_context": {
+        "setting": "Private Practice",
+        "reason_for_visit": "Self-referred due to persistent worry and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone",
+        "family_history": "Mother has anxiety",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive worry about work performance",
+          "Difficulty controlling worry",
+          "Restlessness",
+          "Sleep disturbance"
+        ],
+        "duration": "3 years",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Worrying about marketing campaigns constantly",
+          "Difficulty sleeping due to work concerns",
+          "Feeling restless and on edge",
+          "Difficulty concentrating on tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "I'm going to fail at my job",
+          "My campaigns aren't good enough",
+          "I can't control my worry"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive campaign planning",
+          "Avoidance of presentations",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working late to ensure perfection",
+          "Avoiding team meetings",
+          "Difficulty relaxing"
+        ],
+        "coping_mechanisms": [
+          "Over-preparation",
+          "Avoidance",
+          "Seeking reassurance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Excessive anxiety and worry for more than 6 months",
+          "Difficulty controlling worry",
+          "Associated physical symptoms",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 14,
+      "patient_profile": {
+        "name": "Robert Chen",
+        "age": 39,
+        "gender": "Male",
+        "occupation": "Architect"
+      },
+      "conversation_context": {
+        "setting": "Outpatient Clinic",
+        "reason_for_visit": "Self-referred due to persistent worry and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives with partner",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Excessive worry about designs",
+          "Difficulty controlling worry",
+          "Muscle tension",
+          "Sleep disturbance"
+        ],
+        "duration": "5 years",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant impact on work and personal life",
+        "specific_examples": [
+          "Worrying about design flaws constantly",
+          "Difficulty sleeping due to project concerns",
+          "Muscle tension in neck and shoulders",
+          "Difficulty concentrating on tasks"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "My designs aren't good enough",
+          "I'm going to make a mistake",
+          "I can't control my worry"
+        ],
+        "feelings": [
+          "Anxiety",
+          "Tension",
+          "Fear"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Excessive design review",
+          "Avoidance of client meetings",
+          "Seeking reassurance"
+        ],
+        "changes_in_routine": [
+          "Working late to ensure perfection",
+          "Avoiding project deadlines",
+          "Difficulty relaxing"
+        ],
+        "coping_mechanisms": [
+          "Over-preparation",
+          "Avoidance",
+          "Seeking reassurance"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Excessive anxiety and worry for more than 6 months",
+          "Difficulty controlling worry",
+          "Associated physical symptoms",
+          "Significant distress and impairment",
+          "Symptoms not attributable to substances"
+        ]
+      }
+    },
+    {
+      "case_id": 15,
+      "patient_profile": {
+        "name": "Alex Thompson",
+        "age": 28,
+        "gender": "Male",
+        "occupation": "Graduate Student"
+      },
+      "conversation_context": {
+        "setting": "University Health Center",
+        "reason_for_visit": "Self-referred due to mild worry and anxiety"
+      },
+      "patient_background": {
+        "living_situation": "Lives with roommates",
+        "family_history": "No known psychiatric history",
+        "medical_history": "No significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "main_complaints": [
+          "Occasional worry about academic performance",
+          "Mild difficulty controlling worry",
+          "Occasional restlessness",
+          "Occasional sleep disturbance"
+        ],
+        "duration": "3 months",
+        "severity": "Mild",
+        "impact_on_life": "Minimal impact on academic and personal life",
+        "specific_examples": [
+          "Worrying about grades occasionally",
+          "Occasional difficulty sleeping due to academic concerns",
+          "Occasional feeling of restlessness",
+          "Occasional difficulty concentrating on studies"
+        ]
+      },
+      "emotional_state": {
+        "current_mood": "Generally positive",
+        "thoughts": [
+          "I'm capable of handling challenges",
+          "I can manage my worry",
+          "I'm doing well in my studies"
+        ],
+        "feelings": [
+          "Generally positive",
+          "Occasional anxiety",
+          "Good self-esteem"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Regular studying",
+          "Balanced work habits",
+          "Healthy lifestyle"
+        ],
+        "changes_in_routine": [
+          "Regular sleep pattern",
+          "Healthy work habits",
+          "Balanced lifestyle"
+        ],
+        "coping_mechanisms": [
+          "Healthy study habits",
+          "Time management",
+          "Regular exercise"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": false,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Normal worry levels",
+          "No significant distress",
+          "No functional impairment",
+          "Healthy coping mechanisms",
+          "Short duration of symptoms"
+        ]
+      }
+    }
+  ]
+} 
