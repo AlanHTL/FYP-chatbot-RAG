@@ -1,0 +1,1429 @@
+{
+  "test_cases": [
+    {
+      "case_id": 1,
+      "patient_profile": {
+        "name": "Jacob Wilson",
+        "age": 10,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Pediatric Neurology Clinic",
+        "reason_for_visit": "Evaluation of tics that have been present for 18 months"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and younger sister",
+        "family_history": "Father had transient tics as a child",
+        "medical_history": "Otherwise healthy, no significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "motor_tics": [
+          "Eye blinking",
+          "Facial grimacing",
+          "Shoulder shrugging",
+          "Head jerking",
+          "Finger flexing"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Sniffing",
+          "Grunting sounds",
+          "Occasional echolalia (repeating others' words)"
+        ],
+        "course_of_symptoms": {
+          "onset": "First tics appeared at age 8 (eye blinking)",
+          "duration": "Continuous for 18 months with waxing and waning severity",
+          "progression": "Motor tics appeared first, vocal tics began 6 months later"
+        },
+        "exacerbating_factors": [
+          "Stress",
+          "Fatigue",
+          "Excitement",
+          "Talking about tics"
+        ],
+        "alleviating_factors": [
+          "Engaging in focused activities",
+          "Relaxation techniques",
+          "During sleep"
+        ],
+        "premonitory_urges": "Reports feeling 'pressure' or 'tingly' before tics that is temporarily relieved by performing the tic",
+        "suppressibility": "Can suppress tics briefly but experiences buildup of tension",
+        "impact_on_life": "Some social embarrassment, difficulty concentrating in school"
+      },
+      "emotional_state": {
+        "current_mood": "Frustrated about tics",
+        "thoughts": [
+          "Worries about being teased",
+          "Concerned about tics getting worse",
+          "Wishes tics would go away"
+        ],
+        "feelings": [
+          "Embarrassment",
+          "Anxiety",
+          "Occasional irritability"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Tics fluctuate throughout the day",
+          "More pronounced when returning home from school",
+          "Tries to suppress in classroom",
+          "Less noticeable when engaged in sports"
+        ],
+        "social_interactions": [
+          "Some peers have asked about tics",
+          "Self-conscious in unfamiliar social settings",
+          "Close friends are understanding",
+          "Beginning to avoid certain social situations"
+        ],
+        "coping_mechanisms": [
+          "Deep breathing exercises",
+          "Staying busy with activities",
+          "Education about tics for family and teachers",
+          "Regular exercise"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple motor and at least one vocal tic",
+          "Tics present for more than 1 year",
+          "Onset before age 18",
+          "Not attributable to a substance or other medical condition"
+        ]
+      }
+    },
+    {
+      "case_id": 2,
+      "patient_profile": {
+        "name": "Emma Rodriguez",
+        "age": 12,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Pediatric Neurology Clinic",
+        "reason_for_visit": "Evaluation of multiple tics that have been present for 2 years"
+      },
+      "patient_background": {
+        "living_situation": "Lives with mother and stepfather",
+        "family_history": "Maternal uncle with tic disorder",
+        "medical_history": "History of ADHD diagnosed at age 8, currently on medication"
+      },
+      "symptoms_and_experiences": {
+        "motor_tics": [
+          "Frequent eye blinking",
+          "Nose twitching",
+          "Neck jerking",
+          "Shoulder shrugging",
+          "Hand gestures"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Sniffing",
+          "Humming sounds",
+          "Occasional simple words"
+        ],
+        "course_of_symptoms": {
+          "onset": "First tics appeared at age 10 (eye blinking and throat clearing)",
+          "duration": "Continuous for 2 years with waxing and waning patterns",
+          "progression": "Started with simple tics, more complex tics developed over time"
+        },
+        "exacerbating_factors": [
+          "Anxiety",
+          "Stress",
+          "Fatigue",
+          "Excitement"
+        ],
+        "alleviating_factors": [
+          "Engagement in music",
+          "Reading",
+          "During sleep"
+        ],
+        "premonitory_urges": "Describes 'uncomfortable feeling' before tics that is relieved by performing the tic",
+        "suppressibility": "Can suppress for short periods but experiences increased tension",
+        "impact_on_life": "Social embarrassment, difficulty concentrating in class, anxiety about tics"
+      },
+      "emotional_state": {
+        "current_mood": "Anxious",
+        "thoughts": [
+          "Worries about what others think",
+          "Frustrated that tics interfere with activities",
+          "Concerned about long-term prognosis"
+        ],
+        "feelings": [
+          "Embarrassment",
+          "Anxiety",
+          "Frustration",
+          "Occasional sadness"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Tics worsen during transitions",
+          "More pronounced when tired",
+          "Attempts to disguise tics as purposeful movements",
+          "Less noticeable when engaged in music lessons"
+        ],
+        "social_interactions": [
+          "Some peer teasing has occurred",
+          "Self-conscious in groups",
+          "Beginning to avoid certain social activities",
+          "Has educated close friends about her condition"
+        ],
+        "coping_mechanisms": [
+          "Cognitive behavioral therapy techniques",
+          "Relaxation strategies",
+          "Participating in supportive extracurricular activities",
+          "Education about tics for school staff"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple motor and at least one vocal tic",
+          "Tics present for more than 1 year",
+          "Onset before age 18",
+          "Not attributable to a substance or other medical condition",
+          "Comorbid ADHD noted but tics not explained by medication"
+        ]
+      }
+    },
+    {
+      "case_id": 3,
+      "patient_profile": {
+        "name": "Lucas Chen",
+        "age": 14,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Child Psychiatry Clinic",
+        "reason_for_visit": "Evaluation of complex motor and vocal tics causing significant distress"
+      },
+      "patient_background": {
+        "living_situation": "Lives with parents and older brother",
+        "family_history": "No known tic disorders, father has OCD",
+        "medical_history": "Diagnosed with anxiety disorder at age 11"
+      },
+      "symptoms_and_experiences": {
+        "motor_tics": [
+          "Complex facial movements",
+          "Head jerking",
+          "Touching objects or others",
+          "Jumping",
+          "Copropraxia (obscene gestures)"
+        ],
+        "vocal_tics": [
+          "Loud throat clearing",
+          "Animal sounds",
+          "Palilalia (repeating own words)",
+          "Coprolalia (occasional inappropriate words)"
+        ],
+        "course_of_symptoms": {
+          "onset": "First simple tics appeared at age 7, complex tics developed around age 12",
+          "duration": "Present for 7 years with fluctuating severity",
+          "progression": "Simple tics evolved into more complex patterns"
+        },
+        "exacerbating_factors": [
+          "Stress",
+          "Anxiety",
+          "Social pressure",
+          "Fatigue"
+        ],
+        "alleviating_factors": [
+          "Playing video games",
+          "Listening to music",
+          "Brief reduction after cannabis use (tried without parental knowledge)"
+        ],
+        "premonitory_urges": "Strong urges described as 'an itch inside my brain' before tics",
+        "suppressibility": "Can suppress for school class periods but experiences rebound afterward",
+        "impact_on_life": "Significant social impairment, academic difficulties, feelings of shame"
+      },
+      "emotional_state": {
+        "current_mood": "Frustrated and despondent",
+        "thoughts": [
+          "Feels different from peers",
+          "Worries about future opportunities",
+          "Concerned about controlling coprolalia"
+        ],
+        "feelings": [
+          "Embarrassment",
+          "Anger",
+          "Depression",
+          "Social anxiety"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Tics worse in unstructured time",
+          "Avoids certain situations where tics might be noticeable",
+          "More severe symptoms after school",
+          "Has difficulty completing homework due to tics"
+        ],
+        "social_interactions": [
+          "Has experienced bullying",
+          "Limited friend group",
+          "Avoids public places",
+          "Family relationships strained by symptoms"
+        ],
+        "coping_mechanisms": [
+          "Comprehensive Behavioral Intervention for Tics (CBIT)",
+          "Medication trials",
+          "Online support group",
+          "Education about Tourette's for school personnel"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple motor and multiple vocal tics",
+          "Tics present for more than 1 year",
+          "Onset before age 18",
+          "Not attributable to substance or medical condition",
+          "Presence of complex tics including copropraxia and coprolalia"
+        ]
+      }
+    },
+    {
+      "case_id": 4,
+      "patient_profile": {
+        "name": "Olivia Thompson",
+        "age": 8,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Pediatric Neurology Clinic",
+        "reason_for_visit": "Evaluation of eye blinking and new throat clearing sounds"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents",
+        "family_history": "No known neurological disorders",
+        "medical_history": "Seasonal allergies, otherwise healthy"
+      },
+      "symptoms_and_experiences": {
+        "motor_tics": [
+          "Frequent eye blinking",
+          "Occasional facial grimacing",
+          "Head tilting to the side"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Soft humming sounds"
+        ],
+        "course_of_symptoms": {
+          "onset": "Eye blinking started 8 months ago, vocal tics began 3 months ago",
+          "duration": "Present for 8 months with waxing and waning intensity",
+          "progression": "Started with simple motor tic, gradually developed additional tics"
+        },
+        "exacerbating_factors": [
+          "Stress (especially during tests)",
+          "Fatigue",
+          "When discussing the tics"
+        ],
+        "alleviating_factors": [
+          "Engaging in favorite activities",
+          "During quiet reading",
+          "After physical exercise"
+        ],
+        "premonitory_urges": "Reports feeling 'itchy' inside her eyes before blinking and 'ticklish' in throat before clearing",
+        "suppressibility": "Can suppress tics temporarily but describes building tension",
+        "impact_on_life": "Beginning to affect concentration in school; some self-consciousness around peers"
+      },
+      "emotional_state": {
+        "current_mood": "Slightly anxious but cooperative",
+        "thoughts": [
+          "Concerned about what friends might think",
+          "Wonders why she can't stop the movements and sounds",
+          "Worries they might get worse"
+        ],
+        "feelings": [
+          "Embarrassment when tics are noticed",
+          "Frustration when unable to control tics",
+          "Relief when able to release the urge"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Tics increase during homework time",
+          "Less frequent during engaging activities",
+          "More noticeable when tired after school",
+          "Attempts to disguise tics (pretending to adjust glasses, clearing throat while coughing)"
+        ],
+        "social_interactions": [
+          "Friends have started to notice and ask questions",
+          "Becoming self-conscious in group settings",
+          "Parents are supportive and matter-of-fact about tics",
+          "Teacher has been understanding but concerned"
+        ],
+        "coping_mechanisms": [
+          "Reading and art activities provide some reduction in tic frequency",
+          "Has begun using deep breathing when feeling 'urges'",
+          "Parents are using education and normalization approach"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple motor tics and at least one vocal tic",
+          "Tics present for more than 1 year (motor tics for 8 months, but continuing)",
+          "Onset before age 18",
+          "Presence of premonitory urges and temporary suppressibility",
+          "Not attributable solely to allergies or other medical condition"
+        ]
+      }
+    },
+    {
+      "case_id": 5,
+      "patient_profile": {
+        "name": "Ethan Williams",
+        "age": 9,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Pediatric Neurology Clinic",
+        "reason_for_visit": "Follow-up evaluation of tics that began after streptococcal infection"
+      },
+      "patient_background": {
+        "living_situation": "Lives with mother and grandparents",
+        "family_history": "No known tic disorders",
+        "medical_history": "Streptococcal throat infection 9 months ago, fully treated with antibiotics"
+      },
+      "symptoms_and_experiences": {
+        "motor_tics": [
+          "Eye blinking",
+          "Facial grimacing",
+          "Head jerking",
+          "Shoulder shrugging"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Sniffing",
+          "Occasional grunting sounds"
+        ],
+        "course_of_symptoms": {
+          "onset": "Sudden onset following strep infection 9 months ago",
+          "duration": "Present for 9 months, initially severe then fluctuating",
+          "progression": "Some periods of improvement followed by exacerbations"
+        },
+        "exacerbating_factors": [
+          "Stress",
+          "Fatigue",
+          "When attention is called to symptoms",
+          "During periods of illness"
+        ],
+        "alleviating_factors": [
+          "Focused activities",
+          "Physical exercise",
+          "During sleep"
+        ],
+        "premonitory_urges": "Reports feeling like he 'has to' perform tics to relieve uncomfortable sensations",
+        "suppressibility": "Can suppress for short periods in structured settings",
+        "impact_on_life": "Initial academic difficulties have improved; some ongoing social challenges"
+      },
+      "emotional_state": {
+        "current_mood": "Improved from initial presentation",
+        "thoughts": [
+          "Less worried about tics compared to initial onset",
+          "Understanding that tics may wax and wane",
+          "Developing some ability to manage reactions to tics"
+        ],
+        "feelings": [
+          "Periodic frustration",
+          "Less anxiety than initially",
+          "Increased confidence in coping"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Tics persist throughout the day but with less intensity than initial presentation",
+          "Better able to engage in school activities",
+          "Some lingering difficulties with sustained focus",
+          "More successful with established routines"
+        ],
+        "social_interactions": [
+          "Some initial peer teasing has decreased",
+          "Close friends have adjusted to tics",
+          "More comfortable explaining condition to others",
+          "Participating in more social activities"
+        ],
+        "coping_mechanisms": [
+          "Comprehensive Behavioral Intervention for Tics (CBIT) techniques",
+          "Regular exercise program",
+          "Sleep hygiene practices",
+          "Family education and support"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple motor and vocal tics",
+          "Symptoms persisting beyond 6 months",
+          "Onset before age 18",
+          "Though initially suspected to be PANDAS, duration and course now consistent with Tourette's Disorder",
+          "Not attributable to substance or other medical condition at present"
+        ]
+      }
+    },
+    {
+      "case_id": 6,
+      "patient_profile": {
+        "name": "Madison Taylor",
+        "age": 13,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Pediatric Neurology Clinic",
+        "reason_for_visit": "Increasing complex tics disrupting school participation"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and younger sibling",
+        "family_history": "Maternal cousin with Tourette's Disorder",
+        "medical_history": "Diagnosed with anxiety disorder at age 10"
+      },
+      "symptoms_and_experiences": {
+        "motor_tics": [
+          "Complex facial movements including eye rolling and lip biting",
+          "Touching objects in a specific pattern",
+          "Unusual posturing of the hands",
+          "Twisting motions of the torso",
+          "Tapping sequences with fingers"
+        ],
+        "vocal_tics": [
+          "Repeating portions of words (palilalia)",
+          "Throat clearing",
+          "Humming specific tones",
+          "Occasional echoing of others' last words (echolalia)"
+        ],
+        "course_of_symptoms": {
+          "onset": "Simple motor tics began at age 7, gradual development of more complex tics",
+          "duration": "Present for 6 years with fluctuating severity",
+          "progression": "Increase in complexity and frequency during adolescence"
+        },
+        "exacerbating_factors": [
+          "Stress related to school transitions",
+          "Social anxiety situations",
+          "Hormonal changes with menstrual cycle",
+          "Insufficient sleep"
+        ],
+        "alleviating_factors": [
+          "Engaging in music (plays violin)",
+          "Structured exercise routines",
+          "Mindfulness practices"
+        ],
+        "premonitory_urges": "Describes distinct uncomfortable sensations preceding most tics",
+        "suppressibility": "Can suppress during short performances or presentations but experiences rebound effect",
+        "impact_on_life": "Academic performance affected by vocal tics; increasing social withdrawal"
+      },
+      "emotional_state": {
+        "current_mood": "Frustrated and discouraged",
+        "thoughts": [
+          "Concerned about transition to high school next year",
+          "Worries about social judgment",
+          "Cognitive awareness of tic cycles"
+        ],
+        "feelings": [
+          "Embarrassment in social situations",
+          "Anxiety about tic severity",
+          "Pride in musical accomplishments despite tics"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Tics most severe after school and during homework",
+          "Less pronounced when playing violin",
+          "Avoids certain school activities where tics might be more noticeable",
+          "Beginning to self-isolate during high-stress periods"
+        ],
+        "social_interactions": [
+          "Small group of understanding friends",
+          "Difficulty in new social environments",
+          "Tendency to explain tics to preempt questions",
+          "Family is supportive but concerned about emotional impact"
+        ],
+        "coping_mechanisms": [
+          "Behavioral therapy techniques",
+          "Music as a focusing strategy",
+          "Regular exercise program",
+          "Education about Tourette's for teachers and peers"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple motor and vocal tics",
+          "Persistent for more than one year",
+          "Onset before age 18",
+          "Significant impact on functioning",
+          "Not attributable to other medical conditions or substances"
+        ]
+      }
+    },
+    {
+      "case_id": 7,
+      "patient_profile": {
+        "name": "Brandon Lee",
+        "age": 16,
+        "gender": "Male",
+        "occupation": "High School Student"
+      },
+      "conversation_context": {
+        "setting": "Neurology Department",
+        "reason_for_visit": "Reevaluation of long-standing Tourette's Disorder for medication adjustment"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and older sister",
+        "family_history": "Father had transient tics in childhood",
+        "medical_history": "Diagnosed with Tourette's at age 8; comorbid ADHD"
+      },
+      "symptoms_and_experiences": {
+        "motor_tics": [
+          "Head jerking (most prominent tic)",
+          "Complex hand movements",
+          "Facial grimacing",
+          "Tensing of abdominal muscles",
+          "Occasional copropraxia (obscene gestures) during severe exacerbations"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Sniffing",
+          "Barking sounds",
+          "Occasional coprolalia (approximately once weekly)"
+        ],
+        "course_of_symptoms": {
+          "onset": "First tics appeared at age 6, diagnosed at age 8",
+          "duration": "10 years with classic waxing and waning pattern",
+          "progression": "Current exacerbation coincides with college application stress"
+        },
+        "exacerbating_factors": [
+          "Academic pressure",
+          "Public speaking situations",
+          "Fatigue",
+          "Anxiety about tic visibility"
+        ],
+        "alleviating_factors": [
+          "Intense exercise (competitive swimmer)",
+          "Consistent medication regimen",
+          "Structured daily routine"
+        ],
+        "premonitory_urges": "Clear and intense premonitory sensations, particularly before head jerking",
+        "suppressibility": "Well-developed suppression skills for limited periods, particularly in structured settings",
+        "impact_on_life": "Neck pain from head jerking tic; social embarrassment from coprolalia; academic impact"
+      },
+      "emotional_state": {
+        "current_mood": "Determined but stressed",
+        "thoughts": [
+          "Concerns about college interviews",
+          "Well-developed insight into condition",
+          "Realistic about management vs. cure"
+        ],
+        "feelings": [
+          "Frustration during exacerbations",
+          "Resilience developed over years",
+          "Occasional anger about coprolalia episodes"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Manages full academic schedule with accommodations",
+          "Competitive swimming provides significant tic reduction",
+          "Utilizes scheduled 'tic breaks' during high stress periods",
+          "Organized approach to medication schedule"
+        ],
+        "social_interactions": [
+          "Strong support from long-term friends",
+          "Open about condition with appropriate education for peers",
+          "Leadership role in school's neurodiversity club",
+          "Dating relationship with supportive partner"
+        ],
+        "coping_mechanisms": [
+          "Long-standing experience with CBIT techniques",
+          "Regular exercise regimen",
+          "Medication management (current regimen less effective during recent stressors)",
+          "Stress management strategies"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple complex motor and vocal tics",
+          "Chronic course with waxing and waning",
+          "Onset in childhood",
+          "Significant impact on physical comfort and social functioning",
+          "Classic presentation of Tourette's Disorder with coprolalia"
+        ]
+      }
+    },
+    {
+      "case_id": 8,
+      "patient_profile": {
+        "name": "Lily Garcia",
+        "age": 7,
+        "gender": "Female",
+        "occupation": "Elementary Student"
+      },
+      "conversation_context": {
+        "setting": "Child Neurology Clinic",
+        "reason_for_visit": "New onset of tics over the past 9 months"
+      },
+      "patient_background": {
+        "living_situation": "Lives with mother and stepfather",
+        "family_history": "Maternal uncle with 'nervous habits'",
+        "medical_history": "Generally healthy; mild asthma"
+      },
+      "symptoms_and_experiences": {
+        "motor_tics": [
+          "Eye blinking",
+          "Nose twitching",
+          "Shoulder shrugging",
+          "Mouth opening"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Small squeaking sounds"
+        ],
+        "course_of_symptoms": {
+          "onset": "Eye blinking began 9 months ago, other tics emerged gradually",
+          "duration": "Persistent for 9 months",
+          "progression": "Gradual addition of new tics over time"
+        },
+        "exacerbating_factors": [
+          "Excitement",
+          "Anxiety about school performance",
+          "When tired after school",
+          "When watching television"
+        ],
+        "alleviating_factors": [
+          "During physical play",
+          "When absorbed in drawing",
+          "During morning hours (less tired)"
+        ],
+        "premonitory_urges": "Limited description of premonitory sensations due to age, but reports feeling 'itchy eyes' before blinking",
+        "suppressibility": "Some awareness of ability to suppress briefly, particularly at school",
+        "impact_on_life": "Some comments from peers; beginning to affect self-confidence"
+      },
+      "emotional_state": {
+        "current_mood": "Shy and anxious during examination",
+        "thoughts": [
+          "Confused about why she can't control movements",
+          "Worried about being 'different'",
+          "Age-appropriate understanding of symptoms"
+        ],
+        "feelings": [
+          "Embarrassment when tics are noticed",
+          "Worry about social acceptance",
+          "Frustration with parents' reminders about tics"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Increasing reluctance to participate in some classroom activities",
+          "Tics increase during homework time",
+          "More pronounced when returning home from school",
+          "Less noticeable during favorite activities"
+        ],
+        "social_interactions": [
+          "Beginning to notice peer reactions",
+          "Parents report some withdrawal from social situations",
+          "Teacher expressed concern about changes in participation",
+          "Family is supportive but worried"
+        ],
+        "coping_mechanisms": [
+          "Parents using matter-of-fact approach",
+          "School counselor providing support",
+          "Engaging in calming activities when tics increase",
+          "Education for family about not calling attention to tics"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "moderate",
+        "matching_criteria": [
+          "Multiple motor tics and at least one vocal tic",
+          "Nearly meeting duration criteria (9 months vs. required 12 months)",
+          "Onset in childhood",
+          "Beginning to impact social functioning",
+          "Provisional diagnosis of Tourette's with high likelihood of meeting full criteria with time"
+        ]
+      }
+    },
+    {
+      "case_id": 9,
+      "patient_profile": {
+        "name": "Daniel Robinson",
+        "age": 11,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Pediatric Movement Disorders Clinic",
+        "reason_for_visit": "Evaluation of increasing motor and vocal tics"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and two siblings",
+        "family_history": "Paternal grandfather with tic disorder",
+        "medical_history": "Diagnosed with OCD at age 9; otherwise healthy"
+      },
+      "symptoms_and_experiences": {
+        "motor_tics": [
+          "Blinking and widening eyes",
+          "Head jerking to the right",
+          "Complex hand movements (touching patterns)",
+          "Jumping",
+          "Smelling objects"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Sniffing",
+          "Repeating phrases (palilalia)",
+          "Making clicking sounds"
+        ],
+        "course_of_symptoms": {
+          "onset": "First tics appeared at age 7 with eye blinking",
+          "duration": "Present for 4 years with fluctuating presentation",
+          "progression": "Gradual increase in complexity and number of tics"
+        },
+        "exacerbating_factors": [
+          "Periods of high stress",
+          "During OCD exacerbations",
+          "Excitement",
+          "Fatigue"
+        ],
+        "alleviating_factors": [
+          "Engaging in structured activities",
+          "Playing video games",
+          "After completing OCD rituals"
+        ],
+        "premonitory_urges": "Clear description of 'pressure' feelings before tics that are temporarily relieved by performing the tic",
+        "suppressibility": "Moderate ability to suppress in structured settings like classroom",
+        "impact_on_life": "Social embarrassment, academic disruption, physical discomfort from frequent head jerking"
+      },
+      "emotional_state": {
+        "current_mood": "Anxious but cooperative",
+        "thoughts": [
+          "Worries about peer reactions",
+          "Frustration about inability to control tics",
+          "Concerns about tics getting worse"
+        ],
+        "feelings": [
+          "Embarrassment",
+          "Anxiety",
+          "Periodic irritability related to suppression efforts"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Tics increase during homework and evening",
+          "Complex interplay between tics and OCD rituals",
+          "Difficulty in transitions between activities",
+          "Beginning to avoid certain situations where tics might be noticed"
+        ],
+        "social_interactions": [
+          "Decreasing social engagement",
+          "Close friends are understanding but wider peer group is less so",
+          "Family is supportive but struggling with behavioral management",
+          "Beginning to impact participation in group activities"
+        ],
+        "coping_mechanisms": [
+          "Cognitive behavioral therapy addressing both tics and OCD",
+          "Scheduled 'tic breaks' at school",
+          "Education about Tourette's for peers led by school counselor",
+          "Structured daily routine"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple motor and vocal tics",
+          "Present for more than 1 year",
+          "Onset before age 18",
+          "Classic co-occurrence with OCD",
+          "Significant impact on functioning"
+        ]
+      }
+    },
+    {
+      "case_id": 10,
+      "patient_profile": {
+        "name": "Sophia Kim",
+        "age": 19,
+        "gender": "Female",
+        "occupation": "College Student"
+      },
+      "conversation_context": {
+        "setting": "University Health Services",
+        "reason_for_visit": "Management of long-standing Tourette's during college transition"
+      },
+      "patient_background": {
+        "living_situation": "College dormitory",
+        "family_history": "No known family history of tic disorders",
+        "medical_history": "Diagnosed with Tourette's at age 10; mild anxiety"
+      },
+      "symptoms_and_experiences": {
+        "motor_tics": [
+          "Eye blinking",
+          "Nose wrinkling",
+          "Subtle head jerks",
+          "Hand tensing movements"
+        ],
+        "vocal_tics": [
+          "Soft throat clearing",
+          "Occasional humming sounds",
+          "Brief sniffing"
+        ],
+        "course_of_symptoms": {
+          "onset": "Began at age 8 with eye blinking",
+          "duration": "Present for 11 years with classic waxing and waning pattern",
+          "progression": "More severe in early adolescence, somewhat attenuated in recent years"
+        },
+        "exacerbating_factors": [
+          "Academic stress",
+          "New social environments",
+          "Fatigue from irregular college schedule",
+          "Anxiety about roommate situation"
+        ],
+        "alleviating_factors": [
+          "Regular exercise",
+          "Consistent sleep schedule",
+          "Mindfulness practices",
+          "Music (plays piano)"
+        ],
+        "premonitory_urges": "Well-developed awareness of premonitory sensations and their relationship to tics",
+        "suppressibility": "Strong ability to suppress for extended periods, developed over years",
+        "impact_on_life": "Current concerns primarily focused on new roommate situation and disclosure decisions"
+      },
+      "emotional_state": {
+        "current_mood": "Mildly anxious but composed",
+        "thoughts": [
+          "Concerned about managing tics while sharing dormitory space",
+          "Well-developed understanding of condition",
+          "Planning strategies for new environment"
+        ],
+        "feelings": [
+          "Apprehension about new social context",
+          "Hope about academic opportunities",
+          "Confidence in management strategies"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Currently managing full college course load",
+          "Has developed personalized tic management routines",
+          "Identified study locations that allow for tic expression",
+          "Scheduled 'downtime' for tic release"
+        ],
+        "social_interactions": [
+          "Selective disclosure to new acquaintances",
+          "Established positive relationship with academic advisor",
+          "Planning to join campus disability advocacy group",
+          "Regular video calls with family support system"
+        ],
+        "coping_mechanisms": [
+          "Long-term experience with comprehensive behavioral intervention",
+          "Mindfulness and meditation practices",
+          "Regular exercise regimen",
+          "Peer support connections"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple motor and vocal tics",
+          "Chronic course since childhood",
+          "Onset before age 18",
+          "Continuing to impact daily functioning despite good management",
+          "Not attributable to other medical conditions or substances"
+        ]
+      }
+    },
+    {
+      "case_id": 11,
+      "patient_profile": {
+        "name": "Tyler Washington",
+        "age": 14,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Pediatric Neurology Clinic",
+        "reason_for_visit": "Evaluation of severe motor and vocal tics impacting school attendance"
+      },
+      "patient_background": {
+        "living_situation": "Lives with mother (parents recently divorced)",
+        "family_history": "Maternal uncle with chronic motor tics",
+        "medical_history": "Diagnosed with ADHD at age 7; on stimulant medication"
+      },
+      "symptoms_and_experiences": {
+        "motor_tics": [
+          "Forceful head jerking (causing neck pain)",
+          "Facial grimacing with teeth baring",
+          "Arm thrusting movements",
+          "Abdominal tensing",
+          "Occasional copropraxia (obscene gestures)"
+        ],
+        "vocal_tics": [
+          "Loud barking sounds",
+          "Shouting single words",
+          "Throat clearing",
+          "Coprolalia (swearing tics)"
+        ],
+        "course_of_symptoms": {
+          "onset": "Simple tics began at age 9, severe exacerbation in past 6 months",
+          "duration": "Present for 5 years with significant worsening during parental divorce",
+          "progression": "Recent dramatic increase in frequency, intensity, and complexity"
+        },
+        "exacerbating_factors": [
+          "Family conflict",
+          "School stress",
+          "Medication effects (stimulants)",
+          "Attention to tics"
+        ],
+        "alleviating_factors": [
+          "Playing video games",
+          "Time alone in room",
+          "Weekends at father's house (less stressful environment)"
+        ],
+        "premonitory_urges": "Intense and distressing premonitory sensations",
+        "suppressibility": "Limited ability to suppress currently, even in highly motivating situations",
+        "impact_on_life": "School attendance dropping; physical pain from motor tics; social isolation; family tension"
+      },
+      "emotional_state": {
+        "current_mood": "Frustrated and embarrassed",
+        "thoughts": [
+          "Concern about returning to school",
+          "Anger about inability to control symptoms",
+          "Feeling that others don't understand severity"
+        ],
+        "feelings": [
+          "Embarrassment about coprolalia",
+          "Frustration with limitations",
+          "Depression about social rejection",
+          "Worry about future"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Missing significant school time",
+          "Sleep disruption due to severity of tics",
+          "Difficulty completing basic tasks due to interference from tics",
+          "Extended periods in bedroom to avoid embarrassment"
+        ],
+        "social_interactions": [
+          "Withdrawal from peer activities",
+          "Online interactions preferred over in-person",
+          "Family tension regarding management approaches",
+          "School accommodations not fully implemented"
+        ],
+        "coping_mechanisms": [
+          "Currently discussing medication options",
+          "School accommodation plan in development",
+          "Online support group participation",
+          "Video games as distraction and social outlet"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple complex motor and vocal tics",
+          "Present for more than 1 year",
+          "Onset before age 18",
+          "Severe impact on functioning",
+          "Exacerbation related to psychosocial stressors and possibly stimulant medication"
+        ]
+      }
+    },
+    {
+      "case_id": 12,
+      "patient_profile": {
+        "name": "Nathan Harris",
+        "age": 25,
+        "gender": "Male",
+        "occupation": "Software Developer"
+      },
+      "conversation_context": {
+        "setting": "Adult Neurology Clinic",
+        "reason_for_visit": "Management of chronic Tourette's Disorder affecting professional interactions"
+      },
+      "patient_background": {
+        "living_situation": "Lives independently in apartment",
+        "family_history": "Father and paternal grandfather with chronic tics",
+        "medical_history": "Diagnosed with Tourette's at age 11; OCD diagnosis at age 14"
+      },
+      "symptoms_and_experiences": {
+        "motor_tics": [
+          "Shoulder shrugging",
+          "Subtle facial movements",
+          "Finger tapping in patterns",
+          "Tensing of abdominal muscles"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Soft grunting sounds",
+          "Occasional whistling"
+        ],
+        "course_of_symptoms": {
+          "onset": "First tics emerged at age 7",
+          "duration": "Chronic course for 18 years with periods of remission and exacerbation",
+          "progression": "Most severe in adolescence; current presentation more controlled but persistent"
+        },
+        "exacerbating_factors": [
+          "Work stress, particularly deadlines",
+          "Video conference meetings",
+          "Insufficient sleep",
+          "Periods of OCD exacerbation"
+        ],
+        "alleviating_factors": [
+          "Regular exercise regimen",
+          "Consistent sleep schedule",
+          "Medication management",
+          "Coding activities (flow state)"
+        ],
+        "premonitory_urges": "Well-characterized premonitory sensations with developed awareness",
+        "suppressibility": "High degree of suppression ability in professional settings, but requires significant effort",
+        "impact_on_life": "Managing well professionally but concerned about advancement; dating relationships affected"
+      },
+      "emotional_state": {
+        "current_mood": "Generally positive but concerned",
+        "thoughts": [
+          "Worried about upcoming job interview process",
+          "Well-developed insight into condition",
+          "Strategic planning around symptom management"
+        ],
+        "feelings": [
+          "Occasional frustration with chronic nature of condition",
+          "Pride in professional accomplishments despite challenges",
+          "Hopefulness about treatment advances"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Successfully maintaining full-time employment",
+          "Structured daily routine to minimize exacerbations",
+          "Regular exercise integrated into schedule",
+          "Strategic use of work-from-home days during exacerbations"
+        ],
+        "social_interactions": [
+          "Selective disclosure in workplace",
+          "Established supportive social network",
+          "Dating relationship with supportive partner",
+          "Active in online Tourette's community"
+        ],
+        "coping_mechanisms": [
+          "Long-term medication management with periodic adjustments",
+          "Well-practiced behavioral techniques",
+          "Mindfulness practice",
+          "Workplace accommodations (private office space)"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Chronic history of multiple motor and vocal tics",
+          "Onset in childhood",
+          "Typical waxing and waning course",
+          "Continued impact on functioning despite good management",
+          "Classic comorbidity with OCD"
+        ]
+      }
+    },
+    {
+      "case_id": 13,
+      "patient_profile": {
+        "name": "Ava Mitchell",
+        "age": 6,
+        "gender": "Female",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Child Development Center",
+        "reason_for_visit": "Evaluation of new tics that have appeared over the past 8 months"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and older brother",
+        "family_history": "Brother diagnosed with Tourette's Disorder at age 8 (now 10)",
+        "medical_history": "No significant medical history"
+      },
+      "symptoms_and_experiences": {
+        "motor_tics": [
+          "Eye blinking",
+          "Nose scrunching",
+          "Shoulder shrugging",
+          "Head turning to the side"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Small humming sounds"
+        ],
+        "course_of_symptoms": {
+          "onset": "First noticed eye blinking 8 months ago",
+          "duration": "Persistent for 8 months with increasing variety",
+          "progression": "New tics appearing approximately monthly"
+        },
+        "exacerbating_factors": [
+          "After school (fatigue)",
+          "When watching brother's tics",
+          "During exciting activities",
+          "When discussing the movements"
+        ],
+        "alleviating_factors": [
+          "During absorbing activities",
+          "In the morning",
+          "During physical play"
+        ],
+        "premonitory_urges": "Limited description due to age, but indicates she can 'feel it coming'",
+        "suppressibility": "Some ability to suppress briefly, particularly when reminded",
+        "impact_on_life": "Currently minimal impact; parents concerned due to family history"
+      },
+      "emotional_state": {
+        "current_mood": "Playful and engaging",
+        "thoughts": [
+          "Limited concern about movements",
+          "Awareness that brother has similar symptoms",
+          "Age-appropriate understanding"
+        ],
+        "feelings": [
+          "Occasional frustration",
+          "Generally positive affect",
+          "Not currently distressed by symptoms"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Fully participating in school activities",
+          "Tics increase during television viewing",
+          "More noticeable when tired",
+          "Following normal developmental routines"
+        ],
+        "social_interactions": [
+          "No apparent peer issues related to tics",
+          "Positive relationship with teacher",
+          "Parents managing situation with knowledge from brother's experience",
+          "No signs of social embarrassment yet"
+        ],
+        "coping_mechanisms": [
+          "Parents using matter-of-fact approach",
+          "Brother serving as positive role model",
+          "School aware of family history",
+          "Regular routines and adequate sleep prioritized"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "moderate",
+        "matching_criteria": [
+          "Multiple motor tics and at least one vocal tic",
+          "Not yet meeting full duration criteria (8 months vs. required 12 months)",
+          "Onset in childhood",
+          "Strong family history in first-degree relative",
+          "Provisional diagnosis with high likelihood of meeting full criteria with time"
+        ]
+      }
+    },
+    {
+      "case_id": 14,
+      "patient_profile": {
+        "name": "Caleb Foster",
+        "age": 15,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Telemedicine Neurology Consultation",
+        "reason_for_visit": "Second opinion regarding tic disorder diagnosis"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents in rural community",
+        "family_history": "Paternal uncle with 'nervous habits'",
+        "medical_history": "Generally healthy; seasonal allergies"
+      },
+      "symptoms_and_experiences": {
+        "motor_tics": [
+          "Eye blinking",
+          "Head jerking",
+          "Shoulder shrugging",
+          "Facial grimacing",
+          "Hand gestures"
+        ],
+        "vocal_tics": [
+          "Throat clearing",
+          "Sniffing",
+          "Grunting sounds",
+          "Occasional repetition of words (palilalia)"
+        ],
+        "course_of_symptoms": {
+          "onset": "Started at age 11 with simple eye blinking",
+          "duration": "Present for 4 years with fluctuating intensity",
+          "progression": "Gradual increase in variety and complexity"
+        },
+        "exacerbating_factors": [
+          "School presentations",
+          "Sports competitions",
+          "When discussing tics",
+          "During periods of illness"
+        ],
+        "alleviating_factors": [
+          "While playing musical instruments (drumming)",
+          "During certain sports activities (running)",
+          "When alone in comfortable environment"
+        ],
+        "premonitory_urges": "Clear description of urges preceding most tics",
+        "suppressibility": "Moderate ability to suppress, particularly in structured settings",
+        "impact_on_life": "Some academic challenges; self-consciousness in social settings; concerns about future"
+      },
+      "emotional_state": {
+        "current_mood": "Somewhat anxious but engaging",
+        "thoughts": [
+          "Concern about long-term implications",
+          "Questions about treatment options limited by rural location",
+          "Interest in understanding condition better"
+        ],
+        "feelings": [
+          "Frustration with limited local resources",
+          "Embarrassment in specific social contexts",
+          "Determination to manage condition"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Managing full academic schedule",
+          "Participates in band (percussion) which provides some relief",
+          "Modified PE activities to accommodate tics",
+          "More symptoms noted during homework time"
+        ],
+        "social_interactions": [
+          "Established friend group that is understanding",
+          "More self-conscious in unfamiliar social settings",
+          "Family is supportive but isolated from resources",
+          "Uses humor as coping mechanism with peers"
+        ],
+        "coping_mechanisms": [
+          "Self-taught strategies based on internet research",
+          "Music (drumming) as outlet and symptom relief",
+          "Regular exercise",
+          "Limited access to formal behavioral therapy due to location"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Multiple motor and vocal tics",
+          "Present for more than 1 year",
+          "Onset before age 18",
+          "Waxing and waning course typical of Tourette's",
+          "Impact on functioning in multiple domains"
+        ]
+      }
+    },
+    {
+      "case_id": 15,
+      "patient_profile": {
+        "name": "Ryan Anderson",
+        "age": 13,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Neurology Department",
+        "reason_for_visit": "Evaluation of repetitive movements and sounds"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and younger sister",
+        "family_history": "No known neurological disorders",
+        "medical_history": "Recent streptococcal pharyngitis (2 weeks ago), currently on antibiotics"
+      },
+      "symptoms_and_experiences": {
+        "motor_tics": [
+          "Repetitive hand washing movements",
+          "Touching doorknobs in specific pattern",
+          "Arranging objects symmetrically",
+          "Tapping in specific counting pattern"
+        ],
+        "vocal_tics": [
+          "Repeating phrases ('it's okay' and 'all clear')",
+          "Counting aloud during rituals",
+          "Asking same questions repeatedly"
+        ],
+        "course_of_symptoms": {
+          "onset": "Abrupt onset 10 days ago, following strep throat diagnosis",
+          "duration": "Present for less than 2 weeks",
+          "progression": "Rapidly increasing in intensity"
+        },
+        "exacerbating_factors": [
+          "Anxiety-provoking situations",
+          "When prevented from completing rituals",
+          "Concerns about contamination",
+          "Bedtime routine"
+        ],
+        "alleviating_factors": [
+          "After completing rituals",
+          "Parental reassurance about safety",
+          "Structured activities with clear rules"
+        ],
+        "premonitory_urges": "Describes intense anxiety and intrusive thoughts rather than specific sensory urges",
+        "suppressibility": "Reports inability to stop despite wanting to; distress if interrupted",
+        "impact_on_life": "Significant family disruption; school attendance affected; daily routines taking hours"
+      },
+      "emotional_state": {
+        "current_mood": "Anxious and distressed",
+        "thoughts": [
+          "Intrusive worries about contamination",
+          "Fears that something bad will happen if rituals not completed",
+          "Awareness that behaviors are excessive but unable to stop"
+        ],
+        "feelings": [
+          "Significant anxiety",
+          "Frustration about time consumed",
+          "Embarrassment about behaviors",
+          "Relief only after completing rituals"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Morning routine extended by hours due to rituals",
+          "Hand washing causing skin damage",
+          "Difficulty completing homework due to perfectionism and checking",
+          "Bedtime routines extremely prolonged"
+        ],
+        "social_interactions": [
+          "Avoiding friends due to embarrassment",
+          "Family relationships strained by accommodating behaviors",
+          "Refusing school attendance",
+          "Irritability when rituals interrupted"
+        ],
+        "coping_mechanisms": [
+          "Family attempting to set limits on ritual duration",
+          "School counselor providing support",
+          "Parents researching treatment options",
+          "Recently started antibiotics for strep infection"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": false,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Repetitive movements and vocalizations better explained by compulsions rather than tics",
+          "Symptoms preceded by obsessive thoughts and anxiety rather than premonitory urges",
+          "Relief comes from completing rituals rather than from performing movement itself",
+          "Abrupt onset following streptococcal infection suggests PANDAS/PANS",
+          "Presentation consistent with acute onset OCD rather than Tourette's Disorder"
+        ]
+      }
+    }
+  ]
+} 

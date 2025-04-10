@@ -1,0 +1,1700 @@
+{
+  "test_cases": [
+    {
+      "case_id": 1,
+      "patient_profile": {
+        "name": "Michael Thompson",
+        "age": 9,
+        "gender": "Male",
+        "occupation": "Student (Special Education Class)"
+      },
+      "conversation_context": {
+        "setting": "Developmental Assessment Clinic",
+        "reason_for_visit": "Comprehensive evaluation for academic and adaptive functioning difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and younger sister",
+        "family_history": "No known family history of intellectual disability",
+        "medical_history": "Born at 38 weeks; mild hypoxia during delivery; delayed developmental milestones"
+      },
+      "symptoms_and_experiences": {
+        "intellectual_functioning": {
+          "tested_iq": "Full-scale IQ of 65 (mild intellectual disability range)",
+          "cognitive_profile": [
+            "Significant difficulties with abstract reasoning",
+            "Limited working memory capacity",
+            "Concrete thinking patterns",
+            "Slow processing speed",
+            "Relative strength in visual-spatial skills"
+          ]
+        },
+        "adaptive_functioning": {
+          "communication_skills": [
+            "Vocabulary approximately 3 years below age level",
+            "Difficulty comprehending multi-step instructions",
+            "Can express basic needs and wants",
+            "Limited ability to explain abstract concepts"
+          ],
+          "self_care_skills": [
+            "Requires assistance with complex hygiene tasks",
+            "Can dress independently but struggles with buttons and zippers",
+            "Unable to prepare simple meals independently",
+            "Requires reminders for basic hygiene routines"
+          ],
+          "social_skills": [
+            "Prefers playing with younger children",
+            "Difficulty understanding social cues and turn-taking",
+            "Demonstrates literal interpretation of language",
+            "Struggles with understanding social rules in groups"
+          ],
+          "practical_skills": [
+            "Cannot tell time on analog clock",
+            "Limited understanding of money concepts",
+            "Unable to navigate community independently",
+            "Follows established routines with support"
+          ]
+        },
+        "developmental_history": {
+          "early_milestones": {
+            "walking": "18 months (delayed)",
+            "first_words": "24 months (delayed)",
+            "toilet_training": "4.5 years (significantly delayed)"
+          },
+          "educational_history": [
+            "Early intervention services from age 3",
+            "Special education placement since kindergarten",
+            "Currently functioning at 1st-2nd grade level despite being in 3rd grade"
+          ]
+        }
+      },
+      "emotional_state": {
+        "current_mood": "Generally happy but easily frustrated",
+        "thoughts": [
+          "Awareness of difficulties compared to peers",
+          "Expresses desire to 'be like other kids'",
+          "Concrete thinking about present experiences"
+        ],
+        "feelings": [
+          "Frustration when unable to complete tasks",
+          "Happiness when successful with structured activities",
+          "Anxiety in novel or complex situations"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Requires structured routine",
+          "Needs supervision for most daily activities",
+          "Enjoys simple games and repetitive play",
+          "Difficulty transitioning between activities"
+        ],
+        "social_interactions": [
+          "Friendly but naive in social approaches",
+          "Plays cooperatively with younger children",
+          "Often excluded by same-age peers",
+          "Easily manipulated by others due to social vulnerability"
+        ],
+        "learning_patterns": [
+          "Learns best through concrete examples and repetition",
+          "Requires significant additional time to master new concepts",
+          "Benefits from visual supports and hands-on learning",
+          "Strong rote memory for topics of interest"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significantly below-average intellectual functioning (IQ of 65)",
+          "Concurrent deficits in adaptive functioning across multiple domains",
+          "Onset during developmental period with documented early delays",
+          "Difficulties not better explained by other conditions"
+        ],
+        "severity": "Mild intellectual disability"
+      }
+    },
+    {
+      "case_id": 2,
+      "patient_profile": {
+        "name": "Sophia Martinez",
+        "age": 13,
+        "gender": "Female",
+        "occupation": "Student (Special Education)"
+      },
+      "conversation_context": {
+        "setting": "Transition Planning Meeting at School",
+        "reason_for_visit": "Reassessment for educational planning and transition services"
+      },
+      "patient_background": {
+        "living_situation": "Lives with mother and maternal grandparents",
+        "family_history": "Mother has learning disabilities; maternal uncle with intellectual disability",
+        "medical_history": "Down syndrome (Trisomy 21) diagnosed prenatally; surgical repair of congenital heart defect at age 2"
+      },
+      "symptoms_and_experiences": {
+        "intellectual_functioning": {
+          "tested_iq": "Full-scale IQ of 48 (moderate intellectual disability range)",
+          "cognitive_profile": [
+            "Significant limitations in abstract reasoning",
+            "Relative strength in visual memory",
+            "Marked difficulties with quantitative reasoning",
+            "Poor auditory processing",
+            "Concrete thinking with limited problem-solving"
+          ]
+        },
+        "adaptive_functioning": {
+          "communication_skills": [
+            "Expressive language at approximately 6-7 year level",
+            "Receptive language stronger than expressive",
+            "Uses simple sentences and basic vocabulary",
+            "Literal interpretation of language"
+          ],
+          "self_care_skills": [
+            "Can complete basic hygiene with reminders",
+            "Independent with simple dressing but needs help with more complex clothing",
+            "Can prepare very simple snacks",
+            "Requires supervision for safety"
+          ],
+          "social_skills": [
+            "Friendly and affectionate with familiar people",
+            "Limited understanding of social boundaries",
+            "Difficulty with peer relationships",
+            "Needs support for appropriate social interactions"
+          ],
+          "practical_skills": [
+            "Cannot manage money independently",
+            "Recognizes familiar locations but cannot navigate new environments",
+            "Follows picture-based schedules for routines",
+            "Cannot tell time beyond basic concepts (morning, afternoon)"
+          ]
+        },
+        "developmental_history": {
+          "early_milestones": {
+            "walking": "26 months (significantly delayed)",
+            "first_words": "30 months (significantly delayed)",
+            "toilet_training": "6 years (significantly delayed)"
+          },
+          "educational_history": [
+            "Early intervention from infancy",
+            "Full-time special education placement",
+            "Currently functioning at 2nd-3rd grade level academically"
+          ]
+        }
+      },
+      "emotional_state": {
+        "current_mood": "Happy and social",
+        "thoughts": [
+          "Concrete thinking about daily activities",
+          "Beginning awareness of differences from peers",
+          "Expresses desire for friendships"
+        ],
+        "feelings": [
+          "Generally positive affect",
+          "Occasional sadness about social exclusion",
+          "Expresses pride in accomplishments",
+          "Anxiety about changes in routine"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Follows structured routine with visual supports",
+          "Participates in adapted household chores",
+          "Enjoys music, dancing, and art activities",
+          "Needs supervision for safety and task completion"
+        ],
+        "social_interactions": [
+          "Socially motivated but lacks age-appropriate skills",
+          "Interacts appropriately with adults who understand her needs",
+          "Limited reciprocal interactions with peers",
+          "Shows empathy but in simplified ways"
+        ],
+        "learning_patterns": [
+          "Learns through repetition and concrete examples",
+          "Strong visual learner",
+          "Requires significant scaffolding for new skills",
+          "Retains information related to areas of interest"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significantly below-average intellectual functioning (IQ of 48)",
+          "Significant limitations in adaptive functioning across all domains",
+          "Onset during developmental period (genetic etiology - Down syndrome)",
+          "Pattern of strengths and weaknesses consistent with known genetic condition"
+        ],
+        "severity": "Moderate intellectual disability"
+      }
+    },
+    {
+      "case_id": 3,
+      "patient_profile": {
+        "name": "David Wilson",
+        "age": 22,
+        "gender": "Male",
+        "occupation": "Supported Employment Program Participant"
+      },
+      "conversation_context": {
+        "setting": "Adult Disability Services Assessment",
+        "reason_for_visit": "Evaluation for supported living and employment services"
+      },
+      "patient_background": {
+        "living_situation": "Lives with parents; transitioning to supported living arrangement",
+        "family_history": "No known family history of intellectual disability",
+        "medical_history": "Hypoxic-ischemic encephalopathy at birth; seizure disorder (controlled with medication)"
+      },
+      "symptoms_and_experiences": {
+        "intellectual_functioning": {
+          "tested_iq": "Full-scale IQ of 58 (mild intellectual disability range)",
+          "cognitive_profile": [
+            "Concrete thinking with limited abstract reasoning",
+            "Significant difficulties with problem-solving",
+            "Relative strength in rote memory",
+            "Poor executive functioning",
+            "Difficulty with numerical concepts"
+          ]
+        },
+        "adaptive_functioning": {
+          "communication_skills": [
+            "Speaks in simple complete sentences",
+            "Limited vocabulary around 10-12 year level",
+            "Difficulty understanding complex verbal information",
+            "Literal interpretation of language and idioms"
+          ],
+          "self_care_skills": [
+            "Independent with basic hygiene and dressing",
+            "Can prepare simple meals with minimal supervision",
+            "Manages medication with supervision",
+            "Needs reminders for thorough cleaning and laundry"
+          ],
+          "social_skills": [
+            "Friendly but socially immature",
+            "Difficulty understanding social nuance",
+            "Vulnerable to social manipulation",
+            "Limited understanding of appropriate boundaries"
+          ],
+          "practical_skills": [
+            "Can make simple purchases but needs help managing budget",
+            "Uses public transportation on familiar routes only",
+            "Follows structured routines for work tasks",
+            "Uses smartphone for basic functions with support"
+          ]
+        },
+        "developmental_history": {
+          "early_milestones": {
+            "walking": "20 months (delayed)",
+            "first_words": "30 months (significantly delayed)",
+            "toilet_training": "5 years (significantly delayed)"
+          },
+          "educational_history": [
+            "Special education services throughout schooling",
+            "Completed modified high school curriculum",
+            "Participated in school-to-work transition program"
+          ]
+        }
+      },
+      "emotional_state": {
+        "current_mood": "Anxious but hopeful",
+        "thoughts": [
+          "Expressed desire for independence",
+          "Concrete understanding of upcoming changes",
+          "Awareness of differences from peers but positive self-concept"
+        ],
+        "feelings": [
+          "Anxiety about changes in living situation",
+          "Pride in work accomplishments",
+          "Frustration with limitations",
+          "Happiness about social opportunities"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Works part-time in supported employment (grocery store)",
+          "Follows established routines for self-care",
+          "Enjoys structured leisure activities (bowling league, church group)",
+          "Requires some prompting for task completion"
+        ],
+        "social_interactions": [
+          "Participates in facilitated social activities",
+          "Has meaningful friendships with peers with similar disabilities",
+          "Interactions with typical peers are limited and often superficial",
+          "Close relationship with family members"
+        ],
+        "vocational_patterns": [
+          "Performs repetitive tasks with accuracy",
+          "Requires initial training and occasional prompting",
+          "Works well in structured environments",
+          "Difficulty adapting to unexpected changes"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Below-average intellectual functioning (IQ of 58)",
+          "Concurrent deficits in adaptive functioning across multiple domains",
+          "Onset during developmental period with documented etiology",
+          "Pattern of functioning affects independent living and employment"
+        ],
+        "severity": "Mild intellectual disability"
+      }
+    },
+    {
+      "case_id": 4,
+      "patient_profile": {
+        "name": "Ethan Brown",
+        "age": 6,
+        "gender": "Male",
+        "occupation": "Student (Special Education Kindergarten)"
+      },
+      "conversation_context": {
+        "setting": "Child Development Center",
+        "reason_for_visit": "Initial comprehensive evaluation following concerns in preschool"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and older sister",
+        "family_history": "No known intellectual disabilities in family",
+        "medical_history": "Genetic testing revealed 16p11.2 deletion syndrome; no major medical complications"
+      },
+      "symptoms_and_experiences": {
+        "intellectual_functioning": {
+          "tested_iq": "Full-scale IQ of 68 (mild intellectual disability range)",
+          "cognitive_profile": [
+            "Uneven profile with relative strengths in visual processing",
+            "Significant weakness in verbal reasoning",
+            "Poor attention and concentration",
+            "Difficulty with sequential processing",
+            "Below age expectations in all cognitive domains"
+          ]
+        },
+        "adaptive_functioning": {
+          "communication_skills": [
+            "Speaks in 3-4 word phrases",
+            "Language development at approximately 3-year level",
+            "Limited ability to communicate complex needs",
+            "Better receptive than expressive language"
+          ],
+          "self_care_skills": [
+            "Partially toilet trained (occasional accidents)",
+            "Needs assistance with dressing",
+            "Can feed self independently but messy",
+            "Beginning to help with simple tasks with supervision"
+          ],
+          "social_skills": [
+            "Limited interactive play with peers",
+            "Parallel play predominates",
+            "Difficulty taking turns and sharing",
+            "Responds positively to adult attention"
+          ],
+          "practical_skills": [
+            "Unable to follow multiple-step directions",
+            "No concept of time or money",
+            "Requires constant supervision for safety",
+            "Follows simple classroom routines with support"
+          ]
+        },
+        "developmental_history": {
+          "early_milestones": {
+            "walking": "16 months (slightly delayed)",
+            "first_words": "20 months (delayed)",
+            "toilet_training": "In progress (delayed)"
+          },
+          "educational_history": [
+            "Early intervention services from age 2",
+            "Attended developmental preschool program",
+            "Currently in specialized kindergarten classroom"
+          ]
+        }
+      },
+      "emotional_state": {
+        "current_mood": "Playful but easily frustrated",
+        "thoughts": [
+          "Limited insight into difficulties",
+          "Concrete thinking about immediate experiences",
+          "Beginning to notice differences from peers"
+        ],
+        "feelings": [
+          "Frustration when tasks are difficult",
+          "Enjoyment of preferred activities",
+          "Seeking of adult approval",
+          "Occasional tantrums when overwhelmed"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Requires structured environment with clear routines",
+          "Transitions are difficult without preparation",
+          "Engages in simple play activities",
+          "Short attention span for non-preferred activities"
+        ],
+        "social_interactions": [
+          "Limited reciprocal play with peers",
+          "Difficulty following social rules",
+          "Responds well to adult-guided interactions",
+          "Often plays alone even in group settings"
+        ],
+        "learning_patterns": [
+          "Learns through repetition and hands-on experiences",
+          "Requires multi-sensory instruction",
+          "Benefits from visual supports and modeling",
+          "Significant difficulty with abstract concepts"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Below-average intellectual functioning (IQ of 68)",
+          "Significant delays in adaptive functioning across domains",
+          "Onset during developmental period with documented early delays",
+          "Known genetic etiology (16p11.2 deletion) associated with intellectual disability"
+        ],
+        "severity": "Mild intellectual disability"
+      }
+    },
+    {
+      "case_id": 5,
+      "patient_profile": {
+        "name": "Grace Johnson",
+        "age": 16,
+        "gender": "Female",
+        "occupation": "Student (Life Skills Program)"
+      },
+      "conversation_context": {
+        "setting": "Multidisciplinary Team Meeting at School",
+        "reason_for_visit": "Transition planning for post-secondary services"
+      },
+      "patient_background": {
+        "living_situation": "Lives with mother and stepfather",
+        "family_history": "No known intellectual disabilities in family",
+        "medical_history": "Traumatic brain injury at age 3 (motor vehicle accident); seizure disorder (controlled with medication)"
+      },
+      "symptoms_and_experiences": {
+        "intellectual_functioning": {
+          "tested_iq": "Full-scale IQ of 42 (moderate intellectual disability range)",
+          "cognitive_profile": [
+            "Significant impairment in verbal reasoning",
+            "Concrete thinking with no abstract concept formation",
+            "Severely limited working memory",
+            "Poor executive functioning skills",
+            "Processes information very slowly"
+          ]
+        },
+        "adaptive_functioning": {
+          "communication_skills": [
+            "Communicates with simple phrases and sentences",
+            "Vocabulary approximately at 7-8 year level",
+            "Difficulty with complex language comprehension",
+            "Uses basic augmentative communication device for complex needs"
+          ],
+          "self_care_skills": [
+            "Requires assistance with complex self-care tasks",
+            "Independent with familiar routines for basic hygiene",
+            "Needs supervision for bathing safety",
+            "Can dress with minimal assistance for complicated fasteners"
+          ],
+          "social_skills": [
+            "Friendly and sociable with basic social routines",
+            "Limited understanding of social nuance",
+            "Difficulty with age-appropriate conversations",
+            "Vulnerable in complex social situations"
+          ],
+          "practical_skills": [
+            "Recognizes but cannot count money",
+            "Follows picture-based schedules",
+            "Knows basic safety rules but needs supervision",
+            "Cannot navigate community independently"
+          ]
+        },
+        "developmental_history": {
+          "early_milestones": {
+            "early_development": "Normal until TBI at age 3",
+            "post_injury_regression": "Significant loss of language and motor skills following injury",
+            "recovery_pattern": "Slow recovery with plateau in cognitive development"
+          },
+          "educational_history": [
+            "Special education services since preschool",
+            "Functional academic curriculum focusing on life skills",
+            "Reading skills at approximately 2nd grade level",
+            "Math skills at approximately 1st grade level"
+          ]
+        }
+      },
+      "emotional_state": {
+        "current_mood": "Generally positive and cooperative",
+        "thoughts": [
+          "Concrete understanding of current activities",
+          "Limited insight into future planning",
+          "Awareness of basic strengths and challenges"
+        ],
+        "feelings": [
+          "Enjoyment of social activities",
+          "Occasional frustration with limitations",
+          "Anxiety in unfamiliar situations",
+          "Pride in accomplishments"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Follows structured routine at home and school",
+          "Participates in supervised community outings",
+          "Enjoys music, art, and simple crafts",
+          "Requires regular supervision for safety"
+        ],
+        "social_interactions": [
+          "Interacts appropriately with familiar peers in structured settings",
+          "Has formed friendships with peers in special education program",
+          "Engages in parallel activities with typically developing peers",
+          "Responds well to supportive adults"
+        ],
+        "learning_patterns": [
+          "Learns through hands-on practice and repetition",
+          "Requires concrete examples and experiences",
+          "Needs frequent reinforcement to maintain skills",
+          "Benefits from consistent routines and visual supports"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significantly below-average intellectual functioning (IQ of 42)",
+          "Concurrent deficits in adaptive functioning across all domains",
+          "Onset during developmental period (due to TBI at age 3)",
+          "Pattern of functioning requires substantial support in all settings"
+        ],
+        "severity": "Moderate intellectual disability"
+      }
+    },
+    {
+      "case_id": 6,
+      "patient_profile": {
+        "name": "James Carter",
+        "age": 27,
+        "gender": "Male",
+        "occupation": "Day Program Participant"
+      },
+      "conversation_context": {
+        "setting": "Adult Disability Services Facility",
+        "reason_for_visit": "Annual assessment for service planning"
+      },
+      "patient_background": {
+        "living_situation": "Group home (24-hour supervised setting)",
+        "family_history": "No known intellectual disabilities in family",
+        "medical_history": "Severe intellectual disability attributed to prenatal exposure to alcohol (FASD); seizure disorder; hypothyroidism"
+      },
+      "symptoms_and_experiences": {
+        "intellectual_functioning": {
+          "tested_iq": "Full-scale IQ of 32 (severe intellectual disability range)",
+          "cognitive_profile": [
+            "Severely limited concept formation and reasoning",
+            "Functions at approximately 4-5 year developmental level",
+            "Extremely concrete thinking",
+            "Able to follow only simple one-step directions",
+            "Very limited problem-solving abilities"
+          ]
+        },
+        "adaptive_functioning": {
+          "communication_skills": [
+            "Communicates with 2-3 word phrases",
+            "Vocabulary of approximately 200-300 words",
+            "Unable to read or write beyond recognizing own name",
+            "Uses picture communication system for complex needs"
+          ],
+          "self_care_skills": [
+            "Requires assistance with most hygiene tasks",
+            "Can feed self with utensils but messy",
+            "Participates in dressing but cannot manage independently",
+            "Fully toilet trained but needs reminders"
+          ],
+          "social_skills": [
+            "Engages with others in simple interactions",
+            "Limited understanding of social boundaries",
+            "Shows affection to familiar caregivers",
+            "Difficulty regulating emotions in social situations"
+          ],
+          "practical_skills": [
+            "Cannot perform household tasks independently",
+            "No understanding of money, time, or safety concepts",
+            "Requires constant supervision for safety",
+            "Can follow simple familiar routines with prompting"
+          ]
+        },
+        "developmental_history": {
+          "early_milestones": {
+            "walking": "30 months (severely delayed)",
+            "first_words": "4 years (severely delayed)",
+            "toilet_training": "7 years (severely delayed)"
+          },
+          "educational_history": [
+            "Special education services throughout schooling",
+            "Functional curriculum focused on basic life skills",
+            "Transitioned to adult services at age 21"
+          ]
+        }
+      },
+      "emotional_state": {
+        "current_mood": "Content in familiar environment",
+        "thoughts": [
+          "Very concrete understanding of immediate environment",
+          "Limited awareness of abstract concepts",
+          "Recognizes familiar people and routines"
+        ],
+        "feelings": [
+          "Expresses basic emotions (happy, sad, angry)",
+          "Anxiety when routines are disrupted",
+          "Enjoyment of sensory activities and music",
+          "Distress when overstimulated"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Participates in structured day program with 1:3 staffing ratio",
+          "Enjoys sensory activities and simple crafts",
+          "Requires frequent rest periods due to limited stamina",
+          "Follows predictable daily schedule with visual supports"
+        ],
+        "social_interactions": [
+          "Recognizes and shows preference for certain staff and peers",
+          "Participates in simple group activities with support",
+          "Limited reciprocal interactions",
+          "Occasional challenging behaviors when frustrated or overwhelmed"
+        ],
+        "learning_patterns": [
+          "Learns through extensive repetition and consistent routine",
+          "Requires concrete, hands-on instruction",
+          "Needs immediate reinforcement for learning",
+          "Masters only basic self-help and vocational tasks"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significantly below-average intellectual functioning (IQ of 32)",
+          "Severe deficits in adaptive functioning across all domains",
+          "Onset during developmental period (prenatal alcohol exposure)",
+          "Requires substantial daily support for all activities"
+        ],
+        "severity": "Severe intellectual disability"
+      }
+    },
+    {
+      "case_id": 7,
+      "patient_profile": {
+        "name": "Emily Rogers",
+        "age": 12,
+        "gender": "Female",
+        "occupation": "Student (Special Education)"
+      },
+      "conversation_context": {
+        "setting": "School-Based Evaluation",
+        "reason_for_visit": "Triennial reassessment for IEP planning"
+      },
+      "patient_background": {
+        "living_situation": "Lives with adoptive parents (adopted at age 3)",
+        "family_history": "Unknown (biological parents' history not available)",
+        "medical_history": "Fragile X syndrome diagnosed at age 4; myopia; history of frequent otitis media"
+      },
+      "symptoms_and_experiences": {
+        "intellectual_functioning": {
+          "tested_iq": "Full-scale IQ of 55 (mild intellectual disability range)",
+          "cognitive_profile": [
+            "Uneven cognitive profile typical of Fragile X syndrome",
+            "Relative strength in verbal memory and recognition",
+            "Significant weakness in visual-spatial processing",
+            "Poor executive functioning and attention",
+            "Difficulty with abstract reasoning and mathematics"
+          ]
+        },
+        "adaptive_functioning": {
+          "communication_skills": [
+            "Speaks in full sentences with limited vocabulary",
+            "Frequent verbal perseveration on topics of interest",
+            "Reading skills at approximately 2nd grade level",
+            "Difficulty with expressive writing"
+          ],
+          "self_care_skills": [
+            "Independent with basic hygiene but needs reminders",
+            "Can dress independently but struggles with complex fasteners",
+            "Manages simple food preparation with supervision",
+            "Needs prompting for thorough cleaning"
+          ],
+          "social_skills": [
+            "Social anxiety with frequent gaze aversion",
+            "Difficulty initiating and maintaining peer interactions",
+            "Shows empathy but struggles with appropriate responses",
+            "Becomes overwhelmed in busy social environments"
+          ],
+          "practical_skills": [
+            "Can identify coins but limited understanding of money values",
+            "Follows familiar routines with minimal support",
+            "Difficulty with time concepts beyond basic schedule",
+            "Needs supervision for safety in community"
+          ]
+        },
+        "developmental_history": {
+          "early_milestones": {
+            "walking": "18 months (delayed)",
+            "first_words": "26 months (delayed)",
+            "toilet_training": "5 years (significantly delayed)"
+          },
+          "educational_history": [
+            "Early intervention services since adoption",
+            "Special education placement with some inclusion",
+            "Current academic functioning at 2nd-3rd grade level"
+          ]
+        }
+      },
+      "emotional_state": {
+        "current_mood": "Anxious in evaluation setting",
+        "thoughts": [
+          "Concrete understanding of school expectations",
+          "Worried about changes to routine",
+          "Awareness of differences from typically developing peers"
+        ],
+        "feelings": [
+          "Social anxiety in unfamiliar situations",
+          "Enjoyment of predictable activities",
+          "Frustration with academic challenges",
+          "Attachment to special interests (animals)"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Functions best with clear routines and expectations",
+          "Becomes dysregulated with unexpected changes",
+          "Participates in modified academic curriculum",
+          "Engages in repetitive behaviors when anxious"
+        ],
+        "social_interactions": [
+          "Has one or two friends with similar profiles",
+          "Difficulties with large group social settings",
+          "Better social interactions with adults than peers",
+          "Seeks sensory input through touching objects"
+        ],
+        "learning_patterns": [
+          "Visual learning strengths when not overwhelmed",
+          "Benefits from structured, predictable instruction",
+          "Requires frequent breaks and sensory accommodations",
+          "Shows splinter skills in areas of interest"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Below-average intellectual functioning (IQ of 55)",
+          "Deficits in adaptive functioning consistent with diagnosis",
+          "Onset during developmental period with genetic etiology (Fragile X)",
+          "Pattern of strengths and weaknesses characteristic of genetic condition"
+        ],
+        "severity": "Mild intellectual disability"
+      }
+    },
+    {
+      "case_id": 8,
+      "patient_profile": {
+        "name": "Liam Parker",
+        "age": 4,
+        "gender": "Male",
+        "occupation": "Preschool Student"
+      },
+      "conversation_context": {
+        "setting": "Early Childhood Assessment Center",
+        "reason_for_visit": "Evaluation for developmental delays and service planning"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and older brother",
+        "family_history": "No known intellectual disabilities in family",
+        "medical_history": "Born at 28 weeks gestation; grade III intraventricular hemorrhage; chronic lung disease; failure to thrive"
+      },
+      "symptoms_and_experiences": {
+        "intellectual_functioning": {
+          "tested_iq": "Developmental quotient of 60 (mild-to-moderate range of delay)",
+          "cognitive_profile": [
+            "Functioning at approximately 2-2.5 year level across domains",
+            "Significant delays in language and concept formation",
+            "Better performance on motor-based tasks",
+            "Limited attention span and persistence",
+            "Difficulty with symbolic play and representation"
+          ]
+        },
+        "adaptive_functioning": {
+          "communication_skills": [
+            "Uses 1-2 word phrases",
+            "Vocabulary of approximately 50-75 words",
+            "Following one-step directions inconsistently",
+            "Uses gestures to supplement limited verbal skills"
+          ],
+          "self_care_skills": [
+            "Beginning toilet training (frequent accidents)",
+            "Feeds self with fingers and spoon",
+            "Cooperates with dressing but cannot do independently",
+            "Indicates basic needs through combination of words and gestures"
+          ],
+          "social_skills": [
+            "Limited parallel play",
+            "Brief interactions with peers",
+            "Shows interest in others but limited reciprocal engagement",
+            "Emerging turn-taking with adult support"
+          ],
+          "practical_skills": [
+            "No understanding of safety concepts",
+            "Requires constant supervision",
+            "Follows simple familiar routines with prompting",
+            "Beginning to help with very simple tasks (putting toys in bin)"
+          ]
+        },
+        "developmental_history": {
+          "early_milestones": {
+            "walking": "22 months (delayed, corrected age)",
+            "first_words": "30 months (significantly delayed)",
+            "toilet_training": "In progress (delayed)"
+          },
+          "educational_history": [
+            "Early intervention services since infancy",
+            "Recently transitioned to developmental preschool program",
+            "Receives speech, occupational, and physical therapy"
+          ]
+        }
+      },
+      "emotional_state": {
+        "current_mood": "Initially shy, warms up gradually",
+        "thoughts": [
+          "Limited insight due to young developmental age",
+          "Concrete understanding of immediate environment",
+          "Seeking of familiar comfort objects"
+        ],
+        "feelings": [
+          "Separation anxiety from parents",
+          "Enjoyment of preferred sensory activities",
+          "Frustration with communication limitations",
+          "Positive response to praise and encouragement"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Short attention span for structured activities (5-10 minutes)",
+          "Preference for sensory and movement activities",
+          "Needs adult supervision for all daily routines",
+          "Becomes dysregulated when tired or hungry"
+        ],
+        "social_interactions": [
+          "Observes other children more than engaging",
+          "Responds to adult-facilitated interactions",
+          "Limited joint attention skills",
+          "Shows affection to familiar caregivers"
+        ],
+        "learning_patterns": [
+          "Learns through hands-on experiences and repetition",
+          "Requires multisensory input for engagement",
+          "Benefits from visual supports and modeling",
+          "Needs frequent reinforcement and breaks"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significant delays in cognitive development (DQ of 60)",
+          "Concurrent delays in adaptive functioning across domains",
+          "Onset during developmental period with documented medical risk factors",
+          "Pattern of global developmental delays affecting all areas of functioning"
+        ],
+        "severity": "Currently functioning in mild-to-moderate range; long-term trajectory still emerging"
+      }
+    },
+    {
+      "case_id": 9,
+      "patient_profile": {
+        "name": "Aiden Foster",
+        "age": 17,
+        "gender": "Male",
+        "occupation": "Student (Vocational Program)"
+      },
+      "conversation_context": {
+        "setting": "Transition Planning Meeting",
+        "reason_for_visit": "Evaluation for post-secondary services and guardianship planning"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and younger sister",
+        "family_history": "Maternal cousin with intellectual disability",
+        "medical_history": "Williams syndrome (diagnosed at age 2); supravalvular aortic stenosis (surgically repaired); chronic anxiety"
+      },
+      "symptoms_and_experiences": {
+        "intellectual_functioning": {
+          "tested_iq": "Full-scale IQ of 62 (mild intellectual disability range)",
+          "cognitive_profile": [
+            "Uneven cognitive profile characteristic of Williams syndrome",
+            "Relative strengths in verbal abilities and facial recognition",
+            "Severe deficits in visuospatial construction",
+            "Significant impairment in mathematical reasoning",
+            "Poor executive functioning and planning skills"
+          ]
+        },
+        "adaptive_functioning": {
+          "communication_skills": [
+            "Speaks fluently with elaborate vocabulary but superficial understanding",
+            "Highly social speech with frequent storytelling",
+            "Reading skills at approximately 3rd-4th grade level",
+            "Difficulty with pragmatic aspects of communication"
+          ],
+          "self_care_skills": [
+            "Manages basic hygiene with reminders for thoroughness",
+            "Independent in dressing and basic self-care",
+            "Can prepare simple meals with supervision",
+            "Needs assistance with medication management"
+          ],
+          "social_skills": [
+            "Extremely friendly and socially disinhibited",
+            "Overly trusting of strangers",
+            "Difficulty maintaining appropriate social boundaries",
+            "Strong empathy but naive understanding of relationships"
+          ],
+          "practical_skills": [
+            "Severe impairment in mathematics and money management",
+            "Gets lost easily due to spatial difficulties",
+            "Cannot tell time on analog clock",
+            "Requires supervision for community safety"
+          ]
+        },
+        "developmental_history": {
+          "early_milestones": {
+            "walking": "24 months (delayed)",
+            "first_words": "18 months (within normal limits)",
+            "developmental_pattern": "Followed typical Williams syndrome profile with relative strength in language, weakness in motor and spatial skills"
+          },
+          "educational_history": [
+            "Special education services throughout schooling",
+            "Currently in vocational training program",
+            "Receives accommodations for math and spatial tasks"
+          ]
+        }
+      },
+      "emotional_state": {
+        "current_mood": "Enthusiastic and engaging",
+        "thoughts": [
+          "Eager to please and cooperate",
+          "Concrete understanding of transition process",
+          "Expresses unrealistic career aspirations"
+        ],
+        "feelings": [
+          "Anxiety about changes and unfamiliar situations",
+          "Excitement about social opportunities",
+          "Frustration with mathematical tasks",
+          "Fear of certain sounds (hypersensitivity)"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Participates in modified academic and vocational curriculum",
+          "Enjoys music activities (plays several instruments by ear)",
+          "Requires significant support for planning and organization",
+          "Becomes anxious with changes to routine"
+        ],
+        "social_interactions": [
+          "Extremely sociable and engaging with everyone",
+          "Lack of stranger danger requiring supervision",
+          "Difficulty with peer relationships due to immaturity",
+          "Strong interest in social connections despite limitations"
+        ],
+        "learning_patterns": [
+          "Learns well through verbal instruction",
+          "Strong auditory memory for information of interest",
+          "Requires concrete examples and repetition",
+          "Severe difficulty with spatial and mathematical concepts"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Below-average intellectual functioning (IQ of 62)",
+          "Significant deficits in adaptive functioning",
+          "Onset during developmental period with genetic etiology (Williams syndrome)",
+          "Classic profile of cognitive strengths and weaknesses associated with syndrome"
+        ],
+        "severity": "Mild intellectual disability with syndrome-specific profile"
+      }
+    },
+    {
+      "case_id": 10,
+      "patient_profile": {
+        "name": "Olivia Zhang",
+        "age": 8,
+        "gender": "Female",
+        "occupation": "Student (Inclusion Classroom with Support)"
+      },
+      "conversation_context": {
+        "setting": "Educational Psychology Assessment",
+        "reason_for_visit": "Evaluation for appropriate classroom supports and accommodations"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and twin brother (typically developing)",
+        "family_history": "No known intellectual disabilities in family",
+        "medical_history": "Perinatal stroke affecting left hemisphere; right-sided hemiparesis; history of seizures (controlled with medication)"
+      },
+      "symptoms_and_experiences": {
+        "intellectual_functioning": {
+          "tested_iq": "Full-scale IQ of 70 (borderline intellectual functioning range)",
+          "cognitive_profile": [
+            "Asymmetric cognitive profile with verbal skills more affected than nonverbal",
+            "Relative strengths in visual perception and nonverbal reasoning",
+            "Significant weakness in verbal comprehension and working memory",
+            "Processing speed within low average range",
+            "Difficulty with mathematical concepts"
+          ]
+        },
+        "adaptive_functioning": {
+          "communication_skills": [
+            "Speaks in simple sentences with articulation difficulties",
+            "Receptive language stronger than expressive",
+            "Reading at early 1st grade level",
+            "Difficulty with verbal explanations and narratives"
+          ],
+          "self_care_skills": [
+            "Independent in basic self-care but slower due to hemiparesis",
+            "Uses adaptive equipment for dressing",
+            "Manages toileting independently",
+            "Requires some assistance with complex tasks requiring two hands"
+          ],
+          "social_skills": [
+            "Eager for peer interaction but sometimes excluded",
+            "Limited ability to follow complex social rules",
+            "Follows adult directions in structured settings",
+            "Difficulty with fast-paced social interactions"
+          ],
+          "practical_skills": [
+            "Learning basic time concepts",
+            "Beginning to understand money in concrete situations",
+            "Follows picture schedules and routines",
+            "Requires supervision for safety"
+          ]
+        },
+        "developmental_history": {
+          "early_milestones": {
+            "walking": "20 months (delayed)",
+            "first_words": "24 months (delayed)",
+            "developmental_pattern": "Early speech and physical therapy; consistent but slow progress"
+          },
+          "educational_history": [
+            "Early intervention services since infancy",
+            "Initially in special education classroom",
+            "Currently in inclusion setting with paraprofessional support"
+          ]
+        }
+      },
+      "emotional_state": {
+        "current_mood": "Shy but cooperative",
+        "thoughts": [
+          "Awareness of differences from twin brother",
+          "Concrete understanding of academic challenges",
+          "Desire for peer acceptance"
+        ],
+        "feelings": [
+          "Frustration with communication difficulties",
+          "Anxiety about academic performance",
+          "Enjoyment of successful experiences",
+          "Pride in physical accomplishments despite motor challenges"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Participates in modified general education curriculum",
+          "Fatigue affects performance later in day",
+          "Uses adaptive technology for writing",
+          "Benefits from chunking of tasks and extended time"
+        ],
+        "social_interactions": [
+          "Has a small group of supportive friends",
+          "Struggles with large group interactions",
+          "Twin often serves as social facilitator",
+          "Benefits from structured social activities"
+        ],
+        "learning_patterns": [
+          "Visual learner with relative strength in concrete concepts",
+          "Requires multisensory instruction",
+          "Benefits from assistive technology",
+          "Needs frequent repetition and review"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "moderate",
+        "matching_criteria": [
+          "Borderline intellectual functioning (IQ of 70)",
+          "Significant challenges in adaptive functioning, particularly in conceptual domain",
+          "Onset during developmental period with documented medical etiology",
+          "Requires substantial educational support despite borderline IQ score"
+        ],
+        "severity": "Mild intellectual disability (despite borderline IQ, adaptive functioning supports diagnosis)"
+      }
+    },
+    {
+      "case_id": 11,
+      "patient_profile": {
+        "name": "Noah Campbell",
+        "age": 14,
+        "gender": "Male",
+        "occupation": "Student (Special Education Class)"
+      },
+      "conversation_context": {
+        "setting": "Neurodevelopmental Assessment Clinic",
+        "reason_for_visit": "Evaluation for eligibility for additional support services"
+      },
+      "patient_background": {
+        "living_situation": "Lives with mother (single parent) and maternal grandparents",
+        "family_history": "Maternal uncle with intellectual disability",
+        "medical_history": "Diagnosed with tuberous sclerosis complex at age 3; seizure disorder; ADHD"
+      },
+      "symptoms_and_experiences": {
+        "intellectual_functioning": {
+          "tested_iq": "Full-scale IQ of 52 (moderate intellectual disability range)",
+          "cognitive_profile": [
+            "Significant variability in cognitive performance over time",
+            "Better performance on visual than verbal tasks",
+            "Severely limited working memory and attention",
+            "Concrete thinking with no abstract reasoning",
+            "Processing speed significantly below age expectations"
+          ]
+        },
+        "adaptive_functioning": {
+          "communication_skills": [
+            "Speaks in short phrases and simple sentences",
+            "Vocabulary at approximately 7-8 year level",
+            "Reading skills limited to basic sight words",
+            "Difficulty following multi-step directions"
+          ],
+          "self_care_skills": [
+            "Manages basic hygiene with verbal prompting",
+            "Independent in dressing except complex fasteners",
+            "Can prepare very simple snacks",
+            "Inconsistent thoroughness in self-care routines"
+          ],
+          "social_skills": [
+            "Egocentric understanding of social interactions",
+            "Limited perspective-taking ability",
+            "Difficulty regulating emotions in social situations",
+            "Better interactions in highly structured environments"
+          ],
+          "practical_skills": [
+            "Cannot manage money independently",
+            "Limited understanding of time concepts",
+            "Requires supervision for safety in community",
+            "Follows visual schedules with prompting"
+          ]
+        },
+        "developmental_history": {
+          "early_milestones": {
+            "walking": "18 months (slightly delayed)",
+            "first_words": "36 months (significantly delayed)",
+            "developmental_pattern": "Progressive challenges with increasing academic and social demands"
+          },
+          "educational_history": [
+            "Special education services since preschool",
+            "Multiple medication trials for attention and seizure management",
+            "Current placement in self-contained classroom with some inclusion"
+          ]
+        }
+      },
+      "emotional_state": {
+        "current_mood": "Distracted and fidgety",
+        "thoughts": [
+          "Concrete understanding of immediate environment",
+          "Difficulty explaining abstract concepts or feelings",
+          "Some awareness of differences from peers"
+        ],
+        "feelings": [
+          "Frustration when not understood",
+          "Enjoyment of preferred activities (video games)",
+          "Anxiety in complex or unpredictable situations",
+          "Emotional responses often disproportionate to situation"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Requires consistent structure and routine",
+          "Medication management for seizures and attention",
+          "Transitions are challenging without preparation",
+          "Difficulty completing multi-step tasks independently"
+        ],
+        "social_interactions": [
+          "Socially motivated but lacks appropriate skills",
+          "Difficulty understanding social boundaries",
+          "Occasional inappropriate behaviors in social settings",
+          "Most successful in small, structured social groups"
+        ],
+        "learning_patterns": [
+          "Requires concrete, hands-on instruction",
+          "Significant difficulty generalizing concepts",
+          "Benefits from frequent repetition and review",
+          "Attention significantly impacts learning"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Below-average intellectual functioning (IQ of 52)",
+          "Significant impairments in adaptive functioning",
+          "Onset during developmental period with known medical etiology (TSC)",
+          "Cognitive and adaptive profile consistent with neurodevelopmental disorder"
+        ],
+        "severity": "Moderate intellectual disability"
+      }
+    },
+    {
+      "case_id": 12,
+      "patient_profile": {
+        "name": "Isabella Ramirez",
+        "age": 7,
+        "gender": "Female",
+        "occupation": "Student (Special Education)"
+      },
+      "conversation_context": {
+        "setting": "Child Development Center",
+        "reason_for_visit": "Comprehensive evaluation after transfer from another state"
+      },
+      "patient_background": {
+        "living_situation": "Lives with parents and older brother",
+        "family_history": "No known intellectual disabilities",
+        "medical_history": "Global developmental delays; hypotonia; microcephaly; undiagnosed genetic syndrome"
+      },
+      "symptoms_and_experiences": {
+        "intellectual_functioning": {
+          "tested_iq": "Full-scale IQ of 45 (moderate intellectual disability range)",
+          "cognitive_profile": [
+            "Global delays across all cognitive domains",
+            "Functioning at approximately 3-4 year developmental level",
+            "Significantly impaired attention and memory",
+            "No reading or numerical skills",
+            "Limited symbolic thinking"
+          ]
+        },
+        "adaptive_functioning": {
+          "communication_skills": [
+            "Uses 2-3 word phrases with limited vocabulary",
+            "Better receptive than expressive language",
+            "Uses simple picture communication system to supplement speech",
+            "Follows simple one-step directions"
+          ],
+          "self_care_skills": [
+            "Partially independent in toileting (needs reminders)",
+            "Requires assistance with dressing and hygiene",
+            "Feeds self with utensils but messy",
+            "Cannot manage fasteners or complex self-care tasks"
+          ],
+          "social_skills": [
+            "Socially interested but limited in interactive skills",
+            "Engages in parallel play",
+            "Shows affection to familiar people",
+            "Limited understanding of social rules and turn-taking"
+          ],
+          "practical_skills": [
+            "No understanding of safety, time, or money concepts",
+            "Requires constant supervision",
+            "Follows simple familiar routines with support",
+            "Beginning to help with very simple household tasks"
+          ]
+        },
+        "developmental_history": {
+          "early_milestones": {
+            "walking": "28 months (significantly delayed)",
+            "first_words": "36 months (significantly delayed)",
+            "toilet_training": "5 years (significantly delayed)"
+          },
+          "educational_history": [
+            "Early intervention since age 2",
+            "Special education preschool and kindergarten",
+            "Currently in self-contained classroom"
+          ]
+        }
+      },
+      "emotional_state": {
+        "current_mood": "Happy and sociable",
+        "thoughts": [
+          "Limited insight due to cognitive level",
+          "Concrete understanding of immediate environment",
+          "Awareness of routine and expectations"
+        ],
+        "feelings": [
+          "Generally positive affect",
+          "Frustration when communication is ineffective",
+          "Distress when routines are disrupted",
+          "Enjoyment of sensory activities and music"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Follows picture-based schedule with prompting",
+          "Requires close supervision for all activities",
+          "Enjoys sensory-based play and music",
+          "Short attention span for structured activities"
+        ],
+        "social_interactions": [
+          "Approaches others with smiles and gestures",
+          "Limited reciprocal play skills",
+          "Responds well to adult facilitation",
+          "Difficulty in group settings without support"
+        ],
+        "learning_patterns": [
+          "Learns through repetition and sensory experiences",
+          "Requires concrete, hands-on instruction",
+          "Benefits from consistent routine and immediate reinforcement",
+          "Very slow rate of acquiring new skills"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Significantly below-average intellectual functioning (IQ of 45)",
+          "Marked deficits in adaptive functioning across domains",
+          "Onset during developmental period with consistent history of delays",
+          "Physical features suggesting underlying genetic syndrome"
+        ],
+        "severity": "Moderate intellectual disability"
+      }
+    },
+    {
+      "case_id": 13,
+      "patient_profile": {
+        "name": "Tyler Robinson",
+        "age": 31,
+        "gender": "Male",
+        "occupation": "Supported Workshop Employee"
+      },
+      "conversation_context": {
+        "setting": "Adult Disability Services Center",
+        "reason_for_visit": "Assessment for supported employment services"
+      },
+      "patient_background": {
+        "living_situation": "Semi-independent living arrangement with weekly staff support",
+        "family_history": "Mother with learning disabilities",
+        "medical_history": "Mild intellectual disability diagnosed in childhood; obesity; hypertension"
+      },
+      "symptoms_and_experiences": {
+        "intellectual_functioning": {
+          "tested_iq": "Full-scale IQ of 65 (mild intellectual disability range)",
+          "cognitive_profile": [
+            "Concrete thinking with limited abstract reasoning",
+            "Relatively stronger visual processing than verbal",
+            "Difficulty with complex problem-solving",
+            "Functional literacy at approximately 4th grade level",
+            "Basic numeracy skills for daily living"
+          ]
+        },
+        "adaptive_functioning": {
+          "communication_skills": [
+            "Communicates in complete sentences with adequate vocabulary",
+            "Reads simple texts and follows written instructions",
+            "Difficulty explaining complex situations",
+            "Uses smartphone with simplified interface"
+          ],
+          "self_care_skills": [
+            "Independent in basic self-care and hygiene",
+            "Manages own clothing and laundry",
+            "Prepares simple meals independently",
+            "Takes medication with weekly preparation assistance"
+          ],
+          "social_skills": [
+            "Socially motivated with basic social skills",
+            "Vulnerable to manipulation in complex social situations",
+            "Limited understanding of subtle social cues",
+            "Maintains positive relationships with family and support staff"
+          ],
+          "practical_skills": [
+            "Manages simple budgeting with support",
+            "Uses public transportation on familiar routes",
+            "Maintains organized living space with reminders",
+            "Requires assistance with healthcare decisions and appointments"
+          ]
+        },
+        "developmental_history": {
+          "early_milestones": {
+            "developmental_pattern": "Global delays noted in early childhood",
+            "educational_history": "Special education throughout schooling",
+            "transition_to_adulthood": "Completed transition program at age 21"
+          },
+          "employment_history": [
+            "Has worked in supported employment for 10 years",
+            "Currently employed in mailroom of large company",
+            "Reliable attendance and task completion with supervision"
+          ]
+        }
+      },
+      "emotional_state": {
+        "current_mood": "Cooperative and engaged",
+        "thoughts": [
+          "Desire for greater independence",
+          "Concrete understanding of work responsibilities",
+          "Some insight into support needs"
+        ],
+        "feelings": [
+          "Pride in work accomplishments",
+          "Frustration with health challenges",
+          "Enjoyment of social connections",
+          "Occasional anxiety about financial concerns"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Maintains consistent work schedule",
+          "Manages basic household responsibilities",
+          "Participates in community recreation program",
+          "Uses technology for entertainment and basic communication"
+        ],
+        "social_interactions": [
+          "Participates in supervised social activities",
+          "Maintains long-term friendships with peers with disabilities",
+          "Weekly family contact and support",
+          "Basic understanding of appropriate workplace interactions"
+        ],
+        "vocational_patterns": [
+          "Performs repetitive tasks with accuracy",
+          "Requires initial training for new procedures",
+          "Benefits from visual checklists",
+          "Productive with appropriate accommodations"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Below-average intellectual functioning (IQ of 65)",
+          "Limitations in adaptive functioning requiring ongoing support",
+          "Onset during developmental period as documented in history",
+          "Long-term stable presentation characteristic of mild intellectual disability"
+        ],
+        "severity": "Mild intellectual disability"
+      }
+    },
+    {
+      "case_id": 14,
+      "patient_profile": {
+        "name": "Maya Johnston",
+        "age": 11,
+        "gender": "Female",
+        "occupation": "Student (Special Education)"
+      },
+      "conversation_context": {
+        "setting": "Pediatric Neuropsychology Clinic",
+        "reason_for_visit": "Educational planning and support recommendations"
+      },
+      "patient_background": {
+        "living_situation": "Lives with foster parents (placed at age 7)",
+        "family_history": "Unknown (biological parents' rights terminated due to neglect)",
+        "medical_history": "Suspected fetal alcohol exposure; history of severe neglect prior to foster placement; mild epilepsy"
+      },
+      "symptoms_and_experiences": {
+        "intellectual_functioning": {
+          "tested_iq": "Full-scale IQ of 58 (mild intellectual disability range)",
+          "cognitive_profile": [
+            "Uneven cognitive profile with relative strength in rote memory",
+            "Significant weakness in executive functioning",
+            "Poor attention and concentration",
+            "Limited problem-solving abilities",
+            "Concrete thinking with difficulty generalizing concepts"
+          ]
+        },
+        "adaptive_functioning": {
+          "communication_skills": [
+            "Speaks in full sentences with limited vocabulary",
+            "Reading at approximately 1st-2nd grade level",
+            "Difficulty with abstract language concepts",
+            "Better expressive than receptive language"
+          ],
+          "self_care_skills": [
+            "Independent in basic self-care routines",
+            "Inconsistent thoroughness in hygiene tasks",
+            "Can dress appropriately with guidance",
+            "Needs reminders for daily routines"
+          ],
+          "social_skills": [
+            "Indiscriminate friendliness with poor boundaries",
+            "Difficulty forming stable peer relationships",
+            "Limited understanding of social cues",
+            "Vulnerable to negative peer influence"
+          ],
+          "practical_skills": [
+            "Basic understanding of time concepts (clock reading)",
+            "Limited money concept (can identify coins/bills)",
+            "Follows familiar routines with minimal support",
+            "Requires supervision for safety"
+          ]
+        },
+        "developmental_history": {
+          "early_milestones": {
+            "early_history": "Limited information from birth to age 7",
+            "foster_placement": "Significant developmental gaps noted at placement",
+            "educational_history": "Consistent special education services since age 7"
+          },
+          "trauma_history": [
+            "History of neglect and possible abuse prior to foster care",
+            "Multiple placements before current stable home",
+            "Attachment difficulties affecting social development"
+          ]
+        }
+      },
+      "emotional_state": {
+        "current_mood": "Guarded initially, then engaging",
+        "thoughts": [
+          "Concrete understanding of current situation",
+          "Limited insight into learning difficulties",
+          "Concern about pleasing adults"
+        ],
+        "feelings": [
+          "Anxiety in new situations",
+          "Emotional dysregulation when frustrated",
+          "Seeking of approval and connection",
+          "Pride in recent academic progress"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Functions well in structured environments with clear expectations",
+          "Difficulty with transitions between activities",
+          "Inconsistent performance based on emotional state",
+          "Benefits from regular routine and predictability"
+        ],
+        "social_interactions": [
+          "Better relationships with adults than peers",
+          "Difficulty maintaining appropriate boundaries",
+          "Seeks attention in both positive and negative ways",
+          "Some progress in developing age-appropriate interactions"
+        ],
+        "learning_patterns": [
+          "Strong rote memory for information of interest",
+          "Requires significant repetition for skill mastery",
+          "Benefits from multisensory instruction",
+          "Emotional state significantly impacts learning"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Below-average intellectual functioning (IQ of 58)",
+          "Significant limitations in adaptive functioning",
+          "Onset during developmental period with likely combination of genetic and environmental factors",
+          "Pattern of cognitive and adaptive functioning consistent with mild intellectual disability complicated by early adversity"
+        ],
+        "severity": "Mild intellectual disability"
+      }
+    },
+    {
+      "case_id": 15,
+      "patient_profile": {
+        "name": "Jackson Miller",
+        "age": 10,
+        "gender": "Male",
+        "occupation": "Student (General Education with Support)"
+      },
+      "conversation_context": {
+        "setting": "School Psychologist's Office",
+        "reason_for_visit": "Academic difficulties and behavioral concerns"
+      },
+      "patient_background": {
+        "living_situation": "Lives with mother and stepfather (parents divorced when he was 5)",
+        "family_history": "Father with history of learning disabilities",
+        "medical_history": "ADHD diagnosed at age 7; language delay in early childhood (resolved); no significant medical conditions"
+      },
+      "symptoms_and_experiences": {
+        "intellectual_functioning": {
+          "tested_iq": "Full-scale IQ of 78 (borderline range)",
+          "cognitive_profile": [
+            "Significant variability between verbal and nonverbal skills",
+            "Verbal comprehension in low average range (standard score 85)",
+            "Processing speed significantly below average (standard score 75)",
+            "Working memory impaired (standard score 78)",
+            "Attention deficits significantly impact test performance"
+          ]
+        },
+        "adaptive_functioning": {
+          "communication_skills": [
+            "Age-appropriate conversational skills",
+            "Reading at approximately 3rd grade level (1-2 years below peers)",
+            "Some difficulty with complex verbal directions",
+            "Articulation and vocabulary within normal limits"
+          ],
+          "self_care_skills": [
+            "Independent in all age-appropriate self-care",
+            "Manages personal hygiene appropriately",
+            "Occasional carelessness in appearance due to inattention",
+            "Age-appropriate independence in daily living skills"
+          ],
+          "social_skills": [
+            "Has several friendships but some peer conflicts",
+            "Understands social rules but struggles with impulsivity",
+            "Can interpret social cues with some support",
+            "Difficulty with emotional regulation affects relationships"
+          ],
+          "practical_skills": [
+            "Understands basic money concepts",
+            "Can tell time and follow schedules with reminders",
+            "Uses technology appropriately",
+            "Needs supervision typical for age"
+          ]
+        },
+        "developmental_history": {
+          "early_milestones": {
+            "walking": "14 months (within normal limits)",
+            "first_words": "18 months (slightly delayed)",
+            "toilet_training": "3.5 years (slightly delayed)"
+          },
+          "educational_history": [
+            "Speech therapy in preschool (discontinued at age 6)",
+            "Regular classroom with accommodations for ADHD",
+            "Reading intervention services for past two years",
+            "Behavioral support plan for inattention and impulsivity"
+          ]
+        }
+      },
+      "emotional_state": {
+        "current_mood": "Restless and distractible",
+        "thoughts": [
+          "Frustrated with academic difficulties",
+          "Understands consequences of behavior",
+          "Age-appropriate insight and reasoning"
+        ],
+        "feelings": [
+          "Anxiety about academic performance",
+          "Frustration with difficulty focusing",
+          "Embarrassment about needing extra help",
+          "Positive feelings about athletic abilities"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Difficulty sustaining attention on non-preferred tasks",
+          "Medication helps with focus during school hours",
+          "Organizational challenges impact homework completion",
+          "Strong interest and focus on sports and video games"
+        ],
+        "social_interactions": [
+          "Active participation in team sports",
+          "Some conflict with peers due to impulsivity",
+          "Age-appropriate understanding of social situations",
+          "Responds well to positive behavioral interventions"
+        ],
+        "learning_patterns": [
+          "Uneven academic profile with reading difficulties",
+          "Strengths in hands-on and project-based learning",
+          "Requires accommodations for attention and organization",
+          "Benefits from movement breaks and active learning"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": false,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Intellectual functioning above threshold for intellectual disability (IQ of 78)",
+          "Adaptive functioning largely appropriate for age, with specific deficits better explained by ADHD",
+          "Academic difficulties consistent with specific learning disorder in reading and ADHD impact",
+          "Behavioral concerns related to attentional regulation rather than cognitive limitations",
+          "Conceptual understanding, social reasoning, and practical skills developmentally appropriate with appropriate support for ADHD"
+        ]
+      }
+    }
+  ]
+} 
