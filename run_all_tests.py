@@ -7,6 +7,7 @@ import pandas as pd
 from datetime import datetime
 from pathlib import Path
 import sys
+from typing import Optional
 
 # Add the parent directory to system path to import the required modules
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -16,136 +17,126 @@ if current_dir not in sys.path:
 from multi_disorder_tester import DisorderTestManager
 from visualize_results import ResultsVisualizer
 
-
-def load_disorder_list(disorder_file="disorder_test_files.json"):
-    """
-    Load the list of disorders and their test files from JSON.
-    
-    Args:
-        disorder_file (str): Path to the JSON file with disorder test files
-        
-    Returns:
-        dict: Dictionary mapping disorder names to their test file paths
-    """
-    try:
-        with open(disorder_file, 'r') as f:
-            disorder_data = json.load(f)
-        
-        # Check if the expected data structure is present
-        if not isinstance(disorder_data, dict):
-            print(f"Error: {disorder_file} does not contain a valid disorder dictionary")
-            return {}
-            
-        return disorder_data
-    except Exception as e:
-        print(f"Error loading disorder list from {disorder_file}: {e}")
-        return {}
-
-
-def run_tests(disorders, num_servers=1, result_dir=None, save_responses=False, verbose=False):
-    """
-    Run tests for all specified disorders using parallel servers.
-    
-    Args:
-        disorders (dict): Dictionary mapping disorder names to their test file paths
-        num_servers (int): Number of parallel test servers to use
-        result_dir (str): Directory to save results (default: results_TIMESTAMP)
-        save_responses (bool): Whether to save detailed chatbot responses
-        verbose (bool): Whether to print detailed progress information
-        
-    Returns:
-        str: Path to the generated results CSV file
-    """
-    # Create timestamp for result directory if not specified
-    if result_dir is None:
+def run_tests(results_dir: Optional[str] = None) -> Optional[str]:
+    """Run all tests and save results to CSV files."""
+    if results_dir is None:
+        # Create timestamped results directory
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        result_dir = f"results_{timestamp}"
+        results_dir = os.path.join("results", f"test_results_{timestamp}")
     
-    # Create results directory if it doesn't exist
-    if not os.path.exists(result_dir):
-        os.makedirs(result_dir)
-        
-    print(f"Starting test run with {num_servers} servers for {len(disorders)} disorders")
-    print(f"Results will be saved to: {result_dir}")
+    # Ensure results directory exists
+    os.makedirs(results_dir, exist_ok=True)
     
-    # Create test configurations for all disorders
-    test_configs = []
-    for disorder_name, test_file in disorders.items():
-        # Skip disorders with missing test files
-        if not os.path.exists(test_file):
-            print(f"Warning: Test file {test_file} for {disorder_name} not found. Skipping.")
-            continue
-            
-        # Create a configuration for each disorder
-        test_configs.append({
-            "name": disorder_name,
-            "test_file": test_file,
-            "result_dir": result_dir,
-            "save_responses": save_responses
-        })
-        
-    # Start the tests
-    start_time = time.time()
-    
-    # Initialize the multi-disorder tester
-    tester = DisorderTestManager(
-        test_configs=test_configs,
-        num_servers=num_servers,
-        verbose=verbose
+    # Initialize test manager
+    test_manager = DisorderTestManager(
+        test_configs=[
+            {
+                "name": "delirium",
+                "test_file": "Test json/delirium_test.json",
+                "save_responses": True
+            },
+            {
+                "name": "major depressive disorder",
+                "test_file": "Test json/major_depressive_disorder_test.json",
+                "save_responses": True
+            },
+            {
+                "name": "schizophrenia",
+                "test_file": "Test json/schizophrenia_test.json",
+                "save_responses": True
+            },
+            {
+                "name": "ptsd",
+                "test_file": "Test json/posttraumatic_stress_disorder_test.json",
+                "save_responses": True
+            },
+            {
+                "name": "pdd",
+                "test_file": "Test json/persistent_depressive_disorder_test.json",
+                "save_responses": True
+            },
+            {
+                "name": "panic",
+                "test_file": "Test json/panic_disorder_test.json",
+                "save_responses": True
+            },
+            {
+                "name": "odd",
+                "test_file": "Test json/oppositional_defiant_disorder_test.json",
+                "save_responses": True
+            },
+            {
+                "name": "ocd",
+                "test_file": "Test json/obsessive_compulsive_disorder_test.json",
+                "save_responses": True
+            },
+            {
+                "name": "mild_ncd",
+                "test_file": "Test json/mild_neurocognitive_disorder_test.json",
+                "save_responses": True
+            },
+            {
+                "name": "manic",
+                "test_file": "Test json/manic_episode_test.json",
+                "save_responses": True
+            },
+            {
+                "name": "major_ncd",
+                "test_file": "Test json/major_neurocognitive_disorder_test.json",
+                "save_responses": True
+            },
+            {
+                "name": "gad",
+                "test_file": "Test json/generalized_anxiety_disorder_test.json",
+                "save_responses": True
+            },
+            {
+                "name": "adhd",
+                "test_file": "Test json/attention_deficit_hyperactivity_disorder_test.json",
+                "save_responses": True
+            },
+            {
+                "name": "asd",
+                "test_file": "Test json/autism_spectrum_disorder_test.json",
+                "save_responses": True
+            },
+            {
+                "name": "id",
+                "test_file": "Test json/intellectual_disabilities_test.json",
+                "save_responses": True
+            },
+            {
+                "name": "cd",
+                "test_file": "Test json/conduct_disorder_test.json",
+                "save_responses": True
+            },
+            {
+                "name": "td",
+                "test_file": "Test json/tourettes_disorder_test.json",
+                "save_responses": True
+            }
+        ],
+        results_dir=results_dir,
+        verbose=True
     )
     
-    # Run all tests
-    results = tester.run_all_tests()
+    # Run tests
+    results = test_manager.run_all_tests()
     
-    # Calculate the total time taken
-    elapsed_time = time.time() - start_time
+    if not results:
+        print("Warning: No test results were generated!")
+        return None
     
-    # Create a pandas DataFrame with the results
-    results_df = pd.DataFrame(results)
-    
-    # Add elapsed time information
-    print(f"Tests completed in {elapsed_time:.2f} seconds")
-    print(f"Average time per disorder: {elapsed_time / len(disorders):.2f} seconds")
-    
-    # Save the results to a CSV file
-    results_csv = os.path.join(result_dir, "test_results.csv")
-    results_df.to_csv(results_csv, index=False)
-    print(f"Results saved to {results_csv}")
-    
-    return results_csv
-
-
-def generate_visualizations(results_csv, output_dir=None):
-    """
-    Generate visualizations from the test results.
-    
-    Args:
-        results_csv (str): Path to the CSV file with test results
-        output_dir (str): Directory to save visualizations (default is within results dir)
-        
-    Returns:
-        bool: True if visualizations were generated successfully
-    """
-    if output_dir is None:
-        # Use a charts subdirectory within the results directory
-        results_dir = os.path.dirname(results_csv)
-        output_dir = os.path.join(results_dir, "charts")
-    
-    print(f"Generating visualizations in: {output_dir}")
-    
-    # Create the visualizer
-    visualizer = ResultsVisualizer(results_csv, output_dir)
-    
-    # Generate all visualizations
-    success = visualizer.generate_all_visualizations()
-    
-    if success:
-        print(f"Visualizations saved to {output_dir}")
-        return True
-    else:
-        print("Failed to generate visualizations")
-        return False
-
+    # Save results to CSV
+    csv_file = os.path.join(results_dir, "all_results.csv")
+    try:
+        df = pd.DataFrame(results)
+        df.to_csv(csv_file, index=False)
+        print(f"Results saved to {csv_file}")
+        return csv_file
+    except Exception as e:
+        print(f"Error saving results to CSV: {e}")
+        return None
 
 def run_reports(disorders, num_servers=1, result_dir=None, save_responses=False, 
                verbose=False, skip_visualization=False):
@@ -165,11 +156,7 @@ def run_reports(disorders, num_servers=1, result_dir=None, save_responses=False,
     """
     # Run all tests and get the CSV file path
     results_csv = run_tests(
-        disorders=disorders,
-        num_servers=num_servers,
-        result_dir=result_dir,
-        save_responses=save_responses,
-        verbose=verbose
+        results_dir=result_dir
     )
     
     charts_dir = None
@@ -178,10 +165,11 @@ def run_reports(disorders, num_servers=1, result_dir=None, save_responses=False,
         results_dir = os.path.dirname(results_csv)
         charts_dir = os.path.join(results_dir, "charts")
         
-        generate_visualizations(results_csv, charts_dir)
+        # Create the visualizer
+        visualizer = ResultsVisualizer(results_csv, charts_dir)
+        visualizer.generate_all_visualizations()
     
     return results_csv, charts_dir
-
 
 def main():
     """Main function to parse arguments and run tests"""
@@ -190,16 +178,9 @@ def main():
     )
     
     parser.add_argument(
-        "--disorders", 
-        type=str, 
-        default="disorder_test_files.json",
-        help="Path to JSON file with disorder test files"
-    )
-    
-    parser.add_argument(
         "--servers", 
         type=int, 
-        default=1,
+        default=3,  # Changed default to 3 servers
         help="Number of parallel test servers to use"
     )
     
@@ -230,8 +211,13 @@ def main():
     
     args = parser.parse_args()
     
-    # Load the disorder list
-    disorders = load_disorder_list(args.disorders)
+    # Create a dictionary of all test files in the Test json directory
+    test_dir = "Test json"
+    disorders = {}
+    for file in os.listdir(test_dir):
+        if file.endswith("_test.json"):
+            disorder_name = file.replace("_test.json", "")
+            disorders[disorder_name] = os.path.join(test_dir, file)
     
     if not disorders:
         print("No disorders found to test. Exiting.")
@@ -249,16 +235,11 @@ def main():
     
     if results_csv:
         print("\nTest run completed successfully!")
-        print(f"Results available at: {results_csv}")
-        
-        if charts_dir and not args.no_visualization:
-            print(f"Visualizations available at: {charts_dir}")
-        
+        print(f"Results CSV: {results_csv}")
+        if charts_dir:
+            print(f"Charts directory: {charts_dir}")
         return 0
-    else:
-        print("\nTest run failed to complete.")
-        return 1
-
+    return 1
 
 if __name__ == "__main__":
     sys.exit(main()) 

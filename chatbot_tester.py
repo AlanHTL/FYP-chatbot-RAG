@@ -174,17 +174,29 @@ class ChatbotTester:
 
     def _check_diagnosis(self, case: Dict[str, Any], diagnosis: Dict) -> bool:
         """Check if the diagnosis matches the expected diagnosis."""
-        if not diagnosis:
+        if not diagnosis or "result" not in diagnosis or not diagnosis["result"]:
             return False
         
         expected_has_disorder = case["expected_diagnosis"]["has_disorder"]
+        diagnosis_result = diagnosis.get("result", [None])[0]
         
-        # For normal cases (false positives)
+        if not diagnosis_result:
+            return False
+        
+        diagnosis_result = diagnosis_result.lower()
+        
+        # For normal cases, check if result is "normal"
         if not expected_has_disorder:
-            return diagnosis.get("result", [None])[0].lower() == "normal"
+            return diagnosis_result == "normal"
         
-        # For disorder cases (true positives)
-        return "major neurocognitive disorder" in diagnosis.get("result", [None])[0].lower()
+        # For disorder cases, check for expected disorder name
+        expected_disorder = case["expected_diagnosis"].get("disorder_name", "").lower()
+        if not expected_disorder:
+            print(f"WARNING: Test case is missing disorder_name in expected_diagnosis: {case.get('case_id', 'unknown')}")
+            return False
+            
+        # Direct match with expected disorder name
+        return expected_disorder in diagnosis_result
 
     def _simulate_conversation(self, case: Dict[str, Any]) -> Tuple[Dict[str, Any], bool, Dict]:
         """Simulate a conversation between the patient and the chatbot."""
@@ -249,7 +261,7 @@ class ChatbotTester:
                     results.append({
                         "case_id": case["case_id"],
                         "patient_name": case["patient_profile"]["name"],
-                        "expected_diagnosis": "Major Neurocognitive Disorder" if case["expected_diagnosis"]["has_disorder"] else "Normal",
+                        "expected_diagnosis": case["expected_diagnosis"]["disorder_name"] if case["expected_diagnosis"]["has_disorder"] else "Normal",
                         "actual_diagnosis": diagnosis.get("result", ["Unknown"])[0] if diagnosis else "No diagnosis",
                         "correct": correct,
                         "confidence": diagnosis.get("probabilities", [0])[0] if diagnosis else 0
@@ -297,7 +309,7 @@ class ChatbotTester:
         
         print("\n===== TEST RESULTS =====")
         for result in self.results:
-            status = "✓" if result["correct"] else "✗"
+            status = "PASS" if result["correct"] else "FAIL"
             print(f"Case {result['case_id']} ({result['patient_name']}): {status}")
             print(f"  Expected: {result['expected_diagnosis']}")
             print(f"  Actual: {result['actual_diagnosis']} (confidence: {result['confidence']})")
@@ -339,7 +351,7 @@ class ChatbotTester:
                     results.append({
                         "case_id": case["case_id"],
                         "patient_name": case["patient_profile"]["name"],
-                        "expected_diagnosis": "Major Neurocognitive Disorder" if case["expected_diagnosis"]["has_disorder"] else "Normal",
+                        "expected_diagnosis": case["expected_diagnosis"]["disorder_name"] if case["expected_diagnosis"]["has_disorder"] else "Normal",
                         "actual_diagnosis": diagnosis.get("result", ["Unknown"])[0] if diagnosis else "No diagnosis",
                         "correct": correct,
                         "confidence": diagnosis.get("probabilities", [0])[0] if diagnosis else 0
@@ -375,12 +387,12 @@ class ChatbotTester:
 if __name__ == "__main__":
     # Set up command line argument parsing
     parser = argparse.ArgumentParser(description="Test the mental health screening chatbot accuracy.")
-    parser.add_argument("--file", type=str, default="major_neurocognitive_disorder_test.json",
+    parser.add_argument("--file", type=str, required=True,
                         help="Path to the test case JSON file")
-    parser.add_argument("--cases", type=int, nargs="+", 
-                        help="Specific case IDs to test (e.g. --cases 1 2 15)")
-    parser.add_argument("--save", type=str, 
+    parser.add_argument("--save", type=str, required=True,
                         help="Save results to the specified JSON file")
+    parser.add_argument("--save-responses", action="store_true",
+                        help="Save detailed chatbot responses")
     parser.add_argument("--parallel", type=int, default=3,
                         help="Number of parallel tests to run (default: 3)")
     
@@ -390,17 +402,12 @@ if __name__ == "__main__":
     tester = ChatbotTester(args.file, args.parallel)
     print(f"Loaded {len(tester.test_cases)} test cases from {args.file}")
     
-    # Run tests based on command line arguments
-    if args.cases:
-        print(f"Testing selected cases: {args.cases}")
-        tester.test_selected_cases(args.cases)
-    else:
-        print("Testing all cases...")
-        tester.test_all_cases()
+    # Run all tests
+    print("Testing all cases...")
+    tester.test_all_cases()
     
     # Print the results
     tester.print_results()
     
-    # Save results if requested
-    if args.save:
-        tester.save_results_to_file(args.save) 
+    # Save results
+    tester.save_results_to_file(args.save) 

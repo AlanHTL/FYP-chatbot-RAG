@@ -1,0 +1,166 @@
+case_id,Disorder,expected_diagnosis,actual_diagnosis,correct,confidence,patient_name
+4,major depressive disorder,major depressive disorder,Major Depressive Disorder,True,0.9,James Wilson
+1,major depressive disorder,major depressive disorder,Major Depressive Disorder,True,0.8,Sarah Chen
+3,major depressive disorder,major depressive disorder,Major Depressive Disorder,True,0.9,Aisha Patel
+5,major depressive disorder,major depressive disorder,Generalized Anxiety Disorder,False,0.9,Emma Thompson
+2,major depressive disorder,major depressive disorder,Major Depressive Disorder,True,0.9,Michael Rodriguez
+6,major depressive disorder,major depressive disorder,Generalized Anxiety Disorder,False,0.9,David Kim
+8,major depressive disorder,major depressive disorder,Major Depressive Disorder,True,0.9,Robert Taylor
+7,major depressive disorder,major depressive disorder,Major Neurocognitive Disorder,False,0.9,Maria Garcia
+9,major depressive disorder,major depressive disorder,Generalized Anxiety Disorder,False,0.8,Sophie Anderson
+10,major depressive disorder,major depressive disorder,Posttraumatic Stress Disorder,False,0.9,Thomas Lee
+12,major depressive disorder,major depressive disorder,Major Depressive Disorder,True,0.9,John Martinez
+11,major depressive disorder,major depressive disorder,Major Depressive Disorder,True,0.9,Lisa Wong
+14,major depressive disorder,major depressive disorder,Major Depressive Disorder,True,0.9,Daniel Brown
+13,major depressive disorder,major depressive disorder,Generalized Anxiety Disorder,False,0.9,Rachel Green
+15,major depressive disorder,Normal,Major Depressive Disorder,False,0.9,Emily Parker
+1,delirium,delirium,Delirium,True,0.9,James Wilson
+2,delirium,delirium,Delirium,True,0.9,Maria Rodriguez
+3,delirium,delirium,Delirium,True,0.9,Robert Thompson
+5,delirium,delirium,Delirium,True,0.9,John Davis
+4,delirium,delirium,Delirium,True,0.9,Sarah Chen
+6,delirium,delirium,Delirium,True,0.9,Emily White
+7,delirium,delirium,Delirium,True,0.8,Michael Brown
+8,delirium,delirium,Generalized Anxiety Disorder,False,0.8,Patricia Lee
+9,delirium,delirium,Delirium,True,0.9,William Anderson
+10,delirium,delirium,Generalized Anxiety Disorder,False,0.9,Margaret Chen
+11,delirium,delirium,Delirium,True,0.8,Thomas Wilson
+12,delirium,delirium,Generalized Anxiety Disorder,False,0.85,Elizabeth Martinez
+14,delirium,delirium,Delirium,True,0.9,Susan Lee
+15,delirium,Normal,Delirium,False,0.9,David Anderson
+13,delirium,delirium,Delirium,True,0.9,Richard Thompson
+1,schizophrenia,schizophrenia,Schizophrenia,True,0.9,David Chen
+3,schizophrenia,schizophrenia,Schizophrenia,True,0.9,Michael Thompson
+4,schizophrenia,schizophrenia,Schizophrenia,True,0.9,Emily Wilson
+2,schizophrenia,schizophrenia,Generalized Anxiety Disorder,False,0.8,Sarah Martinez
+5,schizophrenia,schizophrenia,Generalized Anxiety Disorder,False,0.8,James Anderson
+6,schizophrenia,schizophrenia,Schizophrenia,True,0.9,Lisa Chen
+7,schizophrenia,schizophrenia,Schizophrenia,True,0.9,Robert Garcia
+9,schizophrenia,schizophrenia,Schizophrenia,True,0.9,Thomas Lee
+8,schizophrenia,schizophrenia,Attention-Deficit/Hyperactivity Disorder,False,0.9,Maria Rodriguez
+10,schizophrenia,schizophrenia,Schizophrenia,True,0.9,Jennifer Wilson
+11,schizophrenia,schizophrenia,Schizophrenia,True,0.9,Daniel Martinez
+13,schizophrenia,schizophrenia,Schizophrenia,True,0.8,Christopher Lee
+15,schizophrenia,Normal,Generalized Anxiety Disorder,False,0.9,Kevin Anderson
+12,schizophrenia,schizophrenia,Generalized Anxiety Disorder,False,0.8,Amanda Thompson
+14,schizophrenia,schizophrenia,Schizophrenia,True,0.9,Rachel Garcia
+7,ptsd,posttraumatic stress disorder,Posttraumatic Stress Disorder,True,0.9,Robert Chen
+3,ptsd,posttraumatic stress disorder,Posttraumatic Stress Disorder,True,0.9,David Wilson
+1,ptsd,posttraumatic stress disorder,Posttraumatic Stress Disorder,True,0.9,Michael Rodriguez
+4,ptsd,posttraumatic stress disorder,Posttraumatic Stress Disorder,True,0.9,Emily Martinez
+2,ptsd,posttraumatic stress disorder,Posttraumatic Stress Disorder,True,0.9,Sarah Chen
+5,ptsd,posttraumatic stress disorder,Posttraumatic Stress Disorder,True,0.9,James Thompson
+6,ptsd,posttraumatic stress disorder,Posttraumatic Stress Disorder,True,0.9,Lisa Anderson
+8,ptsd,posttraumatic stress disorder,Posttraumatic Stress Disorder,True,0.9,Maria Garcia
+9,ptsd,posttraumatic stress disorder,Posttraumatic Stress Disorder,True,0.9,John Smith
+10,ptsd,posttraumatic stress disorder,Posttraumatic Stress Disorder,True,0.9,Sarah Lee
+12,ptsd,posttraumatic stress disorder,Posttraumatic Stress Disorder,True,0.9,Jennifer Wilson
+11,ptsd,posttraumatic stress disorder,Posttraumatic Stress Disorder,True,0.9,David Brown
+13,ptsd,posttraumatic stress disorder,Posttraumatic Stress Disorder,True,0.9,Michael Anderson
+14,ptsd,posttraumatic stress disorder,Posttraumatic Stress Disorder,True,0.9,Lisa Chen
+15,ptsd,Normal,Generalized Anxiety Disorder,False,0.8,Alex Thompson
+8,panic,panic disorder,Panic Disorder,True,0.9,Thomas Chen
+1,panic,panic disorder,Panic Disorder,True,0.9,Jessica Martinez
+3,panic,panic disorder,Panic Disorder,True,0.9,Sarah Thompson
+4,panic,panic disorder,Panic Disorder,True,0.9,David Wilson
+2,panic,panic disorder,Panic Disorder,True,0.9,Michael Chang
+5,panic,panic disorder,Panic Disorder,True,0.9,Emily Rodriguez
+6,panic,panic disorder,Panic Disorder,True,0.9,James Anderson
+7,panic,panic disorder,Panic Disorder,True,0.9,Rachel Lee
+9,panic,panic disorder,Generalized Anxiety Disorder,False,0.8,Sarah Brown
+12,panic,panic disorder,Panic Disorder,True,0.9,William Taylor
+10,panic,panic disorder,Panic Disorder,True,0.9,Daniel Wilson
+11,panic,panic disorder,Panic Disorder,True,0.9,Maria Garcia
+14,panic,panic disorder,Panic Disorder,True,0.9,Robert Chen
+13,panic,panic disorder,Panic Disorder,True,0.9,Jennifer Lee
+15,panic,Normal,Generalized Anxiety Disorder,False,0.8,Alex Thompson
+1,pdd,persistent depressive disorder,Major Depressive Disorder,False,0.9,Sarah Chen
+2,pdd,persistent depressive disorder,Major Depressive Disorder,False,0.9,Michael Rodriguez
+4,pdd,persistent depressive disorder,Persistent Depressive Disorder,True,0.9,David Wilson
+3,pdd,persistent depressive disorder,Persistent Depressive Disorder,True,0.9,Emily Thompson
+5,pdd,persistent depressive disorder,Major Depressive Disorder,False,0.9,Lisa Chen
+6,pdd,persistent depressive disorder,Persistent Depressive Disorder,True,0.8,James Martinez
+7,pdd,persistent depressive disorder,Persistent Depressive Disorder,True,0.9,Rachel Kim
+8,pdd,persistent depressive disorder,Persistent Depressive Disorder,True,0.9,Thomas Anderson
+9,pdd,persistent depressive disorder,Persistent Depressive Disorder,True,0.9,Sophie Brown
+10,pdd,persistent depressive disorder,Major Depressive Disorder,False,0.9,Daniel Wilson
+11,pdd,persistent depressive disorder,Persistent Depressive Disorder,True,0.9,Maria Garcia
+12,pdd,persistent depressive disorder,Persistent Depressive Disorder,True,0.8,William Taylor
+13,pdd,persistent depressive disorder,Major Depressive Disorder,False,0.9,Jennifer Lee
+14,pdd,persistent depressive disorder,Major Depressive Disorder,False,0.9,Robert Chen
+15,pdd,Normal,Major Depressive Disorder,False,0.9,Alex Thompson
+1,ocd,obsessive compulsive disorder,Obsessive-Compulsive Disorder,False,0.9,Emma Wilson
+4,ocd,obsessive compulsive disorder,Obsessive-Compulsive Disorder,False,0.9,Michael Thompson
+3,ocd,obsessive compulsive disorder,Obsessive-Compulsive Disorder,False,0.9,Sophia Rodriguez
+2,ocd,obsessive compulsive disorder,Obsessive-Compulsive Disorder,False,0.9,James Chen
+5,ocd,obsessive compulsive disorder,Obsessive-Compulsive Disorder,False,0.9,Lisa Kim
+6,ocd,obsessive compulsive disorder,Obsessive-Compulsive Disorder,False,0.9,David Martinez
+7,ocd,obsessive compulsive disorder,Obsessive-Compulsive Disorder,False,0.9,Rachel Anderson
+8,ocd,obsessive compulsive disorder,Obsessive-Compulsive Disorder,False,0.9,Thomas Lee
+9,ocd,obsessive compulsive disorder,Obsessive-Compulsive Disorder,False,0.9,Sarah Brown
+10,ocd,obsessive compulsive disorder,Obsessive-Compulsive Disorder,False,0.9,Daniel Wilson
+11,ocd,obsessive compulsive disorder,Obsessive-Compulsive Disorder,False,0.9,Maria Garcia
+12,ocd,obsessive compulsive disorder,Generalized Anxiety Disorder,False,0.8,William Taylor
+14,ocd,obsessive compulsive disorder,Obsessive-Compulsive Disorder,False,0.9,Robert Chen
+13,ocd,obsessive compulsive disorder,Obsessive-Compulsive Disorder,False,0.9,Jennifer Lee
+15,ocd,Normal,Unspecified Obsessive-Compulsive and Related Disorder,False,0.8,Alex Thompson
+5,manic,manic episode,Manic Episode,True,0.9,James Wilson
+1,manic,manic episode,Bipolar I Disorder,False,0.9,Michael Chen
+3,manic,manic episode,Manic Episode,True,0.9,David Rodriguez
+2,manic,manic episode,Manic Episode,True,0.9,Sarah Johnson
+4,manic,manic episode,Bipolar I Disorder,False,0.9,Emily Thompson
+7,manic,manic episode,Manic Episode,True,0.9,Robert Martinez
+6,manic,manic episode,Manic Episode,True,0.9,Lisa Chen
+8,manic,manic episode,Manic Episode,True,0.9,Jennifer Lee
+9,manic,manic episode,Manic Episode,True,0.9,Thomas Anderson
+11,manic,manic episode,Manic Episode,True,0.9,William Taylor
+10,manic,manic episode,Manic Episode,True,0.9,Maria Garcia
+12,manic,manic episode,Manic Episode,True,0.9,Sophie Brown
+13,manic,manic episode,Manic Episode,True,0.9,Daniel Kim
+14,manic,manic episode,Manic Episode,True,0.9,Rachel Wilson
+15,manic,Normal,Manic Episode,False,0.9,Alex Thompson
+1,mild_ncd,mild neurocognitive disorder,Mild Neurocognitive Disorder,True,0.9,Michael Brown
+2,mild_ncd,mild neurocognitive disorder,Mild Neurocognitive Disorder,True,0.9,Patricia Chen
+3,mild_ncd,mild neurocognitive disorder,Mild Neurocognitive Disorder,True,0.9,Robert Wilson
+4,mild_ncd,mild neurocognitive disorder,Mild Neurocognitive Disorder,True,0.8,Sarah Martinez
+6,mild_ncd,mild neurocognitive disorder,Mild Neurocognitive Disorder,True,0.9,Elizabeth Brown
+5,mild_ncd,mild neurocognitive disorder,Mild Neurocognitive Disorder,True,0.8,James Thompson
+7,mild_ncd,mild neurocognitive disorder,Generalized Anxiety Disorder,False,0.9,David Lee
+9,mild_ncd,mild neurocognitive disorder,Mild Neurocognitive Disorder,True,0.9,Richard Wilson
+8,mild_ncd,mild neurocognitive disorder,Mild Neurocognitive Disorder,True,0.9,Patricia Garcia
+10,mild_ncd,mild neurocognitive disorder,Mild Neurocognitive Disorder,True,0.9,Mary Johnson
+11,mild_ncd,mild neurocognitive disorder,Mild Neurocognitive Disorder,True,0.9,Thomas Anderson
+12,mild_ncd,mild neurocognitive disorder,Mild Neurocognitive Disorder,True,0.9,Susan White
+13,mild_ncd,mild neurocognitive disorder,Mild Neurocognitive Disorder,True,0.9,Robert Martinez
+14,mild_ncd,mild neurocognitive disorder,Mild Neurocognitive Disorder,True,0.9,Linda Thompson
+15,mild_ncd,Normal,Mild Neurocognitive Disorder,False,0.9,John Davis
+1,major_ncd,major neurocognitive disorder,Major Neurocognitive Disorder,True,0.9,William Anderson
+2,major_ncd,major neurocognitive disorder,Major Neurocognitive Disorder,True,0.9,Margaret Chen
+3,major_ncd,major neurocognitive disorder,Major Neurocognitive Disorder,True,0.9,Robert Wilson
+4,major_ncd,major neurocognitive disorder,Mild Neurocognitive Disorder,False,0.9,Sarah Martinez
+5,major_ncd,major neurocognitive disorder,Major Neurocognitive Disorder,True,0.9,James Thompson
+6,major_ncd,major neurocognitive disorder,Major Neurocognitive Disorder,True,0.9,Elizabeth Brown
+7,major_ncd,major neurocognitive disorder,Major Neurocognitive Disorder,True,0.9,David Lee
+9,major_ncd,major neurocognitive disorder,Major Neurocognitive Disorder,True,0.8,Richard Wilson
+8,major_ncd,major neurocognitive disorder,Major Neurocognitive Disorder,True,0.9,Patricia Garcia
+11,major_ncd,major neurocognitive disorder,Major Neurocognitive Disorder,True,0.9,Thomas Anderson
+12,major_ncd,major neurocognitive disorder,Major Neurocognitive Disorder,True,0.9,Susan White
+10,major_ncd,major neurocognitive disorder,Mild Neurocognitive Disorder,False,0.9,Mary Johnson
+14,major_ncd,major neurocognitive disorder,Major Neurocognitive Disorder,True,0.9,Linda Thompson
+13,major_ncd,major neurocognitive disorder,Major Neurocognitive Disorder,True,0.9,Robert Martinez
+15,major_ncd,Normal,Mild Neurocognitive Disorder,False,0.9,John Davis
+3,gad,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.9,Sarah Williams
+1,gad,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.8,Emily Johnson
+2,gad,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.9,Michael Chen
+5,gad,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.9,Lisa Kim
+4,gad,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.9,David Rodriguez
+6,gad,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.9,James Wilson
+7,gad,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.9,Rachel Anderson
+8,gad,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.9,Thomas Lee
+9,gad,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.9,Sarah Brown
+11,gad,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.9,Maria Garcia
+10,gad,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.9,Daniel Wilson
+12,gad,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.9,William Taylor
+13,gad,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.9,Jennifer Lee
+14,gad,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.9,Robert Chen
+15,gad,Normal,Generalized Anxiety Disorder,False,0.8,Alex Thompson

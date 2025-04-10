@@ -1,0 +1,131 @@
+{
+  "test_file": "Test json/persistent_depressive_disorder_test.json",
+  "timestamp": "2025-04-11 02:37:26",
+  "results": [
+    {
+      "case_id": 1,
+      "patient_name": "Sarah Chen",
+      "expected_diagnosis": "persistent depressive disorder",
+      "actual_diagnosis": "Major Depressive Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 2,
+      "patient_name": "Michael Rodriguez",
+      "expected_diagnosis": "persistent depressive disorder",
+      "actual_diagnosis": "Major Depressive Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 4,
+      "patient_name": "David Wilson",
+      "expected_diagnosis": "persistent depressive disorder",
+      "actual_diagnosis": "Persistent Depressive Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 3,
+      "patient_name": "Emily Thompson",
+      "expected_diagnosis": "persistent depressive disorder",
+      "actual_diagnosis": "Persistent Depressive Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 5,
+      "patient_name": "Lisa Chen",
+      "expected_diagnosis": "persistent depressive disorder",
+      "actual_diagnosis": "Major Depressive Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 6,
+      "patient_name": "James Martinez",
+      "expected_diagnosis": "persistent depressive disorder",
+      "actual_diagnosis": "Persistent Depressive Disorder",
+      "correct": true,
+      "confidence": 0.8
+    },
+    {
+      "case_id": 7,
+      "patient_name": "Rachel Kim",
+      "expected_diagnosis": "persistent depressive disorder",
+      "actual_diagnosis": "Persistent Depressive Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 8,
+      "patient_name": "Thomas Anderson",
+      "expected_diagnosis": "persistent depressive disorder",
+      "actual_diagnosis": "Persistent Depressive Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 9,
+      "patient_name": "Sophie Brown",
+      "expected_diagnosis": "persistent depressive disorder",
+      "actual_diagnosis": "Persistent Depressive Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 10,
+      "patient_name": "Daniel Wilson",
+      "expected_diagnosis": "persistent depressive disorder",
+      "actual_diagnosis": "Major Depressive Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 11,
+      "patient_name": "Maria Garcia",
+      "expected_diagnosis": "persistent depressive disorder",
+      "actual_diagnosis": "Persistent Depressive Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 12,
+      "patient_name": "William Taylor",
+      "expected_diagnosis": "persistent depressive disorder",
+      "actual_diagnosis": "Persistent Depressive Disorder",
+      "correct": true,
+      "confidence": 0.8
+    },
+    {
+      "case_id": 13,
+      "patient_name": "Jennifer Lee",
+      "expected_diagnosis": "persistent depressive disorder",
+      "actual_diagnosis": "Major Depressive Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 14,
+      "patient_name": "Robert Chen",
+      "expected_diagnosis": "persistent depressive disorder",
+      "actual_diagnosis": "Major Depressive Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 15,
+      "patient_name": "Alex Thompson",
+      "expected_diagnosis": "Normal",
+      "actual_diagnosis": "Major Depressive Disorder",
+      "correct": false,
+      "confidence": 0.9
+    }
+  ],
+  "accuracy_metrics": {
+    "overall_accuracy": 0.5333333333333333,
+    "true_positive_rate": 0.5714285714285714,
+    "true_negative_rate": 0.0
+  }
+}

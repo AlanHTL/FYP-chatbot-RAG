@@ -109,7 +109,8 @@
           "Onset during developmental period with documented early delays",
           "Difficulties not better explained by other conditions"
         ],
-        "severity": "Mild intellectual disability"
+        "severity": "Mild intellectual disability",
+        "disorder_name": "intellectual disabilities"
       }
     },
     {
@@ -222,7 +223,8 @@
           "Onset during developmental period (genetic etiology - Down syndrome)",
           "Pattern of strengths and weaknesses consistent with known genetic condition"
         ],
-        "severity": "Moderate intellectual disability"
+        "severity": "Moderate intellectual disability",
+        "disorder_name": "intellectual disabilities"
       }
     },
     {
@@ -335,7 +337,8 @@
           "Onset during developmental period with documented etiology",
           "Pattern of functioning affects independent living and employment"
         ],
-        "severity": "Mild intellectual disability"
+        "severity": "Mild intellectual disability",
+        "disorder_name": "intellectual disabilities"
       }
     },
     {
@@ -448,7 +451,8 @@
           "Onset during developmental period with documented early delays",
           "Known genetic etiology (16p11.2 deletion) associated with intellectual disability"
         ],
-        "severity": "Mild intellectual disability"
+        "severity": "Mild intellectual disability",
+        "disorder_name": "intellectual disabilities"
       }
     },
     {
@@ -562,7 +566,8 @@
           "Onset during developmental period (due to TBI at age 3)",
           "Pattern of functioning requires substantial support in all settings"
         ],
-        "severity": "Moderate intellectual disability"
+        "severity": "Moderate intellectual disability",
+        "disorder_name": "intellectual disabilities"
       }
     },
     {
@@ -675,7 +680,8 @@
           "Onset during developmental period (prenatal alcohol exposure)",
           "Requires substantial daily support for all activities"
         ],
-        "severity": "Severe intellectual disability"
+        "severity": "Severe intellectual disability",
+        "disorder_name": "intellectual disabilities"
       }
     },
     {
@@ -788,7 +794,8 @@
           "Onset during developmental period with genetic etiology (Fragile X)",
           "Pattern of strengths and weaknesses characteristic of genetic condition"
         ],
-        "severity": "Mild intellectual disability"
+        "severity": "Mild intellectual disability",
+        "disorder_name": "intellectual disabilities"
       }
     },
     {
@@ -901,7 +908,8 @@
           "Onset during developmental period with documented medical risk factors",
           "Pattern of global developmental delays affecting all areas of functioning"
         ],
-        "severity": "Currently functioning in mild-to-moderate range; long-term trajectory still emerging"
+        "severity": "Currently functioning in mild-to-moderate range; long-term trajectory still emerging",
+        "disorder_name": "intellectual disabilities"
       }
     },
     {
@@ -1014,7 +1022,8 @@
           "Onset during developmental period with genetic etiology (Williams syndrome)",
           "Classic profile of cognitive strengths and weaknesses associated with syndrome"
         ],
-        "severity": "Mild intellectual disability with syndrome-specific profile"
+        "severity": "Mild intellectual disability with syndrome-specific profile",
+        "disorder_name": "intellectual disabilities"
       }
     },
     {
@@ -1127,7 +1136,8 @@
           "Onset during developmental period with documented medical etiology",
           "Requires substantial educational support despite borderline IQ score"
         ],
-        "severity": "Mild intellectual disability (despite borderline IQ, adaptive functioning supports diagnosis)"
+        "severity": "Mild intellectual disability (despite borderline IQ, adaptive functioning supports diagnosis)",
+        "disorder_name": "intellectual disabilities"
       }
     },
     {
@@ -1240,7 +1250,8 @@
           "Onset during developmental period with known medical etiology (TSC)",
           "Cognitive and adaptive profile consistent with neurodevelopmental disorder"
         ],
-        "severity": "Moderate intellectual disability"
+        "severity": "Moderate intellectual disability",
+        "disorder_name": "intellectual disabilities"
       }
     },
     {
@@ -1353,7 +1364,8 @@
           "Onset during developmental period with consistent history of delays",
           "Physical features suggesting underlying genetic syndrome"
         ],
-        "severity": "Moderate intellectual disability"
+        "severity": "Moderate intellectual disability",
+        "disorder_name": "intellectual disabilities"
       }
     },
     {
@@ -1466,7 +1478,8 @@
           "Onset during developmental period as documented in history",
           "Long-term stable presentation characteristic of mild intellectual disability"
         ],
-        "severity": "Mild intellectual disability"
+        "severity": "Mild intellectual disability",
+        "disorder_name": "intellectual disabilities"
       }
     },
     {
@@ -1579,7 +1592,8 @@
           "Onset during developmental period with likely combination of genetic and environmental factors",
           "Pattern of cognitive and adaptive functioning consistent with mild intellectual disability complicated by early adversity"
         ],
-        "severity": "Mild intellectual disability"
+        "severity": "Mild intellectual disability",
+        "disorder_name": "intellectual disabilities"
       }
     },
     {
@@ -1697,4 +1711,4 @@
       }
     }
   ]
-} 
+}

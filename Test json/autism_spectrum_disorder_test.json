@@ -78,7 +78,8 @@
           "Symptoms present in early developmental period",
           "Symptoms cause significant impairment",
           "Not better explained by other conditions"
-        ]
+        ],
+        "disorder_name": "autism spectrum disorder"
       }
     },
     {
@@ -159,7 +160,8 @@
           "Symptoms present in early developmental period",
           "Symptoms cause significant impairment",
           "Not better explained by other conditions"
-        ]
+        ],
+        "disorder_name": "autism spectrum disorder"
       }
     },
     {
@@ -240,7 +242,8 @@
           "Symptoms present in early developmental period",
           "Symptoms cause significant impairment",
           "Not better explained by other conditions"
-        ]
+        ],
+        "disorder_name": "autism spectrum disorder"
       }
     },
     {
@@ -321,7 +324,8 @@
           "Symptoms present in early developmental period",
           "Symptoms cause significant impairment",
           "Not better explained by other conditions"
-        ]
+        ],
+        "disorder_name": "autism spectrum disorder"
       }
     },
     {
@@ -402,7 +406,8 @@
           "Symptoms present in early developmental period but fully manifest with social demands",
           "Symptoms cause significant impairment in social functioning",
           "Not better explained by other conditions (ADHD co-occurs but doesn't explain social deficits)"
-        ]
+        ],
+        "disorder_name": "autism spectrum disorder"
       }
     },
     {
@@ -482,7 +487,8 @@
           "Early onset in developmental period",
           "Symptoms cause significant impairment",
           "Not better explained by general developmental delay or other condition"
-        ]
+        ],
+        "disorder_name": "autism spectrum disorder"
       }
     },
     {
@@ -563,7 +569,8 @@
           "Symptoms present from early childhood",
           "Impairment in social and academic functioning",
           "Pattern suggests high-functioning autism/Asperger's profile"
-        ]
+        ],
+        "disorder_name": "autism spectrum disorder"
       }
     },
     {
@@ -644,7 +651,8 @@
           "Developmental history suggesting subtle early signs",
           "Presentation consistent with autism in females (camouflaging)",
           "Co-occurring anxiety but not fully explaining social communication profile"
-        ]
+        ],
+        "disorder_name": "autism spectrum disorder"
       }
     },
     {
@@ -725,7 +733,8 @@
           "Early developmental history consistent with autism",
           "Functional impairment in social and occupational domains",
           "Not better explained by other conditions (depression appears secondary)"
-        ]
+        ],
+        "disorder_name": "autism spectrum disorder"
       }
     },
     {
@@ -806,7 +815,8 @@
           "Symptoms present from early developmental period",
           "Significant impairment in functioning",
           "Intellectual disability co-occurring with autism spectrum disorder"
-        ]
+        ],
+        "disorder_name": "autism spectrum disorder"
       }
     },
     {
@@ -887,7 +897,8 @@
           "Symptoms present in early developmental period but fully apparent with social demands",
           "Symptoms cause significant impairment",
           "Presentation consistent with autism in girls (social motivation despite difficulties)"
-        ]
+        ],
+        "disorder_name": "autism spectrum disorder"
       }
     },
     {
@@ -969,7 +980,8 @@
           "Symptoms present in early developmental period",
           "Symptoms cause significant impairment in social functioning",
           "Not better explained by intellectual disability or global developmental delay"
-        ]
+        ],
+        "disorder_name": "autism spectrum disorder"
       }
     },
     {
@@ -1050,7 +1062,8 @@
           "Symptoms present in early developmental period",
           "Symptoms cause significant functional impairment",
           "Not better explained by intellectual disability alone"
-        ]
+        ],
+        "disorder_name": "autism spectrum disorder"
       }
     },
     {
@@ -1132,7 +1145,8 @@
           "Early developmental history consistent with autism",
           "Significant masking/compensation typical of females with autism",
           "Symptoms cause significant challenges despite excellent compensation"
-        ]
+        ],
+        "disorder_name": "autism spectrum disorder"
       }
     },
     {

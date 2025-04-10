@@ -1,0 +1,131 @@
+{
+  "test_file": "Test json/generalized_anxiety_disorder_test.json",
+  "timestamp": "2025-04-11 02:40:22",
+  "results": [
+    {
+      "case_id": 3,
+      "patient_name": "Sarah Williams",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 1,
+      "patient_name": "Emily Johnson",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.8
+    },
+    {
+      "case_id": 2,
+      "patient_name": "Michael Chen",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 5,
+      "patient_name": "Lisa Kim",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 4,
+      "patient_name": "David Rodriguez",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 6,
+      "patient_name": "James Wilson",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 7,
+      "patient_name": "Rachel Anderson",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 8,
+      "patient_name": "Thomas Lee",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 9,
+      "patient_name": "Sarah Brown",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 11,
+      "patient_name": "Maria Garcia",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 10,
+      "patient_name": "Daniel Wilson",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 12,
+      "patient_name": "William Taylor",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 13,
+      "patient_name": "Jennifer Lee",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 14,
+      "patient_name": "Robert Chen",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 15,
+      "patient_name": "Alex Thompson",
+      "expected_diagnosis": "Normal",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": false,
+      "confidence": 0.8
+    }
+  ],
+  "accuracy_metrics": {
+    "overall_accuracy": 0.9333333333333333,
+    "true_positive_rate": 1.0,
+    "true_negative_rate": 0.0
+  }
+}
