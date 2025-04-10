@@ -893,70 +893,316 @@
     {
       "case_id": 12,
       "patient_profile": {
-        "name": "Zachary Johnson",
-        "age": 6,
+        "name": "Tyler Rodriguez",
+        "age": 10,
         "gender": "Male",
         "occupation": "Student"
       },
       "conversation_context": {
-        "setting": "Developmental Testing Center",
-        "reason_for_visit": "Evaluation for attention difficulties and behavioral concerns"
+        "setting": "Child Neurodevelopmental Clinic",
+        "reason_for_visit": "Evaluation for social difficulties and behavioral rigidity"
       },
       "patient_background": {
-        "living_situation": "Lives with both parents and twin brother",
-        "family_history": "Father and paternal uncle have ADHD",
-        "medical_history": "Normal pregnancy and delivery; typical early development"
+        "living_situation": "Lives with mother and maternal grandparents",
+        "family_history": "Maternal uncle on autism spectrum",
+        "medical_history": "History of motor coordination issues, receiving physical therapy"
+      },
+      "symptoms_and_experiences": {
+        "social_communication_deficits": [
+          "Difficulty initiating and maintaining peer relationships",
+          "Overly formal and pedantic speech patterns",
+          "Struggles to understand humor, idioms, and metaphors",
+          "Limited understanding of personal space and social boundaries",
+          "Difficulty identifying and responding to others' emotional states"
+        ],
+        "restricted_repetitive_behaviors": [
+          "Intense interest in geography and maps",
+          "Can name capital cities of all countries and their populations",
+          "Becomes highly distressed with last-minute changes to plans",
+          "Strict adherence to specific morning and bedtime routines",
+          "Strong sensory aversions to certain food textures and loud environments"
+        ],
+        "duration": "Present since early childhood but more problematic since starting middle school",
+        "severity": "Moderate",
+        "impact_on_life": "Academic performance inconsistent despite areas of strength; increasing peer rejection"
+      },
+      "emotional_state": {
+        "current_mood": "Tense and vigilant",
+        "thoughts": [
+          "Concerned about upcoming school field trip schedule changes",
+          "Detail-focused thinking style",
+          "Difficulty understanding why peers find his interests 'boring'"
+        ],
+        "feelings": [
+          "Anxiety about unpredictable situations",
+          "Frustration when unable to engage others in his interests",
+          "Overwhelmed by sensory-rich environments",
+          "Pride in his exceptional knowledge of geography"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Follows strict self-imposed schedules",
+          "Spends hours drawing detailed maps and memorizing statistics",
+          "Difficulty transitioning between activities",
+          "Becomes upset if routines are disrupted"
+        ],
+        "social_interactions": [
+          "Attempts to interact with peers but approach is often one-sided",
+          "Prefers structured activities with clear rules",
+          "Frequently corrects others' factual errors, causing social friction",
+          "More comfortable interacting with adults than peers"
+        ],
+        "interventions": [
+          "Social skills group therapy weekly",
+          "School accommodations for sensory needs",
+          "Individual counseling for anxiety management",
+          "Visual schedules and transition warnings"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Persistent deficits in social communication and interaction",
+          "Restricted, repetitive patterns of behavior and interests",
+          "Symptoms present in early developmental period",
+          "Symptoms cause significant impairment in social functioning",
+          "Not better explained by intellectual disability or global developmental delay"
+        ]
+      }
+    },
+    {
+      "case_id": 13,
+      "patient_profile": {
+        "name": "Gabriel Ramirez",
+        "age": 5,
+        "gender": "Male",
+        "occupation": "Kindergarten Student"
+      },
+      "conversation_context": {
+        "setting": "Child Development Center",
+        "reason_for_visit": "Pediatrician referral for evaluation of language delay and unusual behaviors"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and infant sister",
+        "family_history": "Paternal cousin with autism",
+        "medical_history": "Frequent ear infections in infancy, otherwise healthy"
+      },
+      "symptoms_and_experiences": {
+        "social_communication_deficits": [
+          "Limited spoken language (uses 1-2 word phrases)",
+          "Rarely responds to name consistently",
+          "Limited joint attention (doesn't point to show interest)",
+          "Minimal eye contact during interactions",
+          "Does not engage in pretend play with others"
+        ],
+        "restricted_repetitive_behaviors": [
+          "Lines up toys in precise rows repeatedly",
+          "Strong attachment to unusual objects (carries a specific plastic spoon everywhere)",
+          "Rigid adherence to specific routines",
+          "Hand flapping when excited",
+          "Unusual interest in parts of objects (spinning wheels, opening/closing doors)"
+        ],
+        "duration": "Concerns first noted around 18 months of age",
+        "severity": "Moderate to severe",
+        "impact_on_life": "Significant difficulties in kindergarten participation; challenges in family outings"
+      },
+      "emotional_state": {
+        "current_mood": "Generally content when engaged in preferred activities",
+        "thoughts": [
+          "Difficult to assess due to language limitations",
+          "Appears more object-focused than people-focused",
+          "Limited awareness of others' emotional states"
+        ],
+        "feelings": [
+          "Distress when routines are disrupted",
+          "Enjoyment of specific sensory experiences",
+          "Frustration when communication attempts fail"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Strong preference for consistent routines",
+          "Difficulty with transitions between activities",
+          "Engages in solitary play with restricted interests",
+          "Requires significant support for self-care activities"
+        ],
+        "social_interactions": [
+          "Limited interest in peers",
+          "Does not initiate social interactions",
+          "Uses adults instrumentally (leads them by hand to obtain wants)",
+          "Difficulty understanding social boundaries"
+        ],
+        "interventions": [
+          "Recently started speech therapy",
+          "Receiving special education services in kindergarten",
+          "Parent coaching on communication strategies",
+          "Picture exchange communication system trial"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Persistent deficits in social communication across contexts",
+          "Restricted, repetitive patterns of behavior",
+          "Symptoms present in early developmental period",
+          "Symptoms cause significant functional impairment",
+          "Not better explained by intellectual disability alone"
+        ]
+      }
+    },
+    {
+      "case_id": 14,
+      "patient_profile": {
+        "name": "Layla Washington",
+        "age": 32,
+        "gender": "Female",
+        "occupation": "Accountant"
+      },
+      "conversation_context": {
+        "setting": "Adult Psychiatry Clinic",
+        "reason_for_visit": "Self-referral after reading about autism in women; history of anxiety and social difficulties"
+      },
+      "patient_background": {
+        "living_situation": "Lives alone in apartment",
+        "family_history": "Mother with anxiety disorder; cousin with ADHD",
+        "medical_history": "Multiple diagnoses including anxiety, depression, and 'social phobia' throughout adulthood"
+      },
+      "symptoms_and_experiences": {
+        "social_communication_deficits": [
+          "Difficulty with unstructured social interactions despite strong verbal skills",
+          "Challenges reading subtle social cues and nonverbal communication",
+          "Tendency toward literal interpretation of language",
+          "Exhaustion after social interactions ('social hangover')",
+          "Difficulty maintaining friendships despite intellectual understanding of social rules"
+        ],
+        "restricted_repetitive_behaviors": [
+          "Intense special interests that have evolved over time (currently historical architecture)",
+          "Strong need for routine and predictability",
+          "Sensory sensitivities (particularly to sounds and clothing textures)",
+          "Subtle self-stimulatory behaviors (pen clicking, hair twirling) during stress",
+          "Precise organizational systems that must be maintained"
+        ],
+        "duration": "Lifelong difficulties, but compensated through intelligence and 'masking'",
+        "severity": "Mild, with substantial learned coping strategies",
+        "impact_on_life": "History of burnout from camouflaging; difficulties with romantic relationships; career success but interpersonal challenges in workplace"
+      },
+      "emotional_state": {
+        "current_mood": "Anxious but hopeful",
+        "thoughts": [
+          "Seeking explanation for lifelong sense of 'differentness'",
+          "Analyzing past social difficulties through new lens",
+          "Relief at finding potential explanation for struggles"
+        ],
+        "feelings": [
+          "Frustration with previous misdiagnoses",
+          "Hope about better self-understanding",
+          "Anxiety about evaluation outcome",
+          "Exhaustion from lifelong masking"
+        ]
+      },
+      "behavioral_patterns": {
+        "daily_activities": [
+          "Highly structured daily routine with significant distress if disrupted",
+          "Works remotely to manage sensory environment",
+          "Requires extended recovery time after social events",
+          "Detailed special interest research in free time"
+        ],
+        "social_interactions": [
+          "Has developed 'scripts' for common social situations",
+          "Prefers online communication",
+          "Limited close relationships despite attempts",
+          "Difficulty navigating office politics and unwritten rules"
+        ],
+        "interventions": [
+          "Previous therapy focused on anxiety",
+          "Self-taught coping strategies for sensory issues",
+          "Online support communities for autistic adults",
+          "Workplace accommodations (noise-canceling headphones, private workspace)"
+        ]
+      },
+      "expected_diagnosis": {
+        "has_disorder": true,
+        "confidence_level": "high",
+        "matching_criteria": [
+          "Persistent pattern of social communication differences",
+          "Restricted, repetitive patterns of behavior",
+          "Early developmental history consistent with autism",
+          "Significant masking/compensation typical of females with autism",
+          "Symptoms cause significant challenges despite excellent compensation"
+        ]
+      }
+    },
+    {
+      "case_id": 15,
+      "patient_profile": {
+        "name": "Jacob Miller",
+        "age": 7,
+        "gender": "Male",
+        "occupation": "Student"
+      },
+      "conversation_context": {
+        "setting": "Child Psychology Clinic",
+        "reason_for_visit": "School suggested evaluation for social difficulties and focus issues"
+      },
+      "patient_background": {
+        "living_situation": "Lives with both parents and older sibling",
+        "family_history": "Father and paternal uncle with ADHD",
+        "medical_history": "Medication-controlled asthma; otherwise healthy"
       },
       "symptoms_and_experiences": {
         "social_communication_deficits": [
           "Difficulty sustaining attention during conversations",
-          "Often interrupts others",
-          "Challenges with waiting his turn",
-          "Difficulty following multi-step directions",
-          "Struggles with group activities requiring sustained attention"
+          "Interrupts others frequently",
+          "Challenges waiting turn in groups",
+          "Sometimes misses social cues when excited or distracted",
+          "May not follow through on multi-step instructions"
         ],
         "restricted_repetitive_behaviors": [
-          "Intense but changing interests (currently dinosaurs, previously trains)",
-          "Fidgets frequently",
-          "Difficulty remaining seated",
-          "Impulsivity rather than rigid adherence to routines",
-          "Seeks sensory input (movement, touch) rather than avoiding it"
+          "Strong interests in dinosaurs and space (age-appropriate topics)",
+          "Fidgets frequently but not in stereotyped patterns",
+          "Difficulty remaining seated during non-preferred activities",
+          "Some sensory seeking behaviors (movement, tactile input)",
+          "Resists transitions when engaged in preferred activities"
         ],
-        "duration": "Present since preschool years",
-        "severity": "Moderate behavioral challenges",
-        "impact_on_life": "Difficulty in structured classroom settings; challenging behavior at home"
+        "duration": "Behaviors noted since preschool years",
+        "severity": "Mild to moderate attention and behavioral challenges",
+        "impact_on_life": "Academic performance below potential; some peer conflicts"
       },
       "emotional_state": {
         "current_mood": "Energetic and distractible",
         "thoughts": [
           "Rapidly shifting focus",
-          "Difficulty with sustained mental effort",
-          "Impulsive decision-making"
+          "Interested in social connection",
+          "Understands others' perspectives when prompted"
         ],
         "feelings": [
-          "Frustration when required to sit still",
-          "Positive mood but quick shifts",
-          "Appropriate emotional response to situations",
-          "Shows empathy toward others"
+          "Frustration when receiving negative feedback",
+          "Enthusiasm for social interaction",
+          "Appropriate emotional responses to situations",
+          "Shows empathy toward others' feelings"
         ]
       },
       "behavioral_patterns": {
         "daily_activities": [
-          "Difficulty completing tasks without reminders",
-          "Frequently loses belongings",
+          "Inconsistent performance on schoolwork",
+          "Often loses or forgets belongings",
           "High activity level throughout the day",
-          "Struggles with bedtime routine"
+          "Difficulty with sustained mental effort for non-preferred tasks"
         ],
         "social_interactions": [
-          "Seeks interaction with peers but may be too rough",
-          "Has friendships despite some conflict",
-          "Shows appropriate range of facial expressions and gestures",
+          "Seeks peer interaction enthusiastically",
+          "Has several friendships despite occasional conflicts",
+          "Shows appropriate range of facial expressions",
           "Demonstrates joint attention and social reciprocity when focused"
         ],
         "interventions": [
-          "Behavior management strategies at home",
           "Classroom accommodations for attention",
-          "Currently being evaluated for ADHD"
+          "Behavior management strategies at home",
+          "Currently being evaluated for ADHD",
+          "Reward system for completing tasks"
         ]
       },
       "expected_diagnosis": {
@@ -964,9 +1210,9 @@
         "confidence_level": "high",
         "matching_criteria": [
           "Social difficulties better explained by attention deficits and impulsivity",
-          "Behavioral patterns consistent with ADHD rather than autism",
-          "No restricted or repetitive behaviors typical of autism",
+          "Behavior patterns consistent with ADHD rather than autism",
           "Shows age-appropriate social reciprocity when engaged",
+          "Demonstrates empathy and social motivation",
           "Symptoms better explained by Attention-Deficit/Hyperactivity Disorder"
         ]
       }
