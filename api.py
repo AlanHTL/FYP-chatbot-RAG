@@ -97,26 +97,35 @@ try:
     try:
         print(f"Attempting to load FAISS index from: {FAISS_INDEX_PATH}")
         
-        # First attempt: standard load_local
-        vector_store = FAISS.load_local(FAISS_INDEX_PATH, embeddings_model)
-        print("FAISS index loaded successfully using standard load_local.")
+        # First attempt: load with allow_dangerous_deserialization=True
+        vector_store = FAISS.load_local(
+            FAISS_INDEX_PATH, 
+            embeddings_model,
+            allow_dangerous_deserialization=True
+        )
+        print("FAISS index loaded successfully using standard load_local with allow_dangerous_deserialization=True.")
     except Exception as e1:
         print(f"First FAISS loading attempt failed: {e1}")
         
         try:
-            # Second attempt: load individual files
+            # Second attempt: load individual files with allow_dangerous_deserialization=True
             import pickle
             import faiss
             
             # Load the index directly
             index = faiss.read_index(faiss_file)
             
-            # Load the docstore and other data
+            # Load the docstore and other data with allow_dangerous_deserialization=True
             with open(pkl_file, "rb") as f:
                 pkl_data = pickle.load(f)
             
             # Create a new FAISS instance
-            vector_store = FAISS(embeddings_model, index, pkl_data["docstore"], pkl_data.get("index_to_docstore_id", {}))
+            vector_store = FAISS(
+                embeddings_model, 
+                index, 
+                pkl_data["docstore"], 
+                pkl_data.get("index_to_docstore_id", {})
+            )
             print("FAISS index loaded successfully using manual file loading.")
         except Exception as e2:
             print(f"Second FAISS loading attempt failed: {e2}")
@@ -166,27 +175,64 @@ except Exception as e:
 prompt = ChatPromptTemplate.from_messages([
     ("system", """Your Name is Dr. Mind, a professional mental disorder screening specialist. 
 
-Process:
+step by step process:
 1. Begin by asking for the patient's name and age in a friendly, professional manner.
 2. Ask about their feelings, physical symptoms, and the duration of these symptoms.
 3. After collecting initial information, use the search_document_database tool to query the mental disorders database with specific symptoms described.
 4. Analyze if the patient's symptoms fulfill the diagnostic criteria from the retrieved information.
 5. Ask follow-up questions if more information is needed to confirm or rule out a diagnosis.
-6. If the criteria are fulfilled or some main criteria are met, end the chat with a diagnosis in JSON format: {{"result":["disorder name"], "probabilities":[0.X]}} (where X is a number between 0-9 representing how confident you are in the diagnosis).
-7. If symptoms don't match the first retrieval result, create a new query based on updated patient information and search again.
+6. If the criteria are fulfilled or some main criteria are met, go to point 10. and end the chat with a diagnosis in JSON format.
 8. Limit database searches to a maximum of 3 times per conversation.
 9. After 3 searches, provide the most matching diagnosis based on the conversation history, even if not all criteria are met.
+10. End the conversation with one JSON output only, remove all other text. : {{"result":["disorder name"], "probabilities":[0.X]}} (where X is a number between 0-9 representing how confident you are in the diagnosis).
+7. If symptoms don't match the first retrieval result, create a new query based on updated patient information and search again.
+     
+Here are examples of how to end conversations with JSON output only:
+
+Example 1:
+Patient: I've been feeling really down for the past few months, can't sleep, and lost interest in everything.
+Dr. Mind: Let me ask you a few questions to understand better. Have you been feeling sad or empty most of the day?
+Patient: Yes, almost every day.
+Dr. Mind: Have you lost interest in activities you used to enjoy?
+Patient: Yes, I don't enjoy anything anymore.
+Dr. Mind: How has your sleep been?
+Patient: I can't sleep at night, but I sleep too much during the day.
+Dr. Mind: Have you had any thoughts about death or suicide?
+Patient: Yes, sometimes I think about it.
+Dr. Mind: {{"result":["Major Depressive Disorder"], "probabilities":[0.8]}}
+
+Example 2:
+Patient: I keep having these thoughts that I can't control, and I have to wash my hands many times.
+Dr. Mind: Can you tell me more about these thoughts?
+Patient: They're about germs and contamination, and I can't stop thinking about them.
+Dr. Mind: How many times do you wash your hands in a day?
+Patient: At least 50 times, sometimes more.
+Dr. Mind: Do you feel you have to do this to prevent something bad from happening?
+Patient: Yes, I feel like if I don't wash my hands, something terrible will happen.
+Dr. Mind: {{"result":["Obsessive-Compulsive Disorder"], "probabilities":[0.9]}}
+
+Example 3:
+Patient: I am a bit nervous about my exam tomorrow.
+Dr. Mind: Do you find it hard to control your worry?
+Patient: No, I can control it.
+Dr. Mind: Do you have any physical symptoms, like trembling or sweating?
+Patient: No, I don't have any physical symptoms.
+Dr. Mind: Have you been having trouble sleeping?
+Patient: No, I sleep well.
+Dr. Mind: {{"result":["Normal"], "probabilities":[0.8]}}
 
 Guidelines:
 - Use a chain-of-thought approach: think step by step and explain your reasoning.
 - Be compassionate and professional in your communication.
-- Ask one question at a time to avoid overwhelming the patient.
+- Ask one question at a time to avoid overwhelming the patient, e.g. DO NOT: ("could you please share if you have been feeling sad or empty most of the day, lost interest in activities you used to enjoy, or have thoughts of worthlessness or guilt?)  DO: ("have you been feeling sad or empty most of the day?", DO:"what activities you are interested in?",DO: "Do you still enjoy (activity mentioned by the patient) now?", DO:"have you had thoughts of worthlessness or guilt?")
 - When searching the database, create focused queries based on the most prominent symptoms.
 - Keep track of how many times you've queried the database in this conversation.
 - Before making a diagnosis, verify that the patient meets the required criteria from DSM-5.
-
-
-Remember, this is a screening tool, not a definitive diagnosis. Patient should seek professional in-person evaluation."""),
+- Do not mention the DSM-5 in your response, just use the disorder name.
+- For emergency situations or suicidal actions, provide immediate help information: full_text("*\n1. *If you are in an immediately dangerous situation (such as on a rooftop, bridge, or with means of harm):\n- Move to a safe location immediately\n- Call emergency services: 999\n- Stay on the line with emergency services\n\n2. **For immediate support:\n- Go to your nearest emergency room/A&E department\n- Call The Samaritans hotline (Multilingual): (852) 2896 0000\n- Call Suicide Prevention Service hotline (Cantonese): (852) 2382 0000\n\nAre you currently in a safe location?* If not, please seek immediate help using the emergency contacts above.\n*** Do you want to keep going with the screening?")
+- Once you have enough information for a diagnosis, End with a JSON output, do not include any other text, do not ask if the patient wants to keep going with the screening or anything else to end the conversation.
+- JSON format: {{"result":["disorder name"], "probabilities":[0.X]}} (where X is a number between 0-9 representing how confident you are in the diagnosis).
+"""),
     MessagesPlaceholder(variable_name="chat_history"),
     ("human", "{input}"),
     MessagesPlaceholder(variable_name="agent_scratchpad") # For agent intermediate steps
