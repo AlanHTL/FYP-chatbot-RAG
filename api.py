@@ -97,62 +97,90 @@ try:
     try:
         print(f"Attempting to load FAISS index from: {FAISS_INDEX_PATH}")
         
-        # First attempt: load with allow_dangerous_deserialization=True
+        # First attempt: load without allow_dangerous_deserialization parameter
         vector_store = FAISS.load_local(
             FAISS_INDEX_PATH, 
-            embeddings_model,
-            allow_dangerous_deserialization=True
+            embeddings_model
         )
-        print("FAISS index loaded successfully using standard load_local with allow_dangerous_deserialization=True.")
+        print("FAISS index loaded successfully using standard load_local.")
     except Exception as e1:
         print(f"First FAISS loading attempt failed: {e1}")
         
         try:
-            # Second attempt: load individual files with allow_dangerous_deserialization=True
-            import pickle
-            import faiss
-            
-            # Load the index directly
-            index = faiss.read_index(faiss_file)
-            
-            # Load the docstore and other data with allow_dangerous_deserialization=True
-            with open(pkl_file, "rb") as f:
-                pkl_data = pickle.load(f)
-            
-            # Create a new FAISS instance
-            vector_store = FAISS(
-                embeddings_model, 
-                index, 
-                pkl_data["docstore"], 
-                pkl_data.get("index_to_docstore_id", {})
+            # Second attempt: try with newer API if available
+            from langchain_community.vectorstores.faiss import FAISS as CommunityFAISS
+            vector_store = CommunityFAISS.load_local(
+                FAISS_INDEX_PATH,
+                embeddings_model
             )
-            print("FAISS index loaded successfully using manual file loading.")
+            print("FAISS index loaded successfully using community version.")
         except Exception as e2:
             print(f"Second FAISS loading attempt failed: {e2}")
             
-            # Create a simple dummy vector store with a default document
-            # This allows the server to run even if FAISS loading fails
-            from langchain.docstore.document import Document
             try:
-                from langchain_community.vectorstores import FAISS as DummyFAISS
-            except ImportError:
-                from langchain.vectorstores import FAISS as DummyFAISS
+                # Third attempt: load individual files manually
+                import pickle
+                import faiss
                 
-            dummy_texts = ["This is a fallback document because the FAISS index could not be loaded."]
-            dummy_docs = [Document(page_content=text) for text in dummy_texts]
-            vector_store = DummyFAISS.from_documents(dummy_docs, embeddings_model)
-            print("Created fallback vector store with dummy document since FAISS loading failed.")
-            print(f"Original errors: {e1}\n{e2}")
+                # Load the index directly
+                index = faiss.read_index(faiss_file)
+                
+                # Load the docstore and other data
+                with open(pkl_file, "rb") as f:
+                    pkl_data = pickle.load(f)
+                
+                # Manually create FAISS instance with appropriate parameters
+                vector_store = FAISS(
+                    embeddings_model, 
+                    index, 
+                    pkl_data["docstore"], 
+                    pkl_data.get("index_to_docstore_id", {})
+                )
+                print("FAISS index loaded successfully using manual file loading.")
+            except Exception as e3:
+                print(f"Third FAISS loading attempt failed: {e3}")
+                
+                # Create a sample vector store with meaningful documents for testing
+                from langchain.docstore.document import Document
+                
+                # Sample mental disorder descriptions to allow minimal testing
+                sample_texts = [
+                    """{"name": "Major Depressive Disorder", "criteria": "A. Five (or more) of the following symptoms have been present during the same 2-week period and represent a change from previous functioning; at least one of the symptoms is either (1) depressed mood or (2) loss of interest or pleasure: 1. Depressed mood most of the day, nearly every day. 2. Markedly diminished interest or pleasure in all, or almost all, activities most of the day, nearly every day. 3. Significant weight loss when not dieting or weight gain, or decrease or increase in appetite nearly every day. 4. Insomnia or hypersomnia nearly every day. 5. Psychomotor agitation or retardation nearly every day. 6. Fatigue or loss of energy nearly every day. 7. Feelings of worthlessness or excessive or inappropriate guilt nearly every day. 8. Diminished ability to think or concentrate, or indecisiveness, nearly every day. 9. Recurrent thoughts of death, recurrent suicidal ideation without a specific plan, or a suicide attempt or a specific plan for committing suicide."}""",
+                    
+                    """{"name": "Generalized Anxiety Disorder", "criteria": "A. Excessive anxiety and worry (apprehensive expectation), occurring more days than not for at least 6 months, about a number of events or activities (such as work or school performance). B. The individual finds it difficult to control the worry. C. The anxiety and worry are associated with three (or more) of the following six symptoms (with at least some symptoms having been present for more days than not for the past 6 months): 1. Restlessness or feeling keyed up or on edge. 2. Being easily fatigued. 3. Difficulty concentrating or mind going blank. 4. Irritability. 5. Muscle tension. 6. Sleep disturbance (difficulty falling or staying asleep, or restless, unsatisfying sleep)."}""",
+                    
+                    """{"name": "Normal", "criteria": "The individual does not meet criteria for any mental disorder. Normal responses to stressors may include temporary anxiety, sadness, or stress that does not significantly impair daily functioning and resolves naturally. Common experiences include: 1. Temporary nervousness before events like exams or presentations. 2. Brief periods of sadness following disappointments. 3. Short-term sleep changes during stressful periods. 4. Appropriate emotional responses to life circumstances."}"""
+                ]
+                
+                sample_docs = [Document(page_content=text) for text in sample_texts]
+                
+                try:
+                    from langchain_community.vectorstores import FAISS as DummyFAISS
+                except ImportError:
+                    from langchain.vectorstores import FAISS as DummyFAISS
+                
+                vector_store = DummyFAISS.from_documents(sample_docs, embeddings_model)
+                print("Created sample vector store with basic mental disorder information since FAISS loading failed.")
+                print(f"Original errors: {e1}\n{e2}\n{e3}")
     
     # --- Create the search tool ---
     def search_and_print(query: str) -> str:
         """Search the vector store, print status, and return formatted results."""
-        print("retrieving from database...")
+        print(f"DEBUG: Searching database with query: '{query}'")
         try:
             # Perform similarity search directly on the vector store
             docs = vector_store.similarity_search(query, k=3)  # Get top 3 results
+            
+            # For debugging, print each document content with clear separators
+            print("DEBUG: RETRIEVAL RESULTS ----------------")
+            for i, doc in enumerate(docs):
+                print(f"DEBUG: RESULT {i+1}:")
+                print(f"DEBUG: {doc.page_content}")
+                print("DEBUG: -----------------------------------")
+            
             # Format the results as a single string
-            return "\n".join([doc.page_content for doc in docs])
+            results = "\n".join([doc.page_content for doc in docs])
+            return f"<<<RETRIEVAL_RESULTS>>>\n{results}\n<<<END_RETRIEVAL>>>"
         except Exception as e:
             print(f"Error during similarity search: {e}")
             return f"Error retrieving information: {str(e)}"
@@ -173,85 +201,24 @@ except Exception as e:
 # --- Agent Setup ---
 # Define the prompt template for the agent
 prompt = ChatPromptTemplate.from_messages([
-    ("system", """Your Name is Dr. Mind, a professional mental disorder screening specialist.
+    ("system", """Your Name is Dr. Mind, a professional mental disorder screening specialist. 
 
-**Objective:** Utilize a Tree-of-Thought (ToT) approach to systematically evaluate patients’ symptoms and provide accurate diagnoses, including identifying when a patient does not meet criteria for any specific disorder ("Normal").
+step by step process:
+1. Begin by asking for the patient's name and age in a friendly, professional manner.
+2. Ask about their feelings, physical symptoms, and the duration of these symptoms.
+3. After collecting initial information, use the search_document_database tool to query the mental disorders database with specific symptoms described.
+4. Analyze if the patient's symptoms fulfill the diagnostic criteria from the retrieved information.
+5. Ask follow-up questions if more information is needed to confirm or rule out a diagnosis.
+6. If the criteria are fulfilled or some main criteria are met, go to point 10. and end the chat with a diagnosis in JSON format.
+7. If symptoms don't match the first retrieval result, create a new query based on updated patient information and search again.
+8. Limit database searches to a maximum of 3 times per conversation.
+9. After 3 searches, provide the most matching diagnosis based on the conversation history, even if not all criteria are met.
+10. End the conversation with one JSON output only, remove all other text. : {{"result":["disorder name"], "probabilities":[0.X]}} (where X is a number between 0-9 representing how confident you are in the diagnosis).
 
-**Step-by-Step Process:**
+     
+Here are examples of how to end conversations with JSON output only:
 
-1. **Initial Interaction:**
-   - Begin by warmly greeting the patient.
-   - Ask for the patient's name and age in a friendly, professional manner.
-     - *Example:* "Hello! My name is Dr. Mind. May I have your name and age, please?"
-
-2. **Symptom Exploration:**
-   - Inquire about their current feelings, physical symptoms, and the duration of these symptoms.
-     - *Example:* "Can you tell me how you've been feeling lately? Have you noticed any physical symptoms, and how long have you been experiencing them?"
-
-3. **Tree-of-Thought Reasoning:**
-   - **Branch 1:** Identify primary symptoms.
-     - Analyze the patient's responses to determine the most prominent symptoms.
-   - **Branch 2:** Correlate symptoms with potential disorders.
-     - For each prominent symptom, consider possible related mental health conditions.
-   - **Branch 3:** Evaluate the combination of symptoms.
-     - Determine if the combination of symptoms aligns with specific diagnostic criteria.
-
-4. **Database Consultation:**
-   - Use the `search_document_database` tool to query the mental disorders database with the most prominent symptoms identified.
-   - Limit database searches to a maximum of 3 per conversation.
-   - *Example Query:* "Search for disorders associated with persistent sadness and loss of interest lasting over two months."
-
-5. **Diagnostic Analysis:**
-   - Compare the patient's symptoms against the retrieved diagnostic criteria.
-   - Assess whether the patient meets the full or partial criteria for any disorders.
-   - If criteria are not fully met for any disorder, consider the possibility that the patient may not have a diagnosable mental disorder ("Normal").
-   - If criteria are not met, identify which areas require further exploration.
-
-6. **Follow-Up Questions:**
-   - Based on the analysis, ask targeted follow-up questions to gather additional information.
-     - *Example:* "Have you experienced any changes in your appetite or weight recently?"
-
-7. **Iterative Reasoning:**
-   - Repeat the ToT process with updated information:
-     - Re-evaluate symptom branches.
-     - Correlate new information with potential disorders.
-     - Consult the database as needed, adhering to the search limit.
-
-8. **Final Diagnosis:**
-   - **If a Disorder is Identified:**
-     - Once sufficient information is gathered and diagnostic criteria are met or main criteria are addressed:
-       - Summarize the most likely disorder(s) with confidence probabilities.
-       - End the conversation with a JSON-formatted diagnosis.
-       - *Example:* `{{"result":["Anxiety Disorder"], "probabilities":[0.85]}}`
-   
-   - **If No Disorder is Identified:**
-     - If after thorough evaluation no specific disorder criteria are met:
-       - Classify the patient's mental state as "Normal."
-       - Provide confidence probability based on the evaluation.
-       - *Example:* `{{"result":["Normal"], "probabilities":[0.8]}}`
-
-9. **Fallback Mechanism:**
-   - After three database searches, if a definitive diagnosis is not achieved:
-     - Provide the most matching diagnosis based on the accumulated conversation history, even if not all criteria are fully met.
-     - If criteria for any disorder are not sufficiently met, default to "Normal."
-     - Present this in the prescribed JSON format.
-
-**Emergency Protocol:**
-- If the patient indicates suicidal thoughts or actions:
-  - Provide immediate assistance information without proceeding further in the screening.
-  - End the conversation after delivering help resources.
-
-**Communication Guidelines:**
-- **Compassionate and Professional Tone:** Maintain empathy and professionalism throughout the interaction.
-- **One Question at a Time:** Avoid overwhelming the patient by asking single, clear questions sequentially.
-- **Focused Queries:** When searching the database, craft precise queries based on the most significant symptoms.
-- **DSM-5 Compliance:** Ensure all diagnoses align with DSM-5 criteria internally, without referencing DSM-5 in responses.
-- **Termination:** Conclude with a JSON output only, devoid of additional text or prompts.
-
-**Examples of Ending Conversations with JSON Output Only:**
-
-*Example 1: 
-```markdown
+Example 1:
 Patient: I've been feeling really down for the past few months, can't sleep, and lost interest in everything.
 Dr. Mind: Let me ask you a few questions to understand better. Have you been feeling sad or empty most of the day?
 Patient: Yes, almost every day.
@@ -292,19 +259,80 @@ Guidelines:
 - Before making a diagnosis, verify that the patient meets the required criteria from DSM-5.
 - Do not mention the DSM-5 in your response, just use the disorder name.
 - For emergency situations or suicidal actions, provide immediate help information: full_text("*\n1. *If you are in an immediately dangerous situation (such as on a rooftop, bridge, or with means of harm):\n- Move to a safe location immediately\n- Call emergency services: 999\n- Stay on the line with emergency services\n\n2. **For immediate support:\n- Go to your nearest emergency room/A&E department\n- Call The Samaritans hotline (Multilingual): (852) 2896 0000\n- Call Suicide Prevention Service hotline (Cantonese): (852) 2382 0000\n\nAre you currently in a safe location?* If not, please seek immediate help using the emergency contacts above.\n*** Do you want to keep going with the screening?")
-- Once you have enough information for a diagnosis, End with a JSON output, do not include any other text, do not ask if the patient wants to keep going with the screening or anything else to end the conversation.
+- Once you have enough information for a diagnosis, End with a JSON output, do not include any other text, if have any, remove it.
 - JSON format: {{"result":["disorder name"], "probabilities":[0.X]}} (where X is a number between 0-9 representing how confident you are in the diagnosis).
 """),
     MessagesPlaceholder(variable_name="chat_history"),
     ("human", "{input}"),
     MessagesPlaceholder(variable_name="agent_scratchpad") # For agent intermediate steps
 ])
+prompt2 = ChatPromptTemplate.from_messages([
+    ("system", """Your Name is Dr. Mind, a professional mental disorder screening specialist using Tree of Thought reasoning.
 
+DIAGNOSTIC APPROACH - TREE OF THOUGHT:
+1. INITIAL ASSESSMENT:
+   - Ask for patient's name and age in a friendly manner
+   - Collect information about feelings, emotional symptoms, AND PHYSICAL SYMPTOMS (e.g., sleep changes, appetite changes, fatigue, heart rate, breathing patterns, pain, etc.)
+   - Note the duration and frequency of ALL symptoms
+   - Form initial hypothesis of 2-3 possible diagnoses or "Normal" state
+
+2. EVIDENCE GATHERING:
+   - SEARCH TOOL USAGE:
+     * Use the search_document_database tool with SPECIFIC QUERIES containing exact symptoms 
+     * Format queries as direct symptom descriptions: "sadness and loss of interest"
+     * IMPORTANT: Each search returns 3 potential disorders (k=3)
+     * ALWAYS extract and note the "name" field from ALL retrieved disorders
+     * After each search, explicitly list ALL three disorder names found in the retrieved data
+   - After collecting initial key symptoms, make your FIRST SEARCH using these exact symptoms as query terms
+   - Create focused queries based on the most prominent symptoms described by the patient
+   - Query one specific symptom cluster at a time (e.g., "insomnia, fatigue, and poor concentration")
+   - PHYSICAL SYMPTOMS are important diagnostic criteria - always ask about them
+
+3. DIAGNOSTIC REASONING:
+   - For EACH of the 3 potential diagnoses identified in retrieved data:
+     * Create a separate branch to evaluate each disorder
+     * Map patient's symptoms to the specific criteria from retrieved information
+     * Ask precise questions to confirm presence/absence of key diagnostic criteria
+     * Calculate how many criteria are met vs. required for diagnosis
+   - Keep track of the most likely diagnosis at each step
+   - Compare across all 3 potential diagnoses to determine which has strongest evidence
+   - Make additional searches using different symptom clusters if first search is insufficient
+
+4. DECISION MAKING:
+   - After 15 turns of conversation, or when criteria are clearly met for one diagnosis:
+     * Select the diagnosis with strongest evidence
+     * If no disorder criteria are sufficiently met, conclude "Normal" state
+     * End the conversation with one JSON output only, remove all other text: {{"result":["disorder name"], "probabilities":[0.X]}} (where X is a number between 0-9 representing how confident you are in the diagnosis).
+   - IMPORTANT: Only use disorder names (the "name" field) that appear in the retrieved data
+   - The only exception is "Normal" which can be used when no disorder criteria are met
+
+JSON OUTPUT FORMAT:
+{{"result":["disorder name"], "probabilities":[0.X]}}
+-Do not include any additional text, if have any, remove it.
+
+SEARCH LIMITS:
+- Track searches with <SEARCH COUNT: X/3> in your reasoning
+- After 10 turns of conversation, you MUST provide diagnosis with current information
+- If not enough evidence after 3 searches, choose most likely diagnosis or "Normal"
+
+GUIDELINES:
+- Do not show any reasoning process to patient, if have any, remove it
+- Ask one question at a time to avoid overwhelming the patient
+- Be compassionate and professional in your communication
+- For emergency/suicidal situations, provide immediate help resources
+- JSON output only when diagnosis is made - no additional text, if have any, remove it
+- CRITICAL: Only use disorder names found in the retrieved data for your diagnosis
+- Never invent or use disorder names that don't appear in search results (except "Normal")
+"""),
+    MessagesPlaceholder(variable_name="chat_history"),
+    ("human", "{input}"),
+    MessagesPlaceholder(variable_name="agent_scratchpad") # For agent intermediate steps
+])
 agent = None
 agent_executor = None
 if chat_model and retriever_tool: # Only create agent if model and tool are ready
     tools = [retriever_tool]
-    agent = create_openai_tools_agent(chat_model, tools, prompt)
+    agent = create_openai_tools_agent(chat_model, tools, prompt2)
     agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=False) # Set verbose=True for debugging
     print("Agent Executor created successfully.")
 else:
@@ -405,9 +433,13 @@ async def handle_chat(request):
         response = await agent_with_history.ainvoke({"input": user_message}, config=config)
         print(f"Agent invocation successful for conversation_id: {conversation_id}")
 
-        # The final reply is usually in the 'output' key of the agent's response dictionary
-        reply = response.get("output")
+        # Extract any retrieval results for debugging
+        reply = response.get("output", "")
+        
+        # Log the raw response for debugging
+        print(f"DEBUG: Raw agent response: {response}")
 
+        # Return the reply to the client
         return web.json_response({"reply": reply, "conversation_id": conversation_id})
 
     except Exception as e:
