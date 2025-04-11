@@ -1,0 +1,7 @@
+case_id,patient_name,expected_diagnosis,actual_diagnosis,correct,confidence,Disorder,should_be_correct
+11,William Taylor,manic episode,Bipolar Disorder (Manic Episode),True,0.9,manic,False
+3,Lucas Thompson,Attention-Deficit/Hyperactivity Disorder,Attention-Deficit/Hyperactivity Disorder,False,0.9,adhd,True
+7,Liam Anderson,Attention-Deficit/Hyperactivity Disorder,Attention-Deficit/Hyperactivity Disorder,False,0.9,adhd,True
+11,Ethan Thompson,Attention-Deficit/Hyperactivity Disorder,Attention-Deficit/Hyperactivity Disorder,False,0.9,adhd,True
+13,Lucas Wilson,Attention-Deficit/Hyperactivity Disorder,Attention-Deficit/Hyperactivity Disorder,False,0.9,adhd,True
+14,Emma Thompson,Attention-Deficit/Hyperactivity Disorder,Attention-Deficit/Hyperactivity Disorder,False,0.9,adhd,True

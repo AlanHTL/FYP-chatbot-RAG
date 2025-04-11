@@ -179,19 +179,19 @@ case_id,patient_name,expected_diagnosis,actual_diagnosis,correct,confidence,Diso
 14,Robert Chen,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.9,gad
 13,Jennifer Lee,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.9,gad
 15,Alex Thompson,Normal,Generalized Anxiety Disorder,False,0.9,gad
-3,Lucas Thompson,Attention-Deficit/Hyperactivity Disorder,Attention-Deficit/Hyperactivity Disorder,False,0.9,adhd
+3,Lucas Thompson,Attention-Deficit/Hyperactivity Disorder,Attention-Deficit/Hyperactivity Disorder,True,0.9,adhd
 2,Sophia Rodriguez,Attention-Deficit/Hyperactivity Disorder,Generalized Anxiety Disorder,False,0.9,adhd
 4,Emma Wilson,Attention-Deficit/Hyperactivity Disorder,Generalized Anxiety Disorder,False,0.9,adhd
 1,Ethan Chen,Attention-Deficit/Hyperactivity Disorder,Generalized Anxiety Disorder,False,0.9,adhd
 6,Ava Thompson,Attention-Deficit/Hyperactivity Disorder,Generalized Anxiety Disorder,False,0.85,adhd
-7,Liam Anderson,Attention-Deficit/Hyperactivity Disorder,Attention-Deficit/Hyperactivity Disorder,False,0.9,adhd
+7,Liam Anderson,Attention-Deficit/Hyperactivity Disorder,Attention-Deficit/Hyperactivity Disorder,True,0.9,adhd
 8,Olivia Chen,Attention-Deficit/Hyperactivity Disorder,Generalized Anxiety Disorder,False,0.9,adhd
 5,Noah Martinez,Attention-Deficit/Hyperactivity Disorder,Generalized Anxiety Disorder,False,0.8,adhd
-11,Ethan Thompson,Attention-Deficit/Hyperactivity Disorder,Attention-Deficit/Hyperactivity Disorder,False,0.9,adhd
+11,Ethan Thompson,Attention-Deficit/Hyperactivity Disorder,Attention-Deficit/Hyperactivity Disorder,True,0.9,adhd
 9,Mason Wilson,Attention-Deficit/Hyperactivity Disorder,Generalized Anxiety Disorder,False,0.8,adhd
 12,Sophia Anderson,Attention-Deficit/Hyperactivity Disorder,Generalized Anxiety Disorder,False,0.9,adhd
-13,Lucas Wilson,Attention-Deficit/Hyperactivity Disorder,Attention-Deficit/Hyperactivity Disorder,False,0.9,adhd
-14,Emma Thompson,Attention-Deficit/Hyperactivity Disorder,Attention-Deficit/Hyperactivity Disorder,False,0.9,adhd
+13,Lucas Wilson,Attention-Deficit/Hyperactivity Disorder,Attention-Deficit/Hyperactivity Disorder,True,0.9,adhd
+14,Emma Thompson,Attention-Deficit/Hyperactivity Disorder,Attention-Deficit/Hyperactivity Disorder,True,0.9,adhd
 10,Isabella Martinez,Attention-Deficit/Hyperactivity Disorder,Generalized Anxiety Disorder,False,0.9,adhd
 15,Noah Martinez,Normal,Attention-Deficit/Hyperactivity Disorder,False,0.9,adhd
 1,Michael Chen,autism spectrum disorder,Autism Spectrum Disorder,True,0.9,asd
