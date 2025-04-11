@@ -1,0 +1,131 @@
+{
+  "test_file": "Test json/attention_deficit_hyperactivity_disorder_test.json",
+  "timestamp": "2025-04-11 15:13:05",
+  "results": [
+    {
+      "case_id": 3,
+      "patient_name": "Lucas Thompson",
+      "expected_diagnosis": "attention deficit hyperactivity disorder",
+      "actual_diagnosis": "Attention-Deficit/Hyperactivity Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 2,
+      "patient_name": "Sophia Rodriguez",
+      "expected_diagnosis": "attention deficit hyperactivity disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 4,
+      "patient_name": "Emma Wilson",
+      "expected_diagnosis": "attention deficit hyperactivity disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 1,
+      "patient_name": "Ethan Chen",
+      "expected_diagnosis": "attention deficit hyperactivity disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 6,
+      "patient_name": "Ava Thompson",
+      "expected_diagnosis": "attention deficit hyperactivity disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": false,
+      "confidence": 0.85
+    },
+    {
+      "case_id": 7,
+      "patient_name": "Liam Anderson",
+      "expected_diagnosis": "attention deficit hyperactivity disorder",
+      "actual_diagnosis": "Attention-Deficit/Hyperactivity Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 8,
+      "patient_name": "Olivia Chen",
+      "expected_diagnosis": "attention deficit hyperactivity disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 5,
+      "patient_name": "Noah Martinez",
+      "expected_diagnosis": "attention deficit hyperactivity disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": false,
+      "confidence": 0.8
+    },
+    {
+      "case_id": 11,
+      "patient_name": "Ethan Thompson",
+      "expected_diagnosis": "attention deficit hyperactivity disorder",
+      "actual_diagnosis": "Attention-Deficit/Hyperactivity Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 9,
+      "patient_name": "Mason Wilson",
+      "expected_diagnosis": "attention deficit hyperactivity disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": false,
+      "confidence": 0.8
+    },
+    {
+      "case_id": 12,
+      "patient_name": "Sophia Anderson",
+      "expected_diagnosis": "attention deficit hyperactivity disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 13,
+      "patient_name": "Lucas Wilson",
+      "expected_diagnosis": "attention deficit hyperactivity disorder",
+      "actual_diagnosis": "Attention-Deficit/Hyperactivity Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 14,
+      "patient_name": "Emma Thompson",
+      "expected_diagnosis": "attention deficit hyperactivity disorder",
+      "actual_diagnosis": "Attention-Deficit/Hyperactivity Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 10,
+      "patient_name": "Isabella Martinez",
+      "expected_diagnosis": "attention deficit hyperactivity disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 15,
+      "patient_name": "Noah Martinez",
+      "expected_diagnosis": "Normal",
+      "actual_diagnosis": "Attention-Deficit/Hyperactivity Disorder",
+      "correct": false,
+      "confidence": 0.9
+    }
+  ],
+  "accuracy_metrics": {
+    "overall_accuracy": 0.0,
+    "true_positive_rate": 0.0,
+    "true_negative_rate": 0.0
+  }
+}

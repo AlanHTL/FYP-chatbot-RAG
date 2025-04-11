@@ -1,23 +1,7 @@
 {
   "test_file": "Test json/generalized_anxiety_disorder_test.json",
-  "timestamp": "2025-04-11 03:37:43",
+  "timestamp": "2025-04-11 15:10:11",
   "results": [
-    {
-      "case_id": 1,
-      "patient_name": "Emily Johnson",
-      "expected_diagnosis": "generalized anxiety disorder",
-      "actual_diagnosis": "Generalized Anxiety Disorder",
-      "correct": true,
-      "confidence": 0.9
-    },
-    {
-      "case_id": 4,
-      "patient_name": "David Rodriguez",
-      "expected_diagnosis": "generalized anxiety disorder",
-      "actual_diagnosis": "Generalized Anxiety Disorder",
-      "correct": true,
-      "confidence": 0.9
-    },
     {
       "case_id": 3,
       "patient_name": "Sarah Williams",
@@ -35,8 +19,32 @@
       "confidence": 0.9
     },
     {
+      "case_id": 1,
+      "patient_name": "Emily Johnson",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.8
+    },
+    {
       "case_id": 5,
       "patient_name": "Lisa Kim",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.8
+    },
+    {
+      "case_id": 6,
+      "patient_name": "James Wilson",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 4,
+      "patient_name": "David Rodriguez",
       "expected_diagnosis": "generalized anxiety disorder",
       "actual_diagnosis": "Generalized Anxiety Disorder",
       "correct": true,
@@ -48,27 +56,11 @@
       "expected_diagnosis": "generalized anxiety disorder",
       "actual_diagnosis": "Generalized Anxiety Disorder",
       "correct": true,
-      "confidence": 0.9
-    },
-    {
-      "case_id": 6,
-      "patient_name": "James Wilson",
-      "expected_diagnosis": "generalized anxiety disorder",
-      "actual_diagnosis": "Generalized Anxiety Disorder",
-      "correct": true,
-      "confidence": 0.9
+      "confidence": 0.8
     },
     {
       "case_id": 8,
       "patient_name": "Thomas Lee",
-      "expected_diagnosis": "generalized anxiety disorder",
-      "actual_diagnosis": "Generalized Anxiety Disorder",
-      "correct": true,
-      "confidence": 0.9
-    },
-    {
-      "case_id": 10,
-      "patient_name": "Daniel Wilson",
       "expected_diagnosis": "generalized anxiety disorder",
       "actual_diagnosis": "Generalized Anxiety Disorder",
       "correct": true,
@@ -83,8 +75,8 @@
       "confidence": 0.9
     },
     {
-      "case_id": 12,
-      "patient_name": "William Taylor",
+      "case_id": 10,
+      "patient_name": "Daniel Wilson",
       "expected_diagnosis": "generalized anxiety disorder",
       "actual_diagnosis": "Generalized Anxiety Disorder",
       "correct": true,
@@ -93,6 +85,22 @@
     {
       "case_id": 11,
       "patient_name": "Maria Garcia",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 12,
+      "patient_name": "William Taylor",
+      "expected_diagnosis": "generalized anxiety disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 14,
+      "patient_name": "Robert Chen",
       "expected_diagnosis": "generalized anxiety disorder",
       "actual_diagnosis": "Generalized Anxiety Disorder",
       "correct": true,
@@ -112,14 +120,6 @@
       "expected_diagnosis": "Normal",
       "actual_diagnosis": "Generalized Anxiety Disorder",
       "correct": false,
-      "confidence": 0.9
-    },
-    {
-      "case_id": 14,
-      "patient_name": "Robert Chen",
-      "expected_diagnosis": "generalized anxiety disorder",
-      "actual_diagnosis": "Generalized Anxiety Disorder",
-      "correct": true,
       "confidence": 0.9
     }
   ],

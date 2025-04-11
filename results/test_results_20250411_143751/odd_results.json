@@ -1,0 +1,131 @@
+{
+  "test_file": "Test json/oppositional_defiant_disorder_test.json",
+  "timestamp": "2025-04-11 14:57:53",
+  "results": [
+    {
+      "case_id": 3,
+      "patient_name": "Lucas Chen",
+      "expected_diagnosis": "oppositional defiant disorder",
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": true,
+      "confidence": 0.8
+    },
+    {
+      "case_id": 2,
+      "patient_name": "Emma Rodriguez",
+      "expected_diagnosis": "oppositional defiant disorder",
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 1,
+      "patient_name": "Alex Thompson",
+      "expected_diagnosis": "oppositional defiant disorder",
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 4,
+      "patient_name": "Sophia Wilson",
+      "expected_diagnosis": "oppositional defiant disorder",
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 6,
+      "patient_name": "Isabella Thompson",
+      "expected_diagnosis": "oppositional defiant disorder",
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 7,
+      "patient_name": "Ethan Rodriguez",
+      "expected_diagnosis": "oppositional defiant disorder",
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": true,
+      "confidence": 0.8
+    },
+    {
+      "case_id": 5,
+      "patient_name": "Noah Martinez",
+      "expected_diagnosis": "oppositional defiant disorder",
+      "actual_diagnosis": "Conduct Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 8,
+      "patient_name": "Olivia Chen",
+      "expected_diagnosis": "oppositional defiant disorder",
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 9,
+      "patient_name": "Liam Wilson",
+      "expected_diagnosis": "oppositional defiant disorder",
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 10,
+      "patient_name": "Ava Martinez",
+      "expected_diagnosis": "oppositional defiant disorder",
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 12,
+      "patient_name": "Sophia Rodriguez",
+      "expected_diagnosis": "oppositional defiant disorder",
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 13,
+      "patient_name": "Lucas Wilson",
+      "expected_diagnosis": "oppositional defiant disorder",
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": true,
+      "confidence": 0.8
+    },
+    {
+      "case_id": 11,
+      "patient_name": "Mason Thompson",
+      "expected_diagnosis": "oppositional defiant disorder",
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 14,
+      "patient_name": "Emma Thompson",
+      "expected_diagnosis": "oppositional defiant disorder",
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 15,
+      "patient_name": "Noah Martinez",
+      "expected_diagnosis": "Normal",
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": false,
+      "confidence": 0.8
+    }
+  ],
+  "accuracy_metrics": {
+    "overall_accuracy": 0.8666666666666667,
+    "true_positive_rate": 0.9285714285714286,
+    "true_negative_rate": 0.0
+  }
+}

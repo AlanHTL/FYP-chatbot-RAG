@@ -823,29 +823,21 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "angry_irritable_mood": [
-          "Often loses temper",
-          "Is often touchy or easily annoyed",
-          "Is often angry and resentful"
-        ],
-        "argumentative_defiant_behavior": [
-          "Often argues with authority figures",
-          "Often actively defies requests",
-          "Often deliberately annoys others",
-          "Often blames others for mistakes"
-        ],
-        "vindictiveness": [
-          "Has been spiteful or vindictive at least twice within the past 6 months"
+        "main_complaints": [
+          "Frequent temper outbursts",
+          "Easily annoyed by others",
+          "Angry and resentful mood",
+          "Argues with authority figures",
+          "Actively defies requests",
+          "Deliberately annoys others",
+          "Blames others for mistakes",
+          "Spiteful or vindictive behavior",
+          "Difficulty following rules",
+          "Problems with peer relationships"
         ],
         "duration": "1 year",
         "severity": "Moderate to severe",
-        "impact_on_life": "Significant impact on family and school functioning",
-        "specific_examples": [
-          "Frequent arguments with parents",
-          "Refusal to follow classroom rules",
-          "Difficulty with peer relationships",
-          "Regular temper outbursts"
-        ]
+        "impact_on_life": "Significant impact on family and school functioning"
       },
       "emotional_state": {
         "current_mood": "Angry and defiant",
@@ -868,17 +860,17 @@
           "Difficulty with authority",
           "Problems with peers"
         ],
-        "changes_in_routine": [
+        "social_interactions": [
+          "Conflict with authority figures",
+          "Difficulty with peer relationships",
+          "Argumentative behavior",
+          "Defiant responses"
+        ],
+        "interventions": [
           "Behavior modification plan",
           "Family therapy",
           "Social skills training",
           "Parent training"
-        ],
-        "coping_mechanisms": [
-          "Anger management techniques",
-          "Positive reinforcement",
-          "Clear consequences",
-          "Structured routines"
         ]
       },
       "expected_diagnosis": {
@@ -912,26 +904,21 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "angry_irritable_mood": [
-          "Often loses temper",
-          "Is often touchy or easily annoyed",
-          "Is often angry and resentful"
-        ],
-        "argumentative_defiant_behavior": [
-          "Often argues with authority figures",
-          "Often actively defies requests",
-          "Often deliberately annoys others"
-        ],
-        "vindictiveness": [],
-        "duration": "8 months",
-        "severity": "Moderate",
-        "impact_on_life": "Significant impact on family relationships",
-        "specific_examples": [
-          "Frequent arguments with parents",
+        "main_complaints": [
+          "Frequent temper outbursts",
+          "Easily annoyed by others",
+          "Angry and resentful mood",
+          "Argues with authority figures",
+          "Actively defies requests",
+          "Deliberately annoys others",
           "Refusal to follow household rules",
           "Difficulty with stepfather",
-          "Regular mood outbursts"
-        ]
+          "Regular mood outbursts",
+          "Conflict with parents"
+        ],
+        "duration": "8 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on family relationships"
       },
       "emotional_state": {
         "current_mood": "Irritable and defiant",
@@ -954,17 +941,17 @@
           "Difficulty with authority",
           "Mood outbursts"
         ],
-        "changes_in_routine": [
+        "social_interactions": [
+          "Conflict with authority figures",
+          "Difficulty with stepfather",
+          "Argumentative behavior",
+          "Defiant responses"
+        ],
+        "interventions": [
           "Family therapy",
           "Individual counseling",
           "Behavior modification",
           "Parent training"
-        ],
-        "coping_mechanisms": [
-          "Anger management",
-          "Communication skills",
-          "Problem-solving strategies",
-          "Emotional regulation"
         ]
       },
       "expected_diagnosis": {
@@ -997,29 +984,21 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "angry_irritable_mood": [
-          "Often loses temper",
-          "Is often touchy or easily annoyed",
-          "Is often angry and resentful"
-        ],
-        "argumentative_defiant_behavior": [
-          "Often argues with authority figures",
-          "Often actively defies requests",
-          "Often deliberately annoys others",
-          "Often blames others for mistakes"
-        ],
-        "vindictiveness": [
-          "Has been spiteful or vindictive at least twice within the past 6 months"
+        "main_complaints": [
+          "Frequent temper outbursts",
+          "Easily annoyed by others",
+          "Angry and resentful mood",
+          "Argues with authority figures",
+          "Actively defies requests",
+          "Deliberately annoys others",
+          "Blames others for mistakes",
+          "Spiteful or vindictive behavior",
+          "Difficulty following rules",
+          "Problems with peer relationships"
         ],
         "duration": "1 year",
         "severity": "Moderate to severe",
-        "impact_on_life": "Significant impact on family and school functioning",
-        "specific_examples": [
-          "Frequent arguments with parents",
-          "Refusal to follow classroom rules",
-          "Difficulty with peer relationships",
-          "Regular temper outbursts"
-        ]
+        "impact_on_life": "Significant impact on family and school functioning"
       },
       "emotional_state": {
         "current_mood": "Angry and defiant",
@@ -1042,17 +1021,17 @@
           "Difficulty with authority",
           "Problems with peers"
         ],
-        "changes_in_routine": [
+        "social_interactions": [
+          "Conflict with authority figures",
+          "Difficulty with peer relationships",
+          "Argumentative behavior",
+          "Defiant responses"
+        ],
+        "interventions": [
           "Behavior modification plan",
           "Family therapy",
           "Social skills training",
           "Parent training"
-        ],
-        "coping_mechanisms": [
-          "Anger management techniques",
-          "Positive reinforcement",
-          "Clear consequences",
-          "Structured routines"
         ]
       },
       "expected_diagnosis": {
@@ -1086,26 +1065,21 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "angry_irritable_mood": [
-          "Often loses temper",
-          "Is often touchy or easily annoyed",
-          "Is often angry and resentful"
-        ],
-        "argumentative_defiant_behavior": [
-          "Often argues with authority figures",
-          "Often actively defies requests",
-          "Often deliberately annoys others"
-        ],
-        "vindictiveness": [],
-        "duration": "7 months",
-        "severity": "Moderate",
-        "impact_on_life": "Significant impact on family relationships",
-        "specific_examples": [
-          "Frequent arguments with mother",
+        "main_complaints": [
+          "Frequent temper outbursts",
+          "Easily annoyed by others",
+          "Angry and resentful mood",
+          "Argues with authority figures",
+          "Actively defies requests",
+          "Deliberately annoys others",
           "Refusal to follow household rules",
           "Difficulty with transitions",
-          "Regular mood outbursts"
-        ]
+          "Regular mood outbursts",
+          "Conflict with mother"
+        ],
+        "duration": "7 months",
+        "severity": "Moderate",
+        "impact_on_life": "Significant impact on family relationships"
       },
       "emotional_state": {
         "current_mood": "Irritable and defiant",
@@ -1128,17 +1102,17 @@
           "Difficulty with authority",
           "Mood outbursts"
         ],
-        "changes_in_routine": [
+        "social_interactions": [
+          "Conflict with authority figures",
+          "Difficulty with transitions",
+          "Argumentative behavior",
+          "Defiant responses"
+        ],
+        "interventions": [
           "Family therapy",
           "Individual counseling",
           "Behavior modification",
           "Parent training"
-        ],
-        "coping_mechanisms": [
-          "Anger management",
-          "Communication skills",
-          "Problem-solving strategies",
-          "Emotional regulation"
         ]
       },
       "expected_diagnosis": {

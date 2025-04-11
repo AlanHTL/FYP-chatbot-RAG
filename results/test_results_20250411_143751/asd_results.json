@@ -1,0 +1,131 @@
+{
+  "test_file": "Test json/autism_spectrum_disorder_test.json",
+  "timestamp": "2025-04-11 15:13:58",
+  "results": [
+    {
+      "case_id": 1,
+      "patient_name": "Michael Chen",
+      "expected_diagnosis": "autism spectrum disorder",
+      "actual_diagnosis": "Autism Spectrum Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 3,
+      "patient_name": "David Martinez",
+      "expected_diagnosis": "autism spectrum disorder",
+      "actual_diagnosis": "Autism Spectrum Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 4,
+      "patient_name": "Emily Wilson",
+      "expected_diagnosis": "autism spectrum disorder",
+      "actual_diagnosis": "Autism Spectrum Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 2,
+      "patient_name": "Sarah Johnson",
+      "expected_diagnosis": "autism spectrum disorder",
+      "actual_diagnosis": "Autism Spectrum Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 5,
+      "patient_name": "James Thompson",
+      "expected_diagnosis": "autism spectrum disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": false,
+      "confidence": 0.8
+    },
+    {
+      "case_id": 6,
+      "patient_name": "Sophia Chen",
+      "expected_diagnosis": "autism spectrum disorder",
+      "actual_diagnosis": "Autism Spectrum Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 7,
+      "patient_name": "Lucas Rodriguez",
+      "expected_diagnosis": "autism spectrum disorder",
+      "actual_diagnosis": "Autism Spectrum Disorder",
+      "correct": true,
+      "confidence": 0.8
+    },
+    {
+      "case_id": 9,
+      "patient_name": "Ethan Patel",
+      "expected_diagnosis": "autism spectrum disorder",
+      "actual_diagnosis": "Autism Spectrum Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 10,
+      "patient_name": "Ava Thompson",
+      "expected_diagnosis": "autism spectrum disorder",
+      "actual_diagnosis": "Autism Spectrum Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 8,
+      "patient_name": "Olivia Kim",
+      "expected_diagnosis": "autism spectrum disorder",
+      "actual_diagnosis": "Autism Spectrum Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 13,
+      "patient_name": "Gabriel Ramirez",
+      "expected_diagnosis": "autism spectrum disorder",
+      "actual_diagnosis": "Autism Spectrum Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 12,
+      "patient_name": "Tyler Rodriguez",
+      "expected_diagnosis": "autism spectrum disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 14,
+      "patient_name": "Layla Washington",
+      "expected_diagnosis": "autism spectrum disorder",
+      "actual_diagnosis": "Autism Spectrum Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 11,
+      "patient_name": "Charlotte Wilson",
+      "expected_diagnosis": "autism spectrum disorder",
+      "actual_diagnosis": "Autism Spectrum Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 15,
+      "patient_name": "Jacob Miller",
+      "expected_diagnosis": "Normal",
+      "actual_diagnosis": "Attention-Deficit/Hyperactivity Disorder",
+      "correct": false,
+      "confidence": 0.9
+    }
+  ],
+  "accuracy_metrics": {
+    "overall_accuracy": 0.8,
+    "true_positive_rate": 0.8571428571428571,
+    "true_negative_rate": 0.0
+  }
+}

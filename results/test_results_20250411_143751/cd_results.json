@@ -1,6 +1,6 @@
 {
   "test_file": "Test json/conduct_disorder_test.json",
-  "timestamp": "2025-04-11 03:39:02",
+  "timestamp": "2025-04-11 15:16:03",
   "results": [
     {
       "case_id": 1,
@@ -27,6 +27,14 @@
       "confidence": 0.9
     },
     {
+      "case_id": 5,
+      "patient_name": "James Wilson",
+      "expected_diagnosis": "conduct disorder",
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": false,
+      "confidence": 0.8
+    },
+    {
       "case_id": 4,
       "patient_name": "Emily Rodriguez",
       "expected_diagnosis": "conduct disorder",
@@ -35,27 +43,11 @@
       "confidence": 0.9
     },
     {
-      "case_id": 7,
-      "patient_name": "Robert Thompson",
-      "expected_diagnosis": "conduct disorder",
-      "actual_diagnosis": "Conduct Disorder",
-      "correct": true,
-      "confidence": 0.9
-    },
-    {
-      "case_id": 5,
-      "patient_name": "James Wilson",
-      "expected_diagnosis": "conduct disorder",
-      "actual_diagnosis": "Conduct Disorder",
-      "correct": true,
-      "confidence": 0.9
-    },
-    {
       "case_id": 6,
       "patient_name": "Jessica Martinez",
       "expected_diagnosis": "conduct disorder",
-      "actual_diagnosis": "Oppositional Defiant Disorder",
-      "correct": false,
+      "actual_diagnosis": "Conduct Disorder",
+      "correct": true,
       "confidence": 0.9
     },
     {
@@ -70,33 +62,41 @@
       "case_id": 9,
       "patient_name": "Daniel Rodriguez",
       "expected_diagnosis": "conduct disorder",
-      "actual_diagnosis": "Conduct Disorder",
-      "correct": true,
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": false,
       "confidence": 0.9
     },
     {
       "case_id": 10,
       "patient_name": "Sophia Williams",
       "expected_diagnosis": "conduct disorder",
-      "actual_diagnosis": "Oppositional Defiant Disorder",
-      "correct": false,
+      "actual_diagnosis": "Conduct Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 7,
+      "patient_name": "Robert Thompson",
+      "expected_diagnosis": "conduct disorder",
+      "actual_diagnosis": "Conduct Disorder",
+      "correct": true,
       "confidence": 0.9
     },
     {
       "case_id": 11,
       "patient_name": "Christopher Chen",
       "expected_diagnosis": "conduct disorder",
-      "actual_diagnosis": "Conduct Disorder",
-      "correct": true,
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": false,
       "confidence": 0.9
     },
     {
       "case_id": 12,
       "patient_name": "Olivia Rodriguez",
       "expected_diagnosis": "conduct disorder",
-      "actual_diagnosis": "Conduct Disorder",
-      "correct": true,
-      "confidence": 0.8
+      "actual_diagnosis": "Oppositional Defiant Disorder",
+      "correct": false,
+      "confidence": 0.9
     },
     {
       "case_id": 13,
@@ -107,25 +107,25 @@
       "confidence": 0.9
     },
     {
+      "case_id": 15,
+      "patient_name": "Thomas Thompson",
+      "expected_diagnosis": "Normal",
+      "actual_diagnosis": "Conduct Disorder",
+      "correct": false,
+      "confidence": 0.8
+    },
+    {
       "case_id": 14,
       "patient_name": "Isabella Martinez",
       "expected_diagnosis": "conduct disorder",
       "actual_diagnosis": "Oppositional Defiant Disorder",
       "correct": false,
       "confidence": 0.9
-    },
-    {
-      "case_id": 15,
-      "patient_name": "Thomas Thompson",
-      "expected_diagnosis": "Normal",
-      "actual_diagnosis": "Oppositional Defiant Disorder",
-      "correct": false,
-      "confidence": 0.9
     }
   ],
   "accuracy_metrics": {
-    "overall_accuracy": 0.5333333333333333,
-    "true_positive_rate": 0.5714285714285714,
+    "overall_accuracy": 0.4,
+    "true_positive_rate": 0.42857142857142855,
     "true_negative_rate": 0.0
   }
 }

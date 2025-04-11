@@ -1,18 +1,10 @@
 {
   "test_file": "Test json/posttraumatic_stress_disorder_test.json",
-  "timestamp": "2025-04-11 03:34:06",
+  "timestamp": "2025-04-11 14:51:30",
   "results": [
     {
-      "case_id": 3,
-      "patient_name": "David Wilson",
-      "expected_diagnosis": "posttraumatic stress disorder",
-      "actual_diagnosis": "Posttraumatic Stress Disorder",
-      "correct": true,
-      "confidence": 0.9
-    },
-    {
-      "case_id": 4,
-      "patient_name": "Emily Martinez",
+      "case_id": 2,
+      "patient_name": "Sarah Chen",
       "expected_diagnosis": "posttraumatic stress disorder",
       "actual_diagnosis": "Posttraumatic Stress Disorder",
       "correct": true,
@@ -27,32 +19,24 @@
       "confidence": 0.9
     },
     {
+      "case_id": 3,
+      "patient_name": "David Wilson",
+      "expected_diagnosis": "posttraumatic stress disorder",
+      "actual_diagnosis": "Posttraumatic Stress Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 4,
+      "patient_name": "Emily Martinez",
+      "expected_diagnosis": "posttraumatic stress disorder",
+      "actual_diagnosis": "Posttraumatic Stress Disorder",
+      "correct": true,
+      "confidence": 0.8
+    },
+    {
       "case_id": 5,
       "patient_name": "James Thompson",
-      "expected_diagnosis": "posttraumatic stress disorder",
-      "actual_diagnosis": "Generalized Anxiety Disorder",
-      "correct": false,
-      "confidence": 0.9
-    },
-    {
-      "case_id": 2,
-      "patient_name": "Sarah Chen",
-      "expected_diagnosis": "posttraumatic stress disorder",
-      "actual_diagnosis": "Posttraumatic Stress Disorder",
-      "correct": true,
-      "confidence": 0.9
-    },
-    {
-      "case_id": 8,
-      "patient_name": "Maria Garcia",
-      "expected_diagnosis": "posttraumatic stress disorder",
-      "actual_diagnosis": "Posttraumatic Stress Disorder",
-      "correct": true,
-      "confidence": 0.9
-    },
-    {
-      "case_id": 7,
-      "patient_name": "Robert Chen",
       "expected_diagnosis": "posttraumatic stress disorder",
       "actual_diagnosis": "Posttraumatic Stress Disorder",
       "correct": true,
@@ -62,13 +46,21 @@
       "case_id": 6,
       "patient_name": "Lisa Anderson",
       "expected_diagnosis": "posttraumatic stress disorder",
-      "actual_diagnosis": "Posttraumatic Stress Disorder (PTSD)",
+      "actual_diagnosis": "Posttraumatic Stress Disorder",
       "correct": true,
       "confidence": 0.9
     },
     {
       "case_id": 9,
       "patient_name": "John Smith",
+      "expected_diagnosis": "posttraumatic stress disorder",
+      "actual_diagnosis": "Posttraumatic Stress Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 8,
+      "patient_name": "Maria Garcia",
       "expected_diagnosis": "posttraumatic stress disorder",
       "actual_diagnosis": "Posttraumatic Stress Disorder",
       "correct": true,
@@ -85,6 +77,14 @@
     {
       "case_id": 11,
       "patient_name": "David Brown",
+      "expected_diagnosis": "posttraumatic stress disorder",
+      "actual_diagnosis": "Posttraumatic Stress Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 7,
+      "patient_name": "Robert Chen",
       "expected_diagnosis": "posttraumatic stress disorder",
       "actual_diagnosis": "Posttraumatic Stress Disorder",
       "correct": true,
@@ -118,14 +118,14 @@
       "case_id": 15,
       "patient_name": "Alex Thompson",
       "expected_diagnosis": "Normal",
-      "actual_diagnosis": "Panic Disorder",
+      "actual_diagnosis": "Generalized Anxiety Disorder",
       "correct": false,
-      "confidence": 0.9
+      "confidence": 0.7
     }
   ],
   "accuracy_metrics": {
-    "overall_accuracy": 0.8666666666666667,
-    "true_positive_rate": 0.9285714285714286,
+    "overall_accuracy": 0.9333333333333333,
+    "true_positive_rate": 1.0,
     "true_negative_rate": 0.0
   }
 }

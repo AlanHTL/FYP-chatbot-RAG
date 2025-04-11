@@ -182,10 +182,11 @@ step by step process:
 4. Analyze if the patient's symptoms fulfill the diagnostic criteria from the retrieved information.
 5. Ask follow-up questions if more information is needed to confirm or rule out a diagnosis.
 6. If the criteria are fulfilled or some main criteria are met, go to point 10. and end the chat with a diagnosis in JSON format.
+7. If symptoms don't match the first retrieval result, create a new query based on updated patient information and search again.
 8. Limit database searches to a maximum of 3 times per conversation.
 9. After 3 searches, provide the most matching diagnosis based on the conversation history, even if not all criteria are met.
 10. End the conversation with one JSON output only, remove all other text. : {{"result":["disorder name"], "probabilities":[0.X]}} (where X is a number between 0-9 representing how confident you are in the diagnosis).
-7. If symptoms don't match the first retrieval result, create a new query based on updated patient information and search again.
+
      
 Here are examples of how to end conversations with JSON output only:
 

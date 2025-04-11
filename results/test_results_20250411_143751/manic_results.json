@@ -1,10 +1,10 @@
 {
   "test_file": "Test json/manic_episode_test.json",
-  "timestamp": "2025-04-11 03:36:14",
+  "timestamp": "2025-04-11 15:04:41",
   "results": [
     {
-      "case_id": 4,
-      "patient_name": "Emily Thompson",
+      "case_id": 2,
+      "patient_name": "Sarah Johnson",
       "expected_diagnosis": "manic episode",
       "actual_diagnosis": "Manic Episode",
       "correct": true,
@@ -19,24 +19,24 @@
       "confidence": 0.9
     },
     {
-      "case_id": 5,
-      "patient_name": "James Wilson",
+      "case_id": 3,
+      "patient_name": "David Rodriguez",
       "expected_diagnosis": "manic episode",
       "actual_diagnosis": "Bipolar I Disorder",
       "correct": false,
       "confidence": 0.9
     },
     {
-      "case_id": 3,
-      "patient_name": "David Rodriguez",
+      "case_id": 5,
+      "patient_name": "James Wilson",
       "expected_diagnosis": "manic episode",
       "actual_diagnosis": "Manic Episode",
       "correct": true,
       "confidence": 0.9
     },
     {
-      "case_id": 2,
-      "patient_name": "Sarah Johnson",
+      "case_id": 7,
+      "patient_name": "Robert Martinez",
       "expected_diagnosis": "manic episode",
       "actual_diagnosis": "Manic Episode",
       "correct": true,
@@ -59,42 +59,34 @@
       "confidence": 0.9
     },
     {
-      "case_id": 7,
-      "patient_name": "Robert Martinez",
+      "case_id": 9,
+      "patient_name": "Thomas Anderson",
       "expected_diagnosis": "manic episode",
       "actual_diagnosis": "Manic Episode",
       "correct": true,
       "confidence": 0.9
     },
     {
-      "case_id": 9,
-      "patient_name": "Thomas Anderson",
+      "case_id": 4,
+      "patient_name": "Emily Thompson",
       "expected_diagnosis": "manic episode",
-      "actual_diagnosis": "Bipolar I Disorder",
+      "actual_diagnosis": "No diagnosis",
       "correct": false,
+      "confidence": 0
+    },
+    {
+      "case_id": 10,
+      "patient_name": "Maria Garcia",
+      "expected_diagnosis": "manic episode",
+      "actual_diagnosis": "Manic Episode",
+      "correct": true,
       "confidence": 0.9
     },
     {
       "case_id": 11,
       "patient_name": "William Taylor",
       "expected_diagnosis": "manic episode",
-      "actual_diagnosis": "Manic Episode",
-      "correct": true,
-      "confidence": 0.9
-    },
-    {
-      "case_id": 10,
-      "patient_name": "Maria Garcia",
-      "expected_diagnosis": "manic episode",
-      "actual_diagnosis": "Major Depressive Disorder",
-      "correct": false,
-      "confidence": 0.8
-    },
-    {
-      "case_id": 13,
-      "patient_name": "Daniel Kim",
-      "expected_diagnosis": "manic episode",
-      "actual_diagnosis": "Manic Episode",
+      "actual_diagnosis": "Bipolar Disorder (Manic Episode)",
       "correct": true,
       "confidence": 0.9
     },
@@ -107,19 +99,27 @@
       "confidence": 0.9
     },
     {
-      "case_id": 14,
-      "patient_name": "Rachel Wilson",
-      "expected_diagnosis": "manic episode",
-      "actual_diagnosis": "Manic Episode",
-      "correct": true,
-      "confidence": 0.9
-    },
-    {
       "case_id": 15,
       "patient_name": "Alex Thompson",
       "expected_diagnosis": "Normal",
-      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "actual_diagnosis": "Manic Episode",
       "correct": false,
+      "confidence": 0.8
+    },
+    {
+      "case_id": 14,
+      "patient_name": "Rachel Wilson",
+      "expected_diagnosis": "manic episode",
+      "actual_diagnosis": "Bipolar I Disorder",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 13,
+      "patient_name": "Daniel Kim",
+      "expected_diagnosis": "manic episode",
+      "actual_diagnosis": "Manic Episode",
+      "correct": true,
       "confidence": 0.9
     }
   ],

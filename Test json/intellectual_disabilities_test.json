@@ -1289,90 +1289,77 @@
         "name": "Ava Thompson",
         "age": 5,
         "gender": "Female",
-        "occupation": "Student (Special Education)"
+        "occupation": "Student"
       },
       "conversation_context": {
         "setting": "Early Intervention Center",
-        "reason_for_visit": "Initial evaluation for developmental delays"
+        "reason_for_visit": "Routine developmental screening"
       },
       "patient_background": {
         "living_situation": "Lives with both parents",
         "family_history": "No known intellectual disabilities in family",
-        "medical_history": "Diagnosed with Angelman syndrome at age 2; seizure disorder; sleep disturbances"
+        "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
         "main_complaints": [
-          "Full-scale IQ of 35 (severe range)",
-          "Severe language impairment",
-          "Happy demeanor with frequent laughter",
-          "Ataxic gait",
-          "Hand-flapping behaviors",
-          "Seizure activity",
-          "Sleep disturbances",
-          "Limited social interactions",
-          "Severe communication difficulties",
-          "Requires assistance with all self-care",
-          "Limited mobility",
-          "Sensory processing difficulties",
-          "Feeding difficulties",
-          "Requires constant supervision",
-          "Attraction to water"
+          "Normal developmental milestones",
+          "Age-appropriate language skills",
+          "Typical social interactions",
+          "Normal cognitive development",
+          "Appropriate play skills",
+          "Good attention span",
+          "Normal memory skills",
+          "Age-appropriate problem-solving",
+          "Typical motor development",
+          "Normal adaptive functioning"
         ],
-        "duration": "Since early childhood",
-        "severity": "Severe",
-        "impact_on_life": "Requires extensive support for all daily activities; significant medical needs; limited communication abilities",
-        "specific_examples": [
-          "Uses picture communication system",
-          "Requires assistance with mobility",
-          "Needs help with all self-care",
-          "Uses adaptive equipment for feeding"
-        ]
+        "duration": "Since birth",
+        "severity": "None",
+        "impact_on_life": "No significant impact on daily functioning"
       },
       "emotional_state": {
-        "current_mood": "Generally happy and sociable",
+        "current_mood": "Happy and engaged",
         "thoughts": [
-          "Limited ability to express thoughts",
-          "Shows preferences through behavior",
-          "Recognizes familiar people"
+          "Age-appropriate understanding",
+          "Normal curiosity",
+          "Typical interests for age"
         ],
         "feelings": [
-          "Enjoyment of social interactions",
-          "Distress with changes in routine",
-          "Anxiety with medical procedures",
-          "Comfort with familiar caregivers"
+          "Generally positive",
+          "Normal emotional range",
+          "Appropriate social responses",
+          "Good self-esteem"
         ]
       },
       "behavioral_patterns": {
         "daily_activities": [
-          "Attends special education preschool",
-          "Participates in physical therapy",
-          "Receives medical care",
-          "Engages in sensory activities"
+          "Age-appropriate play",
+          "Normal social interactions",
+          "Typical learning activities",
+          "Regular daily routines"
         ],
         "changes_in_routine": [
-          "Managing medical needs",
-          "Developing communication skills",
-          "Maintaining physical health",
-          "Participating in adapted activities"
+          "Normal adaptation to changes",
+          "Typical transitions",
+          "Regular developmental progress",
+          "Age-appropriate independence"
         ],
         "coping_mechanisms": [
-          "Uses communication devices",
-          "Follows established routines",
-          "Engages in preferred activities",
-          "Seeks familiar caregivers"
+          "Normal problem-solving",
+          "Age-appropriate self-regulation",
+          "Typical social skills",
+          "Regular developmental milestones"
         ]
       },
       "expected_diagnosis": {
-        "has_disorder": true,
+        "has_disorder": false,
         "confidence_level": "high",
         "matching_criteria": [
-          "Severe cognitive impairment (IQ of 35)",
-          "Significant delays in adaptive functioning",
-          "Onset during developmental period",
-          "Genetic condition (Angelman syndrome) present"
-        ],
-        "severity": "Severe intellectual disability",
-        "disorder_name": "intellectual disabilities"
+          "Normal cognitive development",
+          "Age-appropriate adaptive functioning",
+          "Typical developmental milestones",
+          "No significant delays in any domain"
+        ]
       }
     }
   ]

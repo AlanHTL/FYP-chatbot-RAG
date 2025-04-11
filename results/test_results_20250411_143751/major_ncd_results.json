@@ -1,22 +1,14 @@
 {
   "test_file": "Test json/major_neurocognitive_disorder_test.json",
-  "timestamp": "2025-04-11 03:37:18",
+  "timestamp": "2025-04-11 15:08:05",
   "results": [
     {
       "case_id": 3,
       "patient_name": "Robert Wilson",
       "expected_diagnosis": "major neurocognitive disorder",
-      "actual_diagnosis": "Mild Neurocognitive Disorder",
-      "correct": false,
-      "confidence": 0.9
-    },
-    {
-      "case_id": 1,
-      "patient_name": "William Anderson",
-      "expected_diagnosis": "major neurocognitive disorder",
-      "actual_diagnosis": "Mild Neurocognitive Disorder",
-      "correct": false,
-      "confidence": 0.9
+      "actual_diagnosis": "Major Neurocognitive Disorder",
+      "correct": true,
+      "confidence": 0.8
     },
     {
       "case_id": 2,
@@ -27,11 +19,27 @@
       "confidence": 0.9
     },
     {
-      "case_id": 5,
-      "patient_name": "James Thompson",
+      "case_id": 1,
+      "patient_name": "William Anderson",
       "expected_diagnosis": "major neurocognitive disorder",
       "actual_diagnosis": "Major Neurocognitive Disorder",
       "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 4,
+      "patient_name": "Sarah Martinez",
+      "expected_diagnosis": "major neurocognitive disorder",
+      "actual_diagnosis": "Delirium",
+      "correct": false,
+      "confidence": 0.8
+    },
+    {
+      "case_id": 5,
+      "patient_name": "James Thompson",
+      "expected_diagnosis": "major neurocognitive disorder",
+      "actual_diagnosis": "Mild Neurocognitive Disorder",
+      "correct": false,
       "confidence": 0.9
     },
     {
@@ -43,8 +51,16 @@
       "confidence": 0.9
     },
     {
-      "case_id": 4,
-      "patient_name": "Sarah Martinez",
+      "case_id": 7,
+      "patient_name": "David Lee",
+      "expected_diagnosis": "major neurocognitive disorder",
+      "actual_diagnosis": "Major Neurocognitive Disorder",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 8,
+      "patient_name": "Patricia Garcia",
       "expected_diagnosis": "major neurocognitive disorder",
       "actual_diagnosis": "Major Neurocognitive Disorder",
       "correct": true,
@@ -59,52 +75,28 @@
       "confidence": 0.9
     },
     {
-      "case_id": 7,
-      "patient_name": "David Lee",
-      "expected_diagnosis": "major neurocognitive disorder",
-      "actual_diagnosis": "Alzheimer's Disease",
-      "correct": false,
-      "confidence": 0.9
-    },
-    {
-      "case_id": 8,
-      "patient_name": "Patricia Garcia",
-      "expected_diagnosis": "major neurocognitive disorder",
-      "actual_diagnosis": "Major Neurocognitive Disorder",
-      "correct": true,
-      "confidence": 0.9
-    },
-    {
       "case_id": 10,
       "patient_name": "Mary Johnson",
       "expected_diagnosis": "major neurocognitive disorder",
-      "actual_diagnosis": "Major Neurocognitive Disorder",
-      "correct": true,
-      "confidence": 0.9
+      "actual_diagnosis": "Mild Neurocognitive Disorder",
+      "correct": false,
+      "confidence": 0.8
     },
     {
       "case_id": 11,
       "patient_name": "Thomas Anderson",
       "expected_diagnosis": "major neurocognitive disorder",
-      "actual_diagnosis": "Major Neurocognitive Disorder",
-      "correct": true,
+      "actual_diagnosis": "Mild Neurocognitive Disorder",
+      "correct": false,
       "confidence": 0.9
     },
     {
       "case_id": 12,
       "patient_name": "Susan White",
       "expected_diagnosis": "major neurocognitive disorder",
-      "actual_diagnosis": "Major Neurocognitive Disorder",
-      "correct": true,
-      "confidence": 0.9
-    },
-    {
-      "case_id": 13,
-      "patient_name": "Robert Martinez",
-      "expected_diagnosis": "major neurocognitive disorder",
-      "actual_diagnosis": "Major Neurocognitive Disorder",
-      "correct": true,
-      "confidence": 0.85
+      "actual_diagnosis": "Mild Neurocognitive Disorder",
+      "correct": false,
+      "confidence": 0.7
     },
     {
       "case_id": 14,
@@ -115,17 +107,25 @@
       "confidence": 0.9
     },
     {
+      "case_id": 13,
+      "patient_name": "Robert Martinez",
+      "expected_diagnosis": "major neurocognitive disorder",
+      "actual_diagnosis": "Major Neurocognitive Disorder",
+      "correct": true,
+      "confidence": 0.8
+    },
+    {
       "case_id": 15,
       "patient_name": "John Davis",
       "expected_diagnosis": "Normal",
       "actual_diagnosis": "Mild Neurocognitive Disorder",
       "correct": false,
-      "confidence": 0.8
+      "confidence": 0.9
     }
   ],
   "accuracy_metrics": {
-    "overall_accuracy": 0.6666666666666666,
-    "true_positive_rate": 0.7142857142857143,
+    "overall_accuracy": 0.5333333333333333,
+    "true_positive_rate": 0.5714285714285714,
     "true_negative_rate": 0.0
   }
 }

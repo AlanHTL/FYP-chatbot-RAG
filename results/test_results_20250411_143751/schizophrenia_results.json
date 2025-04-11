@@ -1,15 +1,7 @@
 {
   "test_file": "Test json/schizophrenia_test.json",
-  "timestamp": "2025-04-11 03:33:16",
+  "timestamp": "2025-04-11 14:49:39",
   "results": [
-    {
-      "case_id": 1,
-      "patient_name": "David Chen",
-      "expected_diagnosis": "schizophrenia",
-      "actual_diagnosis": "Schizophrenia",
-      "correct": true,
-      "confidence": 0.9
-    },
     {
       "case_id": 3,
       "patient_name": "Michael Thompson",
@@ -24,30 +16,22 @@
       "expected_diagnosis": "schizophrenia",
       "actual_diagnosis": "Schizophrenia",
       "correct": true,
-      "confidence": 0.9
+      "confidence": 0.85
+    },
+    {
+      "case_id": 1,
+      "patient_name": "David Chen",
+      "expected_diagnosis": "schizophrenia",
+      "actual_diagnosis": "Schizophrenia",
+      "correct": true,
+      "confidence": 1.0
     },
     {
       "case_id": 4,
       "patient_name": "Emily Wilson",
       "expected_diagnosis": "schizophrenia",
-      "actual_diagnosis": "Schizophrenia",
-      "correct": true,
-      "confidence": 0.9
-    },
-    {
-      "case_id": 5,
-      "patient_name": "James Anderson",
-      "expected_diagnosis": "schizophrenia",
-      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "actual_diagnosis": "Major Depressive Disorder",
       "correct": false,
-      "confidence": 0.9
-    },
-    {
-      "case_id": 6,
-      "patient_name": "Lisa Chen",
-      "expected_diagnosis": "schizophrenia",
-      "actual_diagnosis": "Schizophrenia",
-      "correct": true,
       "confidence": 0.9
     },
     {
@@ -59,24 +43,16 @@
       "confidence": 0.9
     },
     {
-      "case_id": 9,
-      "patient_name": "Thomas Lee",
-      "expected_diagnosis": "schizophrenia",
-      "actual_diagnosis": "Schizophrenia",
-      "correct": true,
-      "confidence": 0.9
-    },
-    {
-      "case_id": 8,
-      "patient_name": "Maria Rodriguez",
+      "case_id": 5,
+      "patient_name": "James Anderson",
       "expected_diagnosis": "schizophrenia",
       "actual_diagnosis": "Generalized Anxiety Disorder",
       "correct": false,
       "confidence": 0.8
     },
     {
-      "case_id": 11,
-      "patient_name": "Daniel Martinez",
+      "case_id": 9,
+      "patient_name": "Thomas Lee",
       "expected_diagnosis": "schizophrenia",
       "actual_diagnosis": "Schizophrenia",
       "correct": true,
@@ -91,6 +67,22 @@
       "confidence": 0.9
     },
     {
+      "case_id": 6,
+      "patient_name": "Lisa Chen",
+      "expected_diagnosis": "schizophrenia",
+      "actual_diagnosis": "Manic Episode",
+      "correct": false,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 11,
+      "patient_name": "Daniel Martinez",
+      "expected_diagnosis": "schizophrenia",
+      "actual_diagnosis": "Schizophrenia",
+      "correct": true,
+      "confidence": 0.8
+    },
+    {
       "case_id": 12,
       "patient_name": "Amanda Thompson",
       "expected_diagnosis": "schizophrenia",
@@ -99,12 +91,12 @@
       "confidence": 0.9
     },
     {
-      "case_id": 15,
-      "patient_name": "Kevin Anderson",
-      "expected_diagnosis": "Normal",
-      "actual_diagnosis": "Generalized Anxiety Disorder",
+      "case_id": 8,
+      "patient_name": "Maria Rodriguez",
+      "expected_diagnosis": "schizophrenia",
+      "actual_diagnosis": "No diagnosis",
       "correct": false,
-      "confidence": 0.9
+      "confidence": 0
     },
     {
       "case_id": 14,
@@ -112,20 +104,28 @@
       "expected_diagnosis": "schizophrenia",
       "actual_diagnosis": "Manic Episode",
       "correct": false,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
       "case_id": 13,
       "patient_name": "Christopher Lee",
       "expected_diagnosis": "schizophrenia",
+      "actual_diagnosis": "Schizophrenia",
+      "correct": true,
+      "confidence": 0.9
+    },
+    {
+      "case_id": 15,
+      "patient_name": "Kevin Anderson",
+      "expected_diagnosis": "Normal",
       "actual_diagnosis": "Generalized Anxiety Disorder",
       "correct": false,
-      "confidence": 0.9
+      "confidence": 0.8
     }
   ],
   "accuracy_metrics": {
-    "overall_accuracy": 0.6,
-    "true_positive_rate": 0.6428571428571429,
+    "overall_accuracy": 0.5333333333333333,
+    "true_positive_rate": 0.5714285714285714,
     "true_negative_rate": 0.0
   }
 }
