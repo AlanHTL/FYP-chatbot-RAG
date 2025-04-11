@@ -161,18 +161,13 @@ def run_reports(disorders, num_servers=1, result_dir=None, save_responses=False,
     
     charts_dir = None
     if not skip_visualization and results_csv:
-        try:
-            # Generate visualizations from the results
-            results_dir = os.path.dirname(results_csv)
-            charts_dir = os.path.join(results_dir, "charts")
-            
-            # Create the visualizer
-            visualizer = ResultsVisualizer(results_csv, charts_dir)
-            visualizer.generate_all_visualizations()
-        except Exception as e:
-            print(f"Warning: Visualization failed: {e}")
-            print("Continuing without visualizations...")
-            charts_dir = None
+        # Generate visualizations from the results
+        results_dir = os.path.dirname(results_csv)
+        charts_dir = os.path.join(results_dir, "charts")
+        
+        # Create the visualizer
+        visualizer = ResultsVisualizer(results_csv, charts_dir)
+        visualizer.generate_all_visualizations()
     
     return results_csv, charts_dir
 

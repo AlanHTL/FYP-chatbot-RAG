@@ -18,26 +18,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "inattention_symptoms": [
-          "Often fails to give close attention to details",
-          "Often has difficulty sustaining attention",
-          "Often does not seem to listen when spoken to directly",
-          "Often does not follow through on instructions",
-          "Often has difficulty organizing tasks",
-          "Often loses things necessary for tasks",
-          "Is often easily distracted",
-          "Is often forgetful in daily activities"
-        ],
-        "hyperactivity_impulsivity_symptoms": [
-          "Often fidgets with or taps hands or feet",
-          "Often leaves seat in classroom",
-          "Often runs about or climbs in inappropriate situations",
-          "Often unable to play quietly",
-          "Is often 'on the go'",
-          "Often talks excessively",
-          "Often blurts out answers",
-          "Often has difficulty waiting turn",
-          "Often interrupts or intrudes on others"
+        "main_complaints": [
+          "Difficulty paying attention to details",
+          "Trouble sustaining attention",
+          "Not listening when spoken to",
+          "Not following through on instructions",
+          "Difficulty organizing tasks",
+          "Avoiding tasks requiring mental effort",
+          "Frequently losing things",
+          "Easily distracted",
+          "Forgetful in daily activities",
+          "Fidgeting and squirming",
+          "Leaving seat in classroom",
+          "Running or climbing inappropriately",
+          "Difficulty playing quietly",
+          "Always being on the go",
+          "Talking excessively"
         ],
         "duration": "3 years",
         "severity": "Moderate to severe",
@@ -93,6 +89,7 @@
           "Symptoms present in multiple settings",
           "Significant functional impairment"
         ],
+        "severity": "Moderate to severe ADHD",
         "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
@@ -114,18 +111,23 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "inattention_symptoms": [
-          "Often fails to give close attention to details",
-          "Often has difficulty sustaining attention",
-          "Often does not seem to listen when spoken to directly",
-          "Often does not follow through on instructions",
-          "Often has difficulty organizing tasks",
-          "Often avoids tasks requiring sustained mental effort",
-          "Often loses things necessary for tasks",
-          "Is often easily distracted",
-          "Is often forgetful in daily activities"
+        "main_complaints": [
+          "Difficulty paying attention to details",
+          "Trouble sustaining attention",
+          "Not listening when spoken to",
+          "Not following through on instructions",
+          "Difficulty organizing tasks",
+          "Avoiding tasks requiring mental effort",
+          "Frequently losing things",
+          "Easily distracted",
+          "Forgetful in daily activities",
+          "Difficulty with time management",
+          "Problems with organization",
+          "Chronic procrastination",
+          "Academic underachievement",
+          "Poor study habits",
+          "Difficulty completing assignments"
         ],
-        "hyperactivity_impulsivity_symptoms": [],
         "duration": "5 years",
         "severity": "Moderate",
         "impact_on_life": "Significant impact on academic performance",
@@ -179,6 +181,7 @@
           "Symptoms present in multiple settings",
           "Significant functional impairment"
         ],
+        "severity": "Moderate ADHD",
         "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
@@ -200,17 +203,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "inattention_symptoms": [],
-        "hyperactivity_impulsivity_symptoms": [
-          "Often fidgets with or taps hands or feet",
-          "Often leaves seat in classroom",
-          "Often runs about or climbs in inappropriate situations",
-          "Often unable to play quietly",
-          "Is often 'on the go'",
-          "Often talks excessively",
-          "Often blurts out answers",
-          "Often has difficulty waiting turn",
-          "Often interrupts or intrudes on others"
+        "main_complaints": [
+          "Fidgeting and squirming",
+          "Leaving seat in classroom",
+          "Running or climbing inappropriately",
+          "Difficulty playing quietly",
+          "Always being on the go",
+          "Talking excessively",
+          "Blurting out answers",
+          "Difficulty waiting turn",
+          "Interrupting others",
+          "Impulsive behavior",
+          "Difficulty following rules",
+          "Social difficulties",
+          "High energy levels",
+          "Restlessness",
+          "Disruptive behavior"
         ],
         "duration": "4 years",
         "severity": "Moderate",
@@ -265,6 +273,7 @@
           "Symptoms present in multiple settings",
           "Significant functional impairment"
         ],
+        "severity": "Moderate ADHD",
         "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
@@ -286,21 +295,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "inattention_symptoms": [
-          "Often fails to give close attention to details",
-          "Often has difficulty sustaining attention",
-          "Often does not seem to listen when spoken to directly",
-          "Often does not follow through on instructions",
-          "Often has difficulty organizing tasks",
-          "Often avoids tasks requiring sustained mental effort",
-          "Often loses things necessary for tasks",
-          "Is often easily distracted",
-          "Is often forgetful in daily activities"
-        ],
-        "hyperactivity_impulsivity_symptoms": [
-          "Often fidgets with or taps hands or feet",
-          "Often talks excessively",
-          "Often has difficulty waiting turn"
+        "main_complaints": [
+          "Difficulty paying attention to details",
+          "Trouble sustaining attention",
+          "Not listening when spoken to",
+          "Not following through on instructions",
+          "Difficulty organizing tasks",
+          "Avoiding tasks requiring mental effort",
+          "Frequently losing things",
+          "Easily distracted",
+          "Forgetful in daily activities",
+          "Fidgeting and squirming",
+          "Talking excessively",
+          "Difficulty waiting turn",
+          "Problems with organization",
+          "Time management difficulties",
+          "Academic underachievement"
         ],
         "duration": "8 years",
         "severity": "Moderate",
@@ -356,6 +366,7 @@
           "Symptoms present in multiple settings",
           "Significant functional impairment"
         ],
+        "severity": "Moderate ADHD",
         "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
@@ -377,27 +388,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "inattention_symptoms": [
-          "Often fails to give close attention to details",
-          "Often has difficulty sustaining attention",
-          "Often does not seem to listen when spoken to directly",
-          "Often does not follow through on instructions",
-          "Often has difficulty organizing tasks",
-          "Often avoids tasks requiring sustained mental effort",
-          "Often loses things necessary for tasks",
-          "Is often easily distracted",
-          "Is often forgetful in daily activities"
-        ],
-        "hyperactivity_impulsivity_symptoms": [
-          "Often fidgets with or taps hands or feet",
-          "Often leaves seat in classroom",
-          "Often runs about or climbs in inappropriate situations",
-          "Often unable to play quietly",
-          "Is often 'on the go'",
-          "Often talks excessively",
-          "Often blurts out answers",
-          "Often has difficulty waiting turn",
-          "Often interrupts or intrudes on others"
+        "main_complaints": [
+          "Difficulty paying attention to details",
+          "Trouble sustaining attention",
+          "Not listening when spoken to",
+          "Not following through on instructions",
+          "Difficulty organizing tasks",
+          "Avoiding tasks requiring mental effort",
+          "Frequently losing things",
+          "Easily distracted",
+          "Forgetful in daily activities",
+          "Fidgeting and squirming",
+          "Leaving seat in classroom",
+          "Running or climbing inappropriately",
+          "Difficulty playing quietly",
+          "Always being on the go",
+          "Talking excessively"
         ],
         "duration": "2 years",
         "severity": "Severe",
@@ -453,6 +459,7 @@
           "Symptoms present in multiple settings",
           "Significant functional impairment"
         ],
+        "severity": "Severe ADHD",
         "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
@@ -474,18 +481,23 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "inattention_symptoms": [
-          "Often fails to give close attention to details",
-          "Often has difficulty sustaining attention",
-          "Often does not seem to listen when spoken to directly",
-          "Often does not follow through on instructions",
-          "Often has difficulty organizing tasks",
-          "Often avoids tasks requiring sustained mental effort",
-          "Often loses things necessary for tasks",
-          "Is often easily distracted",
-          "Is often forgetful in daily activities"
+        "main_complaints": [
+          "Difficulty paying attention to details",
+          "Trouble sustaining attention",
+          "Not listening when spoken to",
+          "Not following through on instructions",
+          "Difficulty organizing tasks",
+          "Avoiding tasks requiring mental effort",
+          "Frequently losing things",
+          "Easily distracted",
+          "Forgetful in daily activities",
+          "Problems with organization",
+          "Time management difficulties",
+          "Chronic procrastination",
+          "Academic underachievement",
+          "Poor study habits",
+          "Difficulty completing assignments"
         ],
-        "hyperactivity_impulsivity_symptoms": [],
         "duration": "5 years",
         "severity": "Moderate",
         "impact_on_life": "Significant impact on academic performance and organization",
@@ -539,6 +551,7 @@
           "Symptoms present in multiple settings",
           "Significant functional impairment"
         ],
+        "severity": "Moderate ADHD",
         "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
@@ -560,17 +573,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "inattention_symptoms": [],
-        "hyperactivity_impulsivity_symptoms": [
-          "Often fidgets with or taps hands or feet",
-          "Often leaves seat in classroom",
-          "Often runs about or climbs in inappropriate situations",
-          "Often unable to play quietly",
-          "Is often 'on the go'",
-          "Often talks excessively",
-          "Often blurts out answers",
-          "Often has difficulty waiting turn",
-          "Often interrupts or intrudes on others"
+        "main_complaints": [
+          "Fidgeting and squirming",
+          "Leaving seat in classroom",
+          "Running or climbing inappropriately",
+          "Difficulty playing quietly",
+          "Always being on the go",
+          "Talking excessively",
+          "Blurting out answers",
+          "Difficulty waiting turn",
+          "Interrupting others",
+          "Impulsive behavior",
+          "Difficulty following rules",
+          "Social difficulties",
+          "High energy levels",
+          "Restlessness",
+          "Disruptive behavior"
         ],
         "duration": "3 years",
         "severity": "Moderate",
@@ -625,6 +643,7 @@
           "Symptoms present in multiple settings",
           "Significant functional impairment"
         ],
+        "severity": "Moderate ADHD",
         "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
@@ -646,21 +665,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "inattention_symptoms": [
-          "Often fails to give close attention to details",
-          "Often has difficulty sustaining attention",
-          "Often does not seem to listen when spoken to directly",
-          "Often does not follow through on instructions",
-          "Often has difficulty organizing tasks",
-          "Often avoids tasks requiring sustained mental effort",
-          "Often loses things necessary for tasks",
-          "Is often easily distracted",
-          "Is often forgetful in daily activities"
-        ],
-        "hyperactivity_impulsivity_symptoms": [
-          "Often fidgets with or taps hands or feet",
-          "Often talks excessively",
-          "Often has difficulty waiting turn"
+        "main_complaints": [
+          "Difficulty paying attention to details",
+          "Trouble sustaining attention",
+          "Not listening when spoken to",
+          "Not following through on instructions",
+          "Difficulty organizing tasks",
+          "Avoiding tasks requiring mental effort",
+          "Frequently losing things",
+          "Easily distracted",
+          "Forgetful in daily activities",
+          "Fidgeting and squirming",
+          "Talking excessively",
+          "Difficulty waiting turn",
+          "Problems with organization",
+          "Time management difficulties",
+          "Academic underachievement"
         ],
         "duration": "7 years",
         "severity": "Moderate",
@@ -716,6 +736,7 @@
           "Symptoms present in multiple settings",
           "Significant functional impairment"
         ],
+        "severity": "Moderate ADHD",
         "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
@@ -737,27 +758,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "inattention_symptoms": [
-          "Often fails to give close attention to details",
-          "Often has difficulty sustaining attention",
-          "Often does not seem to listen when spoken to directly",
-          "Often does not follow through on instructions",
-          "Often has difficulty organizing tasks",
-          "Often avoids tasks requiring sustained mental effort",
-          "Often loses things necessary for tasks",
-          "Is often easily distracted",
-          "Is often forgetful in daily activities"
-        ],
-        "hyperactivity_impulsivity_symptoms": [
-          "Often fidgets with or taps hands or feet",
-          "Often leaves seat in classroom",
-          "Often runs about or climbs in inappropriate situations",
-          "Often unable to play quietly",
-          "Is often 'on the go'",
-          "Often talks excessively",
-          "Often blurts out answers",
-          "Often has difficulty waiting turn",
-          "Often interrupts or intrudes on others"
+        "main_complaints": [
+          "Difficulty paying attention to details",
+          "Trouble sustaining attention",
+          "Not listening when spoken to",
+          "Not following through on instructions",
+          "Difficulty organizing tasks",
+          "Avoiding tasks requiring mental effort",
+          "Frequently losing things",
+          "Easily distracted",
+          "Forgetful in daily activities",
+          "Fidgeting and squirming",
+          "Leaving seat in classroom",
+          "Running or climbing inappropriately",
+          "Difficulty playing quietly",
+          "Always being on the go",
+          "Talking excessively"
         ],
         "duration": "4 years",
         "severity": "Severe",
@@ -813,6 +829,7 @@
           "Symptoms present in multiple settings",
           "Significant functional impairment"
         ],
+        "severity": "Severe ADHD",
         "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
@@ -834,18 +851,23 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "inattention_symptoms": [
-          "Often fails to give close attention to details",
-          "Often has difficulty sustaining attention",
-          "Often does not seem to listen when spoken to directly",
-          "Often does not follow through on instructions",
-          "Often has difficulty organizing tasks",
-          "Often avoids tasks requiring sustained mental effort",
-          "Often loses things necessary for tasks",
-          "Is often easily distracted",
-          "Is often forgetful in daily activities"
+        "main_complaints": [
+          "Difficulty paying attention to details",
+          "Trouble sustaining attention",
+          "Not listening when spoken to",
+          "Not following through on instructions",
+          "Difficulty organizing tasks",
+          "Avoiding tasks requiring mental effort",
+          "Frequently losing things",
+          "Easily distracted",
+          "Forgetful in daily activities",
+          "Problems with organization",
+          "Time management difficulties",
+          "Chronic procrastination",
+          "Academic underachievement",
+          "Poor study habits",
+          "Difficulty completing assignments"
         ],
-        "hyperactivity_impulsivity_symptoms": [],
         "duration": "6 years",
         "severity": "Moderate",
         "impact_on_life": "Significant impact on academic performance and organization",
@@ -899,6 +921,7 @@
           "Symptoms present in multiple settings",
           "Significant functional impairment"
         ],
+        "severity": "Moderate ADHD",
         "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
@@ -920,17 +943,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "inattention_symptoms": [],
-        "hyperactivity_impulsivity_symptoms": [
-          "Often fidgets with or taps hands or feet",
-          "Often leaves seat in classroom",
-          "Often runs about or climbs in inappropriate situations",
-          "Often unable to play quietly",
-          "Is often 'on the go'",
-          "Often talks excessively",
-          "Often blurts out answers",
-          "Often has difficulty waiting turn",
-          "Often interrupts or intrudes on others"
+        "main_complaints": [
+          "Fidgeting and squirming",
+          "Leaving seat in classroom",
+          "Running or climbing inappropriately",
+          "Difficulty playing quietly",
+          "Always being on the go",
+          "Talking excessively",
+          "Blurting out answers",
+          "Difficulty waiting turn",
+          "Interrupting others",
+          "Impulsive behavior",
+          "Difficulty following rules",
+          "Social difficulties",
+          "High energy levels",
+          "Restlessness",
+          "Disruptive behavior"
         ],
         "duration": "3 years",
         "severity": "Moderate",
@@ -985,6 +1013,7 @@
           "Symptoms present in multiple settings",
           "Significant functional impairment"
         ],
+        "severity": "Moderate ADHD",
         "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
@@ -1006,21 +1035,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "inattention_symptoms": [
-          "Often fails to give close attention to details",
-          "Often has difficulty sustaining attention",
-          "Often does not seem to listen when spoken to directly",
-          "Often does not follow through on instructions",
-          "Often has difficulty organizing tasks",
-          "Often avoids tasks requiring sustained mental effort",
-          "Often loses things necessary for tasks",
-          "Is often easily distracted",
-          "Is often forgetful in daily activities"
-        ],
-        "hyperactivity_impulsivity_symptoms": [
-          "Often fidgets with or taps hands or feet",
-          "Often talks excessively",
-          "Often has difficulty waiting turn"
+        "main_complaints": [
+          "Difficulty paying attention to details",
+          "Trouble sustaining attention",
+          "Not listening when spoken to",
+          "Not following through on instructions",
+          "Difficulty organizing tasks",
+          "Avoiding tasks requiring mental effort",
+          "Frequently losing things",
+          "Easily distracted",
+          "Forgetful in daily activities",
+          "Fidgeting and squirming",
+          "Talking excessively",
+          "Difficulty waiting turn",
+          "Problems with organization",
+          "Time management difficulties",
+          "Academic underachievement"
         ],
         "duration": "7 years",
         "severity": "Moderate",
@@ -1076,6 +1106,7 @@
           "Symptoms present in multiple settings",
           "Significant functional impairment"
         ],
+        "severity": "Moderate ADHD",
         "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
@@ -1097,27 +1128,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "inattention_symptoms": [
-          "Often fails to give close attention to details",
-          "Often has difficulty sustaining attention",
-          "Often does not seem to listen when spoken to directly",
-          "Often does not follow through on instructions",
-          "Often has difficulty organizing tasks",
-          "Often avoids tasks requiring sustained mental effort",
-          "Often loses things necessary for tasks",
-          "Is often easily distracted",
-          "Is often forgetful in daily activities"
-        ],
-        "hyperactivity_impulsivity_symptoms": [
-          "Often fidgets with or taps hands or feet",
-          "Often leaves seat in classroom",
-          "Often runs about or climbs in inappropriate situations",
-          "Often unable to play quietly",
-          "Is often 'on the go'",
-          "Often talks excessively",
-          "Often blurts out answers",
-          "Often has difficulty waiting turn",
-          "Often interrupts or intrudes on others"
+        "main_complaints": [
+          "Difficulty paying attention to details",
+          "Trouble sustaining attention",
+          "Not listening when spoken to",
+          "Not following through on instructions",
+          "Difficulty organizing tasks",
+          "Avoiding tasks requiring mental effort",
+          "Frequently losing things",
+          "Easily distracted",
+          "Forgetful in daily activities",
+          "Fidgeting and squirming",
+          "Leaving seat in classroom",
+          "Running or climbing inappropriately",
+          "Difficulty playing quietly",
+          "Always being on the go",
+          "Talking excessively"
         ],
         "duration": "2 years",
         "severity": "Severe",
@@ -1173,6 +1199,7 @@
           "Symptoms present in multiple settings",
           "Significant functional impairment"
         ],
+        "severity": "Severe ADHD",
         "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
@@ -1194,18 +1221,23 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "inattention_symptoms": [
-          "Often fails to give close attention to details",
-          "Often has difficulty sustaining attention",
-          "Often does not seem to listen when spoken to directly",
-          "Often does not follow through on instructions",
-          "Often has difficulty organizing tasks",
-          "Often avoids tasks requiring sustained mental effort",
-          "Often loses things necessary for tasks",
-          "Is often easily distracted",
-          "Is often forgetful in daily activities"
+        "main_complaints": [
+          "Difficulty paying attention to details",
+          "Trouble sustaining attention",
+          "Not listening when spoken to",
+          "Not following through on instructions",
+          "Difficulty organizing tasks",
+          "Avoiding tasks requiring mental effort",
+          "Frequently losing things",
+          "Easily distracted",
+          "Forgetful in daily activities",
+          "Problems with organization",
+          "Time management difficulties",
+          "Chronic procrastination",
+          "Academic underachievement",
+          "Poor study habits",
+          "Difficulty completing assignments"
         ],
-        "hyperactivity_impulsivity_symptoms": [],
         "duration": "5 years",
         "severity": "Moderate",
         "impact_on_life": "Significant impact on academic performance and organization",
@@ -1259,6 +1291,7 @@
           "Symptoms present in multiple settings",
           "Significant functional impairment"
         ],
+        "severity": "Moderate ADHD",
         "disorder_name": "attention deficit hyperactivity disorder"
       }
     },
@@ -1280,15 +1313,22 @@
         "medical_history": "No significant medical conditions"
       },
       "symptoms_and_experiences": {
-        "inattention_symptoms": [
-          "Sometimes has difficulty sustaining attention",
-          "Sometimes does not seem to listen when spoken to directly",
-          "Sometimes loses things necessary for tasks"
-        ],
-        "hyperactivity_impulsivity_symptoms": [
-          "Sometimes fidgets with or taps hands or feet",
-          "Sometimes talks excessively",
-          "Sometimes has difficulty waiting turn"
+        "main_complaints": [
+          "Occasional difficulty sustaining attention",
+          "Sometimes not listening when spoken to",
+          "Occasionally losing things",
+          "Some fidgeting",
+          "Occasional excessive talking",
+          "Sometimes difficulty waiting turn",
+          "Generally good attention span",
+          "Normal activity level",
+          "Good academic performance",
+          "Appropriate social interactions",
+          "Normal organization skills",
+          "Good time management",
+          "Regular completion of tasks",
+          "Normal energy levels",
+          "Good peer relationships"
         ],
         "duration": "6 months",
         "severity": "Mild",

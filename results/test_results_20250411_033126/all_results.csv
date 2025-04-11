@@ -73,7 +73,7 @@ case_id,patient_name,expected_diagnosis,actual_diagnosis,correct,confidence,Diso
 10,Daniel Wilson,persistent depressive disorder,Major Depressive Disorder,False,0.9,pdd
 14,Robert Chen,persistent depressive disorder,Major Depressive Disorder,False,0.9,pdd
 13,Jennifer Lee,persistent depressive disorder,Persistent Depressive Disorder,True,0.9,pdd
-15,Alex Thompson,Normal,No Disorder,False,0.7,pdd
+15,Alex Thompson,Normal,Normal,True,0.7,pdd
 4,David Wilson,panic disorder,Panic Disorder,True,0.9,panic
 1,Jessica Martinez,panic disorder,Panic Disorder,True,0.9,panic
 5,Emily Rodriguez,panic disorder,Panic Disorder,True,0.9,panic
@@ -103,7 +103,7 @@ case_id,patient_name,expected_diagnosis,actual_diagnosis,correct,confidence,Diso
 11,Maria Garcia,obsessive compulsive disorder,Obsessive-Compulsive Disorder,False,0.9,ocd
 13,Jennifer Lee,obsessive compulsive disorder,Obsessive-Compulsive Disorder,False,0.9,ocd
 14,Robert Chen,obsessive compulsive disorder,Obsessive-Compulsive Disorder,False,0.9,ocd
-15,Alex Thompson,Normal,No Specific Diagnosis,False,0.8,ocd
+15,Alex Thompson,Normal,Normal,True,0.8,ocd
 1,Michael Brown,mild neurocognitive disorder,Mild Neurocognitive Disorder,True,0.9,mild_ncd
 3,Robert Wilson,mild neurocognitive disorder,Mild Neurocognitive Disorder,True,0.8,mild_ncd
 2,Patricia Chen,mild neurocognitive disorder,Mild Neurocognitive Disorder,True,0.9,mild_ncd
@@ -164,20 +164,20 @@ case_id,patient_name,expected_diagnosis,actual_diagnosis,correct,confidence,Diso
 13,Jennifer Lee,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.9,gad
 15,Alex Thompson,Normal,Generalized Anxiety Disorder,False,0.9,gad
 14,Robert Chen,generalized anxiety disorder,Generalized Anxiety Disorder,True,0.9,gad
-5,Ethan Williams,tourettes disorder,Tourette's Disorder,False,0.9,td
-1,Jacob Wilson,tourettes disorder,Tourette's Disorder,False,0.9,td
-3,Lucas Chen,tourettes disorder,Tourette's Disorder,False,0.9,td
-4,Olivia Thompson,tourettes disorder,Tourette's Disorder,False,0.8,td
-2,Emma Rodriguez,tourettes disorder,Tourette's Disorder,False,0.8,td
-6,Madison Taylor,tourettes disorder,Tourette's Disorder,False,0.9,td
-7,Brandon Lee,tourettes disorder,Tourette's Disorder,False,0.9,td
-8,Lily Garcia,tourettes disorder,Tourette's Disorder,False,0.9,td
-9,Daniel Robinson,tourettes disorder,Tourette's Disorder,False,0.9,td
-10,Sophia Kim,tourettes disorder,Tourette's Disorder,False,0.9,td
-12,Nathan Harris,tourettes disorder,Tourette's Disorder,False,0.9,td
-13,Ava Mitchell,tourettes disorder,Tourette's Disorder,False,0.9,td
-11,Tyler Washington,tourettes disorder,Tourette's Disorder,False,0.9,td
-14,Caleb Foster,tourettes disorder,Tourette's Disorder,False,0.9,td
+5,Ethan Williams,Tourette's disorder,Tourette's Disorder,True,0.9,td
+1,Jacob Wilson,Tourette's disorder,Tourette's Disorder,True,0.9,td
+3,Lucas Chen,Tourette's disorder,Tourette's Disorder,True,0.9,td
+4,Olivia Thompson,Tourette's disorder,Tourette's Disorder,True,0.8,td
+2,Emma Rodriguez,Tourette's disorder,Tourette's Disorder,True,0.8,td
+6,Madison Taylor,Tourette's disorder,Tourette's Disorder,True,0.9,td
+7,Brandon Lee,Tourette's disorder,Tourette's Disorder,True,0.9,td
+8,Lily Garcia,Tourette's disorder,Tourette's Disorder,True,0.9,td
+9,Daniel Robinson,Tourette's disorder,Tourette's Disorder,True,0.9,td
+10,Sophia Kim,Tourette's disorder,Tourette's Disorder,True,0.9,td
+12,Nathan Harris,Tourette's disorder,Tourette's Disorder,True,0.9,td
+13,Ava Mitchell,Tourette's disorder,Tourette's Disorder,True,0.9,td
+11,Tyler Washington,Tourette's disorder,Tourette's Disorder,True,0.9,td
+14,Caleb Foster,Tourette's disorder,Tourette's Disorder,True,0.9,td
 15,Ryan Anderson,Normal,Obsessive-Compulsive Disorder,False,0.9,td
 1,Michael Johnson,conduct disorder,Oppositional Defiant Disorder,False,0.9,cd
 2,Sarah Williams,conduct disorder,Oppositional Defiant Disorder,False,0.9,cd
@@ -194,7 +194,7 @@ case_id,patient_name,expected_diagnosis,actual_diagnosis,correct,confidence,Diso
 13,William Wilson,conduct disorder,Conduct Disorder,True,0.9,cd
 14,Isabella Martinez,conduct disorder,Oppositional Defiant Disorder,False,0.9,cd
 15,Thomas Thompson,Normal,Oppositional Defiant Disorder,False,0.9,cd
-1,Michael Thompson,intellectual disabilities,Generalized Anxiety Disorder,False,0.8,id
+1,Michael Thompson,Normal,Generalized Anxiety Disorder,False,0.8,id
 2,Sophia Martinez,intellectual disabilities,Major Depressive Disorder,False,0.9,id
 4,Ethan Brown,intellectual disabilities,Generalized Anxiety Disorder,False,0.9,id
 5,Grace Johnson,intellectual disabilities,Normal,False,0.8,id

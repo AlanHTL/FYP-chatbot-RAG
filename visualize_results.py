@@ -130,14 +130,76 @@ class ResultsVisualizer:
         plt.savefig(os.path.join(self.output_dir, 'accuracy_vs_confidence.png'))
         plt.close()
         
+    def plot_accuracy_matrix(self):
+        """Create an accuracy matrix showing correct vs incorrect diagnoses by disorder."""
+        plt.figure(figsize=(15, 10))
+        
+        # Create a pivot table of correct vs incorrect by disorder
+        accuracy_matrix = self.df.pivot_table(
+            index='Disorder',
+            columns='correct',
+            values='case_id',
+            aggfunc='count',
+            fill_value=0
+        )
+        
+        # Rename columns for clarity
+        accuracy_matrix.columns = ['Incorrect', 'Correct']
+        
+        # Calculate total cases and accuracy percentage
+        accuracy_matrix['Total Cases'] = accuracy_matrix['Correct'] + accuracy_matrix['Incorrect']
+        accuracy_matrix['Accuracy %'] = (accuracy_matrix['Correct'] / accuracy_matrix['Total Cases'] * 100).round(1)
+        
+        # Create the plot
+        ax = accuracy_matrix[['Correct', 'Incorrect']].plot(
+            kind='bar',
+            stacked=True,
+            color=['#2ecc71', '#e74c3c']
+        )
+        
+        # Add accuracy percentage labels
+        for i, (_, row) in enumerate(accuracy_matrix.iterrows()):
+            ax.text(i, row['Total Cases'] + 1, f"{row['Accuracy %']}%",
+                   ha='center', va='bottom', fontsize=10)
+        
+        plt.title('Diagnosis Accuracy by Disorder')
+        plt.xlabel('Disorder')
+        plt.ylabel('Number of Cases')
+        plt.xticks(rotation=45, ha='right')
+        plt.legend(title='Diagnosis')
+        plt.tight_layout()
+        
+        # Save plot
+        plt.savefig(os.path.join(self.output_dir, 'accuracy_matrix.png'))
+        plt.close()
+        
+    def plot_diagnosis_distribution(self):
+        """Create a pie chart showing the distribution of actual diagnoses."""
+        plt.figure(figsize=(15, 10))
+        
+        # Count cases by actual diagnosis
+        diagnosis_counts = self.df['actual_diagnosis'].value_counts()
+        
+        # Create pie chart
+        plt.pie(
+            diagnosis_counts.values,
+            labels=diagnosis_counts.index,
+            autopct='%1.1f%%',
+            startangle=90,
+            textprops={'fontsize': 8}
+        )
+        plt.title('Distribution of Actual Diagnoses')
+        plt.axis('equal')
+        
+        # Save plot
+        plt.savefig(os.path.join(self.output_dir, 'diagnosis_distribution.png'))
+        plt.close()
+        
     def generate_all_visualizations(self) -> bool:
         """Generate all available visualizations."""
         try:
-            self.plot_accuracy_by_disorder()
-            self.plot_confidence_distribution()
-            self.plot_confusion_matrix()
-            self.plot_case_distribution()
-            self.plot_accuracy_vs_confidence()
+            self.plot_accuracy_matrix()
+            self.plot_diagnosis_distribution()
             return True
         except Exception as e:
             print(f"Error generating visualizations: {e}")
