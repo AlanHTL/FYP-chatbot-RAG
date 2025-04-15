@@ -21,8 +21,8 @@ from langchain.agents import AgentExecutor, create_openai_tools_agent
 from langchain.tools import Tool # Import Tool for manual creation
 
 # --- Environment Setup & Configuration ---
-os.environ["OPENAI_API_KEY"] = "sk-UnNXXoNG6qqa1RUl24zKrakQaHBeyxqkxEtaVwGbSrGlRQxl"
-os.environ["OPENAI_API_BASE"] = "https://xiaoai.plus/v1"
+os.environ["OPENAI_API_KEY"] = "key"
+os.environ["OPENAI_API_BASE"] = "base url"
 
 # Get the absolute path to the FAISS index directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
