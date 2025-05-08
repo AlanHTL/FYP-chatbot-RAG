@@ -6,6 +6,7 @@ import traceback
 import uuid # Needed if generating IDs on server side, but client sends it now
 import sys
 from pathlib import Path
+from dotenv import load_dotenv
 
 # Langchain Core Imports
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
@@ -20,9 +21,9 @@ from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain.agents import AgentExecutor, create_openai_tools_agent
 from langchain.tools import Tool # Import Tool for manual creation
 
-# --- Environment Setup & Configuration ---
-os.environ["OPENAI_API_KEY"] = "key"
-os.environ["OPENAI_API_BASE"] = "base url"
+
+os.environ["OPENAI_API_KEY"] = "sk-UnNXXoNG6qqa1RUl24zKrakQaHBeyxqkxEtaVwGbSrGlRQxl"
+os.environ["OPENAI_API_BASE"] = "https://xiaoai.plus/v1"
 
 # Get the absolute path to the FAISS index directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -87,81 +88,39 @@ try:
     
     # --- Embeddings model initialization ---
     embeddings_model = OpenAIEmbeddings(
-        model="text-embedding-ada-002", 
-        openai_api_base=os.environ.get("OPENAI_API_BASE")
+        model="text-embedding-ada-002"
     )
     print("OpenAIEmbeddings model initialized successfully.")
     
     # --- Load FAISS index (with various fallback approaches) ---
-    # Attempt to load the index with detailed error handling
     try:
         print(f"Attempting to load FAISS index from: {FAISS_INDEX_PATH}")
         
-        # First attempt: load without allow_dangerous_deserialization parameter
+        # First attempt: load with allow_dangerous_deserialization parameter
         vector_store = FAISS.load_local(
             FAISS_INDEX_PATH, 
-            embeddings_model
+            embeddings_model,
+            allow_dangerous_deserialization=True  # Only use this if you trust the source of your index
         )
         print("FAISS index loaded successfully using standard load_local.")
     except Exception as e1:
-        print(f"First FAISS loading attempt failed: {e1}")
+        print(f"FAISS loading attempt failed: {e1}")
         
-        try:
-            # Second attempt: try with newer API if available
-            from langchain_community.vectorstores.faiss import FAISS as CommunityFAISS
-            vector_store = CommunityFAISS.load_local(
-                FAISS_INDEX_PATH,
-                embeddings_model
-            )
-            print("FAISS index loaded successfully using community version.")
-        except Exception as e2:
-            print(f"Second FAISS loading attempt failed: {e2}")
+        # Create a sample vector store with meaningful documents for testing
+        from langchain.docstore.document import Document
+        
+        # Sample mental disorder descriptions to allow minimal testing
+        sample_texts = [
+            """{"name": "Major Depressive Disorder", "criteria": "A. Five (or more) of the following symptoms have been present during the same 2-week period and represent a change from previous functioning; at least one of the symptoms is either (1) depressed mood or (2) loss of interest or pleasure: 1. Depressed mood most of the day, nearly every day. 2. Markedly diminished interest or pleasure in all, or almost all, activities most of the day, nearly every day. 3. Significant weight loss when not dieting or weight gain, or decrease or increase in appetite nearly every day. 4. Insomnia or hypersomnia nearly every day. 5. Psychomotor agitation or retardation nearly every day. 6. Fatigue or loss of energy nearly every day. 7. Feelings of worthlessness or excessive or inappropriate guilt nearly every day. 8. Diminished ability to think or concentrate, or indecisiveness, nearly every day. 9. Recurrent thoughts of death, recurrent suicidal ideation without a specific plan, or a suicide attempt or a specific plan for committing suicide."}""",
             
-            try:
-                # Third attempt: load individual files manually
-                import pickle
-                import faiss
-                
-                # Load the index directly
-                index = faiss.read_index(faiss_file)
-                
-                # Load the docstore and other data
-                with open(pkl_file, "rb") as f:
-                    pkl_data = pickle.load(f)
-                
-                # Manually create FAISS instance with appropriate parameters
-                vector_store = FAISS(
-                    embeddings_model, 
-                    index, 
-                    pkl_data["docstore"], 
-                    pkl_data.get("index_to_docstore_id", {})
-                )
-                print("FAISS index loaded successfully using manual file loading.")
-            except Exception as e3:
-                print(f"Third FAISS loading attempt failed: {e3}")
-                
-                # Create a sample vector store with meaningful documents for testing
-                from langchain.docstore.document import Document
-                
-                # Sample mental disorder descriptions to allow minimal testing
-                sample_texts = [
-                    """{"name": "Major Depressive Disorder", "criteria": "A. Five (or more) of the following symptoms have been present during the same 2-week period and represent a change from previous functioning; at least one of the symptoms is either (1) depressed mood or (2) loss of interest or pleasure: 1. Depressed mood most of the day, nearly every day. 2. Markedly diminished interest or pleasure in all, or almost all, activities most of the day, nearly every day. 3. Significant weight loss when not dieting or weight gain, or decrease or increase in appetite nearly every day. 4. Insomnia or hypersomnia nearly every day. 5. Psychomotor agitation or retardation nearly every day. 6. Fatigue or loss of energy nearly every day. 7. Feelings of worthlessness or excessive or inappropriate guilt nearly every day. 8. Diminished ability to think or concentrate, or indecisiveness, nearly every day. 9. Recurrent thoughts of death, recurrent suicidal ideation without a specific plan, or a suicide attempt or a specific plan for committing suicide."}""",
-                    
-                    """{"name": "Generalized Anxiety Disorder", "criteria": "A. Excessive anxiety and worry (apprehensive expectation), occurring more days than not for at least 6 months, about a number of events or activities (such as work or school performance). B. The individual finds it difficult to control the worry. C. The anxiety and worry are associated with three (or more) of the following six symptoms (with at least some symptoms having been present for more days than not for the past 6 months): 1. Restlessness or feeling keyed up or on edge. 2. Being easily fatigued. 3. Difficulty concentrating or mind going blank. 4. Irritability. 5. Muscle tension. 6. Sleep disturbance (difficulty falling or staying asleep, or restless, unsatisfying sleep)."}""",
-                    
-                    """{"name": "Normal", "criteria": "The individual does not meet criteria for any mental disorder. Normal responses to stressors may include temporary anxiety, sadness, or stress that does not significantly impair daily functioning and resolves naturally. Common experiences include: 1. Temporary nervousness before events like exams or presentations. 2. Brief periods of sadness following disappointments. 3. Short-term sleep changes during stressful periods. 4. Appropriate emotional responses to life circumstances."}"""
-                ]
-                
-                sample_docs = [Document(page_content=text) for text in sample_texts]
-                
-                try:
-                    from langchain_community.vectorstores import FAISS as DummyFAISS
-                except ImportError:
-                    from langchain.vectorstores import FAISS as DummyFAISS
-                
-                vector_store = DummyFAISS.from_documents(sample_docs, embeddings_model)
-                print("Created sample vector store with basic mental disorder information since FAISS loading failed.")
-                print(f"Original errors: {e1}\n{e2}\n{e3}")
+            """{"name": "Generalized Anxiety Disorder", "criteria": "A. Excessive anxiety and worry (apprehensive expectation), occurring more days than not for at least 6 months, about a number of events or activities (such as work or school performance). B. The individual finds it difficult to control the worry. C. The anxiety and worry are associated with three (or more) of the following six symptoms (with at least some symptoms having been present for more days than not for the past 6 months): 1. Restlessness or feeling keyed up or on edge. 2. Being easily fatigued. 3. Difficulty concentrating or mind going blank. 4. Irritability. 5. Muscle tension. 6. Sleep disturbance (difficulty falling or staying asleep, or restless, unsatisfying sleep)."}""",
+            
+            """{"name": "Normal", "criteria": "The individual does not meet criteria for any mental disorder. Normal responses to stressors may include temporary anxiety, sadness, or stress that does not significantly impair daily functioning and resolves naturally. Common experiences include: 1. Temporary nervousness before events like exams or presentations. 2. Brief periods of sadness following disappointments. 3. Short-term sleep changes during stressful periods. 4. Appropriate emotional responses to life circumstances."}"""
+        ]
+        
+        sample_docs = [Document(page_content=text) for text in sample_texts]
+        vector_store = FAISS.from_documents(sample_docs, embeddings_model)
+        print("Created sample vector store with basic mental disorder information since FAISS loading failed.")
     
     # --- Create the search tool ---
     def search_and_print(query: str) -> str:
@@ -201,7 +160,7 @@ except Exception as e:
 # --- Agent Setup ---
 # Define the prompt template for the agent
 prompt = ChatPromptTemplate.from_messages([
-    ("system", """Your Name is Dr. Mind, a professional mental disorder screening specialist. 
+    ("system", """Your Name is Dr. Mind, a professional mental disorder screening specialist. You will screen for mental disorders based on the patient's symptoms and return a JSON output of the disorder name and the probability of the diagnosis at the end of the conversation.
 
 step by step process:
 1. Begin by asking for the patient's name and age in a friendly, professional manner.
@@ -266,73 +225,12 @@ Guidelines:
     ("human", "{input}"),
     MessagesPlaceholder(variable_name="agent_scratchpad") # For agent intermediate steps
 ])
-prompt2 = ChatPromptTemplate.from_messages([
-    ("system", """Your Name is Dr. Mind, a professional mental disorder screening specialist using Tree of Thought reasoning.
 
-DIAGNOSTIC APPROACH - TREE OF THOUGHT:
-1. INITIAL ASSESSMENT:
-   - Ask for patient's name and age in a friendly manner
-   - Collect information about feelings, emotional symptoms, AND PHYSICAL SYMPTOMS (e.g., sleep changes, appetite changes, fatigue, heart rate, breathing patterns, pain, etc.)
-   - Note the duration and frequency of ALL symptoms
-   - Form initial hypothesis of 2-3 possible diagnoses or "Normal" state
-
-2. EVIDENCE GATHERING:
-   - SEARCH TOOL USAGE:
-     * Use the search_document_database tool with SPECIFIC QUERIES containing exact symptoms 
-     * Format queries as direct symptom descriptions: "sadness and loss of interest"
-     * IMPORTANT: Each search returns 3 potential disorders (k=3)
-     * ALWAYS extract and note the "name" field from ALL retrieved disorders
-     * After each search, explicitly list ALL three disorder names found in the retrieved data
-   - After collecting initial key symptoms, make your FIRST SEARCH using these exact symptoms as query terms
-   - Create focused queries based on the most prominent symptoms described by the patient
-   - Query one specific symptom cluster at a time (e.g., "insomnia, fatigue, and poor concentration")
-   - PHYSICAL SYMPTOMS are important diagnostic criteria - always ask about them
-
-3. DIAGNOSTIC REASONING:
-   - For EACH of the 3 potential diagnoses identified in retrieved data:
-     * Create a separate branch to evaluate each disorder
-     * Map patient's symptoms to the specific criteria from retrieved information
-     * Ask precise questions to confirm presence/absence of key diagnostic criteria
-     * Calculate how many criteria are met vs. required for diagnosis
-   - Keep track of the most likely diagnosis at each step
-   - Compare across all 3 potential diagnoses to determine which has strongest evidence
-   - Make additional searches using different symptom clusters if first search is insufficient
-
-4. DECISION MAKING:
-   - After 15 turns of conversation, or when criteria are clearly met for one diagnosis:
-     * Select the diagnosis with strongest evidence
-     * If no disorder criteria are sufficiently met, conclude "Normal" state
-     * End the conversation with one JSON output only, remove all other text: {{"result":["disorder name"], "probabilities":[0.X]}} (where X is a number between 0-9 representing how confident you are in the diagnosis).
-   - IMPORTANT: Only use disorder names (the "name" field) that appear in the retrieved data
-   - The only exception is "Normal" which can be used when no disorder criteria are met
-
-JSON OUTPUT FORMAT:
-{{"result":["disorder name"], "probabilities":[0.X]}}
--Do not include any additional text, if have any, remove it.
-
-SEARCH LIMITS:
-- Track searches with <SEARCH COUNT: X/3> in your reasoning
-- After 10 turns of conversation, you MUST provide diagnosis with current information
-- If not enough evidence after 3 searches, choose most likely diagnosis or "Normal"
-
-GUIDELINES:
-- Do not show any reasoning process to patient, if have any, remove it
-- Ask one question at a time to avoid overwhelming the patient
-- Be compassionate and professional in your communication
-- For emergency/suicidal situations, provide immediate help resources
-- JSON output only when diagnosis is made - no additional text, if have any, remove it
-- CRITICAL: Only use disorder names found in the retrieved data for your diagnosis
-- Never invent or use disorder names that don't appear in search results (except "Normal")
-"""),
-    MessagesPlaceholder(variable_name="chat_history"),
-    ("human", "{input}"),
-    MessagesPlaceholder(variable_name="agent_scratchpad") # For agent intermediate steps
-])
 agent = None
 agent_executor = None
 if chat_model and retriever_tool: # Only create agent if model and tool are ready
     tools = [retriever_tool]
-    agent = create_openai_tools_agent(chat_model, tools, prompt2)
+    agent = create_openai_tools_agent(chat_model, tools, prompt)
     agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=False) # Set verbose=True for debugging
     print("Agent Executor created successfully.")
 else:
@@ -457,8 +355,11 @@ def setup_server():
 
 # --- Main Execution Block ---
 if __name__ == '__main__':
-    host = os.getenv("API_HOST", "127.0.0.1") # Default to localhost
-    port = int(os.getenv("API_PORT", 8081))   # Default to port 8081
+    load_dotenv()
+    host = os.getenv("API_HOST") # Default to localhost
+    port = int(os.getenv("API_PORT"))   # Default to port 8090
+    print(f"API_HOST: {host}")
+    print(f"API_PORT: {port}")
     
     app = setup_server()
 

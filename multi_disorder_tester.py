@@ -7,13 +7,14 @@ import pandas as pd
 from typing import List, Dict, Any
 import socket
 import signal
-
+from dotenv import load_dotenv
+load_dotenv()
 class DisorderTestManager:
     """Manager for testing multiple disorder types in parallel."""
 
     def __init__(self, 
                  test_configs: List[Dict[str, Any]],
-                 num_servers: int = 3,
+                 num_servers: int = int(os.getenv("Number_of_Servers", 3)),
                  base_port: int = 8081,
                  results_dir: str = "results",
                  verbose: bool = False):

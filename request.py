@@ -3,9 +3,10 @@ import json
 import sys
 import os
 import uuid # Import uuid to generate unique IDs
-
+from dotenv import load_dotenv
+load_dotenv()
 # Default API URL, can be overridden by environment variable
-DEFAULT_API_URL = os.getenv("CHATBOT_API_URL", "http://127.0.0.1:8081/chat")
+DEFAULT_API_URL = os.getenv("CHATBOT_API_URL", "http://localhost:8080/chat")
 
 def chat(message: str, conversation_id: str, api_url: str = DEFAULT_API_URL) -> str | None:
     """

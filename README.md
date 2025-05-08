@@ -1,51 +1,57 @@
-# Mental Health Screening Chatbot
-
-A RAG-based chatbot that uses conversational AI to help screen for potential mental health disorders.
-
-## Features
-
-- Converses naturally with users to gather information about symptoms
-- Leverages data from mental_disorders.json as the knowledge base
-- Uses the OpenAI API for text generation and embeddings
-- Provides preliminary screening insights (not diagnoses)
-- Recommends professional evaluation when appropriate
-
-## Setup
-
-1. Make sure you have Python 3.8+ installed
-
-2. Clone this repository and navigate to the project directory
-
-3. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-4. Make sure your `.env` file contains your API key:
-   ```
-   API_KEY = 'your-api-key'
-   ```
-
-## Usage
-
-Run the chatbot with:
+# Screening chatbot testing
+We used Python to implement the screening chatbot testing:
+using api.py to host a server,
+using request.py to communicate with the chatbot manually,
+using run_all_test.py to run the test using multi-tester, connecting to api.py
+The run_all_test.py used the "Test json" file to run tests based on the cases in the file.
+---
+## 1. set up environment and install requirements
+For the first time, use to set up a new environment:
+ ```bash
+python -m venv .venv
 ```
-python screening_chatbot.py
+Install the requirement using pip install:
+```bash
+.venv\Scripts\activate.bat
+pip install -r requirements.txt
 ```
+---
+## 2. Hosting the chatbot server through api.py
+The current prompt is using the CoT + Few-shot method, if you want to change the prompt to the prompt 2 with ToT method, please modify the prompt with the "prompt 2.txt"
 
-The chatbot will start a conversation in the terminal. You can interact with it by typing your responses. Type 'exit' to end the conversation.
+For first time use, make sure that the RAG data: "mental_disorders.json" is available for embedding it into vector database. It will generate a "faiss_index" file to save the vector storage.
 
-## Important Notes
+Confirm the hosting port through .env file
+API_PORT=8080
+API_HOST=127.0.0.1
+CHATBOT_API_URL=http://127.0.0.1:8080/chat
 
-- This chatbot is for screening purposes only and does not provide diagnoses
-- Always consult with a qualified mental health professional for proper evaluation
-- The information provided by the chatbot should not be considered medical advice
-- Patient privacy and confidentiality should be maintained when using this tool
+start server:
+Open a terminal
+```bash
+.venv\Scripts\activate.bat
+pip install -r requirements.txt
+python api.py
+```
+## 3. connect to the chatbot server through request.py
+Open a terminal
+```bash
+.venv\Scripts\activate.bat
+pip install -r requirements.txt
+python request.py
+```
+you can commnicate with the chatbot here
 
-## Technical Details
+## 4. test the chatbot through run_all_tests.py
+run_all_tests.py create multiple chatbot_test on different port (default number of testing server = 3, you can modify in .env) to test the api.py chatbot using the test data of "Test json" file
+make sure that the file of "Test json" exsit
+make sure the visualize_result.py, multi_disorder_tester.py, and chatbot_tester.py exsit
+make sure the port and number of servers in .env correct
 
-- Uses LangChain for the RAG (Retrieval-Augmented Generation) system
-- Employs FAISS for efficient vector storage and similarity search
-- Relies on OpenAI's gpt-3.5-turbo model for text generation
-- Utilizes the text-embedding-ada-002 model for creating embeddings
-- Implements conversation memory to maintain context 
+Open a terminal
+```bash
+.venv\Scripts\activate.bat
+pip install -r requirements.txt
+python run_all_tests.py
+```
+the result will be in the results file
