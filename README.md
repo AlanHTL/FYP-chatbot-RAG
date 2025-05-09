@@ -5,14 +5,9 @@ using request.py to communicate with the chatbot manually,
 using run_all_test.py to run the test using multi-tester, connecting to api.py
 The run_all_test.py used the "Test json" file to run tests based on the cases in the file.
 ---
-## 1. set up environment and install requirements
-For the first time, use to set up a new environment:
- ```bash
-python -m venv .venv
-```
+## 1. install requirements
 Install the requirement using pip install:
 ```bash
-.venv\Scripts\activate.bat
 pip install -r requirements.txt
 ```
 ---
@@ -29,15 +24,11 @@ CHATBOT_API_URL=http://127.0.0.1:8080/chat
 start server:
 Open a terminal
 ```bash
-.venv\Scripts\activate.bat
-pip install -r requirements.txt
 python api.py
 ```
 ## 3. connect to the chatbot server through request.py
 Open a terminal
 ```bash
-.venv\Scripts\activate.bat
-pip install -r requirements.txt
 python request.py
 ```
 you can commnicate with the chatbot here
@@ -50,8 +41,6 @@ make sure the port and number of servers in .env correct
 
 Open a terminal
 ```bash
-.venv\Scripts\activate.bat
-pip install -r requirements.txt
 python run_all_tests.py
 ```
 the result will be in the results file
